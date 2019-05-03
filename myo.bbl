@@ -1,3 +1,87 @@
 \begin{thebibliography}{}
 
+\bibitem [\protect \citeauthoryear {%
+Team%
+\ \protect \BOthers {.}}{%
+Team%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+team2014r}
+\APACinsertmetastar {%
+team2014r}%
+\begin{APACrefauthors}%
+Team, R\BPBI C.%
+\BCBT {}\ \BOthersPeriod {.}
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {R: A language and environment for statistical computing}
+  {R: A language and environment for statistical computing}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{R}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tinevez%
+\ \protect \BOthers {.}}{%
+Tinevez%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+tinevez2017trackmate}
+\APACinsertmetastar {%
+tinevez2017trackmate}%
+\begin{APACrefauthors}%
+Tinevez, J\BHBI Y.%
+, Perry, N.%
+, Schindelin, J.%
+, Hoopes, G\BPBI M.%
+, Reynolds, G\BPBI D.%
+, Laplantine, E.%
+\BDBL {}Eliceiri, K\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {TrackMate: An open and extensible platform for
+  single-particle tracking} {Trackmate: An open and extensible platform for
+  single-particle tracking}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Methods}{115}{}{80--90}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Vicente-Manzanares%
+, Ma%
+, Adelstein%
+\BCBL {}\ \BBA {} Horwitz%
+}{%
+Vicente-Manzanares%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+vicente2009non}
+\APACinsertmetastar {%
+vicente2009non}%
+\begin{APACrefauthors}%
+Vicente-Manzanares, M.%
+, Ma, X.%
+, Adelstein, R\BPBI S.%
+\BCBL {}\ \BBA {} Horwitz, A\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Non-muscle myosin II takes centre stage in cell adhesion
+  and migration} {Non-muscle myosin ii takes centre stage in cell adhesion and
+  migration}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nature reviews Molecular cell biology}{10}{11}{778}.
+\PrintBackRefs{\CurrentBib}
+
 \end{thebibliography}
