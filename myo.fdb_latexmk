@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex myo"] 1556829364 "myo.aux" "myo.bbl" "myo" 1556829366
+["bibtex myo"] 1556915962 "myo.aux" "myo.bbl" "myo" 1557354024
   "/usr/local/texlive/2018/texmf-dist/bibtex/bst/apacite/apacite.bst" 1480098433 141073 9d7b79dbf9d91133318126032cff8c27 ""
   "mybib.bib" 1556287324 41671 9baf85a25a954999dc97f700389fa637 ""
-  "myo.aux" 1556829366 3585 0a4d2bc97ff4d3aee0198f776fb07708 ""
+  "myo.aux" 1557354023 3583 37795e0513c4f9447038ef90c0a09909 ""
   (generated)
-  "myo.bbl"
   "myo.blg"
-["pdflatex"] 1556829364 "myo.tex" "myo.pdf" "myo" 1556829366
+  "myo.bbl"
+["pdflatex"] 1557354021 "myo.tex" "myo.pdf" "myo" 1557354024
   "/Users/danilabobkov/Library/texlive/2018/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1545143712 3312 d199be9bd555944e2403193d58a0256a ""
   "/Users/danilabobkov/Library/texlive/2018/texmf-var/fonts/tfm/lh/lh-t2a/larm1200.tfm" 1545139160 3240 c2435f2b5cd66d4930bc29b8df87967e ""
   "/Users/danilabobkov/Library/texlive/2018/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm" 1545139169 3256 3daaa33cf35cf3f354983aa3214ecd7f ""
@@ -94,15 +94,15 @@
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
   "fig1.jpg" 1556748914 1225725 c0a0e8563ad2a2ff6f9f2fe78dc37ddc ""
   "fig2.png" 1556749695 64919 fd64643981119aa7b9c39ac5792f9bcf ""
-  "fig3.jpg" 1556749829 126490 6dc99a7b8ca5a593aca2b7ab5b5356f7 ""
+  "fig3.png" 1557148450 456488 51188146a476fe6c843507bccbf6bb97 ""
   "fig4.jpg" 1556749952 190399 8a693f7c0b63f0f5e02bdd3cfe8afd14 ""
   "fig5.jpg" 1556750075 82099 19bfef01aa71499a5bebde69e5387b5a ""
-  "myo.aux" 1556829366 3585 0a4d2bc97ff4d3aee0198f776fb07708 ""
-  "myo.bbl" 1556829364 2082 60befa180e755bd15411cfb738edbc7f "bibtex myo"
-  "myo.out" 1556829366 605 fa4b26ac928a114699f92eea93288cd8 ""
-  "myo.tex" 1556829354 23926 660543c7696aba5186ffba69a3bc13c1 ""
+  "myo.aux" 1557354023 3583 37795e0513c4f9447038ef90c0a09909 ""
+  "myo.bbl" 1556915963 2082 60befa180e755bd15411cfb738edbc7f "bibtex myo"
+  "myo.out" 1557354023 605 fa4b26ac928a114699f92eea93288cd8 ""
+  "myo.tex" 1556903416 23953 b4e3ce968bf31d589873bcb30bb74785 ""
   (generated)
   "myo.aux"
+  "myo.pdf"
   "myo.log"
   "myo.out"
-  "myo.pdf"
