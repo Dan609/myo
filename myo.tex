@@ -171,18 +171,7 @@ Colocalization of proteins
 
 To check the data for normality, we applied the Shapiro-Wilk criterion.
 The results of the Shapiro-Wilk test for measurements are presented in the table:
-data: data1 $ bTau [data1 $ probe == "p15"]
-W = 0.90551, p-value = 0.1356
-data: data1 $ bTau [data1 $ probe == "p18"]
-W = 0.94039, p-value = 0.586
-data: data1 $ bTau [data1 $ probe == "p21"]
-W = 0.91209, p-value = 0.1257
-data: data1 $ bTau [data1 $ probe == "p25"]
-W = 0.82798, p-value = 0.05657
-data: data1 $ bTau [data1 $ probe == "p27"]
-W = 0.97134, p-value = 0.9083
-data: data1 $ bTau [data1 $ probe == "p28"]
-W = 0.91461, p-value = 0.3495
+...
 The results of the Shapiro-Wilk test indicate that the distribution of the values of the tau-Kendall rank correlation coefficient is not statistically significantly different from the normal (p> 0.05) in all groups of measurements. A multiple comparison of the medians of all samples was performed using the Kruskal-Wallis test, his results (chi-squared = 30.751, df = 8, p-value = 0.0001556) allowed to reject the null hypothesis and to conclude that there is a significant difference between the samples.
  During the post hoc analysis, we used parametric Student’s two-sample t-test for independent samples to check the differences between paired samples of independent measurements by the level of the tau-Kendall rank correlation coefficient.
 However, in the Shapiro-Wilk test, the p-value for the p25 sample turned out to be 0.05657, which is only slightly higher than the significance criterion chosen by us. At the same time, quantile plots show deviations from normality for high and low index values (Fig.).
