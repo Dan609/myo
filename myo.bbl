@@ -1,6 +1,64 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Elliott%
+\ \protect \BOthers {.}}{%
+Elliott%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+elliott2015myosin}
+\APACinsertmetastar {%
+elliott2015myosin}%
+\begin{APACrefauthors}%
+Elliott, H.%
+, Fischer, R\BPBI S.%
+, Myers, K\BPBI A.%
+, Desai, R\BPBI A.%
+, Gao, L.%
+, Chen, C\BPBI S.%
+\BDBL {}Danuser, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Myosin II controls cellular branching morphogenesis and
+  migration in three dimensions by minimizing cell-surface curvature} {Myosin
+  ii controls cellular branching morphogenesis and migration in three
+  dimensions by minimizing cell-surface curvature}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nature cell biology}{17}{2}{137}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+McLean%
+\ \BBA {} Skowron~Volponi%
+}{%
+McLean%
+\ \BBA {} Skowron~Volponi%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+mclean2018trajr}
+\APACinsertmetastar {%
+mclean2018trajr}%
+\begin{APACrefauthors}%
+McLean, D\BPBI J.%
+\BCBT {}\ \BBA {} Skowron~Volponi, M\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {trajr: An R package for characterisation of animal
+  trajectories} {trajr: An r package for characterisation of animal
+  trajectories}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Ethology}{124}{6}{440--448}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Team%
 \ \protect \BOthers {.}}{%
 Team%

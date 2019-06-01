@@ -127,6 +127,7 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /Users/danilabobkov/Library/texlive/2018/texmf-var/fonts/tfm/lh/lh-t2a/larm1728.tfm
 INPUT /Users/danilabobkov/Library/texlive/2018/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm
+INPUT /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -138,10 +139,15 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT tab.png
+INPUT ./tab.png
+INPUT ./tab.png
 INPUT fig1.jpg
 INPUT ./fig1.jpg
 INPUT ./fig1.jpg
+INPUT fig7.png
+INPUT ./fig7.png
+INPUT ./fig7.png
 INPUT fig2.png
 INPUT ./fig2.png
 INPUT ./fig2.png
@@ -151,9 +157,9 @@ INPUT ./fig3.png
 INPUT fig4.jpg
 INPUT ./fig4.jpg
 INPUT ./fig4.jpg
-INPUT fig5.jpg
-INPUT ./fig5.jpg
-INPUT ./fig5.jpg
+INPUT fig5.png
+INPUT ./fig5.png
+INPUT ./fig5.png
 INPUT myo.bbl
 INPUT myo.bbl
 INPUT /Users/danilabobkov/Library/texlive/2018/texmf-var/fonts/tfm/lh/lh-t2a/lati1200.tfm
