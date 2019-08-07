@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  7 AUG 2019 21:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  7 AUG 2019 21:42
 entering extended mode
 **./myo.tex
 (myo.tex
@@ -1008,44 +1008,49 @@ File: fig3.png Graphic file (type png)
 <use fig3.png>
 Package pdftex.def Info: fig3.png  used on input line 232.
 (pdftex.def)             Requested size: 312.00119pt x 208.26169pt.
-<fig8.png, id=47, 1742.51pt x 760.8425pt>
+<fig9.png, id=47, 1156.32pt x 322.20375pt>
+File: fig9.png Graphic file (type png)
+<use fig9.png>
+Package pdftex.def Info: fig9.png  used on input line 241.
+(pdftex.def)             Requested size: 350.99762pt x 97.80247pt.
+<fig8.png, id=48, 1224.575pt x 1083.04625pt>
 File: fig8.png Graphic file (type png)
 <use fig8.png>
-Package pdftex.def Info: fig8.png  used on input line 241.
-(pdftex.def)             Requested size: 350.99762pt x 153.2571pt.
-<fig4.jpg, id=48, 1179.65718pt x 809.27344pt>
+Package pdftex.def Info: fig8.png  used on input line 248.
+(pdftex.def)             Requested size: 350.99762pt x 310.42314pt.
+<fig4.jpg, id=49, 1179.65718pt x 809.27344pt>
 File: fig4.jpg Graphic file (type jpg)
 <use fig4.jpg>
-Package pdftex.def Info: fig4.jpg  used on input line 249.
+Package pdftex.def Info: fig4.jpg  used on input line 256.
 (pdftex.def)             Requested size: 312.00119pt x 214.03659pt.
-<fig5.png, id=49, 847.165pt x 1054.94125pt>
+<fig5.png, id=50, 847.165pt x 1054.94125pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
-Package pdftex.def Info: fig5.png  used on input line 256.
+Package pdftex.def Info: fig5.png  used on input line 263.
 (pdftex.def)             Requested size: 312.00119pt x 388.51929pt.
- [11 <./fig3.png (PNG copy)>] [12 <./fig8.png (PNG copy)> <./fig4.jpg>] [13 <./
-fig5.png (PNG copy)>]
+ [11 <./fig3.png (PNG copy)>] [12 <./fig9.png (PNG copy)> <./fig8.png (PNG copy
+)>] [13 <./fig4.jpg>] [14 <./fig5.png (PNG copy)>]
 
-LaTeX Warning: Citation `elliott2015myosin' undefined on input line 286.
+LaTeX Warning: Citation `elliott2015myosin' undefined on input line 293.
 
-[14] [15]
+[15]
 
-LaTeX Warning: Citation `vicente2009non' undefined on input line 293.
+LaTeX Warning: Citation `vicente2009non' undefined on input line 300.
 
-(myo.bbl
+[16] (myo.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [16] (myo.aux)
+) [17] (myo.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 18312 strings out of 492895
- 321176 string characters out of 3125603
- 407874 words of memory out of 3000000
- 22061 multiletter control sequences out of 15000+200000
+ 18318 strings out of 492895
+ 321245 string characters out of 3125603
+ 407883 words of memory out of 3000000
+ 22066 multiletter control sequences out of 15000+200000
  543623 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,9n,63p,1566b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1059,9 +1064,9 @@ type1/public/amsfonts/cm/cmr12.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/1/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/1/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on myo.pdf (16 pages, 5090039 bytes).
+Output written on myo.pdf (17 pages, 5890303 bytes).
 PDF statistics:
- 259 PDF objects out of 1000 (max. 8388607)
+ 263 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex myo"] 1565202731 "myo.aux" "myo.bbl" "myo" 1565202737
+["bibtex myo"] 1565203353 "myo.aux" "myo.bbl" "myo" 1565203363
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/bibtex/bst/apacite/apacite.bst" 1374952728 146156 9d7b79dbf9d91133318126032cff8c27 ""
   "mybib.bib" 1563806796 64252 242673ee40b583f442ed37ee60ebbff4 ""
-  "myo.aux" 1565202736 2871 30e226132059eb1cbd3eb52e21e8edd4 "pdflatex"
+  "myo.aux" 1565203361 3026 12306c54531610c265476ec90ce998e6 "pdflatex"
   (generated)
-  "myo.bbl"
   "myo.blg"
-["pdflatex"] 1565202732 "myo.tex" "myo.pdf" "myo" 1565202737
+  "myo.bbl"
+["pdflatex"] 1565203355 "myo.tex" "myo.pdf" "myo" 1565203363
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1728.pk" 1563387932 45168 3867677238830519d970bad92a62af8f ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1200.pk" 1563387936 27028 f0e764cdd221d0a414e78beef5981b16 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1440.pk" 1563387938 32600 0c5c09eeae8c2f1365dce274b6132e51 ""
@@ -112,11 +112,12 @@
   "fig4.jpg" 1556749952 190399 8a693f7c0b63f0f5e02bdd3cfe8afd14 ""
   "fig5.png" 1559150123 285446 983b224f3466e3b8b982d1e08e3ef82d ""
   "fig7.png" 1559150476 2397268 21e44de026355a66f1a4db023ef34b22 ""
-  "fig8.png" 1565202615 242996 b0274b58230df0393e603e1bee2be277 ""
-  "myo.aux" 1565202736 2871 30e226132059eb1cbd3eb52e21e8edd4 "pdflatex"
-  "myo.bbl" 1565202731 52 0eba253fc001332e731e8aba3f23127b "bibtex myo"
-  "myo.tex" 1565202716 33804 dd1cef0347fcaae43202a732d41b9aaa ""
+  "fig8.png" 1565202904 275234 d9af423b3d26b54216db698beab11ab9 ""
+  "fig9.png" 1565203174 768464 8a6dee29562601694736855c76a40bae ""
+  "myo.aux" 1565203361 3026 12306c54531610c265476ec90ce998e6 "pdflatex"
+  "myo.bbl" 1565203354 52 0eba253fc001332e731e8aba3f23127b "bibtex myo"
+  "myo.tex" 1565203336 33950 821be20da0f2b9c309574cf3b34c373b ""
   (generated)
-  "myo.pdf"
-  "myo.log"
   "myo.aux"
+  "myo.log"
+  "myo.pdf"
