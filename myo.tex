@@ -5,9 +5,11 @@
 \usepackage{csquotes}
 \usepackage[russian,english]{babel}
 \usepackage{apacite}
-\usepackage{amsmath}
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
+\usepackage{listings}
 \usepackage{gensymb}
 \usepackage{xcolor}
+\usepackage[version=3]{mhchem}
 %\usepackage[colorlinks,allcolors=cyan!70!black]{hyperref}
 \title{Analysis of myosin-9-containing protein complexes in senescent MSCWJ-1 cells}
 \begin{document}
@@ -39,6 +41,13 @@ Currently, much attention is paid to the selection of MSCs from extra-embryonic 
 
 
 \section{MATERIALS AND METHODS}
+
+TrajExpectedSquareDisplacement	Returns the expected square displacement of a correlated random walk
+
+Directional change (DC and SDDC)
+Directional change is defined as the change in direction over time, and has been used to assess locomotor mimicry in butterflies (Kitamura & Imafuku, 2015). Directional change is defined for each pair of steps, so a trajectory (or a portion thereof) may be characterised by the mean (DC) and standard deviation (SDDC) of all directional changes. DC may be used as an index of nonlinearity, and SDDC as a measure of irregularity. The directional changes for a trajectory are calculated by the function TrajDirectionalChange, so SD may be calculated as mean(TrajDirectionalChange(trj)), and SDDC as sd(TrajDirectionalChange(trj)). Note that directional change cannot be calculated on rediscretized trajectories, as rediscretizing discards time information.
+https://cran.rstudio.com/web/packages/trajr/vignettes/trajr-vignette.html#smoothing-trajectories
+
 
 K le t to and. A line of human mesenchymal stem cells obtained from Varton's jelly of the umbilical cord of the person (MSCWJ-1) was used in the work. The cell line was obtained and characterized in the Collective Medical Center "Collection of cultures of cells of vertebrates" of the IC of the Russian Academy of Sciences (St. Petersburg). MSCWJ-1 cells were cultured in growth medium containing 90\% DMEM / F12 medium (Biolot, Russia) and 10\% fetal bovine serum (FBS) (Hyclone, United States). Cells were cultured under conditions of 5\% CO2 at 37 $\degree$ C and humidity of 90\%. Microbiological analysis confirmed the absence of bacterial, fungal and mycoplasmal contamination in the resulting line.
  Morphology cells were performed using an inverted microscope (NICON, Japan).
@@ -151,6 +160,25 @@ The process of replicative aging during long-term cultivation of cells of all li
 
 Table 1
 
+\begin{table}[hbt!]
+\caption{An example table}
+\label{tab:widgets}
+\centering
+\begin{threeparttable}
+\begin{tabular}{c l r f}
+\hline
+Code & Item & Quantity & Square, $\mu m^2$  \\\hline
+40 cells\tnote{b} & Cells & 40 & 1\tnote{a}  \\
+24x24 grid & ROIs & 576 & 318.2656   \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\item[a] Mean ROI square.
+\item[b] Manully selected.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
 \begin{figure}[hbt!]
 \centering
 \includegraphics[width=0.7\linewidth]{fig0.jpeg}
@@ -200,7 +228,7 @@ Therefore, to eliminate doubts about the normality of the data, we also used the
 
 
 
-\begin{figure}0.0929
+\begin{figure}
   \includegraphics[width=0.8\linewidth]{fig3.png}
   \caption{Fig.3. RhoA in the nucleus, along the stress In the perinuclear region, diffusely in the cytoplasm}
   \label{fig:fig3}
@@ -208,6 +236,13 @@ Therefore, to eliminate doubts about the normality of the data, we also used the
 \end{figure}
 
 Figure \ref{fig:fig3} shows aRhoA in the nucleus...
+
+\begin{figure}
+  \includegraphics[width=0.9\linewidth]{fig8.png}
+  \caption{Cell movement analisys}
+  \label{fig:fig8}
+  \centering
+\end{figure}
 
 \begin{figure}[hbt!]
 \centering

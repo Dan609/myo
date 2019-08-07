@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: myo.aux
 The style file: apacite.bst
 I couldn't open database file mybib.bib.bib
----line 30 of file myo.aux
+---line 33 of file myo.aux
  : \bibdata{mybib.bib
  :                   }
 I'm skipping whatever remains of this command
@@ -9,7 +9,6 @@ I found no database files---while reading file myo.aux
 Warning--I didn't find a database entry for "tinevez2017trackmate"
 Warning--I didn't find a database entry for "mclean2018trajr"
 Warning--I didn't find a database entry for "team2014r"
-Warning--I didn't find a database entry for "bonilla2019enhancement"
 Warning--I didn't find a database entry for "elliott2015myosin"
 Warning--I didn't find a database entry for "vicente2009non"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
