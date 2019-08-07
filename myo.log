@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  7 AUG 2019 21:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  7 AUG 2019 22:25
 entering extended mode
 **./myo.tex
 (myo.tex
@@ -1013,11 +1013,11 @@ File: fig9.png Graphic file (type png)
 <use fig9.png>
 Package pdftex.def Info: fig9.png  used on input line 241.
 (pdftex.def)             Requested size: 350.99762pt x 97.80247pt.
-<fig8.png, id=48, 1224.575pt x 1083.04625pt>
+<fig8.png, id=48, 1043.9pt x 1083.04625pt>
 File: fig8.png Graphic file (type png)
 <use fig8.png>
 Package pdftex.def Info: fig8.png  used on input line 248.
-(pdftex.def)             Requested size: 350.99762pt x 310.42314pt.
+(pdftex.def)             Requested size: 350.99762pt x 364.16547pt.
 <fig4.jpg, id=49, 1179.65718pt x 809.27344pt>
 File: fig4.jpg Graphic file (type jpg)
 <use fig4.jpg>
@@ -1064,7 +1064,7 @@ type1/public/amsfonts/cm/cmr12.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/1/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/1/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on myo.pdf (17 pages, 5890303 bytes).
+Output written on myo.pdf (17 pages, 5879727 bytes).
 PDF statistics:
  263 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
