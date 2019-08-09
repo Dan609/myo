@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  9 AUG 2019 14:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  9 AUG 2019 20:18
 entering extended mode
 **./myo.tex
 (myo.tex
@@ -1011,26 +1011,26 @@ Package pdftex.def Info: fig3.png  used on input line 232.
 <fig8.png, id=47, 1043.9pt x 1083.04625pt>
 File: fig8.png Graphic file (type png)
 <use fig8.png>
-Package pdftex.def Info: fig8.png  used on input line 251.
+Package pdftex.def Info: fig8.png  used on input line 254.
 (pdftex.def)             Requested size: 350.99762pt x 364.16547pt.
 <fig4.jpg, id=48, 1179.65718pt x 809.27344pt>
 File: fig4.jpg Graphic file (type jpg)
 <use fig4.jpg>
-Package pdftex.def Info: fig4.jpg  used on input line 259.
+Package pdftex.def Info: fig4.jpg  used on input line 262.
 (pdftex.def)             Requested size: 312.00119pt x 214.03659pt.
 <fig5.png, id=49, 847.165pt x 1054.94125pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
-Package pdftex.def Info: fig5.png  used on input line 266.
+Package pdftex.def Info: fig5.png  used on input line 269.
 (pdftex.def)             Requested size: 312.00119pt x 388.51929pt.
  [11 <./fig3.png (PNG copy)>] [12 <./fig8.png (PNG copy)>] [13 <./fig4.jpg>] [1
 4 <./fig5.png (PNG copy)>]
 
-LaTeX Warning: Citation `elliott2015myosin' undefined on input line 296.
+LaTeX Warning: Citation `elliott2015myosin' undefined on input line 299.
 
 [15]
 
-LaTeX Warning: Citation `vicente2009non' undefined on input line 303.
+LaTeX Warning: Citation `vicente2009non' undefined on input line 306.
 
 [16] (myo.bbl
 
@@ -1059,7 +1059,7 @@ type1/public/amsfonts/cm/cmr12.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/1/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/1/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on myo.pdf (17 pages, 5112300 bytes).
+Output written on myo.pdf (17 pages, 5112621 bytes).
 PDF statistics:
  262 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
