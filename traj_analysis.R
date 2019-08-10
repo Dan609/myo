@@ -525,7 +525,7 @@ ggplot(data, aes(probe, mean_speed)) +
 # Add jitter and change fill color by probe----------------------
 qplot(probe, mean_speed, data = data,
       geom = c("jitter", "boxplot"), alpha = I(0.3), fill = probe,
-      main = "Mean speed, MSCWJ1, 24h", ) + 
+      main = "Mean speed", ) + 
   labs(y = 'Micrometers per hour',
        x = "Cell passage") +
   # xmin / xmax positions should match the x-axis labels' positions
@@ -675,7 +675,7 @@ ggplot(data, aes(probe, max_speed)) +
 # Add jitter and change fill color by probe----------------------
 qplot(probe, max_speed, data = data,
       geom = c("jitter", "boxplot"), alpha = I(0.3), fill = probe,
-      main = "Max speed on 24h-trajectory, MSCWJ1" ) + 
+      main = "Max speed" ) + 
   labs(y = 'Micrometers',
        x = "Cell passage") +
   # xmin / xmax positions should match the x-axis labels' positions
@@ -826,7 +826,7 @@ ggplot(data, aes(probe, length)) +
 # Add jitter and change fill color by probe----------------------
 qplot(probe, length, data = data,
       geom = c("jitter", "boxplot"), alpha = I(0.3), fill = probe,
-      main = "Length of 24h-trajectory, MSCWJ1" ) + 
+      main = "Length" ) + 
   labs(y = 'Micrometers',
        x = "Cell passage") +
   # xmin / xmax positions should match the x-axis labels' positions
@@ -990,7 +990,7 @@ ggplot(data, aes(probe, distance)) +
 # Add jitter and change fill color by probe----------------------
 qplot(probe, distance, data = data,
       geom = c("jitter", "boxplot"), alpha = I(0.3), fill = probe,
-      main = "Distance, 24h, MSCWJ1" ) + 
+      main = "Distance" ) + 
   labs(y = 'Micrometers',
        x = "Cell passage") +
   # xmin / xmax positions should match the x-axis labels' positions
@@ -1021,67 +1021,9 @@ res.aov <- aov(straight ~ probe, data = data) # One-way ANOVA
 summary(res.aov)
 TukeyHSD(res.aov)
 plot(TukeyHSD(res.aov), las = 1)
+
 # Compute mean and SD
 
-df.summary.straight <- group_by(data, probe) %>%
-  summarise(
-    sd = sd(straight, na.rm = TRUE),
-    straight = mean(straight)
-  )
-
-df.summary.straight
-
-
-mean(data[data$probe=='p09',]$length)
-sd(data[data$probe=='p09',]$length)
-
-mean(data[data$probe=='p15',]$length)
-sd(data[data$probe=='p15',]$length)
-
-mean(data[data$probe=='p36',]$length)
-sd(data[data$probe=='p36',]$length)
-
-
-# Density
-ggdensity(data[data$probe=='p09',]$mean_speed, 
-          main = "Density plot of mean_speed in p09",
-          xlab = "mean_speed")
-ggdensity(data[data$probe=='p15',]$mean_speed, 
-          main = "Density plot of mean_speed in p15",
-          xlab = "mean_speed")
-ggdensity(data[data$probe=='p36',]$mean_speed, 
-          main = "Density plot of mean_speed in p36",
-          xlab = "mean_speed")
-
-# ggqqplot(data$mean_speed, main = 'mean_speed')
-ggqqplot(data[data$probe=='p09',]$mean_speed, main = 'mean_speed')
-ggqqplot(data[data$probe=='p15',]$mean_speed, main = 'mean_speed')
-ggqqplot(data[data$probe=='p36',]$mean_speed, main = 'mean_speed')
-
-# Test for normality
-shapiro.test(data[data$probe=='p09',]$mean_speed)
-shapiro.test(data[data$probe=='p15',]$mean_speed)
-shapiro.test(data[data$probe=='p36',]$mean_speed) # data is not normally distributed
-
-kruskal.test(data$straight ~ data$probe)
-
-compare_means(straight ~ probe,  data = data, method = "kruskal.test")
-write.xlsx(compare_means(mean_speed ~ probe,  data = data, method = "kruskal.test"), 
-           file = 'kruskal.test.mean_speed.xlsx')
-
-compare_means(straight ~ probe,  data = data, method = "wilcox.test") # pairwise comparisons
-
-write.xlsx(compare_means(mean_speed ~ probe,  data = data, method = "wilcox.test"),
-           file = 'wilcox.test.mean_speed.xlsx')
-
-
-
-# Compute the analysis of variance------
-res.aov <- aov(straight ~ probe, data = data) # One-way ANOVA
-summary(res.aov)
-TukeyHSD(res.aov)
-plot(TukeyHSD(res.aov), las = 1)
-# Compute mean and SD-----------------------------
 df.summary.straight <- group_by(data, probe) %>%
   summarise(
     sd = sd(straight, na.rm = TRUE),
@@ -1098,6 +1040,21 @@ sd(data[data$probe=='p15',]$straight)
 
 mean(data[data$probe=='p36',]$straight)
 sd(data[data$probe=='p36',]$straight)
+
+
+
+kruskal.test(data$straight ~ data$probe)
+
+compare_means(straight ~ probe,  data = data, method = "kruskal.test")
+write.xlsx(compare_means(mean_speed ~ probe,  data = data, method = "kruskal.test"), 
+           file = 'kruskal.test.mean_speed.xlsx')
+
+compare_means(straight ~ probe,  data = data, method = "wilcox.test") # pairwise comparisons
+
+write.xlsx(compare_means(mean_speed ~ probe,  data = data, method = "wilcox.test"),
+           file = 'wilcox.test.mean_speed.xlsx')
+
+
 # Density------------------------------------
 ggdensity(data[data$probe=='p09',]$straight, 
           main = "Density plot of straight in p09",
@@ -1219,8 +1176,8 @@ ggplot(data, aes(probe, straight)) +
 # Add jitter and change fill color by probe----------------------
 qplot(probe, straight, data = data,
       geom = c("jitter", "boxplot"), alpha = I(0.3), fill = probe,
-      main = "Straightness index, MSCWJ1, 24h", ) + 
-  labs(y = 'straight',
+      main = "Straightness", ) + 
+  labs(y = 'Straightness index',
        x = "Cell passage")  +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(1.1),
@@ -1384,11 +1341,11 @@ ggplot(data, aes(probe, sinuosity)) +
     legend.title = element_text(color = "black", size = 15),
     legend.text = element_text(color = "black", size = 15))
 
-# Add jitter and change fill color by probe----------------------
+# Add jitter and change fill color by probe
 qplot(probe, sinuosity, data = data,
       geom = c("jitter", "boxplot"), alpha = I(0.3), fill = probe,
-      main = "Sinuosity, MSCWJ1, 24h", ) + 
-  labs(y = 'Sinuosity',
+      main = "Random search path tortuosity", ) + 
+  labs(y = 'Sinuosity index',
        x = "Cell passage") +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(0.8),
@@ -1411,102 +1368,52 @@ qplot(probe, sinuosity, data = data,
 
 
 
-
 #--------
-# Perform pairwise comparisons
+qplot(probe, length, data = data,
+      geom = c("jitter", "boxplot"), alpha = I(0.6), #log = "y",
+      main = "MSCWJ1, 24h Path length") + theme_classic2()
 
-compare_means(distance ~ probe,  data = data, method = "anova")
-compare_means(distance ~ probe,  data = data, method = "kruskal.test")
-compare_means(distance ~ probe,  data = data, method = "t.test")
+qplot(probe, distance, data = data,
+      geom = c("jitter", "boxplot"), alpha = I(0.6), #log = "y",
+      main = "WJ1, 24h")
 
-compare_means(distance ~ probe,  data = data, method = "wilcox.test")
-compare_means(straight ~ probe,  data = data, method = "wilcox.test")
-compare_means(mean_speed ~ probe,  data = data, method = "wilcox.test")
+qplot(probe, square_displacement, data = data,
+      geom = c("jitter", "boxplot"), alpha = I(0.6), log = "y",
+      main = "WJ1, 24h")
 
-write.xlsx(compare_means(ros ~ probe,  data = data, method = "kruskal.test"), 
-           file = 'kruskal.test.xlsx')
+qplot(probe, sd_speed, data = data,
+      geom = c("jitter", "boxplot"), alpha = I(0.6), log = "y",
+      main = "WJ1, 24h")
 
-write.xlsx(compare_means(ros ~ probe, data = data, method = "anova"),
-           file = 'anova.xlsx')
+qplot(probe, max_speed, data = data,
+      geom = c("jitter", "boxplot"), alpha = I(0.6), log = "y",
+      main = "WJ1, 24h")
 
-write.xlsx(compare_means(ros ~ probe,  data = data, method = "t.test"),
-           file = 't.test.xlsx')
+qplot(probe, min_speed, data = data,
+      geom = c("jitter", "boxplot"), alpha = I(0.6), log = "y",
+      main = "WJ1, 24h")
+
+qplot(probe, sinuosity, data = data,
+      geom = c("jitter", "boxplot"), alpha = I(0.6), log = "y",
+      main = "WJ1, 24h")
+
+qplot(probe, DC, data = data,
+      geom = c("jitter", "boxplot"), alpha = I(0.6), log = "y",
+      main = "WJ1, 24h")
+
+qplot(probe, SDDC, data = data,
+      geom = c("jitter", "boxplot"), alpha = I(0.6), log = "y",
+      main = "WJ1, 24h")
+
+qplot(probe, emax, data = data,
+      geom = c("jitter", "boxplot"), alpha = I(0.6), log = "y",
+      main = "WJ1, 24h")
+
+qplot(probe, straight, data = data,
+      geom = c("jitter", "boxplot"), alpha = I(0.6), #log = "y",
+      main = "Straightness, WJ1, 24h")
 
 
-
-
-
-
-
-ggqqplot(data$length, main = 'lenght')
-ggqqplot(data$distance, main = 'distance')
-ggqqplot(data$square_displacement, main = 'square_displacement')
-
-ggqqplot(data$sd_speed, main = 'sd_speed')
-ggqqplot(data$max_speed, main = 'max_speed')
-ggqqplot(data$min_speed, main = 'min_speed')
-ggqqplot(data$sinuosity, main = 'sinuosity')
-ggqqplot(data$emax, main = 'emax')
-ggqqplot(data$DC, main = 'DC')
-ggqqplot(data$SDDC, main = 'SDDC')
-
-colnames(data)
-
-
-
-#--------
-
-df.summary.length <- group_by(data, probe) %>%
-  summarise(
-    sd = sd(length, na.rm = TRUE),
-    length = mean(length)
-  )
-
-df.summary.length
-
-df.length <- data
-
-ggplot(df.length, aes(probe, length)) +
-  geom_bar(stat = "identity", data = df.summary.length,
-           fill = NA, color = "black") +
-  geom_jitter(position = position_jitter(0.2),
-              color = "black") + 
-  geom_errorbar(
-    aes(ymin = length-sd, ymax = length+sd),
-    data = df.summary.length, width = 0.2) + ggtitle('length')
-
-#--------
-
-df.summary.distance <- group_by(data, probe) %>%
-  summarise(
-    sd = sd(distance, na.rm = TRUE),
-    distance = mean(distance)
-  )
-
-df.summary.distance
-
-df.distance <- data
-
-ggplot(df.distance, aes(probe, distance)) +
-  geom_bar(stat = "identity", data = df.summary.distance,
-           fill = NA, color = "black") +
-  geom_jitter(position = position_jitter(0.2),
-              color = "black") + 
-  geom_errorbar(
-    aes(ymin = distance-sd, ymax = distance+sd),
-    data = df.summary.distance, width = 0.2) #+ ggtitle('distance')+
-  # xmin / xmax positions should match the x-axis labels' positions
-  geom_signif(y_position = c(580),
-              xmin = c(1),
-              xmax = c(2),
-              annotation = "**", 
-              tip_length = 0.04)# +
-  # xmin / xmax positions should match the x-axis labels' positions
-  geom_signif(y_position = c(500),
-              xmin = c(1),
-              xmax = c(3),
-              annotation = "***", 
-              tip_length = 0.04)
 
 #--------
 
@@ -1595,31 +1502,6 @@ ggplot(df.min_speed, aes(probe, min_speed)) +
 
 #--------
 
-df.summary.sinuosity <- group_by(data, probe) %>%
-  summarise(
-    sd = sd(sinuosity, na.rm = TRUE),
-    sinuosity = mean(sinuosity)
-  )
-
-df.summary.sinuosity
-
-df.sinuosity <- data
-
-
-ggplot(df.sinuosity, aes(probe, sinuosity)) +
-  geom_bar(stat = "identity", data = df.summary.sinuosity,
-           fill = NA, color = "black") +
-  geom_jitter(position = position_jitter(0.2),
-              color = "black") + 
-  geom_errorbar(
-    aes(ymin = sinuosity-sd, ymax = sinuosity+sd),
-    data = df.summary.sinuosity, width = 0.2) + ggtitle('sinuosity')
-
-#--------
-
-
-
-
 
 df.summary.emax <- group_by(data, probe) %>%
   summarise(
@@ -1681,87 +1563,4 @@ ggplot(df.SDDC, aes(probe, SDDC)) +
   geom_errorbar(
     aes(ymin = SDDC-sd, ymax = SDDC+sd),
     data = df.summary.SDDC, width = 0.2) + ggtitle('SDDC')
-
-#--------
-
-
-#--------
-# par(mfrow = c(2,2))
-png()
-
-qplot(probe, length, data = data,
-      geom = c("jitter", "boxplot"), alpha = I(0.6), #log = "y",
-      main = "MSCWJ1, 24h Path length") + theme_classic2()
-
-qplot(probe, distance, data = data,
-      geom = c("jitter", "boxplot"), alpha = I(0.6), #log = "y",
-      main = "WJ1, 24h")
-
-qplot(probe, square_displacement, data = data,
-      geom = c("jitter", "boxplot"), alpha = I(0.6), log = "y",
-      main = "WJ1, 24h")
-
-qplot(probe, sd_speed, data = data,
-      geom = c("jitter", "boxplot"), alpha = I(0.6), log = "y",
-      main = "WJ1, 24h")
-
-qplot(probe, max_speed, data = data,
-      geom = c("jitter", "boxplot"), alpha = I(0.6), log = "y",
-      main = "WJ1, 24h")
-
-qplot(probe, min_speed, data = data,
-      geom = c("jitter", "boxplot"), alpha = I(0.6), log = "y",
-      main = "WJ1, 24h")
-
-qplot(probe, sinuosity, data = data,
-      geom = c("jitter", "boxplot"), alpha = I(0.6), log = "y",
-      main = "WJ1, 24h")
-
-qplot(probe, DC, data = data,
-      geom = c("jitter", "boxplot"), alpha = I(0.6), log = "y",
-      main = "WJ1, 24h")
-
-qplot(probe, SDDC, data = data,
-      geom = c("jitter", "boxplot"), alpha = I(0.6), log = "y",
-      main = "WJ1, 24h")
-
-qplot(probe, emax, data = data,
-      geom = c("jitter", "boxplot"), alpha = I(0.6), log = "y",
-      main = "WJ1, 24h")
-
-qplot(probe, straight, data = data,
-      geom = c("jitter", "boxplot"), alpha = I(0.6), #log = "y",
-      main = "Straightness, WJ1, 24h")
-
-# dev.off()
-
-
-
-
-#--------
-all <- read.csv('alltracks.csv')
-all <- data
-
-b <- ggplot(all, aes(x = probe, y = emax))
-
-b + geom_point()
-b + geom_jitter()
-
-b + geom_boxplot(aes(color = probe))
-b + geom_boxplot(aes(fill = probe))
-b + geom_boxplot(aes(fill = probe)) + scale_fill_grey()
-
-b + geom_boxplot() + coord_flip()
-b + geom_boxplot(notch = TRUE)
-
-b + stat_boxplot()
-
-b + geom_violin()
-b + geom_line()
-
-b + geom_dotplot(binaxis = "y", stackdir = "center",
-                 stackratio = 1, dotsize = 0.2)
-
-
-
 
