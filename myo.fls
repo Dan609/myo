@@ -7,6 +7,17 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\nil.ldf
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\nil.ldf
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.def
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\bibtex\apalike.sty
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\bibtex\apalike.sty
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
@@ -38,17 +49,6 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.d
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.def
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-russian\russianb.ldf
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-russian\russianb.ldf
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.def
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\english.ldf
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\english.ldf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\apacite\apacite.sty
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\apacite\apacite.sty
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
@@ -140,8 +140,10 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexcm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\apacite\english.apc
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\apacite\english.apc
+INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\larm1095.tfm
+INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\labx1095.tfm
+OUTPUT myo.pdf
+INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\larm2074.tfm
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\larm1440.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
@@ -178,8 +180,6 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-OUTPUT myo.pdf
-INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT fig0.jpeg
 INPUT .\fig0.jpeg
 INPUT .\fig0.jpeg
@@ -225,12 +225,16 @@ INPUT myo.bbl
 INPUT myo.aux
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1728.pk
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1728.pk
-INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk
-INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm2074.pk
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm2074.pk
+INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1095.pk
+INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1095.pk
+INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1095.pk
+INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1095.pk
+INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk
+INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb

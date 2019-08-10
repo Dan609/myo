@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  9 AUG 2019 20:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  10 AUG 2019 20:59
 entering extended mode
 **./myo.tex
 (myo.tex
@@ -20,15 +20,58 @@ File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+
+myo.tex:2: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \documentclass[english,authoryear]{
+                                       elsarticle}
+The document may only declare one class.
+
+("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
+Package: babel 2019/06/03 3.32 The Babel package
+
+("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def"
+File: switch.def 2019/06/03 3.32 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+Package babel Info: You haven't specified a language. I'll use 'nil'
+(babel)             as the main language. Reported on input line 568.
+
+("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\nil.ldf"
+Language: nil 2019/06/03 3.32 Nil language
+
+("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2019/06/03 3.32 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+
+("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
+\bbl@dirlevel=\count89
+)
+\l@nil=\language82
+))
+("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bibtex\apalike.sty"
+\bibhang=\skip43
+) ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.st
+y"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+ ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
-)
-("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+) ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.st
+y"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+ ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.
@@ -41,8 +84,8 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 f"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
 ) ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty"
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
  ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2aenc.def"
@@ -254,14 +297,14 @@ Package: inputenc 2018/08/11 v1.3c Input encoding file
 Package: csquotes 2019/05/10 v5.2e context-sensitive quotations (JAW)
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count88
+\etb@tempcnta=\count90
 )
-\csq@reset=\count89
-\csq@gtype=\count90
-\csq@glevel=\count91
-\csq@qlevel=\count92
-\csq@maxlvl=\count93
-\csq@tshold=\count94
+\csq@reset=\count91
+\csq@gtype=\count92
+\csq@glevel=\count93
+\csq@qlevel=\count94
+\csq@maxlvl=\count95
+\csq@tshold=\count96
 \csq@ltx@everypar=\toks17
  ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.def
 "
@@ -272,52 +315,37 @@ Package csquotes Info: ... configuration file loaded successfully.
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.cfg"
 File: csquotes.cfg 
-)) ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
-Package: babel 2019/06/03 3.32 The Babel package
-
-("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def"
-File: switch.def 2019/06/03 3.32 Babel switching mechanism
-)
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-russian\russianb
-.ldf"
-Language: russian 2017/08/12 1.3j Russian support for the Babel system
- ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
-File: babel.def 2019/06/03 3.32 Babel common definitions
-\babel@savecnt=\count95
-\U@D=\dimen105
- ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.def"
-)
-\bbl@dirlevel=\count96
-)
-Package babel Info: Making " an active character on input line 120.
-Package babel Info: Default for \cyrdash is provided on input line 157.
-)
-("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-english\english.
-ldf"
-Language: english 2017/06/06 v3.3r English support from the babel system
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
 ))
+
+myo.tex:10: LaTeX Error: Option clash for package babel.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \usepackage
+                {apacite}
+The package babel has already been loaded with options:
+  []
+There has now been an attempt to load it with options
+  [russian,english]
+Adding the global options:
+  ,russian,english
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/apacite\apacite.sty"
 Package: apacite 2013/07/21 v6.03 APA citation
 \c@BibCnt=\count97
-\bibleftmargin=\skip43
-\bibindent=\skip44
-\bibparsep=\skip45
-\bibitemsep=\skip46
-\biblabelsep=\skip47
+\bibleftmargin=\skip44
+\bibindent=\skip45
+\bibparsep=\skip46
+\bibitemsep=\skip47
+\biblabelsep=\skip48
 )
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
 Package: amsmath 2018/12/01 v2.17b AMS math features
-\@mathmargin=\skip48
+\@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
@@ -367,8 +395,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \totwidth@=\dimen113
 \lineht@=\dimen114
 \@envbody=\toks21
-\multlinegap=\skip49
-\multlinetaggap=\skip50
+\multlinegap=\skip50
+\multlinetaggap=\skip51
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
@@ -389,9 +417,9 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@headfont=\toks25
 \thm@notefont=\toks26
 \thm@headpunct=\toks27
-\thm@preskip=\skip51
-\thm@postskip=\skip52
-\thm@headsep=\skip53
+\thm@preskip=\skip52
+\thm@postskip=\skip53
+\thm@headsep=\skip54
 \dth@everypar=\toks28
 )
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mathtools.st
@@ -403,12 +431,12 @@ Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count111
 \calc@Adimen=\dimen115
 \calc@Bdimen=\dimen116
-\calc@Askip=\skip54
-\calc@Bskip=\skip55
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count112
-\calc@Cskip=\skip56
+\calc@Cskip=\skip57
 )
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mhsetup.sty"
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
@@ -419,7 +447,7 @@ LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \g_MT_multlinerow_int=\count113
 \l_MT_multwidth_dim=\dimen117
-\origjot=\skip57
+\origjot=\skip58
 \l_MT_shortvdotswithinadjustabove_dim=\dimen118
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen119
 \l_MT_above_intertext_sep=\dimen120
@@ -496,12 +524,12 @@ Package: expl3 2019-07-01 L3 programming layer (code)
 \l_tmpb_dim=\dimen131
 \g_tmpa_dim=\dimen132
 \g_tmpb_dim=\dimen133
-\c_zero_skip=\skip58
-\c_max_skip=\skip59
-\l_tmpa_skip=\skip60
-\l_tmpb_skip=\skip61
-\g_tmpa_skip=\skip62
-\g_tmpb_skip=\skip63
+\c_zero_skip=\skip59
+\c_max_skip=\skip60
+\l_tmpa_skip=\skip61
+\l_tmpb_skip=\skip62
+\g_tmpa_skip=\skip63
+\g_tmpb_skip=\skip64
 \c_zero_muskip=\muskip11
 \c_max_muskip=\muskip12
 \l_tmpa_muskip=\muskip13
@@ -657,16 +685,16 @@ stry (CN)
 \g__chemgreek_tmpa_int=\count282
 )
 \l__mhchem_ce_distanceFromLastComma_int=\count283
-\__mhchem_arrow_extPgfLength_skip=\skip64
-\mhchem@minispace@tmp=\skip65
-\mhchem@minibackspace@tmp=\skip66
-\mhchem@bondwidth=\skip67
-\mhchem@bondheight=\skip68
-\mhchem@smallbondwidth@tmpA=\skip69
-\mhchem@smallbondwidth@tmpB=\skip70
-\mhchem@smallbondwidth=\skip71
-\mhchem@bondtmp@minussidebearingleft=\skip72
-\mhchem@bondtmp@minussidebearingright=\skip73
+\__mhchem_arrow_extPgfLength_skip=\skip65
+\mhchem@minispace@tmp=\skip66
+\mhchem@minibackspace@tmp=\skip67
+\mhchem@bondwidth=\skip68
+\mhchem@bondheight=\skip69
+\mhchem@smallbondwidth@tmpA=\skip70
+\mhchem@smallbondwidth@tmpB=\skip71
+\mhchem@smallbondwidth=\skip72
+\mhchem@bondtmp@minussidebearingleft=\skip73
+\mhchem@bondtmp@minussidebearingright=\skip74
 \l__mhchem_option_version_int=\count284
 \mhchem@option@minusmathsidebearingleft=\dimen160
 \mhchem@option@minusmathsidebearingright=\dimen161
@@ -676,24 +704,29 @@ stry (CN)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
-Package csquotes Info: Redefining alias 'default' -> 'english'.
- (myo.aux)
+
+
+Package csquotes Warning: No style for language 'nil'.
+(csquotes)                Using fallback style on input line 18.
+
+Package csquotes Info: Redefining alias 'default' -> 'fallback'.
+(myo.aux)
 \openout1 = `myo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.m
 kii"
@@ -767,32 +800,114 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \c@maskedRefs=\count291
- ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/apacite\english.apc"
-File: english.apc 2013/07/21 v6.03 apacite language file
-LaTeX Info: Redefining \BPBI on input line 129.
-LaTeX Info: Redefining \BHBI on input line 130.
-)
-\c@lstlisting=\count292
-LaTeX Info: Redefining \celsius on input line 15.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 15.
 
+
+Package apacite Warning: No suitable language definition file (nil.apc) found.
+
+\c@lstlisting=\count292
+LaTeX Info: Redefining \celsius on input line 18.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 18.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 15.
-Package gensymb Info: Using \Omega for \ohm on input line 15.
+LaTeX Info: Redefining \ohm on input line 18.
+Package gensymb Info: Using \Omega for \ohm on input line 18.
 
 Package gensymb Warning: Not defining \micro.
 
 
-Package chemgreek Info: Activating mapping `default' on line 15.
+Package chemgreek Info: Activating mapping `default' on line 18.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 17.
+myo.tex:21: Undefined control sequence.
+l.21 \address
+             [rvt]{Department of Physics, University of Aaaaa, Aaaaa St,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+myo.tex:24: Undefined control sequence.
+l.24 \address
+             [focal]{Institute of Technology, University of Bbbb,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+myo.tex:31: LaTeX Error: Environment keyword undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 \begin{keyword}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+myo.tex:32: Undefined control sequence.
+l.32 key1\sep
+              key2\sep key3\sep key4\sep key5.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+myo.tex:32: Undefined control sequence.
+l.32 key1\sep key2\sep
+                       key3\sep key4\sep key5.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+myo.tex:32: Undefined control sequence.
+l.32 key1\sep key2\sep key3\sep
+                                key4\sep key5.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+myo.tex:32: Undefined control sequence.
+l.32 key1\sep key2\sep key3\sep key4\sep
+                                         key5.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+myo.tex:33: LaTeX Error: \begin{document} ended by \end{keyword}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 \end{keyword}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1
+
+{C:/Users/1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Try loading font information for U+msa on input line 35.
+
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 17.
+LaTeX Font Info:    Try loading font information for U+msb on input line 35.
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -801,16 +916,47 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Warning: No \author given.
 
 
-Overfull \hbox (8.14543pt too wide) in paragraph at lines 18--26
-[]\T2A/cmr/m/n/12 [1,*]Danila Bobkov [2]Anas-ta-sia Polyan-skaya [3]Anas-ta-sia
- Mu-so-rina [4]Eka-
+Overfull \hbox (34.25017pt too wide) in paragraph at lines 37--43
+[]\T2A/cmr/m/n/12 [1,*]Danila Bobkov [2]Anastasia Polyanskaya [3]Anastasia Muso
+rina [4]Ekaterina
  []
 
-[1
+myo.tex:44: Undefined control sequence.
+l.44 \author[rvt]{M.~Surname\corref
+                                   {cor1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-{C:/Users/1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-myo.tex:48: Misplaced alignment tab character &.
-l.48 ...comotor mimicry in butterflies (Kitamura &
+myo.tex:45: Undefined control sequence.
+l.45 \ead
+         {aaaaa@aaaa.com}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+myo.tex:48: Undefined control sequence.
+l.48 \cortext
+             [cor1]{Corresponding author}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (5.41722pt too wide) in paragraph at lines 60--66
+\T2A/cmr/m/n/12 MSCs, which is important both for understanding the mechanisms 
+of biological
+ []
+
+[2] [3]
+myo.tex:73: Misplaced alignment tab character &.
+l.73 ...comotor mimicry in butterflies (Kitamura &
                                                    Imafuku, 2015). Direction...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -819,8 +965,8 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-myo.tex:49: You can't use `macro parameter character #' in horizontal mode.
-l.49 ...kages/trajr/vignettes/trajr-vignette.html#
+myo.tex:74: You can't use `macro parameter character #' in horizontal mode.
+l.74 ...kages/trajr/vignettes/trajr-vignette.html#
                                                   smoothing-trajectories
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -828,68 +974,194 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Overfull \hbox (24.79459pt too wide) in paragraph at lines 47--50
-\T2A/cmr/m/n/12 mean(TrajDirectionalChange(trj)), and SDDC as sd(TrajDirectiona
-lChange(trj)).
+Overfull \hbox (37.91222pt too wide) in paragraph at lines 72--75
+\T2A/cmr/m/n/12 as mean(TrajDirectionalChange(trj)), and SDDC as sd(TrajDirecti
+onalChange(trj)).
  []
 
 
-Overfull \hbox (172.97008pt too wide) in paragraph at lines 47--50
-\T2A/cmr/m/n/12 ries, as re-dis-cretiz-ing dis-cards time in-for-ma-tion. https
-://cran.rstudio.com/web/packages/trajr/vignettes/trajr-
+Overfull \hbox (4.30786pt too wide) in paragraph at lines 72--75
+\T2A/cmr/m/n/12 Note that directional change cannot be calculated on rediscreti
+zed trajectories,
  []
 
-[3]
-Overfull \hbox (1.11667pt too wide) in paragraph at lines 62--68
-[]\T2A/cmr/m/n/12 Evaluated by $\OML/cmm/m/it/12 $\T2A/cmr/m/n/12 -galactosida
-se en-zyme ac-tiv-ity. MSCWJ-1 cells were grown
+
+Overfull \hbox (149.14952pt too wide) in paragraph at lines 72--75
+\T2A/cmr/m/n/12 as rediscretizing discards time information. https://cran.rstud
+io.com/web/packages/trajr/vignettes/trajr-
  []
 
 [4]
+Overfull \hbox (3.42003pt too wide) in paragraph at lines 83--86
+\T2A/cmr/m/n/12 person. The cultivation method is monolayer, the reseeding proc
+edure consists
+ []
 
-LaTeX Warning: Citation `tinevez2017trackmate' undefined on input line 93.
+
+Overfull \hbox (1.11667pt too wide) in paragraph at lines 87--93
+[]\T2A/cmr/m/n/12 Evaluated by $\OML/cmm/m/it/12 $\T2A/cmr/m/n/12 -galactosida
+se enzyme activity. MSCWJ-1 cells were grown
+ []
 
 
-LaTeX Warning: Citation `mclean2018trajr' undefined on input line 95.
+Overfull \hbox (33.35364pt too wide) in paragraph at lines 94--96
+\T2A/cmr/m/n/12 solution of paraformaldehyde for 10 minutes at room temperature
+ and permeabilized
+ []
 
 [5]
+Overfull \hbox (2.43198pt too wide) in paragraph at lines 104--108
+[]\T2A/cmr/m/n/12 For further analysis, the values of the $\OML/cmm/m/it/12 $\
+T2A/cmr/m/n/12 -Kendall rank correlation coefficient
+ []
 
-LaTeX Warning: Citation `team2014r' undefined on input line 127.
+
+LaTeX Warning: Citation `tinevez2017trackmate' undefined on input line 118.
+
+
+Overfull \hbox (8.94138pt too wide) in paragraph at lines 110--119
+\T2A/cmr/m/n/12 with the Cheddock scale: Values of the correlation coefficient 
+rxy Characteristic
+ []
+
+
+LaTeX Warning: Citation `mclean2018trajr' undefined on input line 120.
+
+
+Overfull \hbox (17.46008pt too wide) in paragraph at lines 126--132
+[]\T2A/cmr/m/n/12 High performance liquid chromatography For gel-chromatographi
+c separation
+ []
 
 [6]
-Overfull \hbox (6.93639pt too wide) in paragraph at lines 141--145
-\T2A/cmr/m/n/12 isons, the Bon-fer-roni method, the Benjamin-Yekuteli-Hochberg 
-method (FDR)
+Overfull \hbox (8.42358pt too wide) in paragraph at lines 133--149
+\T2A/cmr/m/n/12 removed, and cold 100% acetone was added to the precipitate, mi
+xed vigorously
+ []
+
+
+Overfull \hbox (2.81903pt too wide) in paragraph at lines 133--149
+\T2A/cmr/m/n/12 1979). Protein transfer from the gel to the Immobilon-P membran
+e (Millipore,
+ []
+
+
+Overfull \hbox (6.79198pt too wide) in paragraph at lines 133--149
+\T2A/cmr/m/n/12 antibodies to mouse antigens and goat antibodies to rabbit anti
+gens conjugated
  []
 
 [7]
 
-myo.tex:167: LaTeX Error: Environment threeparttable undefined.
+LaTeX Warning: Citation `team2014r' undefined on input line 152.
+
+
+Overfull \hbox (20.2705pt too wide) in paragraph at lines 150--157
+[]\T2A/cmr/m/n/12 Description of statistical analysis methods The study materia
+ls were subjected
+ []
+
+
+Overfull \hbox (18.56062pt too wide) in paragraph at lines 150--157
+\T2A/cmr/m/n/12 analysis. The accumulation, correction, systematization of the 
+initial information
+ []
+
+
+Overfull \hbox (10.5687pt too wide) in paragraph at lines 150--157
+\T2A/cmr/m/n/12 other than normal, Kruskal-Wallis criterion was used, which is 
+a non-parametric
+ []
+
+
+Overfull \hbox (22.11882pt too wide) in paragraph at lines 160--163
+[]\T2A/cmr/m/n/12 where H is the Kruskal-Wallis criterion, n is the total numbe
+r of measurements,
+ []
+
+
+Overfull \hbox (4.82985pt too wide) in paragraph at lines 166--170
+[]\T2A/cmr/m/n/12 Multiple Testing Correction In the course of multiple pairwis
+e comparisons,
+ []
+
+
+Overfull \hbox (5.16028pt too wide) in paragraph at lines 166--170
+\T2A/cmr/m/n/12 computing software environment and the scikit-posthocs package 
+(Terpilowski,
+ []
+
+[8]
+<fig0.jpeg, id=38, 621.82312pt x 434.37282pt>
+File: fig0.jpeg Graphic file (type jpg)
+<use fig0.jpeg>
+Package pdftex.def Info: fig0.jpeg  used on input line 188.
+(pdftex.def)             Requested size: 272.99881pt x 190.70042pt.
+<fig1.jpg, id=39, 597.432pt x 845.0772pt>
+File: fig1.jpg Graphic file (type jpg)
+<use fig1.jpg>
+Package pdftex.def Info: fig1.jpg  used on input line 200.
+(pdftex.def)             Requested size: 312.00119pt x 441.33821pt.
+<fig7.png, id=40, 1737.49126pt x 1023.825pt>
+File: fig7.png Graphic file (type png)
+<use fig7.png>
+Package pdftex.def Info: fig7.png  used on input line 207.
+(pdftex.def)             Requested size: 312.00119pt x 183.84312pt.
+<fig2.png, id=41, 656.4525pt x 504.88625pt>
+File: fig2.png Graphic file (type png)
+<use fig2.png>
+Package pdftex.def Info: fig2.png  used on input line 216.
+(pdftex.def)             Requested size: 312.00119pt x 239.96211pt.
+
+Overfull \hbox (7.91908pt too wide) in paragraph at lines 221--222
+\T2A/cmr/m/n/12 difference between groups. Pairwise t-test and t-test with Bonf
+erroni correction 
+ []
+
+[9 <./fig0.jpeg>]
+Overfull \hbox (5.4215pt too wide) in paragraph at lines 225--232
+\T2A/cmr/m/n/12 significantly different from the normal (p> 0.05) in all groups
+ of measurements.
+ []
+
+[10 <./fig1.jpg>] [11 <./fig7.png (PNG copy)> <./fig2.png (PNG copy)>]
+<fig3.png, id=51, 1593.955pt x 1063.975pt>
+File: fig3.png Graphic file (type png)
+<use fig3.png>
+Package pdftex.def Info: fig3.png  used on input line 236.
+(pdftex.def)             Requested size: 312.00119pt x 208.26169pt.
+
+Overfull \hbox (43.7555pt too wide) in paragraph at lines 246--255
+ [][] 
+ []
+
+
+myo.tex:265: LaTeX Error: Environment threeparttable undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 \begin{threeparttable}
+l.265 \begin{threeparttable}
                             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-myo.tex:168: LaTeX Error: Illegal character in array arg.
+myo.tex:266: LaTeX Error: Illegal character in array arg.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.168 \begin{tabular}{c l r f}
+l.266 \begin{tabular}{c l r f}
                               
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-myo.tex:171: Undefined control sequence.
-l.171 40 cells\tnote
+myo.tex:269: Undefined control sequence.
+l.269 40 cells\tnote
                     {b} & Cells & 40 & 1\tnote{a}  \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -897,8 +1169,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-myo.tex:171: Undefined control sequence.
-l.171 40 cells\tnote{b} & Cells & 40 & 1\tnote
+myo.tex:269: Undefined control sequence.
+l.269 40 cells\tnote{b} & Cells & 40 & 1\tnote
                                               {a}  \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -907,161 +1179,213 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-myo.tex:175: LaTeX Error: Environment tablenotes undefined.
+myo.tex:273: LaTeX Error: Environment tablenotes undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.175 \begin{tablenotes}
+l.273 \begin{tablenotes}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-myo.tex:176: LaTeX Error: Lonely \item--perhaps a missing list environment.
+myo.tex:274: LaTeX Error: Lonely \item--perhaps a missing list environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176 \item[a]
+l.274 \item[a]
                Mean ROI square.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 176
+Underfull \hbox (badness 10000) detected at line 274
 [][]
  []
 
 
-myo.tex:177: LaTeX Error: Lonely \item--perhaps a missing list environment.
+myo.tex:275: LaTeX Error: Lonely \item--perhaps a missing list environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.177 \item[b]
+l.275 \item[b]
                Manully selected.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 177
+Underfull \hbox (badness 10000) detected at line 275
 [][]
  []
 
 
-myo.tex:178: LaTeX Error: \begin{table} on input line 163 ended by \end{tableno
+myo.tex:276: LaTeX Error: \begin{table} on input line 261 ended by \end{tableno
 tes}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.178 \end{tablenotes}
+l.276 \end{tablenotes}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-myo.tex:179: LaTeX Error: \begin{table} on input line 163 ended by \end{threepa
+myo.tex:277: LaTeX Error: \begin{table} on input line 261 ended by \end{threepa
 rttable}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179 \end{threeparttable}
+l.277 \end{threeparttable}
                           
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<fig0.jpeg, id=33, 621.82312pt x 434.37282pt>
-File: fig0.jpeg Graphic file (type jpg)
-<use fig0.jpeg>
-Package pdftex.def Info: fig0.jpeg  used on input line 184.
-(pdftex.def)             Requested size: 272.99881pt x 190.70042pt.
-[8 <./fig0.jpeg>]
-<fig1.jpg, id=37, 597.432pt x 845.0772pt>
-File: fig1.jpg Graphic file (type jpg)
-<use fig1.jpg>
-Package pdftex.def Info: fig1.jpg  used on input line 196.
-(pdftex.def)             Requested size: 312.00119pt x 441.33821pt.
-<fig7.png, id=38, 1737.49126pt x 1023.825pt>
-File: fig7.png Graphic file (type png)
-<use fig7.png>
-Package pdftex.def Info: fig7.png  used on input line 203.
-(pdftex.def)             Requested size: 312.00119pt x 183.84312pt.
-<fig2.png, id=39, 656.4525pt x 504.88625pt>
-File: fig2.png Graphic file (type png)
-<use fig2.png>
-Package pdftex.def Info: fig2.png  used on input line 212.
-(pdftex.def)             Requested size: 312.00119pt x 239.96211pt.
- [9 <./fig1.jpg>] [10 <./fig7.png (PNG copy)> <./fig2.png (PNG copy)>]
-<fig3.png, id=46, 1593.955pt x 1063.975pt>
-File: fig3.png Graphic file (type png)
-<use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 232.
-(pdftex.def)             Requested size: 312.00119pt x 208.26169pt.
-<fig8.png, id=47, 1043.9pt x 1083.04625pt>
+<fig8.png, id=52, 1210.5225pt x 725.71124pt>
 File: fig8.png Graphic file (type png)
 <use fig8.png>
-Package pdftex.def Info: fig8.png  used on input line 254.
-(pdftex.def)             Requested size: 350.99762pt x 364.16547pt.
-<fig4.jpg, id=48, 1179.65718pt x 809.27344pt>
+Package pdftex.def Info: fig8.png  used on input line 281.
+(pdftex.def)             Requested size: 350.99762pt x 210.41765pt.
+<fig4.jpg, id=53, 1179.65718pt x 809.27344pt>
 File: fig4.jpg Graphic file (type jpg)
 <use fig4.jpg>
-Package pdftex.def Info: fig4.jpg  used on input line 262.
+Package pdftex.def Info: fig4.jpg  used on input line 289.
 (pdftex.def)             Requested size: 312.00119pt x 214.03659pt.
-<fig5.png, id=49, 847.165pt x 1054.94125pt>
+<fig5.png, id=54, 847.165pt x 1054.94125pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
-Package pdftex.def Info: fig5.png  used on input line 269.
+Package pdftex.def Info: fig5.png  used on input line 296.
 (pdftex.def)             Requested size: 312.00119pt x 388.51929pt.
- [11 <./fig3.png (PNG copy)>] [12 <./fig8.png (PNG copy)>] [13 <./fig4.jpg>] [1
-4 <./fig5.png (PNG copy)>]
+[12 <./fig3.png (PNG copy)>]
+Overfull \hbox (6.33917pt too wide) in paragraph at lines 309--320
+[]\T2A/cmr/m/n/12 Such as maintaining cell shape, its migration, interaction wi
+th the substrate
+ []
 
-LaTeX Warning: Citation `elliott2015myosin' undefined on input line 299.
 
-[15]
+Overfull \hbox (13.97086pt too wide) in paragraph at lines 309--320
+\T2A/cmr/m/n/12 the other hand, a number of actin-binding proteins prevent the 
+depolymerization
+ []
 
-LaTeX Warning: Citation `vicente2009non' undefined on input line 306.
 
-[16] (myo.bbl
+Overfull \hbox (10.70766pt too wide) in paragraph at lines 309--320
+\T2A/cmr/m/n/12 engines are closely coordinated by conservative protein complex
+es to orchestrate
+ []
+
+
+Overfull \hbox (4.44244pt too wide) in paragraph at lines 309--320
+\T2A/cmr/m/n/12 subcellular compartments, thereby limiting the formation of spe
+cific structures
+ []
+
+
+Overfull \hbox (11.49084pt too wide) in paragraph at lines 309--320
+\T2A/cmr/m/n/12 limit Currently, two main theories about the mechanisms of agin
+g are competing
+ []
+
+
+Overfull \hbox (2.61511pt too wide) in paragraph at lines 309--320
+\T2A/cmr/m/n/12 with each other: telomeric and oxidative (it is free radical, i
+t is mitochondrial).
+ []
+
+
+Overfull \hbox (2.82434pt too wide) in paragraph at lines 309--320
+\T2A/cmr/m/n/12 and stop proliferation (Hayflick, Moorhead, 1961). This figure 
+of 50 doublings,
+ []
+
+
+Overfull \hbox (2.74135pt too wide) in paragraph at lines 309--320
+\T2A/cmr/m/n/12 called the Hayflick limit, is fairly arbitrary, since it is not
+ possible to accurately
+ []
+
+[13 <./fig8.png (PNG copy)>] [14 <./fig4.jpg>] [15 <./fig5.png (PNG copy)>]
+
+LaTeX Warning: Citation `elliott2015myosin' undefined on input line 326.
+
+
+Overfull \hbox (3.3981pt too wide) in paragraph at lines 326--327
+\T2A/cmr/m/n/12 minimizes cell-scale branching by recognizing and minimizing lo
+cal cell-surface
+ []
+
+
+Overfull \hbox (13.07883pt too wide) in paragraph at lines 328--332
+\T2A/cmr/m/n/12 of normal and transformed fibroblasts. The role of microfilamen
+t polymerization
+ []
+
+
+Overfull \hbox (6.13925pt too wide) in paragraph at lines 328--332
+\T2A/cmr/m/n/12 disrupts normal morphogenetic reactions and cell mobility, lead
+ing to processes
+ []
+
+
+Overfull \hbox (8.6325pt too wide) in paragraph at lines 328--332
+\T2A/cmr/m/n/12 such as invasive growth and metastasis (Rovno, Vasiliev, 2004).
+ Reorganization
+ []
+
+[16]
+
+LaTeX Warning: Citation `vicente2009non' undefined on input line 333.
+
+
+Overfull \hbox (0.52689pt too wide) in paragraph at lines 340--341
+\T2A/cmr/m/n/12 doloremque laudantium, totam rem aperiam, eaque ipsa quae ab il
+lo inventore
+ []
+
+(myo.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [17] (myo.aux)
+) [17] [18] (myo.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 18312 strings out of 492895
- 321176 string characters out of 3125603
- 407874 words of memory out of 3000000
- 22061 multiletter control sequences out of 15000+200000
- 543623 words of font info for 58 fonts, out of 3000000 for 9000
+ 18216 strings out of 492895
+ 319874 string characters out of 3125603
+ 399910 words of memory out of 3000000
+ 21967 multiletter control sequences out of 15000+200000
+ 545257 words of font info for 60 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,9n,63p,1566b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx17
 28.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
-rm1200.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi60
-0\larm1440.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/d
-pi600\larm2074.pk><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmmi12.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmr12.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/1/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/1/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on myo.pdf (17 pages, 5112621 bytes).
+rm1440.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi60
+0\larm2074.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/d
+pi600\larm1095.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t
+2a/dpi600\labx1095.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/
+lh-t2a/dpi600\larm1200.pk><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/1/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/1/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/1/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on myo.pdf (18 pages, 5370244 bytes).
 PDF statistics:
- 262 PDF objects out of 1000 (max. 8388607)
+ 299 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

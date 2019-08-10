@@ -1,4 +1,7 @@
 \documentclass[a4paper,12pt]{article}
+\documentclass[english,authoryear]{elsarticle}
+\usepackage{babel}
+\usepackage{apalike}
 \usepackage{graphicx}
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -14,13 +17,35 @@
 \title{Analysis of myosin-9-containing protein complexes in senescent MSCWJ-1 cells}
 \begin{document}
 \date{today}
+
+\address[rvt]{Department of Physics, University of Aaaaa, Aaaaa St,
+1234 City, Country }
+
+\address[focal]{Institute of Technology, University of Bbbb,
+Bbbb St, 4321 City, Country}
+
+\begin{abstract}
+The analysis of data from measurements is analyzed.
+\end{abstract}
+
+\begin{keyword}
+key1\sep key2\sep key3\sep key4\sep key5.
+\end{keyword}
+
 \maketitle
+
 \author[1,*]{Danila Bobkov}
 \author[2]{Anastasia Polyanskaya}
 \author[3]{Anastasia Musorina}
 \author[4]{Ekaterina Lomert}
 \author[5]{Sergey Shabelnikov}
 \author[6]{Galina Polyanskaya}
+
+\author[rvt]{M.~Surname\corref{cor1}}
+\ead{aaaaa@aaaa.com}
+\author[focal]{A.B.~Doe}
+\author[rvt]{C.D.~Smith}
+\cortext[cor1]{Corresponding author}
 %\author{Danila Bobkov, Anastasia Polyanskaya, Anastasia Musorina, Ekaterina Lomert, Sergey Shabelnikov, Galina Polyanskaya}
 %\affil[1,2,3]{Institute of Cytology of the Russian Academy of Science, 194064 Tikhoretsky ave. 4, St-Petersburg, Russia}
 
@@ -158,27 +183,6 @@ Morphological analysis of the cell line during long-term cultivation showed homo
 The process of replicative aging during long-term cultivation of cells of all lines was assessed by the activity of $\beta$-galactosidase in cell populations (Table 1).
 
 
-Table 1
-
-\begin{table}[hbt!]
-\caption{An example table}
-\label{tab:widgets}
-\centering
-\begin{threeparttable}
-\begin{tabular}{c l r f}
-\hline
-Code & Item & Quantity & Square, $\mu m^2$  \\\hline
-40 cells\tnote{b} & Cells & 40 & 1\tnote{a}  \\
-24x24 grid & ROIs & 576 & 318.2656   \\
-\hline
-\end{tabular}
-\begin{tablenotes}
-\item[a] Mean ROI square.
-\item[b] Manully selected.
-\end{tablenotes}
-\end{threeparttable}
-\end{table}
-
 \begin{figure}[hbt!]
 \centering
 \includegraphics[width=0.7\linewidth]{fig0.jpeg}
@@ -239,15 +243,38 @@ Figure \ref{fig:fig3} shows aRhoA in the nucleus...
 
 \begin{table}
 \centering
-\begin{tabular}{|l|c|c|c|}
+\begin{tabular}{|l|c|c|c|c|}
  \hline
- Passage & Mean Speed, $\mu$m/h & Length, $\mu$m  & Distance, $\mu$m \\
+ Passage & Mean Speed, $\mu$m/h & Max Speed, $\mu$m/h & Length, $\mu$m  & Distance, $\mu$m \\
  \hline
- 9 & 38 $\pm$ 15 & 911 $\pm$ 362 &  278 $\pm$ 170 \\
- 15 & 25 $\pm$ 11 & 595 $\pm$ 263 & 212 $\pm$ 163  \\
- 36 & 18 $\pm$ 8 & 432 $\pm$ 175 & 215 $\pm$ 156 \\
+ 9 & 38.3 $\pm$ 15.2 & 164.9 $\pm$ 56.4 & 911.3 $\pm$ 362.4 &  278.2 $\pm$ 169.8 \\
+ 15 & 25.0 $\pm$ 11.1 & 127.9 $\pm$ 59.3& 595.1 $\pm$ 263.4 & 211.7 $\pm$ 162.8  \\
+ 36 & 18.3 $\pm$ 7.7 & 57.1 $\pm$ 27.8 & 431.6 $\pm$ 174.5 & 215.1 $\pm$ 156.4 \\
  \hline
 \end{tabular}
+\end{table}
+
+
+
+Table 1
+
+\begin{table}[hbt!]
+\caption{An example table}
+\label{tab:widgets}
+\centering
+\begin{threeparttable}
+\begin{tabular}{c l r f}
+\hline
+Code & Item & Quantity & Square, $\mu m^2$  \\\hline
+40 cells\tnote{b} & Cells & 40 & 1\tnote{a}  \\
+24x24 grid & ROIs & 576 & 318.2656   \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\item[a] Mean ROI square.
+\item[b] Manully selected.
+\end{tablenotes}
+\end{threeparttable}
 \end{table}
 
 \begin{figure}
@@ -321,7 +348,9 @@ Author2 designed the research. Author1 carried out all simulations, analyzed the
 \section*{Acknowledgments}
 
 We thank G. Harrison, B. Harper, and J. Doe for their help.
-
-\bibliographystyle{apacite}
+\bibliographystyle{apalike}
+%\bibliographystyle{apacite}
 \bibliography{mybib.bib}
+% \bibliographystyle{apacite}
+% \bibliography{mybib.bib}
 \end{document}
