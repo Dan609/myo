@@ -18,11 +18,18 @@
 \begin{document}
 \date{today}
 
-\address[rvt]{Department of Physics, University of Aaaaa, Aaaaa St,
-1234 City, Country }
+\author[rvt]{Danila Bobkov\corref{cor1}}
+\ead{bobkov@incras.ru}
+\author[rvt]{Anastasia Polyanskaya}
+\author[rvt]{Anastasia Musorina}
+\author[rvt]{Anastasia Polyanskaya}
+\author[rvt]{Sergey Shabelnikov}
+\author[rvt]{Galina Polyanskaya}
+\cortext[cor1]{Corresponding author}
+%\author{Danila Bobkov, Anastasia Polyanskaya, Anastasia Musorina, Ekaterina Lomert, Sergey Shabelnikov, Galina Polyanskaya}
+%\affil[1,2,3]{Institute of Cytology of the Russian Academy of Science, 194064 Tikhoretsky ave. 4, St-Petersburg, Russia}
+\address[rvt]{Institute of Cytology of the Russian Academy of Science, 194064 Tikhoretsky ave. 4, St-Petersburg, Russia }
 
-\address[focal]{Institute of Technology, University of Bbbb,
-Bbbb St, 4321 City, Country}
 
 \begin{abstract}
 The analysis of data from measurements is analyzed.
@@ -33,21 +40,6 @@ key1\sep key2\sep key3\sep key4\sep key5.
 \end{keyword}
 
 \maketitle
-
-\author[1,*]{Danila Bobkov}
-\author[2]{Anastasia Polyanskaya}
-\author[3]{Anastasia Musorina}
-\author[4]{Ekaterina Lomert}
-\author[5]{Sergey Shabelnikov}
-\author[6]{Galina Polyanskaya}
-
-\author[rvt]{M.~Surname\corref{cor1}}
-\ead{aaaaa@aaaa.com}
-\author[focal]{A.B.~Doe}
-\author[rvt]{C.D.~Smith}
-\cortext[cor1]{Corresponding author}
-%\author{Danila Bobkov, Anastasia Polyanskaya, Anastasia Musorina, Ekaterina Lomert, Sergey Shabelnikov, Galina Polyanskaya}
-%\affil[1,2,3]{Institute of Cytology of the Russian Academy of Science, 194064 Tikhoretsky ave. 4, St-Petersburg, Russia}
 
 \section{Abstract}
 
@@ -185,7 +177,7 @@ The process of replicative aging during long-term cultivation of cells of all li
 
 \begin{figure}[hbt!]
 \centering
-\includegraphics[width=0.7\linewidth]{fig0.jpeg}
+\includegraphics[width=0.5\linewidth]{fig0.jpeg}
 \caption{The proportion of cells with pronounced activity of $\beta$-galactosidase ($\beta$-gal)
  in the process of cultivating the MSCWJ-1 line}
 \label{fig:tab}
@@ -197,14 +189,14 @@ Note. Given the mean values and their errors when counting at least 1000 cells i
 
 \begin{figure}[hbt!]
 \centering
-\includegraphics[width=0.8\linewidth]{fig1.jpg}
+\includegraphics[width=0.9\linewidth]{fig1.jpg}
 \caption{Different passages staining of F-actin (red) and myosin-9 (green)}
 \label{fig:fig1}
 \end{figure}
 
 \begin{figure}[hbt!]
 \centering
-\includegraphics[width=0.8\linewidth]{fig7.png}
+\includegraphics[width=0.9\linewidth]{fig7.png}
 \caption{Different passages staining of F-actin (red) and myosin-9 (green)}
 \label{fig:fig7}
 \end{figure}
@@ -213,17 +205,24 @@ Fig.1. Confocal microscopy of fixed cells ..., at different passages ... 6 p - c
 
 \begin{figure}[hbt!]
 \centering
-\includegraphics[width=0.8\linewidth]{fig2.png}
+\includegraphics[width=0.9\linewidth]{fig2.png}
 \caption{Different passages staining of F-actin (red) and myosin-9 (green)}
 \label{fig:fig2}
 \end{figure}
 
 Fig.2. Kendal Miozin-9 and F-actin colocalization coefficient in р7-28р. Mean and standard error, Dynamics with confidence intervals, significant difference between groups. Pairwise t-test and t-test with Bonferroni correction
 
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=0.9\linewidth]{fig6.png}
+\caption{Different passages staining of F-actin (red) and alpha-actintin-4 (green)}
+\label{fig:fig6}
+\end{figure}
+
 Colocalization of proteins
 
 \begin{table}
-  \caption{Kruskal-Wallis rank sum test}
+  \caption{Kruskal-Wallis rank sum test results for myosin-9 and F-actin colocalization coefficients}
   \label{fig:fig4}
 \centering
 \begin{tabular}{l|ccc}
@@ -244,9 +243,16 @@ The results of the Shapiro-Wilk test indicate that the distribution of the value
 However, in the Shapiro-Wilk test, the p-value for the p25 sample turned out to be 0.05657, which is only slightly higher than the significance criterion chosen by us. At the same time, quantile plots show deviations from normality for high and low index values (Fig.).
 Therefore, to eliminate doubts about the normality of the data, we also used the non-parametric Wilcoxon sign rank test to check the differences between paired samples of independent measurements by the level of the tau-Kendall rank correlation coefficient.
 
+\begin{figure}
+  \includegraphics[width=0.9\linewidth]{fig4.png}
+  \caption{Confocal view of RhoA in the nucleus}
+  \label{fig:fig4}
+  \centering
+\end{figure}
+
 
 \begin{figure}
-  \includegraphics[width=0.9\linewidth]{fig3.png}
+  \includegraphics[width=0.8\linewidth]{fig3.png}
   \caption{Fig.3. RhoA in the nucleus, along the stress In the perinuclear region, diffusely in the cytoplasm}
   \label{fig:fig3}
   \centering
@@ -254,12 +260,26 @@ Therefore, to eliminate doubts about the normality of the data, we also used the
 
 Figure \ref{fig:fig3} shows aRhoA in the nucleus...
 
-\begin{figure}
-  \includegraphics[width=0.9\linewidth]{fig4.png}
-  \caption{Confocal view of RhoA in the nucleus}
+\begin{table}
+  \caption{Kruskal-Wallis rank sum test results for RhoA colocalization}
   \label{fig:fig4}
+\centering
+\begin{tabular}{l|ccc}
+ Colocalization with & chi-squared & df & p-value  \\
+ F-actin & 5.8289 & 3 & 0.1202 \\
+ Nucleus & 32.203 & 3 &  4.742e-07
+
+\end{tabular}
+\end{table}
+
+
+\begin{figure}
+  \includegraphics[width=0.9\linewidth]{fig8.png}
+  \caption{Cell movement analisys}
+  \label{fig:fig8}
   \centering
 \end{figure}
+
 
 Table 1
 
@@ -275,13 +295,6 @@ Table 1
  \hline
 \end{tabular}
 \end{table}
-
-\begin{figure}
-  \includegraphics[width=0.9\linewidth]{fig8.png}
-  \caption{Cell movement analisys}
-  \label{fig:fig8}
-  \centering
-\end{figure}
 
 
 \begin{figure}[hbt!]

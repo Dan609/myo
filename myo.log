@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  11 AUG 2019 19:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  11 AUG 2019 21:19
 entering extended mode
 **./myo.tex
 (myo.tex
@@ -727,6 +727,9 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 
 LaTeX Warning: Label `fig:fig4' multiply defined.
 
+
+LaTeX Warning: Label `fig:fig4' multiply defined.
+
 )
 \openout1 = `myo.aux'.
 
@@ -832,16 +835,16 @@ Package gensymb Warning: Not defining \micro.
 
 Package chemgreek Info: Activating mapping `default' on line 18.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 35.
+LaTeX Font Info:    Try loading font information for U+msa on input line 42.
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 35.
+LaTeX Font Info:    Try loading font information for U+msb on input line 42.
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 35.
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 42.
 
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2acmtt.fd"
@@ -855,13 +858,13 @@ Overfull \hbox (2.22168pt too wide) has occurred while \output is active
 
 
 {C:/Users/1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-Overfull \hbox (0.39154pt too wide) in paragraph at lines 70--71
+Overfull \hbox (0.39154pt too wide) in paragraph at lines 62--63
 []\T2A/cmr/m/n/10 TrajExpectedSquareDisplacement Re-turns the ex-pected square 
 dis-place-ment
  []
 
-myo.tex:73: Misplaced alignment tab character &.
-l.73 ...comotor mimicry in butterflies (Kitamura &
+myo.tex:65: Misplaced alignment tab character &.
+l.65 ...comotor mimicry in butterflies (Kitamura &
                                                    Imafuku, 2015). Direction...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -870,8 +873,8 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-myo.tex:74: You can't use `macro parameter character #' in horizontal mode.
-l.74 ...kages/trajr/vignettes/trajr-vignette.html#
+myo.tex:66: You can't use `macro parameter character #' in horizontal mode.
+l.66 ...kages/trajr/vignettes/trajr-vignette.html#
                                                   smoothing-trajectories
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -879,7 +882,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Overfull \hbox (70.52817pt too wide) in paragraph at lines 72--75
+Overfull \hbox (70.52817pt too wide) in paragraph at lines 64--67
 \T2A/cmr/m/n/10 ma-tion. https://cran.rstudio.com/web/packages/trajr/vignettes/
 trajr-vignette.htmlsmoothing-
  []
@@ -887,89 +890,94 @@ trajr-vignette.htmlsmoothing-
 [3]
 
 Package natbib Warning: Citation `tinevez2017trackmate' on page 4 undefined on 
-input line 118.
+input line 110.
 
 
 Package natbib Warning: Citation `mclean2018trajr' on page 4 undefined on input
- line 120.
+ line 112.
 
 [4] [5]
 
 Package natbib Warning: Citation `team2014r' on page 6 undefined on input line 
-152.
+144.
 
 
-Overfull \hbox (10.94086pt too wide) in paragraph at lines 150--157
+Overfull \hbox (10.94086pt too wide) in paragraph at lines 142--149
 \T2A/cmr/m/n/10 jected to sta-tis-ti-cal pro-cess-ing us-ing the meth-ods of pa
 ra-met-ric and non-parametric
  []
 
 [6]
-<fig0.jpeg, id=33, 621.82312pt x 434.37282pt>
+<fig0.jpeg, id=35, 621.82312pt x 434.37282pt>
 File: fig0.jpeg Graphic file (type jpg)
 <use fig0.jpeg>
-Package pdftex.def Info: fig0.jpeg  used on input line 188.
-(pdftex.def)             Requested size: 241.49895pt x 168.69551pt.
-<fig1.jpg, id=34, 597.432pt x 845.0772pt>
+Package pdftex.def Info: fig0.jpeg  used on input line 180.
+(pdftex.def)             Requested size: 172.5pt x 120.4968pt.
+<fig1.jpg, id=36, 597.432pt x 845.0772pt>
 File: fig1.jpg Graphic file (type jpg)
 <use fig1.jpg>
-Package pdftex.def Info: fig1.jpg  used on input line 200.
-(pdftex.def)             Requested size: 276.00105pt x 390.41655pt.
-<fig7.png, id=35, 1737.49126pt x 1023.825pt>
+Package pdftex.def Info: fig1.jpg  used on input line 192.
+(pdftex.def)             Requested size: 310.4979pt x 439.21057pt.
+<fig7.png, id=37, 1737.49126pt x 1023.825pt>
 File: fig7.png Graphic file (type png)
 <use fig7.png>
-Package pdftex.def Info: fig7.png  used on input line 207.
-(pdftex.def)             Requested size: 276.00105pt x 162.62805pt.
-<fig2.png, id=36, 1926.19624pt x 1083.04625pt>
+Package pdftex.def Info: fig7.png  used on input line 199.
+(pdftex.def)             Requested size: 310.4979pt x 182.95265pt.
+<fig2.png, id=38, 1926.19624pt x 1083.04625pt>
 File: fig2.png Graphic file (type png)
 <use fig2.png>
-Package pdftex.def Info: fig2.png  used on input line 216.
-(pdftex.def)             Requested size: 276.00105pt x 155.17851pt.
- [7 <./fig0.jpeg>] [8 <./fig1.jpg>]
-<fig3.png, id=45, 1593.955pt x 1063.975pt>
-File: fig3.png Graphic file (type png)
-<use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 249.
-(pdftex.def)             Requested size: 310.4979pt x 207.25511pt.
-<fig4.png, id=46, 1179.40625pt x 1083.04625pt>
+Package pdftex.def Info: fig2.png  used on input line 208.
+(pdftex.def)             Requested size: 310.4979pt x 174.57996pt.
+<fig6.png, id=39, 1163.34625pt x 1037.8775pt>
+File: fig6.png Graphic file (type png)
+<use fig6.png>
+Package pdftex.def Info: fig6.png  used on input line 217.
+(pdftex.def)             Requested size: 310.4979pt x 277.01582pt.
+ [7 <./fig0.jpeg>] [8 <./fig1.jpg>] [9 <./fig7.png (PNG copy)> <./fig2.png (PNG
+ copy)>]
+<fig4.png, id=51, 1161.33875pt x 1083.04625pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
-Package pdftex.def Info: fig4.png  used on input line 258.
-(pdftex.def)             Requested size: 310.4979pt x 285.12193pt.
+Package pdftex.def Info: fig4.png  used on input line 247.
+(pdftex.def)             Requested size: 310.4979pt x 289.56741pt.
+<fig3.png, id=52, 1750.54pt x 1083.04625pt>
+File: fig3.png Graphic file (type png)
+<use fig3.png>
+Package pdftex.def Info: fig3.png  used on input line 255.
+(pdftex.def)             Requested size: 276.00105pt x 170.74594pt.
+<fig8.png, id=53, 1845.89626pt x 1083.04625pt>
+File: fig8.png Graphic file (type png)
+<use fig8.png>
+Package pdftex.def Info: fig8.png  used on input line 277.
+(pdftex.def)             Requested size: 310.4979pt x 182.16536pt.
 
-Overfull \hbox (32.78572pt too wide) in paragraph at lines 268--277
+Overfull \hbox (32.78572pt too wide) in paragraph at lines 288--297
  [][] 
  []
 
-<fig8.png, id=47, 1845.89626pt x 1083.04625pt>
-File: fig8.png Graphic file (type png)
-<use fig8.png>
-Package pdftex.def Info: fig8.png  used on input line 280.
-(pdftex.def)             Requested size: 310.4979pt x 182.16536pt.
-<fig5.png, id=48, 1514.65875pt x 1083.04625pt>
+<fig5.png, id=54, 1514.65875pt x 1083.04625pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
-Package pdftex.def Info: fig5.png  used on input line 289.
+Package pdftex.def Info: fig5.png  used on input line 302.
 (pdftex.def)             Requested size: 276.00105pt x 197.35269pt.
-[9 <./fig7.png (PNG copy)> <./fig2.png (PNG copy)>] [10 <./fig3.png (PNG copy)>
-] [11 <./fig4.png (PNG copy)> <./fig8.png (PNG copy)>] [12 <./fig5.png (PNG cop
-y)>]
+[10 <./fig6.png (PNG copy)>] [11 <./fig4.png (PNG copy)> <./fig3.png (PNG copy)
+>] [12 <./fig8.png (PNG copy)>] [13 <./fig5.png (PNG copy)>]
 
-Package natbib Warning: Citation `elliott2015myosin' on page 13 undefined on in
-put line 319.
+Package natbib Warning: Citation `elliott2015myosin' on page 14 undefined on in
+put line 332.
 
-[13]
+[14]
 
-Package natbib Warning: Citation `vicente2009non' on page 14 undefined on input
- line 326.
+Package natbib Warning: Citation `vicente2009non' on page 15 undefined on input
+ line 339.
 
 
-Overfull \hbox (5.33478pt too wide) in paragraph at lines 335--336
+Overfull \hbox (5.33478pt too wide) in paragraph at lines 348--349
 []\T2A/cmr/m/n/10 Replicative ag-ing of hu-man mes-enchy-mal stem cells is ac-c
 om-pa-nied by changes
  []
 
-[14] (myo.bbl
+[15] (myo.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
@@ -977,38 +985,40 @@ Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
 Package natbib Warning: There were undefined citations.
 
-[15] (myo.aux)
+[16] (myo.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18382 strings out of 492895
- 321848 string characters out of 3125603
- 408685 words of memory out of 3000000
- 22122 multiletter control sequences out of 15000+200000
- 544095 words of font info for 53 fonts, out of 3000000 for 9000
+ 18390 strings out of 492895
+ 321937 string characters out of 3125603
+ 408699 words of memory out of 3000000
+ 22128 multiletter control sequences out of 15000+200000
+ 544901 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,9n,63p,1551b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm08
+ <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt08
 00.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
-tt0800.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi60
+rm0800.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi60
 0\lati1000.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/d
-pi600\larm1000.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t
-2a/dpi600\labx1000.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/
-lh-t2a/dpi600\lati0800.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
-/lh/lh-t2a/dpi600\lati0600.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/lj
-four/lh/lh-t2a/dpi600\larm1440.pk><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/1/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/1/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/1/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/1/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
-Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.
-pfb>
-Output written on myo.pdf (15 pages, 7097145 bytes).
+pi600\labx1000.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t
+2a/dpi600\lati0800.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/
+lh-t2a/dpi600\lati0600.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
+/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/lj
+four/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/p
+k/ljfour/lh/lh-t2a/dpi600\larm1440.pk><C:/Users/1/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/1/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/1/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/1/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users
+/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+<C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy6.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmsy7.pfb>
+Output written on myo.pdf (16 pages, 7598734 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
+ 404 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

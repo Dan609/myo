@@ -173,12 +173,13 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmtt.fd
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmtt.fd
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\latt0800.tfm
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\larm1440.tfm
-INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\lati0600.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\larm0700.tfm
+INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\lati0600.tfm
 OUTPUT myo.pdf
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT fig0.jpeg
@@ -201,16 +202,21 @@ INPUT .\fig2.png
 INPUT .\fig2.png
 INPUT .\fig2.png
 INPUT .\fig2.png
-INPUT fig3.png
-INPUT .\fig3.png
-INPUT .\fig3.png
-INPUT .\fig3.png
-INPUT .\fig3.png
+INPUT fig6.png
+INPUT .\fig6.png
+INPUT .\fig6.png
+INPUT .\fig6.png
+INPUT .\fig6.png
 INPUT fig4.png
 INPUT .\fig4.png
 INPUT .\fig4.png
 INPUT .\fig4.png
 INPUT .\fig4.png
+INPUT fig3.png
+INPUT .\fig3.png
+INPUT .\fig3.png
+INPUT .\fig3.png
+INPUT .\fig3.png
 INPUT fig8.png
 INPUT .\fig8.png
 INPUT .\fig8.png
@@ -224,20 +230,22 @@ INPUT .\fig5.png
 INPUT myo.bbl
 INPUT myo.bbl
 INPUT myo.aux
-INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0800.pk
-INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0800.pk
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt0800.pk
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt0800.pk
+INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0800.pk
+INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0800.pk
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati1000.pk
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati1000.pk
-INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk
-INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1000.pk
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1000.pk
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati0800.pk
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati0800.pk
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati0600.pk
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati0600.pk
+INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0700.pk
+INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0700.pk
+INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk
+INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
@@ -250,5 +258,7 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\c
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy6.pfb
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy6.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy7.pfb
