@@ -222,6 +222,20 @@ Fig.2. Kendal Miozin-9 and F-actin colocalization coefficient in р7-28р. Mean 
 
 Colocalization of proteins
 
+\begin{table}
+  \caption{Kruskal-Wallis rank sum test}
+  \label{fig:fig4}
+\centering
+\begin{tabular}{l|ccc}
+ Colocalization coefficient & chi-squared & df & p-value  \\
+ Kendall's Tau-b & 34.669 & 10 & 0.0001422 \\
+ Spearman's R & 34.373 & 10 &  0.0001596 \\
+ Manders' M & 16.107 & 10 & 0.09661 \\
+ Pearson's R & 15.152 & 10 & 0.1266
+
+\end{tabular}
+\end{table}
+
 To check the data for normality, we applied the Shapiro-Wilk criterion.
 The results of the Shapiro-Wilk test for measurements are presented in the table:
 ...
@@ -231,15 +245,23 @@ However, in the Shapiro-Wilk test, the p-value for the p25 sample turned out to 
 Therefore, to eliminate doubts about the normality of the data, we also used the non-parametric Wilcoxon sign rank test to check the differences between paired samples of independent measurements by the level of the tau-Kendall rank correlation coefficient.
 
 
-
 \begin{figure}
-  \includegraphics[width=0.8\linewidth]{fig3.png}
+  \includegraphics[width=0.9\linewidth]{fig3.png}
   \caption{Fig.3. RhoA in the nucleus, along the stress In the perinuclear region, diffusely in the cytoplasm}
   \label{fig:fig3}
   \centering
 \end{figure}
 
 Figure \ref{fig:fig3} shows aRhoA in the nucleus...
+
+\begin{figure}
+  \includegraphics[width=0.9\linewidth]{fig4.png}
+  \caption{Confocal view of RhoA in the nucleus}
+  \label{fig:fig4}
+  \centering
+\end{figure}
+
+Table 1
 
 \begin{table}
 \centering
@@ -252,29 +274,6 @@ Figure \ref{fig:fig3} shows aRhoA in the nucleus...
  36 & 18.3 $\pm$ 7.7 & 57.1 $\pm$ 27.8 & 431.6 $\pm$ 174.5 & 215.1 $\pm$ 156.4 \\
  \hline
 \end{tabular}
-\end{table}
-
-
-
-Table 1
-
-\begin{table}[hbt!]
-\caption{An example table}
-\label{tab:widgets}
-\centering
-\begin{threeparttable}
-\begin{tabular}{c l r f}
-\hline
-Code & Item & Quantity & Square, $\mu m^2$  \\\hline
-40 cells\tnote{b} & Cells & 40 & 1\tnote{a}  \\
-24x24 grid & ROIs & 576 & 318.2656   \\
-\hline
-\end{tabular}
-\begin{tablenotes}
-\item[a] Mean ROI square.
-\item[b] Manully selected.
-\end{tablenotes}
-\end{threeparttable}
 \end{table}
 
 \begin{figure}
