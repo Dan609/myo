@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex myo"] 1565540975 "myo.aux" "myo.bbl" "myo" 1565540982
+["bibtex myo"] 1565541776 "myo.aux" "myo.bbl" "myo" 1565541785
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
   "mybib.bib" 1563806796 64252 242673ee40b583f442ed37ee60ebbff4 ""
-  "myo.aux" 1565540980 3039 d678200b792d76225382d992a9d5fdac "pdflatex"
+  "myo.aux" 1565541783 2907 64d32a3ad9e2b37e37cdfda69f7c94a8 "pdflatex"
   (generated)
-  "myo.blg"
   "myo.bbl"
-["pdflatex"] 1565540976 "myo.tex" "myo.pdf" "myo" 1565540982
+  "myo.blg"
+["pdflatex"] 1565541777 "myo.tex" "myo.pdf" "myo" 1565541785
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1000.pk" 1565462790 23468 2764712db66ece9360f5cfc2602b2925 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm0800.pk" 1565462777 18244 b65f1ffe18c93eb7570c0ec00f566da3 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1000.pk" 1565462786 22324 bf386477759f55a1ca0c1e4178017a7c ""
@@ -117,17 +117,16 @@
   "fig1.jpg" 1556748914 1225725 c0a0e8563ad2a2ff6f9f2fe78dc37ddc ""
   "fig2.png" 1565540776 436120 f6c658390fb4448071065e1195b0160c ""
   "fig3.png" 1557148450 456488 51188146a476fe6c843507bccbf6bb97 ""
-  "fig4.jpg" 1556749952 190399 8a693f7c0b63f0f5e02bdd3cfe8afd14 ""
   "fig4.png" 1557156026 825155 0339d2f17eb3eecd8dbc73b9016c4df7 ""
-  "fig5.png" 1559150123 285446 983b224f3466e3b8b982d1e08e3ef82d ""
+  "fig5.png" 1565541742 495743 c471cdb9816c604220d8ffd128c49150 ""
   "fig7.png" 1559150476 2397268 21e44de026355a66f1a4db023ef34b22 ""
   "fig8.png" 1565462649 1002865 aee270456b0e0b74f13b29e63176173e ""
-  "myo.aux" 1565540980 3039 d678200b792d76225382d992a9d5fdac "pdflatex"
-  "myo.bbl" 1565540975 52 0eba253fc001332e731e8aba3f23127b "bibtex myo"
-  "myo.spl" 1565540977 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "myo.tex" 1565540967 35018 b23aa61606c7a64e17d3c8a568b9ed48 ""
+  "myo.aux" 1565541783 2907 64d32a3ad9e2b37e37cdfda69f7c94a8 "pdflatex"
+  "myo.bbl" 1565541776 52 0eba253fc001332e731e8aba3f23127b "bibtex myo"
+  "myo.spl" 1565541778 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "myo.tex" 1565541767 34898 7634c3abb696f6223dd514958fa67a74 ""
   (generated)
-  "myo.pdf"
-  "myo.aux"
-  "myo.spl"
   "myo.log"
+  "myo.aux"
+  "myo.pdf"
+  "myo.spl"

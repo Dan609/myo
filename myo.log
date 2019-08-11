@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  11 AUG 2019 19:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  11 AUG 2019 19:42
 entering extended mode
 **./myo.tex
 (myo.tex
@@ -727,9 +727,6 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 
 LaTeX Warning: Label `fig:fig4' multiply defined.
 
-
-LaTeX Warning: Label `fig:fig4' multiply defined.
-
 )
 \openout1 = `myo.aux'.
 
@@ -949,35 +946,30 @@ File: fig8.png Graphic file (type png)
 <use fig8.png>
 Package pdftex.def Info: fig8.png  used on input line 280.
 (pdftex.def)             Requested size: 310.4979pt x 182.16536pt.
-<fig4.jpg, id=48, 1179.65718pt x 809.27344pt>
-File: fig4.jpg Graphic file (type jpg)
-<use fig4.jpg>
-Package pdftex.def Info: fig4.jpg  used on input line 288.
-(pdftex.def)             Requested size: 276.00105pt x 189.33958pt.
-<fig5.png, id=49, 847.165pt x 1054.94125pt>
+<fig5.png, id=48, 1514.65875pt x 1083.04625pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
-Package pdftex.def Info: fig5.png  used on input line 295.
-(pdftex.def)             Requested size: 276.00105pt x 343.68889pt.
+Package pdftex.def Info: fig5.png  used on input line 289.
+(pdftex.def)             Requested size: 276.00105pt x 197.35269pt.
 [9 <./fig7.png (PNG copy)> <./fig2.png (PNG copy)>] [10 <./fig3.png (PNG copy)>
-] [11 <./fig4.png (PNG copy)> <./fig8.png (PNG copy)>] [12 <./fig4.jpg>]
-[13 <./fig5.png (PNG copy)>]
+] [11 <./fig4.png (PNG copy)> <./fig8.png (PNG copy)>] [12 <./fig5.png (PNG cop
+y)>]
 
-Package natbib Warning: Citation `elliott2015myosin' on page 14 undefined on in
-put line 325.
+Package natbib Warning: Citation `elliott2015myosin' on page 13 undefined on in
+put line 319.
 
-[14]
+[13]
 
-Package natbib Warning: Citation `vicente2009non' on page 15 undefined on input
- line 332.
+Package natbib Warning: Citation `vicente2009non' on page 14 undefined on input
+ line 326.
 
 
-Overfull \hbox (5.33478pt too wide) in paragraph at lines 341--342
+Overfull \hbox (5.33478pt too wide) in paragraph at lines 335--336
 []\T2A/cmr/m/n/10 Replicative ag-ing of hu-man mes-enchy-mal stem cells is ac-c
 om-pa-nied by changes
  []
 
-(myo.bbl
+[14] (myo.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
@@ -991,10 +983,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18386 strings out of 492895
- 321903 string characters out of 3125603
+ 18382 strings out of 492895
+ 321848 string characters out of 3125603
  408685 words of memory out of 3000000
- 22126 multiletter control sequences out of 15000+200000
+ 22122 multiletter control sequences out of 15000+200000
  544095 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,9n,63p,1551b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1014,9 +1006,9 @@ Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/1/A
 ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
 Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.
 pfb>
-Output written on myo.pdf (15 pages, 7077931 bytes).
+Output written on myo.pdf (15 pages, 7097145 bytes).
 PDF statistics:
- 380 PDF objects out of 1000 (max. 8388607)
+ 379 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
