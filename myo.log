@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  12 AUG 2019 21:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  12 AUG 2019 22:27
 entering extended mode
 **./myo.tex
 (myo.tex
@@ -888,68 +888,68 @@ nsists in removing
  []
 
 
-Overfull \hbox (2.37848pt too wide) in paragraph at lines 83--89
+Overfull \hbox (2.37848pt too wide) in paragraph at lines 83--85
 \T2A/cmr/m/n/10 and the cells were stained using a reagent kit (Senescence $\OM
 L/cmm/m/it/10 $\T2A/cmr/m/n/10 -galactosidase staining
  []
 
 
-Overfull \hbox (21.77818pt too wide) in paragraph at lines 91--93
+Overfull \hbox (21.77818pt too wide) in paragraph at lines 87--89
 \T2A/cmr/m/n/10 were stained with rhodamine phalloidin for 20 min at room tempe
 rature. Preparations
  []
 
 [3]
 
-myo.tex:97: Package inputenc Error: Unicode character − (U+2212)
+myo.tex:93: Package inputenc Error: Unicode character − (U+2212)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 ...th final concentration 1.5 $\mu$g $mL^{−
+l.93 ...th final concentration 1.5 $\mu$g $mL^{−
                                                   1}$.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-myo.tex:99: Package inputenc Error: Unicode character × (U+00D7)
+myo.tex:95: Package inputenc Error: Unicode character × (U+00D7)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 ... objective lens. All images had a 2,560 ×
+l.95 ... objective lens. All images had a 2,560 ×
                                                    2,160 pixel resolution, w...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-myo.tex:99: Package inputenc Error: Unicode character μ (U+03BC)
+myo.tex:95: Package inputenc Error: Unicode character μ (U+03BC)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 ...on, with a pixel size equivalent to 0.2 μ
+l.95 ...on, with a pixel size equivalent to 0.2 μ
                                                   m in x and y.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Overfull \hbox (7.55646pt too wide) in paragraph at lines 105--110
+Overfull \hbox (7.55646pt too wide) in paragraph at lines 101--106
 []\T2A/cmr/m/n/10 Colocalization analysis The microscope initially captures ima
 ges in a resolution
  []
 
-myo.tex:126: Undefined control sequence.
+myo.tex:122: Undefined control sequence.
 <recently read> \degree 
                         
-l.126 ..., incubated for 10 minutes at 37 $\degree
+l.122 ..., incubated for 10 minutes at 37 $\degree
                                                   $ C, then a solution of gl...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -957,10 +957,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-myo.tex:126: Undefined control sequence.
+myo.tex:122: Undefined control sequence.
 <recently read> \degree 
                         
-l.126 ...PBS, incubated for 5-7 min at 37 $\degree
+l.122 ...PBS, incubated for 5-7 min at 37 $\degree
                                                   $  C. Subsequently, we was...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -968,10 +968,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-myo.tex:127: Undefined control sequence.
+myo.tex:123: Undefined control sequence.
 <recently read> \degree 
                         
-l.127 ...d freezing of the samples at -80 $\degree
+l.123 ...d freezing of the samples at -80 $\degree
                                                   $  C.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -980,21 +980,21 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [4]
-Overfull \hbox (2.00226pt too wide) in paragraph at lines 130--136
+Overfull \hbox (2.00226pt too wide) in paragraph at lines 126--132
 []\T2A/cmr/m/n/10 High performance liquid chromatography For gel-chromatographi
 c separation
  []
 
 
-Overfull \hbox (2.08191pt too wide) in paragraph at lines 130--136
+Overfull \hbox (2.08191pt too wide) in paragraph at lines 126--132
 \T2A/cmr/m/n/10 440,000 Horse spleen Thyroglobulin (50 mg) 669,000 Bovine thyro
 id Blue dextran
  []
 
-myo.tex:140: Undefined control sequence.
+myo.tex:136: Undefined control sequence.
 <recently read> \degree 
                         
-l.140 ...nd incubated for 12 hours at -20 $\degree
+l.136 ...nd incubated for 12 hours at -20 $\degree
                                                   $C. A repeated washing wit...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1002,10 +1002,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-myo.tex:141: Undefined control sequence.
+myo.tex:137: Undefined control sequence.
 <recently read> \degree 
                         
-l.141 ... for 15 min at 16,000 RPM at + 4 $\degree
+l.137 ... for 15 min at 16,000 RPM at + 4 $\degree
                                                   $ C, the supernatant was c...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1013,10 +1013,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-myo.tex:142: Undefined control sequence.
+myo.tex:138: Undefined control sequence.
 <recently read> \degree 
                         
-l.142 ...were boiled for 10 minutes at 98 $\degree
+l.138 ...were boiled for 10 minutes at 98 $\degree
                                                   $C.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1025,169 +1025,189 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (3.72705pt too wide) in paragraph at lines 138--154
+Overfull \hbox (3.72705pt too wide) in paragraph at lines 134--150
 \T2A/cmr/m/n/10 (Towbin et al., 1979). Protein transfer from the gel to the Imm
 obilon-P membrane
  []
 
 
-Overfull \hbox (4.38803pt too wide) in paragraph at lines 138--154
+Overfull \hbox (4.38803pt too wide) in paragraph at lines 134--150
 \T2A/cmr/m/n/10 (Millipore, United States) was carried out in Tris-glycine buff
 er pH 8.3, containing
  []
 
 
-Overfull \hbox (6.69853pt too wide) in paragraph at lines 138--154
+Overfull \hbox (6.69853pt too wide) in paragraph at lines 134--150
 \T2A/cmr/m/n/10 times. washed in PBS, stained with second antibodies for 1 h at
  room temperature.
  []
 
 
-Overfull \hbox (1.38763pt too wide) in paragraph at lines 138--154
+Overfull \hbox (1.38763pt too wide) in paragraph at lines 134--150
 \T2A/cmr/m/n/10 Rabbit polyclonal antibodies produced against the N-terminal pe
 ptide of myosin-
  []
 
 [5]
-Overfull \hbox (4.25171pt too wide) in paragraph at lines 156--163
+Overfull \hbox (4.25171pt too wide) in paragraph at lines 152--159
 []\T2A/cmr/m/n/10 Description of statistical analysis methods The study materia
 ls were subjected
  []
 
 
-Overfull \hbox (0.50783pt too wide) in paragraph at lines 156--163
+Overfull \hbox (0.50783pt too wide) in paragraph at lines 152--159
 \T2A/cmr/m/n/10 analysis. The accumulation, correction, systematization of the 
 initial information
  []
 
 
-Overfull \hbox (5.69582pt too wide) in paragraph at lines 166--169
+Overfull \hbox (5.69582pt too wide) in paragraph at lines 162--165
 []\T2A/cmr/m/n/10 where H is the Kruskal-Wallis criterion, n is the total numbe
 r of measurements,
  []
 
 
-Overfull \hbox (1.31207pt too wide) in paragraph at lines 166--169
+Overfull \hbox (1.31207pt too wide) in paragraph at lines 162--165
 \T2A/cmr/m/n/10 indicators were considered statistically significant. Otherwise
 , the null hypothesis
  []
 
 
-Overfull \hbox (0.89551pt too wide) in paragraph at lines 172--176
+Overfull \hbox (0.89551pt too wide) in paragraph at lines 168--172
 \T2A/cmr/m/n/10 two paired samples compared. At the same time, for each group o
 f measurements,
  []
 
 [6]
-<fig_m9-actin-bgal.jpg, id=35, 758.835pt x 1011.78pt>
+
+LaTeX Warning: Reference `9-actin-bgal' on page 7 undefined on input line 211.
+
+
+Overfull \hbox (1.72455pt too wide) in paragraph at lines 209--213
+[]\T2A/cmr/m/n/10 Immunofluorescent cell analysis When stained with antibodies 
+against myosin
+ []
+
+[7]
+<fig_m9-actin-bgal.jpg, id=40, 758.835pt x 1011.78pt>
 File: fig_m9-actin-bgal.jpg Graphic file (type jpg)
 <use fig_m9-actin-bgal.jpg>
-Package pdftex.def Info: fig_m9-actin-bgal.jpg  used on input line 214.
+Package pdftex.def Info: fig_m9-actin-bgal.jpg  used on input line 226.
 (pdftex.def)             Requested size: 310.4979pt x 413.99881pt.
-<fig_m9-actin-col.jpg, id=36, 758.835pt x 1011.78pt>
+<fig_m9-actin-col.jpg, id=41, 758.835pt x 1011.78pt>
 File: fig_m9-actin-col.jpg Graphic file (type jpg)
 <use fig_m9-actin-col.jpg>
-Package pdftex.def Info: fig_m9-actin-col.jpg  used on input line 221.
+Package pdftex.def Info: fig_m9-actin-col.jpg  used on input line 236.
 (pdftex.def)             Requested size: 310.4979pt x 413.99881pt.
-<fig_a4-actin-col.jpg, id=37, 758.835pt x 1011.78pt>
+
+Overfull \hbox (2.94504pt too wide) in paragraph at lines 242--243
+\T2A/cmr/m/n/10 standard error, Dynamics with confidence intervals, significant
+ difference between
+ []
+
+[8 <./fig_m9-actin-bgal.jpg>]
+<fig_a4-actin-col.jpg, id=45, 758.835pt x 1011.78pt>
 File: fig_a4-actin-col.jpg Graphic file (type jpg)
 <use fig_a4-actin-col.jpg>
-Package pdftex.def Info: fig_a4-actin-col.jpg  used on input line 232.
+Package pdftex.def Info: fig_a4-actin-col.jpg  used on input line 247.
 (pdftex.def)             Requested size: 310.4979pt x 413.99881pt.
- [7] [8 <./fig_m9-actin-bgal.jpg>] [9 <./fig_m9-actin-col.jpg>]
-<fig_rho-actin-col.jpg, id=49, 758.835pt x 1011.78pt>
+ [9 <./fig_m9-actin-col.jpg>] [10 <./fig_a4-actin-col.jpg>]
+<fig_rho-actin-col.jpg, id=52, 758.835pt x 1011.78pt>
 File: fig_rho-actin-col.jpg Graphic file (type jpg)
 <use fig_rho-actin-col.jpg>
-Package pdftex.def Info: fig_rho-actin-col.jpg  used on input line 271.
+Package pdftex.def Info: fig_rho-actin-col.jpg  used on input line 279.
 (pdftex.def)             Requested size: 310.4979pt x 413.99881pt.
-<fig_rho-3d.png, id=50, 1161.33875pt x 1083.04625pt>
+<fig_rho-3d.png, id=53, 1161.33875pt x 1083.04625pt>
 File: fig_rho-3d.png Graphic file (type png)
 <use fig_rho-3d.png>
-Package pdftex.def Info: fig_rho-3d.png  used on input line 280.
+Package pdftex.def Info: fig_rho-3d.png  used on input line 288.
 (pdftex.def)             Requested size: 310.4979pt x 289.56741pt.
- [10 <./fig_a4-actin-col.jpg>] [11 <./fig_rho-actin-col.jpg>] [12 <./fig_rho-3d
-.png (PNG copy)>]
-<fig_traj.jpg, id=60, 758.835pt x 1011.78pt>
+<fig_traj.jpg, id=54, 758.835pt x 1011.78pt>
 File: fig_traj.jpg Graphic file (type jpg)
 <use fig_traj.jpg>
-Package pdftex.def Info: fig_traj.jpg  used on input line 303.
+Package pdftex.def Info: fig_traj.jpg  used on input line 311.
 (pdftex.def)             Requested size: 345.0pt x 460.00554pt.
 
-Overfull \hbox (32.78572pt too wide) in paragraph at lines 315--324
+Overfull \hbox (32.78572pt too wide) in paragraph at lines 323--332
  [][] 
  []
 
-<fig_fplc.png, id=61, 1514.65875pt x 1083.04625pt>
+<fig_fplc.png, id=55, 1514.65875pt x 1083.04625pt>
 File: fig_fplc.png Graphic file (type png)
 <use fig_fplc.png>
-Package pdftex.def Info: fig_fplc.png  used on input line 329.
+Package pdftex.def Info: fig_fplc.png  used on input line 337.
 (pdftex.def)             Requested size: 310.4979pt x 222.00938pt.
 
-Overfull \hbox (13.55133pt too wide) in paragraph at lines 340--341
+Overfull \hbox (13.55133pt too wide) in paragraph at lines 348--349
 \T2A/cmr/m/n/10 forces for creating amazing morphological diversity and the dyn
 amics of mammalian
  []
 
 
-Overfull \hbox (5.21278pt too wide) in paragraph at lines 342--353
+Overfull \hbox (5.21278pt too wide) in paragraph at lines 350--361
 \T2A/cmr/m/n/10 mechanism (G-actin) into threads consisting of double helix (F-
 actin). Assembling
  []
 
-[13] [14 <./fig_traj.jpg>] [15 <./fig_fplc.png (PNG copy)>]
-Overfull \hbox (8.0341pt too wide) in paragraph at lines 359--365
+[11] [12 <./fig_rho-actin-col.jpg>] [13 <./fig_rho-3d.png (PNG copy)>] [14 <./f
+ig_traj.jpg>] [15 <./fig_fplc.png (PNG copy)>]
+Overfull \hbox (8.0341pt too wide) in paragraph at lines 367--373
 []\T2A/cmr/m/n/10 Elliott et al. find that Rho/ROCK-stimulated myosin II contra
 ctility minimizes
  []
 
 
-Overfull \hbox (10.69756pt too wide) in paragraph at lines 359--365
+Overfull \hbox (10.69756pt too wide) in paragraph at lines 367--373
 \T2A/cmr/m/n/10 Elliott et al. (2015). Analysis of myosin-9-containing protein 
 complexes in senescent
  []
 
 [16]
-Overfull \hbox (4.11473pt too wide) in paragraph at lines 369--372
+Overfull \hbox (4.11473pt too wide) in paragraph at lines 377--380
 \T2A/cmr/m/n/10 nucleus. Moving to the nucleus,RhoA can down-regulate stress fi
 brils organization
  []
 
 
-Overfull \hbox (5.33478pt too wide) in paragraph at lines 378--379
+Overfull \hbox (5.33478pt too wide) in paragraph at lines 386--387
 []\T2A/cmr/m/n/10 Replicative aging of human mesenchymal stem cells is accompan
 ied by changes
  []
 
-(myo.bbl [17]) [18] (myo.aux) ) 
+[17] (myo.bbl) [18] (myo.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 18466 strings out of 492895
- 323253 string characters out of 3125603
- 405522 words of memory out of 3000000
- 22206 multiletter control sequences out of 15000+200000
+ 18468 strings out of 492895
+ 323272 string characters out of 3125603
+ 407530 words of memory out of 3000000
+ 22208 multiletter control sequences out of 15000+200000
  544901 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,9n,63p,1551b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/l
-jfour/lh/lh-t2a/dpi600\latt0800.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/
-pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fo
-nts/pk/ljfour/lh/lh-t2a/dpi600\lati1000.pk> <C:\Users\1\AppData\Local\MiKTeX\2.
-9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\1\AppData\Local\MiKTe
-X\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati0800.pk> <C:\Users\1\AppData\Local\M
-iKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati0600.pk> <C:\Users\1\AppData\Loc
-al\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\1\AppData
-\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\1\App
-Data\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><C:/Users/1/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:
-/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8
-.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr10.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr7.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on myo.pdf (18 pages, 2571354 bytes).
+ <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt08
+00.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
+rm0800.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi60
+0\lati1000.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/d
+pi600\labx1000.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t
+2a/dpi600\lati0800.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/
+lh-t2a/dpi600\lati0600.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
+/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/lj
+four/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/p
+k/ljfour/lh/lh-t2a/dpi600\larm1440.pk><C:/Users/1/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/1/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/1/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/1/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users
+/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+<C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy6.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmsy7.pfb>
+Output written on myo.pdf (18 pages, 2572117 bytes).
 PDF statistics:
- 444 PDF objects out of 1000 (max. 8388607)
+ 445 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -19,9 +19,9 @@
 
 \author[rvt]{Danila Bobkov\corref{cor1}}
 \ead{bobkov@incras.ru}
-\author[rvt]{Anastasia Polyanskaya}
-\author[rvt]{Anastasia Musorina}
 \author[add]{Anastasia Polyanskaya}
+\author[rvt]{Anastasia Musorina}
+\author[rvt]{Ekaterina Lomert}
 \author[rvt]{Sergey Shabelnikov}
 \author[rvt]{Galina Polyanskaya}
 \cortext[cor1]{Corresponding author}
@@ -82,10 +82,6 @@ Replicative cell aging
 
 Evaluated by $\beta$-galactosidase enzyme activity. MSCWJ-1 cells were grown in 3.5 cm Petri dishes until subconfluent formation.
 Then the medium was removed and the cells were stained using a reagent kit (Senescence $\beta$-galactosidase staining kit; Cell Signaling, USA) according to the instructions. In cells entering the phase of replicative aging, the cytoplasm has a bright blue color. The analysis was performed using an inverted microscope (NICON, Japan) at 9th, 20th and 28th passages. The proportion of stained cells (\%) was determined by counting at least 1000 cells in different fields of view at one time point. The results were processed statistically using Student's t-test. Differences were considered significant when the probability of the null hypothesis P <0.05.
-Passage Number of cells Percentage stained for $\beta$-gal,\%
-9 1025 6.00 $\pm$ 0.74
-20 1149 26.30 $\pm$1.30
-28 1260 44.00 $\pm$ 1.40
 
 
 Immunofluorescence:
@@ -178,7 +174,7 @@ We also used the Wilcoxon W-test to check the differences between the two paired
 trajectories were obtained from images with the help of a program that manually marked the middle of the nucleus of each moving cell. Only cells satisfying the following conditions were noted: the cell must be in the field of view in all frames, the cell does not divide. Dividing cells were not counted.
 
 
-The resulting tracks were combined into a date frame and analyzed in R
+The resulting tracks were combined into a data frame and analyzed in the R environment
 
 
 For further analysis,
@@ -193,19 +189,35 @@ the $\tau$-Kendall rank correlation coefficient
 
 \section{RESULTS}
 
-the limits of the 95\% confidence interval (95\% CI).
+Beta-galactosidase activity is expected to increase as the culture is passaged. See table \ref{tab} for details. From the results of Table 1, it follows that in the MSCWJ-1 line, the process of replicative aging begins with the limits of the 95\% confidence interval (95\% CI).
 
-1. Immunofluorescent cell analysis
+\begin{table}
+  \caption{$\beta$-galactosidase enzyme activity in MSCWJ-1 cells}
+  \label{tab}
+\centering
+\begin{tabular}{l|c|c}
+ Passage Number & Cells stained for $\beta$-gal,\% & Cell count  \\
+ \hline
+ 9 & 6.00 $\pm$ 0.74 & 1025 \\
+ 20 & 26.30 $\pm$1.30 & 1149  \\
+ 28 & 44.00 $\pm$ 1.40 & 1260
+
+\end{tabular}
+\end{table}
+
+
+Immunofluorescent cell analysis
 When stained with antibodies against myosin heavy chain ...
-In fig. 2 shows cells ..
+In fig. \ref{9-actin-bgal} shows cells ..
 Myosin-9 is distributed along stress-fibrils, striation is often observed along stress-fibrils,
+
 
 Morphological analysis of the cell line during long-term cultivation showed homogeneity of cell populations with medium-sized elongated fibroblast-like cells at the 9th and 28th passages (Fig. 1, a, b,). In the process of cultivation, there is a change in the morphology of the cells, expressed in an increase in the size and degree of cell spreading.
 The process of replicative aging during long-term cultivation of cells of all lines was assessed by the activity of $\beta$-galactosidase in cell populations (Table 1).
 
 
 Note. Given the mean values and their errors when counting at least 1000 cells in different fields of view at one time point. The difference between the early and late passages for both lines is significant (P <0.05).
-  From the results of Table 1, it follows that in the MSCWJ-1 line, the process of replicative aging begins with?
+
 
 
 \begin{figure}[hbt!]
@@ -216,6 +228,9 @@ Note. Given the mean values and their errors when counting at least 1000 cells i
 \end{figure}
 
 
+Confocal microscopy of fixed cells ..., at different passages ... 6 p - cells at 9 passage. Red - rhodamine-phalloidin, green - myosin-9, blue - nucleus
+
+
 \begin{figure}[hbt!]
 \centering
 \includegraphics[width=0.9\linewidth]{fig_m9-actin-col.jpg}
@@ -224,7 +239,7 @@ Note. Given the mean values and their errors when counting at least 1000 cells i
 \end{figure}
 
 
-Fig.2. Kendal Miozin-9 and F-actin colocalization coefficient in р7-28р. Mean and standard error, Dynamics with confidence intervals, significant difference between groups. Pairwise t-test and t-test with Bonferroni correction
+Kendal Miozin-9 and F-actin colocalization coefficient in р7-28р. Mean and standard error, Dynamics with confidence intervals, significant difference between groups. Pairwise t-test and t-test with Bonferroni correction
 
 
 \begin{figure}[hbt!]
@@ -235,13 +250,6 @@ Fig.2. Kendal Miozin-9 and F-actin colocalization coefficient in р7-28р. Mean 
 \end{figure}
 
 Colocalization of proteins
-
-
-
-
-Fig.1. Confocal microscopy of fixed cells ..., at different passages ... 6 p - cells at 9 passage. Red - rhodamine-phalloidin, green - myosin-9, blue - core
-
-
 
 
 \begin{table}
