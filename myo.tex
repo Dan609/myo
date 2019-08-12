@@ -61,9 +61,9 @@ Currently, much attention is paid to the selection of MSCs from extra-embryonic 
 
 TrajExpectedSquareDisplacement	Returns the expected square displacement of a correlated random walk
 
+
 Directional change (DC and SDDC)
 Directional change is defined as the change in direction over time, and has been used to assess locomotor mimicry in butterflies (Kitamura & Imafuku, 2015). Directional change is defined for each pair of steps, so a trajectory (or a portion thereof) may be characterised by the mean (DC) and standard deviation (SDDC) of all directional changes. DC may be used as an index of nonlinearity, and SDDC as a measure of irregularity. The directional changes for a trajectory are calculated by the function TrajDirectionalChange, so SD may be calculated as mean(TrajDirectionalChange(trj)), and SDDC as sd(TrajDirectionalChange(trj)). Note that directional change cannot be calculated on rediscretized trajectories, as rediscretizing discards time information.
-https://cran.rstudio.com/web/packages/trajr/vignettes/trajr-vignette.html#smoothing-trajectories
 
 
 K le t to and. A line of human mesenchymal stem cells obtained from Varton's jelly of the umbilical cord of the person (MSCWJ-1) was used in the work. The cell line was obtained and characterized in the Collective Medical Center "Collection of cultures of cells of vertebrates" of the IC of the Russian Academy of Sciences (St. Petersburg). MSCWJ-1 cells were cultured in growth medium containing 90\% DMEM / F12 medium (Biolot, Russia) and 10\% fetal bovine serum (FBS) (Hyclone, United States). Cells were cultured under conditions of 5\% CO2 at 37 $\degree$ C and humidity of 90\%. Microbiological analysis confirmed the absence of bacterial, fungal and mycoplasmal contamination in the resulting line.
@@ -180,19 +180,18 @@ Note. Given the mean values and their errors when counting at least 1000 cells i
 
 
 \begin{figure}[hbt!]
+  \label{m9-actin-bgal}
 \centering
-\includegraphics[width=0.9\linewidth]{fig1.jpg}
-\caption{(A) Staining of F-actin (red) and myosin-9 (green) in cells at different passages (E) The proportion of cells with pronounced activity of $\beta$-galactosidase ($\beta$-gal)
- in the process of cultivating the MSCWJ-1 line}
-\label{fig:fig1}
+\includegraphics[width=0.9\linewidth]{fig_m9-actin-bgal.jpg}
+\caption{(A) Staining of F-actin (red) and myosin-9 (green) in cells at different passages (E) The proportion of cells with pronounced activity of $\beta$-galactosidase ($\beta$-gal) in the process of cultivating the MSCWJ-1 line}
 \end{figure}
 
 
 \begin{figure}[hbt!]
 \centering
-\includegraphics[width=0.9\linewidth]{fig2.jpg}
+\includegraphics[width=0.9\linewidth]{fig_m9-actin-col.jpg}
 \caption{F-actin and Myosin-9 Colocalization in MSCWJ-1}
-\label{fig:fig2}
+\label{m9-actin-col}
 \end{figure}
 
 
@@ -201,9 +200,9 @@ Fig.2. Kendal Miozin-9 and F-actin colocalization coefficient in р7-28р. Mean 
 
 \begin{figure}[hbt!]
 \centering
-\includegraphics[width=0.9\linewidth]{fig6.jpg}
+\includegraphics[width=0.9\linewidth]{fig_a4-actin-col.jpg}
 \caption{Different passages staining of F-actin (red) and alpha-actintin-4 (green)}
-\label{fig:fig6}
+\label{a4-actin-col}
 \end{figure}
 
 Colocalization of proteins
@@ -218,7 +217,7 @@ Fig.1. Confocal microscopy of fixed cells ..., at different passages ... 6 p - c
 
 \begin{table}
   \caption{Kruskal-Wallis rank sum test results for myosin-9 and F-actin colocalization coefficients}
-  \label{tab:tab1}
+  \label{tab1}
 \centering
 \begin{tabular}{l|ccc}
  Colocalization coefficient & chi-squared & df & p-value  \\
@@ -240,27 +239,27 @@ Therefore, to eliminate doubts about the normality of the data, we also used the
 
 
 \begin{figure}
-  \includegraphics[width=0.9\linewidth]{fig3.jpg}
+  \includegraphics[width=0.9\linewidth]{fig_rho-actin-col.jpg}
   \caption{Fig.3. RhoA in the nucleus, along the stress In the perinuclear region, diffusely in the cytoplasm}
-  \label{fig:fig3}
+  \label{rho-actin-col}
   \centering
 \end{figure}
 
 
 
 \begin{figure}
-  \includegraphics[width=0.9\linewidth]{fig4.png}
+  \includegraphics[width=0.9\linewidth]{fig_rho-3d.png}
   \caption{Confocal view of RhoA in the nucleus}
-  \label{fig:fig4}
+  \label{rho-3d}
   \centering
 \end{figure}
 
 
-Figure \ref{fig:fig3} shows aRhoA in the nucleus...
+Figure \ref{rho-3d} shows aRhoA in the nucleus...
 
 \begin{table}
   \caption{Kruskal-Wallis rank sum test results for RhoA colocalization}
-  \label{tab:tab2}
+  \label{tab2}
 \centering
 \begin{tabular}{l|ccc}
  Colocalization with & chi-squared & df & p-value  \\
@@ -272,15 +271,17 @@ Figure \ref{fig:fig3} shows aRhoA in the nucleus...
 
 
 \begin{figure}
-  \includegraphics[width=1\linewidth]{fig7.jpg}
+  \includegraphics[width=1\linewidth]{fig_traj.jpg}
   \caption{Cell movement analisys}
-  \label{fig:fig7}
+  \label{traj}
   \centering
 \end{figure}
 
 Table 1
 
 \begin{table}
+  \caption{Trajectory analysis parameters}
+  \label{tab3}
 \centering
 \begin{tabular}{|l|c|c|c|c|}
  \hline
@@ -296,9 +297,9 @@ Table 1
 
 \begin{figure}[hbt!]
 \centering
-\includegraphics[width=0.9\linewidth]{fig5.png}
+\includegraphics[width=0.9\linewidth]{fig_fplc.png}
 \caption{Gel chromatographic separation of cytoplasmic extracts from WJ1 cells at different stages of replicative aging. Separation of calibration proteins (A) and comparison of elution profiles are presented. Fig.5 Electrophoretic separation of proteins from fractions obtained as a result of gel-chromatographic separation of cytoplasmic extracts from WJ1 cells in various stages of replicative aging.}
-\label{fig:fig5}
+\label{fpcl}
 \end{figure}
 
 Pic.6 Western blot and densitometry

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  12 AUG 2019 19:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  12 AUG 2019 19:36
 entering extended mode
 **./myo.tex
 (myo.tex
@@ -856,8 +856,8 @@ Overfull \hbox (0.39154pt too wide) in paragraph at lines 62--63
 dis-place-ment
  []
 
-myo.tex:65: Misplaced alignment tab character &.
-l.65 ...comotor mimicry in butterflies (Kitamura &
+myo.tex:66: Misplaced alignment tab character &.
+l.66 ...comotor mimicry in butterflies (Kitamura &
                                                    Imafuku, 2015). Direction...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -865,20 +865,6 @@ simple: Just type `I\&' now. But if some right brace
 up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
-
-myo.tex:66: You can't use `macro parameter character #' in horizontal mode.
-l.66 ...kages/trajr/vignettes/trajr-vignette.html#
-                                                  smoothing-trajectories
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Overfull \hbox (70.52817pt too wide) in paragraph at lines 64--67
-\T2A/cmr/m/n/10 ma-tion. https://cran.rstudio.com/web/packages/trajr/vignettes/
-trajr-vignette.htmlsmoothing-
- []
 
 [3]
 
@@ -901,60 +887,61 @@ ra-met-ric and non-parametric
  []
 
 [6]
-<fig1.jpg, id=35, 758.835pt x 1011.78pt>
-File: fig1.jpg Graphic file (type jpg)
-<use fig1.jpg>
-Package pdftex.def Info: fig1.jpg  used on input line 184.
+<fig_m9-actin-bgal.jpg, id=35, 758.835pt x 1011.78pt>
+File: fig_m9-actin-bgal.jpg Graphic file (type jpg)
+<use fig_m9-actin-bgal.jpg>
+Package pdftex.def Info: fig_m9-actin-bgal.jpg  used on input line 185.
 (pdftex.def)             Requested size: 310.4979pt x 413.99881pt.
-<fig2.jpg, id=36, 758.835pt x 1011.78pt>
-File: fig2.jpg Graphic file (type jpg)
-<use fig2.jpg>
-Package pdftex.def Info: fig2.jpg  used on input line 193.
+<fig_m9-actin-col.jpg, id=36, 758.835pt x 1011.78pt>
+File: fig_m9-actin-col.jpg Graphic file (type jpg)
+<use fig_m9-actin-col.jpg>
+Package pdftex.def Info: fig_m9-actin-col.jpg  used on input line 192.
 (pdftex.def)             Requested size: 310.4979pt x 413.99881pt.
-<fig6.jpg, id=37, 758.835pt x 1011.78pt>
-File: fig6.jpg Graphic file (type jpg)
-<use fig6.jpg>
-Package pdftex.def Info: fig6.jpg  used on input line 204.
+<fig_a4-actin-col.jpg, id=37, 758.835pt x 1011.78pt>
+File: fig_a4-actin-col.jpg Graphic file (type jpg)
+<use fig_a4-actin-col.jpg>
+Package pdftex.def Info: fig_a4-actin-col.jpg  used on input line 203.
 (pdftex.def)             Requested size: 310.4979pt x 413.99881pt.
- [7] [8 <./fig1.jpg>]
-<fig3.jpg, id=46, 758.835pt x 1011.78pt>
-File: fig3.jpg Graphic file (type jpg)
-<use fig3.jpg>
-Package pdftex.def Info: fig3.jpg  used on input line 243.
+ [7] [8 <./fig_m9-actin-bgal.jpg>]
+<fig_rho-actin-col.jpg, id=46, 758.835pt x 1011.78pt>
+File: fig_rho-actin-col.jpg Graphic file (type jpg)
+<use fig_rho-actin-col.jpg>
+Package pdftex.def Info: fig_rho-actin-col.jpg  used on input line 242.
 (pdftex.def)             Requested size: 310.4979pt x 413.99881pt.
-<fig4.png, id=47, 1161.33875pt x 1083.04625pt>
-File: fig4.png Graphic file (type png)
-<use fig4.png>
-Package pdftex.def Info: fig4.png  used on input line 252.
+<fig_rho-3d.png, id=47, 1161.33875pt x 1083.04625pt>
+File: fig_rho-3d.png Graphic file (type png)
+<use fig_rho-3d.png>
+Package pdftex.def Info: fig_rho-3d.png  used on input line 251.
 (pdftex.def)             Requested size: 310.4979pt x 289.56741pt.
-<fig7.jpg, id=48, 758.835pt x 1011.78pt>
-File: fig7.jpg Graphic file (type jpg)
-<use fig7.jpg>
-Package pdftex.def Info: fig7.jpg  used on input line 275.
+<fig_traj.jpg, id=48, 758.835pt x 1011.78pt>
+File: fig_traj.jpg Graphic file (type jpg)
+<use fig_traj.jpg>
+Package pdftex.def Info: fig_traj.jpg  used on input line 274.
 (pdftex.def)             Requested size: 345.0pt x 460.00554pt.
 
-Overfull \hbox (32.78572pt too wide) in paragraph at lines 285--294
+Overfull \hbox (32.78572pt too wide) in paragraph at lines 286--295
  [][] 
  []
 
-<fig5.png, id=49, 1514.65875pt x 1083.04625pt>
-File: fig5.png Graphic file (type png)
-<use fig5.png>
-Package pdftex.def Info: fig5.png  used on input line 299.
+<fig_fplc.png, id=49, 1514.65875pt x 1083.04625pt>
+File: fig_fplc.png Graphic file (type png)
+<use fig_fplc.png>
+Package pdftex.def Info: fig_fplc.png  used on input line 300.
 (pdftex.def)             Requested size: 310.4979pt x 222.00938pt.
-[9 <./fig2.jpg>] [10 <./fig6.jpg>] [11 <./fig3.jpg>] [12 <./fig4.png (PNG copy)
->] [13 <./fig7.jpg>] [14 <./fig5.png (PNG copy)>]
+[9 <./fig_m9-actin-col.jpg>] [10 <./fig_a4-actin-col.jpg>] [11 <./fig_rho-actin
+-col.jpg>] [12 <./fig_rho-3d.png (PNG copy)>] [13 <./fig_traj.jpg>] [14 <./fig_
+fplc.png (PNG copy)>]
 
 Package natbib Warning: Citation `elliott2015myosin' on page 15 undefined on in
-put line 329.
+put line 330.
 
 [15]
 
 Package natbib Warning: Citation `vicente2009non' on page 16 undefined on input
- line 336.
+ line 337.
 
 
-Overfull \hbox (5.33478pt too wide) in paragraph at lines 345--346
+Overfull \hbox (5.33478pt too wide) in paragraph at lines 346--347
 []\T2A/cmr/m/n/10 Replicative ag-ing of hu-man mes-enchy-mal stem cells is ac-c
 om-pa-nied by changes
  []
@@ -969,10 +956,10 @@ Package natbib Warning: There were undefined citations.
 
 [17] (myo.aux) ) 
 Here is how much of TeX's memory you used:
- 18379 strings out of 492895
- 321811 string characters out of 3125603
- 408661 words of memory out of 3000000
- 22120 multiletter control sequences out of 15000+200000
+ 18380 strings out of 492895
+ 322137 string characters out of 3125603
+ 408670 words of memory out of 3000000
+ 22121 multiletter control sequences out of 15000+200000
  544901 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,9n,63p,1551b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -994,9 +981,9 @@ a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/
 cm/cmsy10.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmsy6.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmsy7.pfb>
-Output written on myo.pdf (17 pages, 2552566 bytes).
+Output written on myo.pdf (17 pages, 2552793 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
+ 405 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

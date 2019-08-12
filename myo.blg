@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: myo.aux
 The style file: apalike.bst
 I couldn't open database file mybib.bib.bib
----line 35 of file myo.aux
+---line 37 of file myo.aux
  : \bibdata{mybib.bib
  :                   }
 I'm skipping whatever remains of this command
