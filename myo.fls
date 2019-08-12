@@ -25,16 +25,6 @@ INPUT myo.spl
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\natbib\natbib.sty
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\natbib\natbib.sty
 OUTPUT myo.spl
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\english.ldf
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\english.ldf
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\english.ldf
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.def
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\bibtex\apalike.sty
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\bibtex\apalike.sty
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
@@ -56,6 +46,17 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.d
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.def
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\english.ldf
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\english.ldf
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.def
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-russian\russianb.ldf
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-russian\russianb.ldf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
@@ -84,8 +85,6 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.st
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.cfg
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.cfg
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\was\gensymb.sty
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\was\gensymb.sty
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg

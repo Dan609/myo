@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  12 AUG 2019 19:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  12 AUG 2019 20:07
 entering extended mode
 **./myo.tex
 (myo.tex
@@ -81,34 +81,6 @@ LaTeX Info: Redefining \cite on input line 694.
 
 \appnamewidth=\dimen109
 )
-("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
-Package: babel 2019/06/03 3.32 The Babel package
-
-("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def"
-File: switch.def 2019/06/03 3.32 Babel switching mechanism
-)
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-english\english.
-ldf"
-Language: english 2017/06/06 v3.3r English support from the babel system
- ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
-File: babel.def 2019/06/03 3.32 Babel common definitions
-\babel@savecnt=\count95
-\U@D=\dimen110
- ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.def"
-)
-\bbl@dirlevel=\count96
-)
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
-))
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bibtex\apalike.sty")
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty"
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
@@ -323,14 +295,14 @@ Package: inputenc 2018/08/11 v1.3c Input encoding file
 Package: csquotes 2019/05/10 v5.2e context-sensitive quotations (JAW)
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count97
+\etb@tempcnta=\count95
 )
-\csq@reset=\count98
-\csq@gtype=\count99
-\csq@glevel=\count100
-\csq@qlevel=\count101
-\csq@maxlvl=\count102
-\csq@tshold=\count103
+\csq@reset=\count96
+\csq@gtype=\count97
+\csq@glevel=\count98
+\csq@qlevel=\count99
+\csq@maxlvl=\count100
+\csq@tshold=\count101
 \csq@ltx@everypar=\toks19
  ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.def
 "
@@ -341,29 +313,50 @@ Package csquotes Info: ... configuration file loaded successfully.
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.cfg"
 File: csquotes.cfg 
-))
+)) ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
+Package: babel 2019/06/03 3.32 The Babel package
 
-myo.tex:11: LaTeX Error: Option clash for package babel.
+("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def"
+File: switch.def 2019/06/03 3.32 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-english\english.
+ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+ ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2019/06/03 3.32 Babel common definitions
+\babel@savecnt=\count102
+\U@D=\dimen110
+ ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.def"
+)
+\bbl@dirlevel=\count103
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-russian\russianb
+.ldf"
+Language: russian 2017/08/12 1.3j Russian support for the Babel system
+Package babel Info: Making " an active character on input line 120.
+Package babel Info: Default for \cyrdash is provided on input line 157.
+)
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 \usepackage
-                {amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
-The package babel has already been loaded with options:
-  []
-There has now been an attempt to load it with options
-  [russian,english]
-Adding the global options:
-  ,russian,english
-to your \documentclass declaration may fix this.
-Try typing  <return>  to proceed.
+Package babel Warning: Last declared language option is `english',
+(babel)                but the last processed one was `russian'.
+(babel)                The main language cannot be set as both a global
+(babel)                and a package option. Use `main=english' as
+(babel)                option. Reported on input line 553.
 
-("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+) ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip47
-
 For additional information on amsmath, use the `?' option.
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
@@ -496,12 +489,8 @@ g"
 File: listings.cfg 2019/02/27 1.8b listings configuration
 ))
 Package: listings 2019/02/27 1.8b (Carsten Heinz)
- ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/was\gensymb.sty"
-Package: gensymb 2003/07/02 v1.0 (WaS)
-)
-("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+ ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg
 "
 File: color.cfg 2016/01/02 v1.6 sample color configuration
@@ -722,24 +711,24 @@ stry (CN)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
-Package csquotes Info: Redefining alias 'default' -> 'english'.
+Package csquotes Info: Redefining alias 'default' -> 'russian'.
  (myo.aux)
 \openout1 = `myo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.m
 kii"
@@ -813,36 +802,42 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \c@lstlisting=\count297
-LaTeX Info: Redefining \celsius on input line 18.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 18.
 
+Package chemgreek Info: Activating mapping `default' on line 17.
 
-
-Package gensymb Warning: Not defining \perthousand.
-
-LaTeX Info: Redefining \ohm on input line 18.
-Package gensymb Info: Using \Omega for \ohm on input line 18.
-
-Package gensymb Warning: Not defining \micro.
-
-
-Package chemgreek Info: Activating mapping `default' on line 18.
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 42.
-("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+LaTeX Font Info:    Try loading font information for U+msa on input line 41.
+ ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 42.
+LaTeX Font Info:    Try loading font information for U+msb on input line 41.
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 42.
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 41.
 
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2acmtt.fd"
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
+Overfull \hbox (1.33873pt too wide) in paragraph at lines 51--62
+\T2A/cmr/m/n/10 sources. The importance of such studies stems from the features
+ of the interaction
+ []
+
+
+Overfull \hbox (0.41676pt too wide) in paragraph at lines 51--62
+\T2A/cmr/m/n/10 of MSCs isolated from different tissues, with the characteristi
+c microenvironment
+ []
+
+
+Overfull \hbox (6.50748pt too wide) in paragraph at lines 51--62
+\T2A/cmr/m/n/10 of damaged cells and, thereby, improving tissue repair. At pres
+ent, the mechanisms
+ []
+
+
 Overfull \hbox (2.22168pt too wide) has occurred while \output is active
 [] 
  []
@@ -851,139 +846,305 @@ Overfull \hbox (2.22168pt too wide) has occurred while \output is active
 
 
 {C:/Users/1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-Overfull \hbox (0.39154pt too wide) in paragraph at lines 62--63
-[]\T2A/cmr/m/n/10 TrajExpectedSquareDisplacement Re-turns the ex-pected square 
-dis-place-ment
+Overfull \hbox (0.39154pt too wide) in paragraph at lines 66--67
+[]\T2A/cmr/m/n/10 TrajExpectedSquareDisplacement Returns the expected square di
+splacement
  []
 
-myo.tex:66: Misplaced alignment tab character &.
-l.66 ...comotor mimicry in butterflies (Kitamura &
-                                                   Imafuku, 2015). Direction...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+
+Overfull \hbox (37.5177pt too wide) in paragraph at lines 68--70
+\T2A/cmr/m/n/10 directional changes for a trajectory are calculated by the func
+tion TrajDirectionalChange,
+ []
+
+
+Overfull \hbox (7.72606pt too wide) in paragraph at lines 68--70
+\T2A/cmr/m/n/10 sd(TrajDirectionalChange(trj)). Note that directional change ca
+nnot be calculated
+ []
+
+myo.tex:72: Undefined control sequence.
+<recently read> \degree 
+                        
+l.72 ...under conditions of 5\% CO2 at 37 $\degree
+                                                  $ C and humidity of 90\%. ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (10.89307pt too wide) in paragraph at lines 72--75
+\T2A/cmr/m/n/10 replicative aging, the cytoplasm has a bright blue color. The a
+nalysis was performed
+ []
+
+
+Overfull \hbox (6.99849pt too wide) in paragraph at lines 78--81
+\T2A/cmr/m/n/10 The cultivation method is monolayer, the reseeding procedure co
+nsists in removing
+ []
+
+
+Overfull \hbox (2.37848pt too wide) in paragraph at lines 82--88
+\T2A/cmr/m/n/10 and the cells were stained using a reagent kit (Senescence $\OM
+L/cmm/m/it/10 $\T2A/cmr/m/n/10 -galactosidase staining
+ []
 
 [3]
-
-Package natbib Warning: Citation `tinevez2017trackmate' on page 4 undefined on 
-input line 110.
-
-
-Package natbib Warning: Citation `mclean2018trajr' on page 4 undefined on input
- line 112.
-
-[4] [5]
-
-Package natbib Warning: Citation `team2014r' on page 6 undefined on input line 
-144.
+Overfull \hbox (21.77818pt too wide) in paragraph at lines 89--91
+\T2A/cmr/m/n/10 were stained with rhodamine phalloidin for 20 min at room tempe
+rature. Preparations
+ []
 
 
-Overfull \hbox (10.94086pt too wide) in paragraph at lines 142--149
-\T2A/cmr/m/n/10 jected to sta-tis-ti-cal pro-cess-ing us-ing the meth-ods of pa
-ra-met-ric and non-parametric
+Overfull \hbox (7.55646pt too wide) in paragraph at lines 92--97
+[]\T2A/cmr/m/n/10 Colocalization analysis The microscope initially captures ima
+ges in a resolution
+ []
+
+myo.tex:118: Undefined control sequence.
+<recently read> \degree 
+                        
+l.118 ..., incubated for 10 minutes at 37 $\degree
+                                                  $ C, then a solution of gl...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+myo.tex:118: Undefined control sequence.
+<recently read> \degree 
+                        
+l.118 ...PBS, incubated for 5-7 min at 37 $\degree
+                                                  $  C. Subsequently, we was...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+myo.tex:119: Undefined control sequence.
+<recently read> \degree 
+                        
+l.119 ...d freezing of the samples at -80 $\degree
+                                                  $  C.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[4]
+Overfull \hbox (2.00226pt too wide) in paragraph at lines 121--127
+[]\T2A/cmr/m/n/10 High performance liquid chromatography For gel-chromatographi
+c separation
+ []
+
+
+Overfull \hbox (2.08191pt too wide) in paragraph at lines 121--127
+\T2A/cmr/m/n/10 440,000 Horse spleen Thyroglobulin (50 mg) 669,000 Bovine thyro
+id Blue dextran
+ []
+
+myo.tex:130: Undefined control sequence.
+<recently read> \degree 
+                        
+l.130 ...nd incubated for 12 hours at -20 $\degree
+                                                  $C. A repeated washing wit...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+myo.tex:131: Undefined control sequence.
+<recently read> \degree 
+                        
+l.131 ... for 15 min at 16,000 RPM at + 4 $\degree
+                                                  $ C, the supernatant was c...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+myo.tex:132: Undefined control sequence.
+<recently read> \degree 
+                        
+l.132 ...were boiled for 10 minutes at 98 $\degree
+                                                  $C.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (3.72705pt too wide) in paragraph at lines 128--144
+\T2A/cmr/m/n/10 (Towbin et al., 1979). Protein transfer from the gel to the Imm
+obilon-P membrane
+ []
+
+
+Overfull \hbox (4.38803pt too wide) in paragraph at lines 128--144
+\T2A/cmr/m/n/10 (Millipore, United States) was carried out in Tris-glycine buff
+er pH 8.3, containing
+ []
+
+
+Overfull \hbox (6.69853pt too wide) in paragraph at lines 128--144
+\T2A/cmr/m/n/10 times. washed in PBS, stained with second antibodies for 1 h at
+ room temperature.
+ []
+
+
+Overfull \hbox (1.38763pt too wide) in paragraph at lines 128--144
+\T2A/cmr/m/n/10 Rabbit polyclonal antibodies produced against the N-terminal pe
+ptide of myosin-
+ []
+
+[5]
+Overfull \hbox (4.25171pt too wide) in paragraph at lines 145--152
+[]\T2A/cmr/m/n/10 Description of statistical analysis methods The study materia
+ls were subjected
+ []
+
+
+Overfull \hbox (0.50783pt too wide) in paragraph at lines 145--152
+\T2A/cmr/m/n/10 analysis. The accumulation, correction, systematization of the 
+initial information
+ []
+
+
+Overfull \hbox (5.69582pt too wide) in paragraph at lines 155--158
+[]\T2A/cmr/m/n/10 where H is the Kruskal-Wallis criterion, n is the total numbe
+r of measurements,
+ []
+
+
+Overfull \hbox (1.31207pt too wide) in paragraph at lines 155--158
+\T2A/cmr/m/n/10 indicators were considered statistically significant. Otherwise
+, the null hypothesis
+ []
+
+
+Overfull \hbox (0.89551pt too wide) in paragraph at lines 161--165
+\T2A/cmr/m/n/10 two paired samples compared. At the same time, for each group o
+f measurements,
  []
 
 [6]
 <fig_m9-actin-bgal.jpg, id=35, 758.835pt x 1011.78pt>
 File: fig_m9-actin-bgal.jpg Graphic file (type jpg)
 <use fig_m9-actin-bgal.jpg>
-Package pdftex.def Info: fig_m9-actin-bgal.jpg  used on input line 185.
+Package pdftex.def Info: fig_m9-actin-bgal.jpg  used on input line 188.
 (pdftex.def)             Requested size: 310.4979pt x 413.99881pt.
 <fig_m9-actin-col.jpg, id=36, 758.835pt x 1011.78pt>
 File: fig_m9-actin-col.jpg Graphic file (type jpg)
 <use fig_m9-actin-col.jpg>
-Package pdftex.def Info: fig_m9-actin-col.jpg  used on input line 192.
+Package pdftex.def Info: fig_m9-actin-col.jpg  used on input line 195.
 (pdftex.def)             Requested size: 310.4979pt x 413.99881pt.
 <fig_a4-actin-col.jpg, id=37, 758.835pt x 1011.78pt>
 File: fig_a4-actin-col.jpg Graphic file (type jpg)
 <use fig_a4-actin-col.jpg>
-Package pdftex.def Info: fig_a4-actin-col.jpg  used on input line 203.
+Package pdftex.def Info: fig_a4-actin-col.jpg  used on input line 206.
 (pdftex.def)             Requested size: 310.4979pt x 413.99881pt.
  [7] [8 <./fig_m9-actin-bgal.jpg>]
 <fig_rho-actin-col.jpg, id=46, 758.835pt x 1011.78pt>
 File: fig_rho-actin-col.jpg Graphic file (type jpg)
 <use fig_rho-actin-col.jpg>
-Package pdftex.def Info: fig_rho-actin-col.jpg  used on input line 242.
+Package pdftex.def Info: fig_rho-actin-col.jpg  used on input line 245.
 (pdftex.def)             Requested size: 310.4979pt x 413.99881pt.
 <fig_rho-3d.png, id=47, 1161.33875pt x 1083.04625pt>
 File: fig_rho-3d.png Graphic file (type png)
 <use fig_rho-3d.png>
-Package pdftex.def Info: fig_rho-3d.png  used on input line 251.
+Package pdftex.def Info: fig_rho-3d.png  used on input line 254.
 (pdftex.def)             Requested size: 310.4979pt x 289.56741pt.
 <fig_traj.jpg, id=48, 758.835pt x 1011.78pt>
 File: fig_traj.jpg Graphic file (type jpg)
 <use fig_traj.jpg>
-Package pdftex.def Info: fig_traj.jpg  used on input line 274.
+Package pdftex.def Info: fig_traj.jpg  used on input line 277.
 (pdftex.def)             Requested size: 345.0pt x 460.00554pt.
 
-Overfull \hbox (32.78572pt too wide) in paragraph at lines 286--295
+Overfull \hbox (32.78572pt too wide) in paragraph at lines 289--298
  [][] 
  []
 
 <fig_fplc.png, id=49, 1514.65875pt x 1083.04625pt>
 File: fig_fplc.png Graphic file (type png)
 <use fig_fplc.png>
-Package pdftex.def Info: fig_fplc.png  used on input line 300.
+Package pdftex.def Info: fig_fplc.png  used on input line 303.
 (pdftex.def)             Requested size: 310.4979pt x 222.00938pt.
-[9 <./fig_m9-actin-col.jpg>] [10 <./fig_a4-actin-col.jpg>] [11 <./fig_rho-actin
--col.jpg>] [12 <./fig_rho-3d.png (PNG copy)>] [13 <./fig_traj.jpg>] [14 <./fig_
-fplc.png (PNG copy)>]
 
-Package natbib Warning: Citation `elliott2015myosin' on page 15 undefined on in
-put line 330.
-
-[15]
-
-Package natbib Warning: Citation `vicente2009non' on page 16 undefined on input
- line 337.
-
-
-Overfull \hbox (5.33478pt too wide) in paragraph at lines 346--347
-[]\T2A/cmr/m/n/10 Replicative ag-ing of hu-man mes-enchy-mal stem cells is ac-c
-om-pa-nied by changes
+Overfull \hbox (13.55133pt too wide) in paragraph at lines 314--315
+\T2A/cmr/m/n/10 forces for creating amazing morphological diversity and the dyn
+amics of mammalian
  []
 
-(myo.bbl [16]
+[9 <./fig_m9-actin-col.jpg>]
+Overfull \hbox (5.21278pt too wide) in paragraph at lines 316--327
+\T2A/cmr/m/n/10 mechanism (G-actin) into threads consisting of double helix (F-
+actin). Assembling
+ []
 
-Package natbib Warning: Empty `thebibliography' environment on input line 3.
+[10 <./fig_a4-actin-col.jpg>] [11 <./fig_rho-actin-col.jpg>] [12 <./fig_rho-3d.
+png (PNG copy)>] [13 <./fig_traj.jpg>] [14 <./fig_fplc.png (PNG copy)>]
+Overfull \hbox (8.0341pt too wide) in paragraph at lines 333--334
+[]\T2A/cmr/m/n/10 Elliott et al. find that Rho/ROCK-stimulated myosin II contra
+ctility minimizes
+ []
 
-)
 
-Package natbib Warning: There were undefined citations.
+Overfull \hbox (19.9453pt too wide) in paragraph at lines 335--339
+\T2A/cmr/m/n/10 spreading process. The process of spreading begins with the for
+mation of pseudopodia
+ []
 
-[17] (myo.aux) ) 
+
+Overfull \hbox (22.46582pt too wide) in paragraph at lines 335--339
+\T2A/cmr/m/n/10 structures arising in sprawling cells are mainly the result of 
+a sequential reorganization
+ []
+
+[15]
+Overfull \hbox (5.33478pt too wide) in paragraph at lines 349--350
+[]\T2A/cmr/m/n/10 Replicative aging of human mesenchymal stem cells is accompan
+ied by changes
+ []
+
+(myo.bbl [16]) [17] (myo.aux) ) 
 Here is how much of TeX's memory you used:
- 18380 strings out of 492895
- 322137 string characters out of 3125603
- 408670 words of memory out of 3000000
- 22121 multiletter control sequences out of 15000+200000
+ 18462 strings out of 492895
+ 323232 string characters out of 3125603
+ 406362 words of memory out of 3000000
+ 22202 multiletter control sequences out of 15000+200000
  544901 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,9n,63p,1551b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a
-/dpi600\latt0800.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh
--t2a/dpi600\larm0800.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/l
-h/lh-t2a/dpi600\lati1000.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfo
-ur/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/
-ljfour/lh/lh-t2a/dpi600\lati0800.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts
-/pk/ljfour/lh/lh-t2a/dpi600\lati0600.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\f
-onts/pk/ljfour/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\1\AppData\Local\MiKTeX\2
-.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\1\AppData\Local\MiKT
-eX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><C:/Users/1/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/1/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/
-1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
-:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7
+ <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/l
+jfour/lh/lh-t2a/dpi600\latt0800.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/
+pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fo
+nts/pk/ljfour/lh/lh-t2a/dpi600\lati1000.pk> <C:\Users\1\AppData\Local\MiKTeX\2.
+9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\1\AppData\Local\MiKTe
+X\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati0800.pk> <C:\Users\1\AppData\Local\M
+iKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati0600.pk> <C:\Users\1\AppData\Loc
+al\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\1\AppData
+\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\1\App
+Data\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><C:/Users/1/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:
+/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8
 .pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmsy6.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmsy7.pfb>
-Output written on myo.pdf (17 pages, 2552793 bytes).
+cm/cmr10.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr7.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on myo.pdf (17 pages, 2567453 bytes).
 PDF statistics:
- 405 PDF objects out of 1000 (max. 8388607)
+ 439 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

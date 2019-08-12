@@ -1,3 +1,33 @@
 \begin{thebibliography}{}
 
+\bibitem[Elliott et~al., 2015]{elliott2015myosin}
+Elliott, H., Fischer, R.~S., Myers, K.~A., Desai, R.~A., Gao, L., Chen, C.~S.,
+  Adelstein, R.~S., Waterman, C.~M., and Danuser, G. (2015).
+\newblock Myosin ii controls cellular branching morphogenesis and migration in
+  three dimensions by minimizing cell-surface curvature.
+\newblock {\em Nature cell biology}, 17(2):137.
+
+\bibitem[McLean and Skowron~Volponi, 2018]{mclean2018trajr}
+McLean, D.~J. and Skowron~Volponi, M.~A. (2018).
+\newblock trajr: An r package for characterisation of animal trajectories.
+\newblock {\em Ethology}, 124(6):440--448.
+
+\bibitem[Team et~al., 2014]{team2014r}
+Team, R.~C. et~al. (2014).
+\newblock R: A language and environment for statistical computing.
+\newblock {\em R}.
+
+\bibitem[Tinevez et~al., 2017]{tinevez2017trackmate}
+Tinevez, J.-Y., Perry, N., Schindelin, J., Hoopes, G.~M., Reynolds, G.~D.,
+  Laplantine, E., Bednarek, S.~Y., Shorte, S.~L., and Eliceiri, K.~W. (2017).
+\newblock Trackmate: An open and extensible platform for single-particle
+  tracking.
+\newblock {\em Methods}, 115:80--90.
+
+\bibitem[Vicente-Manzanares et~al., 2009]{vicente2009non}
+Vicente-Manzanares, M., Ma, X., Adelstein, R.~S., and Horwitz, A.~R. (2009).
+\newblock Non-muscle myosin ii takes centre stage in cell adhesion and
+  migration.
+\newblock {\em Nature reviews Molecular cell biology}, 10(11):778.
+
 \end{thebibliography}
