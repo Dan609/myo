@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex myo"] 1565629672 "myo.aux" "myo.bbl" "myo" 1565629682
+["bibtex myo"] 1565635352 "myo.aux" "myo.bbl" "myo" 1565635360
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
   "mybib.bib" 1563806796 64252 242673ee40b583f442ed37ee60ebbff4 ""
-  "myo.aux" 1565629679 3531 56c39202c7a75d339975781686bbd50d "pdflatex"
+  "myo.aux" 1565635359 3450 36ccf475ee08fe5092dc9d770357793b "pdflatex"
   (generated)
   "myo.bbl"
   "myo.blg"
-["pdflatex"] 1565629673 "myo.tex" "myo.pdf" "myo" 1565629682
+["pdflatex"] 1565635353 "myo.tex" "myo.pdf" "myo" 1565635360
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1000.pk" 1565462790 23468 2764712db66ece9360f5cfc2602b2925 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm0700.pk" 1565542075 16080 0c8342af7a4ce5dfccf0a7158d4ba370 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm0800.pk" 1565462777 18244 b65f1ffe18c93eb7570c0ec00f566da3 ""
@@ -123,12 +123,12 @@
   "fig_rho-3d.png" 1565542549 854562 ace5ee7e01a7bc48ed1194479168fabe ""
   "fig_rho-actin-col.jpg" 1565625812 157839 5b5341e7e6d594eb7c2cfea6c7b38d42 ""
   "fig_traj.jpg" 1565599657 212478 db3d0380e35f4b803a5d2e9286bea44b ""
-  "myo.aux" 1565629679 3531 56c39202c7a75d339975781686bbd50d "pdflatex"
-  "myo.bbl" 1565629673 1454 dac59faaa2af534629c2ec1b9efe3d9b "bibtex myo"
-  "myo.spl" 1565629674 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "myo.tex" 1565629654 35027 323230c4829e7f98b863d245de894dca ""
+  "myo.aux" 1565635359 3450 36ccf475ee08fe5092dc9d770357793b "pdflatex"
+  "myo.bbl" 1565635353 1454 dac59faaa2af534629c2ec1b9efe3d9b "bibtex myo"
+  "myo.spl" 1565635354 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "myo.tex" 1565635343 37613 f9b49d9b6f59a4cf79abbad3909a9b59 ""
   (generated)
-  "myo.log"
-  "myo.spl"
-  "myo.pdf"
   "myo.aux"
+  "myo.log"
+  "myo.pdf"
+  "myo.spl"
