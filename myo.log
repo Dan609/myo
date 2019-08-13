@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  12 AUG 2019 22:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  13 AUG 2019 14:15
 entering extended mode
 **./myo.tex
 (myo.tex
@@ -1106,84 +1106,101 @@ Overfull \hbox (2.94504pt too wide) in paragraph at lines 242--243
  []
 
 [8 <./fig_m9-actin-bgal.jpg>]
+Overfull \hbox (8.89058pt too wide) in paragraph at lines 245--246
+[]\T2A/cmr/m/n/10 It turns out, that Keandall and Spearman coefficients shows p
+erfect correlation,
+ []
+
+
+Overfull \hbox (29.90845pt too wide) in paragraph at lines 245--246
+\T2A/cmr/m/n/10 Manders and Pearson coefficient moderate correlation (Corr = 0.
+758) (see supplement8[])
+ []
+
 <fig_a4-actin-col.jpg, id=45, 758.835pt x 1011.78pt>
 File: fig_a4-actin-col.jpg Graphic file (type jpg)
 <use fig_a4-actin-col.jpg>
-Package pdftex.def Info: fig_a4-actin-col.jpg  used on input line 247.
+Package pdftex.def Info: fig_a4-actin-col.jpg  used on input line 250.
 (pdftex.def)             Requested size: 310.4979pt x 413.99881pt.
- [9 <./fig_m9-actin-col.jpg>] [10 <./fig_a4-actin-col.jpg>]
+[9 <./fig_m9-actin-col.jpg>] [10 <./fig_a4-actin-col.jpg>]
 <fig_rho-actin-col.jpg, id=52, 758.835pt x 1011.78pt>
 File: fig_rho-actin-col.jpg Graphic file (type jpg)
 <use fig_rho-actin-col.jpg>
-Package pdftex.def Info: fig_rho-actin-col.jpg  used on input line 279.
+Package pdftex.def Info: fig_rho-actin-col.jpg  used on input line 282.
 (pdftex.def)             Requested size: 310.4979pt x 413.99881pt.
 <fig_rho-3d.png, id=53, 1161.33875pt x 1083.04625pt>
 File: fig_rho-3d.png Graphic file (type png)
 <use fig_rho-3d.png>
-Package pdftex.def Info: fig_rho-3d.png  used on input line 288.
+Package pdftex.def Info: fig_rho-3d.png  used on input line 291.
 (pdftex.def)             Requested size: 310.4979pt x 289.56741pt.
 <fig_traj.jpg, id=54, 758.835pt x 1011.78pt>
 File: fig_traj.jpg Graphic file (type jpg)
 <use fig_traj.jpg>
-Package pdftex.def Info: fig_traj.jpg  used on input line 311.
+Package pdftex.def Info: fig_traj.jpg  used on input line 314.
 (pdftex.def)             Requested size: 345.0pt x 460.00554pt.
 
-Overfull \hbox (32.78572pt too wide) in paragraph at lines 323--332
+Overfull \hbox (32.78572pt too wide) in paragraph at lines 326--335
  [][] 
  []
 
 <fig_fplc.png, id=55, 1514.65875pt x 1083.04625pt>
 File: fig_fplc.png Graphic file (type png)
 <use fig_fplc.png>
-Package pdftex.def Info: fig_fplc.png  used on input line 337.
+Package pdftex.def Info: fig_fplc.png  used on input line 340.
 (pdftex.def)             Requested size: 310.4979pt x 222.00938pt.
 
-Overfull \hbox (13.55133pt too wide) in paragraph at lines 348--349
+Overfull \hbox (13.55133pt too wide) in paragraph at lines 351--352
 \T2A/cmr/m/n/10 forces for creating amazing morphological diversity and the dyn
 amics of mammalian
  []
 
 
-Overfull \hbox (5.21278pt too wide) in paragraph at lines 350--361
+Overfull \hbox (5.21278pt too wide) in paragraph at lines 353--364
 \T2A/cmr/m/n/10 mechanism (G-actin) into threads consisting of double helix (F-
 actin). Assembling
  []
 
 [11] [12 <./fig_rho-actin-col.jpg>] [13 <./fig_rho-3d.png (PNG copy)>] [14 <./f
 ig_traj.jpg>] [15 <./fig_fplc.png (PNG copy)>]
-Overfull \hbox (8.0341pt too wide) in paragraph at lines 367--373
+Overfull \hbox (8.0341pt too wide) in paragraph at lines 370--376
 []\T2A/cmr/m/n/10 Elliott et al. find that Rho/ROCK-stimulated myosin II contra
 ctility minimizes
  []
 
 
-Overfull \hbox (10.69756pt too wide) in paragraph at lines 367--373
+Overfull \hbox (10.69756pt too wide) in paragraph at lines 370--376
 \T2A/cmr/m/n/10 Elliott et al. (2015). Analysis of myosin-9-containing protein 
 complexes in senescent
  []
 
 [16]
-Overfull \hbox (4.11473pt too wide) in paragraph at lines 377--380
+Overfull \hbox (4.11473pt too wide) in paragraph at lines 380--383
 \T2A/cmr/m/n/10 nucleus. Moving to the nucleus,RhoA can down-regulate stress fi
 brils organization
  []
 
 
-Overfull \hbox (5.33478pt too wide) in paragraph at lines 386--387
+Overfull \hbox (5.33478pt too wide) in paragraph at lines 389--390
 []\T2A/cmr/m/n/10 Replicative aging of human mesenchymal stem cells is accompan
 ied by changes
  []
 
-[17] (myo.bbl) [18] (myo.aux)
+[17] (myo.bbl)
+<supp1.jpeg, id=78, 963.6pt x 583.42969pt>
+File: supp1.jpeg Graphic file (type jpg)
+<use supp1.jpeg>
+Package pdftex.def Info: supp1.jpeg  used on input line 407.
+(pdftex.def)             Requested size: 345.0pt x 208.88611pt.
+ [18] [19 <./supp1.jpeg>] (myo.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 18468 strings out of 492895
- 323272 string characters out of 3125603
- 407530 words of memory out of 3000000
- 22208 multiletter control sequences out of 15000+200000
+ 18476 strings out of 492895
+ 323361 string characters out of 3125603
+ 407548 words of memory out of 3000000
+ 22214 multiletter control sequences out of 15000+200000
  544901 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,9n,63p,1551b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1205,9 +1222,9 @@ ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users
 <C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 sy6.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmsy7.pfb>
-Output written on myo.pdf (18 pages, 2572117 bytes).
+Output written on myo.pdf (19 pages, 2854936 bytes).
 PDF statistics:
- 445 PDF objects out of 1000 (max. 8388607)
+ 454 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
