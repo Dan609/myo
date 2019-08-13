@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  13 AUG 2019 14:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  13 AUG 2019 14:56
 entering extended mode
 **./myo.tex
 (myo.tex
@@ -1197,10 +1197,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 18476 strings out of 492895
- 323361 string characters out of 3125603
- 407548 words of memory out of 3000000
- 22214 multiletter control sequences out of 15000+200000
+ 18475 strings out of 492895
+ 323352 string characters out of 3125603
+ 407539 words of memory out of 3000000
+ 22213 multiletter control sequences out of 15000+200000
  544901 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,9n,63p,1551b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1222,7 +1222,7 @@ ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users
 <C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 sy6.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmsy7.pfb>
-Output written on myo.pdf (19 pages, 2854936 bytes).
+Output written on myo.pdf (19 pages, 2854942 bytes).
 PDF statistics:
  454 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
