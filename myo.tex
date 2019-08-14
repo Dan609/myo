@@ -99,6 +99,7 @@ To calculate the DNA content of individual nuclei, the integrated intensity of t
 
 
 Colocalization analysis
+For colocalization images opened in ImageJ in
 The microscope initially captures images in a resolution of 72 dpi with a side of 1024, we took each image in the red and green channels, to determine the ROI manually traced the cells, from 9 to 14 in each group of measurements ..
 The coefficients of Pearson, Spearman, Manders and Kendall colocalization were calculated using ImageJ version 1.52i using the Coloc 2 plugin (Schindelin et al., 2012).
 However, Pearsons correlation coeff. It can be pretty noisy, it can be noisy, it can be lost, it can be lost. RBNCC for Replicate Based Noise Corrected Correlation and a patent has been applied for. Corrected Correlation for Accurate Measurements of Colocalization. Journal of Microscopy 230, 121-133 (2008) Adler, J., Pagakis, S.  Parmryd, I. Journal of Microscopy pairs corrupted by severe noise.
@@ -244,11 +245,18 @@ Kendal Miozin-9 and F-actin colocalization coefficient in р7-28р. Mean and sta
 
 It turns out, that Keandall and Spearman coefficients shows perfect correlation, Manders and Pearson coefficient moderate correlation (Corr = 0.758) (see supplement\ref{supp1}) ... with correlation coefficient 0.985,
 
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=0.9\linewidth]{fig_a4-actin.jpg}
+\caption{Different passages staining of F-actin (red) and alpha-actintin-4 (green)}
+\label{a4-actin-col}
+\end{figure}
+
 
 \begin{figure}[hbt!]
 \centering
 \includegraphics[width=0.9\linewidth]{fig_a4-actin-col.jpg}
-\caption{Different passages staining of F-actin (red) and alpha-actintin-4 (green)}
+\caption{Colocalization of F-actin and alpha-actintin-4 at different passages}
 \label{a4-actin-col}
 \end{figure}
 
@@ -402,6 +410,8 @@ We thank G. Harrison, B. Harper, and J. Doe for their help.
 \bibliographystyle{apalike}
 \bibliography{mybib}
 \section*{Supplementary Material}
+
+The supplement presents the dependence of the studied parameters from each other, in the form of a matrix. Vertically and horizontally, the correlation coefficients are plotted that we calculated for myosin-9 and actin, there are 5 in total: Rs, Rval, tM1, tM2, bTau (these are the Spearman, Pearson, Manders, and Kendall correlation coefficients). And the work presents the results for bTau and Rval. Different coefficients give a slightly different picture of the distribution of means in the measurements, well, this table in the appendix justifies our choice of these bTau and Rval. In particular, it can be seen that, for example, Rs and bTau are almost the same thing, and in order to get rid of redundancy, we can only talk about one of them, so we choose bTau. In the article in fig. 2B, a small plate remains with correlation values ​​between the measured solocalization coefficients.
 
 \begin{figure}
   \includegraphics[width=1\linewidth]{supp1.jpeg}
