@@ -1,5 +1,11 @@
 \begin{thebibliography}{}
 
+\bibitem[Adler et~al., 2008]{adler2008replicate}
+Adler, J., Pagakis, S., and Parmryd, I. (2008).
+\newblock Replicate-based noise corrected correlation for accurate measurements
+  of colocalization.
+\newblock {\em Journal of microscopy}, 230(1):121--133.
+
 \bibitem[Alessio et~al., 2018]{alessio2018mesenchymal}
 Alessio, N., Pipino, C., Mandatori, D., Di~Tomo, P., Ferone, A., Marchiso, M.,
   Melone, M.~A., Peluso, G., Pandolfi, A., and Galderisi, U. (2018).
@@ -14,6 +20,24 @@ Ando, Y., Matsubara, K., Ishikawa, J., Fujio, M., Shohara, R., Hibi, H., Ueda,
   through multiple regenerative mechanisms.
 \newblock {\em Bone}, 61:82--90.
 
+\bibitem[Benhamou, 2004]{benhamou2004reliably}
+Benhamou, S. (2004).
+\newblock How to reliably estimate the tortuosity of an animal's path::
+  straightness, sinuosity, or fractal dimension?
+\newblock {\em Journal of theoretical biology}, 229(2):209--220.
+
+\bibitem[Benhamou, 2006]{benhamou2006detecting}
+Benhamou, S. (2006).
+\newblock Detecting an orientation component in animal paths when the preferred
+  direction is individual-dependent.
+\newblock {\em Ecology}, 87(2):518--528.
+
+\bibitem[Bergholm et~al., 2010]{bergholm2010analysis}
+Bergholm, F., Adler, J., and Parmryd, I. (2010).
+\newblock Analysis of bias in the apparent correlation coefficient between
+  image pairs corrupted by severe noise.
+\newblock {\em Journal of Mathematical Imaging and Vision}, 37(3):204--219.
+
 \bibitem[Bertolo et~al., 2015]{bertolo2015vitro}
 Bertolo, A., Gemperli, A., Gruber, M., Gantenbein, B., Baur, M., P{\"o}tzel,
   T., and Stoyanov, J. (2015).
@@ -26,6 +50,12 @@ Bongso, A. and Fong, C.-Y. (2013).
 \newblock The therapeutic potential, challenges and future clinical directions
   of stem cells from the wharton’s jelly of the human umbilical cord.
 \newblock {\em Stem Cell Reviews and Reports}, 9(2):226--240.
+
+\bibitem[Bovet and Benhamou, 1988]{bovet1988spatial}
+Bovet, P. and Benhamou, S. (1988).
+\newblock Spatial analysis of animals' movements using a correlated random walk
+  model.
+\newblock {\em Journal of theoretical biology}, 131(4):419--433.
 
 \bibitem[Carvalho et~al., 2011]{m2011mesenchymal}
 Carvalho, M.~M., Teixeira, G.~F., Rui, R.~L., Sousa, N., and J~Salgado, A.
