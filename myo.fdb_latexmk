@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex myo"] 1565879882 "myo.aux" "myo.bbl" "myo" 1565879896
+["bibtex myo"] 1565881151 "myo.aux" "myo.bbl" "myo" 1565881165
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
   "mybib.bib" 1565873515 67881 16da08fe63983923cb5f18c1f4236f2e ""
-  "myo.aux" 1565879893 9853 325a70871605f354bb10c5ce35a7c130 "pdflatex"
+  "myo.aux" 1565881163 9853 db2d666e8529dca8fa1e2f4b345f9a37 "pdflatex"
   (generated)
   "myo.blg"
   "myo.bbl"
-["pdflatex"] 1565879883 "myo.tex" "myo.pdf" "myo" 1565879896
+["pdflatex"] 1565881152 "myo.tex" "myo.pdf" "myo" 1565881165
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1000.pk" 1565462790 23468 2764712db66ece9360f5cfc2602b2925 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm0700.pk" 1565542075 16080 0c8342af7a4ce5dfccf0a7158d4ba370 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm0800.pk" 1565462777 18244 b65f1ffe18c93eb7570c0ec00f566da3 ""
@@ -126,13 +126,13 @@
   "fig_rho-3d.png" 1565542549 854562 ace5ee7e01a7bc48ed1194479168fabe ""
   "fig_rho-actin-col.jpg" 1565625812 157839 5b5341e7e6d594eb7c2cfea6c7b38d42 ""
   "fig_traj.jpg" 1565724652 252294 ebe06b12f48e833758e63af279090eb0 ""
-  "myo.aux" 1565879893 9853 325a70871605f354bb10c5ce35a7c130 "pdflatex"
-  "myo.bbl" 1565879883 16306 0051f4a5ca767670ba6bfa610dfd6fd2 "bibtex myo"
-  "myo.spl" 1565879885 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "myo.tex" 1565879862 38029 422327190193a5e7da7d0933e39c2f21 ""
+  "myo.aux" 1565881163 9853 db2d666e8529dca8fa1e2f4b345f9a37 "pdflatex"
+  "myo.bbl" 1565881152 16306 0051f4a5ca767670ba6bfa610dfd6fd2 "bibtex myo"
+  "myo.spl" 1565881154 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "myo.tex" 1565881135 38041 a84f4d90a9aa7cd932c908d79a372c54 ""
   "supp1.jpeg" 1565691692 315082 19467261fb06c1c57345caee69a45c60 ""
   (generated)
   "myo.spl"
-  "myo.aux"
-  "myo.pdf"
   "myo.log"
+  "myo.pdf"
+  "myo.aux"

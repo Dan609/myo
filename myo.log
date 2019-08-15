@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  15 AUG 2019 17:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  15 AUG 2019 17:59
 entering extended mode
 **./myo.tex
 (myo.tex
@@ -1158,13 +1158,13 @@ Overfull \hbox (4.11473pt too wide) in paragraph at lines 367--370
 brils organization
  []
 
-
+[17]
 Overfull \hbox (5.33478pt too wide) in paragraph at lines 376--377
 []\T2A/cmr/m/n/10 Replicative aging of human mesenchymal stem cells is accompan
 ied by changes
  []
 
-[17] (myo.bbl [18]
+(myo.bbl [18]
 Underfull \hbox (badness 3199) in paragraph at lines 82--87
 \T2A/cmr/m/n/10 S., Pepper, K., Olson, S., Fierro, F., and Nolta, J. A. (2011).
 
@@ -1182,7 +1182,7 @@ Underfull \hbox (badness 2772) in paragraph at lines 167--171
 .
  []
 
-[20] [21])
+[20] [21] [22])
 
 myo.tex:440: Package inputenc Error: Unicode character ​ (U+200B)
 (inputenc)                not set up for use with LaTeX.
@@ -1211,13 +1211,13 @@ l.440 ...te remains with correlation values ​​
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[22]
-<supp1.jpeg, id=95, 963.6pt x 583.42969pt>
+[23]
+<supp1.jpeg, id=98, 963.6pt x 583.42969pt>
 File: supp1.jpeg Graphic file (type jpg)
 <use supp1.jpeg>
 Package pdftex.def Info: supp1.jpeg  used on input line 443.
 (pdftex.def)             Requested size: 345.0pt x 208.88611pt.
- [23] [24 <./supp1.jpeg>] (myo.aux)
+ [24 <./supp1.jpeg>] (myo.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1229,7 +1229,7 @@ Here is how much of TeX's memory you used:
  22553 multiletter control sequences out of 15000+200000
  544901 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,17n,63p,1207b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,17n,63p,1207b,327s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt08
 00.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
 rm0800.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi60
@@ -1248,7 +1248,7 @@ ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users
 <C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 sy6.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmsy7.pfb>
-Output written on myo.pdf (24 pages, 3166867 bytes).
+Output written on myo.pdf (24 pages, 3167081 bytes).
 PDF statistics:
  512 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
