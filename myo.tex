@@ -113,7 +113,8 @@ The results were processed statistically using Wilson method to compute 95\% con
 Coverslips with adherent cells were fixed in a 3\% solution of paraformaldehyde for 10 min at room temperature and permeabilized in a solution of 0.1\% TritonX-100 for 10 min at room temperature, then the coverslips with cells was poured with 1\% BSA solution for 20 min.
 Rabbit polyclonal antibodies produced against the N-terminal peptide of the heavy chain of nonmuscle myosin IIA, rabbit polyclonal antibodies produced against the $\alpha$-actinin-4 and mouse monoclonal antibodies produced against the RhoA were used as the first antibodies.
 Goat antibodies to the Alexa fluor 488 rabbit antigens (Invitrogen, USA) were used as second antibodies.
-To visualize the actin cytoskeleton, cells were stained with rhodamine phalloidin for 20 min at room temperature and stained with DAPI with final concentration 1.5 $\mu$g m$L^{−1}$. Preparations were made on ProLong Gold antifade reagent containing.
+To visualize the actin cytoskeleton, cells were stained with rhodamine phalloidin for 20 min at room temperature and stained with DAPI with final concentration 1.5 $\mu$g m$L^{−1}$.
+Preparations were made on ProLong Gold antifade reagent containing.
 Cells were analyzed on a confocal microscope Leica SP8 (Germany).
 
 
@@ -154,7 +155,7 @@ Sinuosity is a function of the mean cosine of turning angles, and is a corrected
 \subsection{Fast performance liquid chromatography}
 
 We obtained cell extracts by lysis from a monolayer cell culture grown on 14 Petri dishes 9 cm in diameter.
-In order to prevent the destruction of multimolecular protein complexes, in the first stage the medium in the plates was replaced with medium containing 10 $\mu$M formaldehyde, incubated for 10 minutes at 37 $\degree$ C, then a solution of glycine at a concentration of 1.875 g per 200 ml was added to each cup PBS, incubated for 5-7 min at 37 $\degree$  C. Subsequently, we washed the cups after glycine with a solution of PBS and poured 20 $\mu$l of protease inhibitor and 1 ml of lysis buffer was left for 1 minute on ice.
+In order to prevent the destruction of multimolecular protein complexes, in the first stage the medium in the plates was replaced with medium containing 10 $\mu$M formaldehyde, incubated for 10 minutes at 37 $\degree$ C, then a solution of glycine at a concentration of 1.875 g per 200 ml was added to each cup PBS, incubated for 5-7 min at 37 $\degree$  C. Subsequently, we washed the cups after glycine with a solution of PBS and poured 20 $\mu$l of protease inhibitor and 1 ml of lysis buffer was left for 1 min on ice.
 Next, the method of sequential selection of cell extract was collected in the ependorf 1 ml of the sample. The final stage of lizing was centrifugation for 10 min at 24000 relative centrifugal force (RCF) and freezing of the samples at -80 $\degree$  C.
 
 
@@ -188,13 +189,13 @@ The study materials were subjected to statistical processing using the methods o
 The accumulation, correction, systematization of the initial information and visualization of the obtained results were carried out in Microsoft Office Excel 2016 spreadsheets.
 Statistical analysis was done using the free software computing environment R v. 3.5.3 (\cite{team2014r}).
 The data obtained from measurements of the colocalization coefficient were combined into variational series, in which the arithmetic mean values (M) and standard deviations (SD) were calculated.
-Quantitative indicators were evaluated for compliance with the normal distribution, for this purpose, the Shapiro – Wilk criterion  was used (with $8 < n < 15$).
-as well as indicators of asymmetry and kurtosis.
-When comparing several samples of quantitative data with a distribution other than normal, Kruskal-Wallis criterion was used, which is a non-parametric alternative to single-factor analysis of variance.
+Those observations that deviate from the 1st or 3rd quartile by more than one and a half interquartile range were considered outliers and deleted.
+Quantitative indicators were evaluated for compliance with the normal distribution, for this purpose, the Shapiro – Wilk criterion  was used with $8 < n < 15$ (\cite{shapiro1965analysis}; \cite{shapiro1972approximate}) as well as indicators of asymmetry and kurtosis.
+When comparing several samples of quantitative data with a distribution other than normal, Kruskal-Wallis criterion was used, which is a non-parametric alternative to single-factor analysis of variance (\cite{kruskal1952use}).
 The Kruskal-Wallis criterion was calculated after ranking all the elements of the analyzed sets.
 In the event that the calculated value of the Kruskal-Wallis criterion exceeded the critical one, the differences in the indicators were considered statistically significant.
 Otherwise, the null hypothesis was recognized true.
-We also used the Wilcoxon W-test to check the differences between the two paired samples compared.
+We also used the Wilcoxon W-test to check the differences between the two paired samples compared (\cite{wilcoxon1992individual}).
 At the same time, for each group of measurements, the magnitude of the change in the colocalization coefficient was calculated.
 All changes were ordered in absolute value (excluding the sign). Then ranks were assigned a change sign (“+” or “-”), for each sign the ranks were summed.
 A smaller sum of ranks (W) was selected, which was compared with the critical value of the W-criterion.
@@ -209,9 +210,11 @@ In the course of all-pairs comparisons Mann-Whitney rank test, Bonferroni method
 
 \subsection{$\beta$-Galactosidase activity}
 
-In order to determine the degree of aging characteristic for various passages, we analyzed the $\beta$-galactosidase activity in MSCWJ-1 cell line.
+
+The degree of replicative aging during long-term cultivation of MSCWJ-1 was assessed by the activity of $\beta$-galactosidase in cell populations.
 The results are presented in the table \ref{tab} and on the figure \ref{m9-actin-bgal} (E).
 The proportion of stained cells naturally increases with aging, which confirms the status of this cell line as aging non-transformed cells.
+For definiteness, we assume that the cell lines are old, in which more than 40 percent of the cells in the population stain for beta-galactosidase.
 
 
 \begin{table}[hb]
@@ -232,14 +235,12 @@ The proportion of stained cells naturally increases with aging, which confirms t
 \subsection{Immunofluorescent cell analysis}
 
 In order to assess the changes in the structure of the contractile apparatus that can occur during replicative aging, we investigated the structures of the actin cytoskeleton using rhodamine-phalloidin staining.
-
+Since myosin is a key protein for cell migration...
 When stained with antibodies against myosin heavy chain ...
 In fig. \ref{m9-actin-bgal} shows cells ..
 Myosin-9 is distributed along stress-fibrils, striation is often observed along stress-fibrils,
 
-
 Morphological analysis of the cell line during long-term cultivation showed homogeneity of cell populations with medium-sized elongated fibroblast-like cells at the 9th and 28th passages (Fig. 1, a, b,). In the process of cultivation, there is a change in the morphology of the cells, expressed in an increase in the size and degree of cell spreading.
-The process of replicative aging during long-term cultivation of cells of all lines was assessed by the activity of $\beta$-galactosidase in cell populations (Table 1).
 
 
 \begin{figure}[hbt!]
@@ -285,9 +286,7 @@ It turns out, that Keandall and Spearman coefficients shows perfect correlation,
 
 \subsection{Colocalization of proteins}
 
-To check the data for normality, we applied the Shapiro-Wilk criterion.
-The results of the Shapiro-Wilk test for measurements are presented in the table:
-...
+The results of the Shapiro-Wilk test for measurements are presented in the table.
 The results of the Shapiro-Wilk test indicate that the distribution of the values of the tau-Kendall rank correlation coefficient is not statistically significantly different from the normal (p> 0.05) in all groups of measurements. A multiple comparison of the medians of all samples was performed using the Kruskal-Wallis test, his results (chi-squared = 30.751, df = 8, p-value = 0.0001556) allowed to reject the null hypothesis and to conclude that there is a significant difference between the samples.
 During the post hoc analysis, we used parametric Student’s two-sample t-test for independent samples to check the differences between paired samples of independent measurements by the level of the tau-Kendall rank correlation coefficient.
 However, in the Shapiro-Wilk test, the p-value for the p25 sample turned out to be 0.05657, which is only slightly higher than the significance criterion chosen by us. At the same time, quantile plots show deviations from normality for high and low index values (Fig.).
@@ -324,7 +323,7 @@ Figure \ref{rho-3d} shows aRhoA in the nucleus...
   \centering
 \end{figure}
 
-Table 1
+
 
 \begin{table}[hb]
   \caption{24 h Trajectory analysis parameters}
@@ -357,32 +356,53 @@ Western blot and densitometry
 \section{DISCUSSION}
 
 The actin cytoskeleton and its associated motor proteins provide the driving forces for creating amazing morphological diversity and the dynamics of mammalian cells.
-Beta-galactosidase activity is expected to increase as the culture is passaged. See table \ref{tab} for details. From the results of Table 1, it follows that in the MSCWJ-1 line, the process of replicative aging begins with the .
+Beta-galactosidase activity is expected to increase as the culture is passaged.
+See table \ref{tab} for details.
+From the results of Table 1, it follows that in the MSCWJ-1 line, the process of replicative aging begins with the.
 Such as maintaining cell shape, its migration, interaction with the substrate and with other cells, cytogenesis, processes of intracellular transport, as well as participation in the conduct of the cellular signal and the regulation of gene expression.
-Cellular actin cytoskeleton appears
-the globular actin assembly mechanism (G-actin) into threads consisting of double helix (F-actin).
+Cellular actin cytoskeleton appears.
+The globular actin assembly mechanism (G-actin) into threads consisting of double helix (F-actin).
 Assembling and disassembling F-actin is a very dynamic process to perform various functions of actin. Similar dynamics are regulated by a number of actin-binding and regulatory proteins.
 Thus, there are mechanisms that prevent the spontaneous polymerization of G-actin into filaments by the relative instability of actin dimer or trimer and G-actin-binding and sequestering proteins, such as profilin and $\beta$-thymosin, respectively (....).
-On the other hand, a number of actin-binding proteins prevent the depolymerization of F-actin microfilaments and regulate their stability (such as tropomyosin, alpha-actinin, for example). A recent study has shown that targeting and activation of actin filament nucleators (gelsolin), elongators, and myosin engines are closely coordinated by conservative protein complexes to orchestrate the generation of power. (Pantaloni and Carlier, 1993; Sept and McCammon, 2001; Xue and Robinson, 2013). The distribution of these and many other structures in the cell allows you to perform all the variety of the above functions.
-the above listed functions.
+On the other hand, a number of actin-binding proteins prevent the depolymerization of F-actin microfilaments and regulate their stability (such as tropomyosin, alpha-actinin, for example).
+A recent study has shown that targeting and activation of actin filament nucleators (gelsolin), elongators, and myosin engines are closely coordinated by conservative protein complexes to orchestrate the generation of power. (\cite{pantaloni1993profilin}; \cite{sept2001thermodynamics}).
+The distribution of these and many other structures in the cell allows you to perform all the variety of the above listed functions.
 To establish the many different actin assembly functions required in time and space, actin nucleators target specific subcellular compartments, thereby limiting the formation of specific structures of actin filaments to these sites.
-Cellular aging, replicative cycle, Hayflick limit
-Currently, two main theories about the mechanisms of aging are competing with each other: telomeric and oxidative (it is free radical, it is mitochondrial). In 1961, an American doctor, Leonard Hayflick, discovered that human cells cannot endlessly divide: in vitro they undergo approximately 50 doublings and stop proliferation (Hayflick, Moorhead, 1961). This figure of 50 doublings, called the Hayflick limit, is fairly arbitrary, since it is not possible to accurately determine how many times a single human cell can share. Thus, the results of Hayflick's experiments do not mean that the human cell is able to share exactly 50 times (most likely more), but only mean that with the counting method that Hayflik used and which is used now as the simplest and most convenient, a population of human fibroblasts in culture doubles usually ~ 50 $\pm$ 10 times.
-Cell cycle arrest during replicative aging
+Cellular aging, replicative cycle, Hayflick limit.
+Currently, two main theories about the mechanisms of aging are competing with each other: telomeric and oxidative (it is free radical, it is mitochondrial). In 1961, an American doctor, Leonard Hayflick, discovered that human cells cannot endlessly divide: in vitro they undergo approximately 50 doublings and stop proliferation (\cite{hayflick1961serial}).
+This figure of 50 doublings, called the Hayflick limit, is fairly arbitrary, since it is not possible to accurately determine how many times a single human cell can share.
+Thus, the results of Hayflick's experiments do not mean that the human cell is able to share exactly 50 times (most likely more), but only mean that with the counting method that Hayflik used and which is used now as the simplest and most convenient, a population of human fibroblasts in culture doubles usually ~ 50 $\pm$ 10 times.
+Cell cycle arrest during replicative aging.
 
-Another structure characteristic mainly of non-muscle cells is stress fibrils — bundles of F-actin filaments stabilized by such proteins, ...
-Features of the organization of the actin cytoskeleton in mesenchymal stem cells
-The most important population of adult stem cells are mesenchymal stem cells (MSCs). For the first time, these cells were detected and isolated from the bone marrow stroma. It was believed that bone marrow MSCs serve as a source for the renewal and restoration of connective tissues such as bone, cartilage and adipose. At present, analogs of bone marrow MSC are found in all other tissues. Thanks to the approaches that allow identifying MSCs in situ, isolating them from tissues and finally evaluating biological properties, it became possible to revise the role of MSCs in various organs and tissues. This review summarizes our own and published data on the role of MSCs in the processes of repair and tissue regeneration. In our opinion, MSCs perform the function of conjugating the circulatory, immune, hormonal, and nervous systems with tissue-specific stem cells.
+
+Another structure characteristic mainly of non-muscle cells is stress fibrils — bundles of F-actin filaments stabilized by such proteins.
+Features of the organization of the actin cytoskeleton in mesenchymal stem cells.
+The most important population of adult stem cells are mesenchymal stem cells (MSCs).
+For the first time, these cells were detected and isolated from the bone marrow stroma.
+It was believed that bone marrow MSCs serve as a source for the renewal and restoration of connective tissues such as bone, cartilage and adipose.
+At present, analogs of bone marrow MSC are found in all other tissues.
+Thanks to the approaches that allow identifying MSCs in situ, isolating them from tissues and finally evaluating biological properties, it became possible to revise the role of MSCs in various organs and tissues.
+This review summarizes our own and published data on the role of MSCs in the processes of repair and tissue regeneration.
+In our opinion, MSCs perform the function of conjugating the circulatory, immune, hormonal, and nervous systems with tissue-specific stem cells.
 
 
 Elliott et al. find that Rho/ROCK-stimulated myosin II contractility minimizes cell-scale branching by recognizing and minimizing local cell-surface curvature \cite{elliott2015myosin}.
-Analysis of myosin-9-containing protein complexes in senescent MSCWJ-1 cells
-Differences in the organization of the cytoskeleton in normal and cancer cells. Shutova MS, Aleksandrova A. Yu. Comparative study of the spreading of normal and transformed fibroblasts. The role of microfilament polymerization and actin-myosin contraction // Tsitol. - 2010. - T. 52. - №. 1. - p. 41-51.
-The cell movement is based on the rearrangement of the actin cytoskeleton. The initial step of the rearrangements is the formation of the so-called leading (active) edge, at which protrusions take place and primary contacts of the cell with the extracellular matrix are formed. Protrusion of the leading edge is provided by the force of polymerization of actin in the zone of the lamellipodia. In the lamella zone, a further rearrangement of actin takes place - the formation of actin-myosin beams. The formation of contacts with the substrate is initiated in the lamellipodia, and maturation occurs in the lamella zone with the participation of stress-fibrils (Bershadsky et al., 2006; Alexandrova et al., 2008). The tension generated by myosin affects the initial focal complexes, inducing their growth and transformation into focal contacts (Ingber, 1991; Riveline et al., 2001; Rottner et al., 2001; Krendel, Mooseker, 2005) .
-A striking example of the dynamic organization of the cytocell is its restructuring, occurring in the cell spreading process. The process of spreading begins with the formation of pseudopodia around the entire perimeter of the cell. The network of microfilaments on the active edge is constantly formed during the entire spreading process due to the intense polymerization of actin. The remaining types of actin-containing structures arising in sprawling cells are mainly the result of a sequential reorganization of actin polymerized at the edges. The first stage of such a rearrangement is the emergence of an annular beam located along the edge of the discoid cell immediately behind the zone of the active edge (radial spreading stage) (Svitkina et al., 1986). In the case of fibroblast-like cells, the spreading process on the substrate ends with the stage of polarization. Fibroblasts acquire an elongated polarized form as a result of the redistribution of pseudopodial activity - the division of the cell edge into active and stable zones (Rivne, Vasiliev, 2004).
-Neoplastic transformation disrupts normal morphogenetic reactions and cell mobility, leading to processes such as invasive growth and metastasis (Rovno, Vasiliev, 2004). Reorganization of the cytoskeleton, especially changes in cell contractility, regulated by the actin-myosin complex, is of central importance for the development of the phenotype of morphologically transformed cells with invasive behavior. The reduction of stress-fibrils, characteristic of many types of transformed cells, is associated with impaired maturation of contact structures (Rovno, Vasilyev, 2004) and often correlates with an increase in locomotor activity and / or metastatic potential of tumor cells (Pokorna et al ., 1994; Sahai, Marshall, 2002). The transformed cells in the culture are observed violations of spreading. At all stages of spreading, the distribution of lamellipodia is disturbed, as a result of which lamellae are formed as separate fragments, and not along the entire perimeter of the cell. Flattening of the cell is uneven, disc-shaped is not observed. Upon completion of the spreading, such cells do not reach a large area comparable to the area of normal cells (Rovensky, Vasiliev, 2004).
+Differences in the organization of the cytoskeleton in normal and cancer cells (\cite{shutova2010normal}).
+The cell movement is based on the rearrangement of the actin cytoskeleton. The initial step of the rearrangements is the formation of the so-called leading (active) edge, at which protrusions take place and primary contacts of the cell with the extracellular matrix are formed. Protrusion of the leading edge is provided by the force of polymerization of actin in the zone of the lamellipodia. In the lamella zone, a further rearrangement of actin takes place - the formation of actin-myosin beams. The formation of contacts with the substrate is initiated in the lamellipodia, and maturation occurs in the lamella zone with the participation of stress-fibrils (Alexandrova et al., 2008).
+The tension generated by myosin affects the initial focal complexes, inducing their growth and transformation into focal contacts (Ingber, 1991; Riveline et al., 2001; Rottner et al., 2001; Krendel, Mooseker, 2005) .
+A striking example of the dynamic organization of the cytocell is its restructuring, occurring in the cell spreading process. The process of spreading begins with the formation of pseudopodia around the entire perimeter of the cell.
+The network of microfilaments on the active edge is constantly formed during the entire spreading process due to the intense polymerization of actin.
+The remaining types of actin-containing structures arising in sprawling cells are mainly the result of a sequential reorganization of actin polymerized at the edges. The first stage of such a rearrangement is the emergence of an annular beam located along the edge of the discoid cell immediately behind the zone of the active edge (radial spreading stage) (Svitkina et al., 1986).
+In the case of fibroblast-like cells, the spreading process on the substrate ends with the stage of polarization. Fibroblasts acquire an elongated polarized form as a result of the redistribution of pseudopodial activity - the division of the cell edge into active and stable zones (Rivne, Vasiliev, 2004).
+Neoplastic transformation disrupts normal morphogenetic reactions and cell mobility, leading to processes such as invasive growth and metastasis (Rovno, Vasiliev, 2004).
+Reorganization of the cytoskeleton, especially changes in cell contractility, regulated by the actin-myosin complex, is of central importance for the development of the phenotype of morphologically transformed cells with invasive behavior.
+The reduction of stress-fibrils, characteristic of many types of transformed cells, is associated with impaired maturation of contact structures (Rovno, Vasilyev, 2004) and often correlates with an increase in locomotor activity and / or metastatic potential of tumor cells (Pokorna et al ., 1994; Sahai, Marshall, 2002).
+The transformed cells in the culture are observed violations of spreading.
+At all stages of spreading, the distribution of lamellipodia is disturbed, as a result of which lamellae are formed as separate fragments, and not along the entire perimeter of the cell. Flattening of the cell is uneven, disc-shaped is not observed.
+Upon completion of the spreading, such cells do not reach a large area comparable to the area of normal cells (Rovensky, Vasiliev, 2004).
 
 Apparently, the accumulation of myosin-9 in light molecular weight fractions after gel filtration, which we observe at passage 15, is due to the fact that the protein is in the assembly-incompetent form (\cite{vicente2009non}), which is also consistent with immunofluorescence data, where we see the accumulation of actin-binding proteins in the form of individual particles, or multimolecular protein complexes.
+\cite{shutova2018mammalian}
 These data can be compared with the results of the analysis of cell motility, in which the sinuosity index reaches its maximum at passage 15, which indicates that such cells change direction of movement more often than young and old cells.
 
 Apparently, the contribution of cells with a predominant amoeboid type of movement becomes so noticeable.

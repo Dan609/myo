@@ -124,6 +124,11 @@ Guiducci, S., Manetti, M., Romano, E., Mazzanti, B., Ceccarelli, C., Dal~Pozzo,
   in vitro.
 \newblock {\em Annals of the rheumatic diseases}, 70(11).
 
+\bibitem[Hayflick and Moorhead, 1961]{hayflick1961serial}
+Hayflick, L. and Moorhead, P.~S. (1961).
+\newblock The serial cultivation of human diploid cell strains.
+\newblock {\em Experimental cell research}, 25(3):585--621.
+
 \bibitem[Hendijani et~al., 2015a]{hendijani2015effect}
 Hendijani, F., Javanmard, S.~H., Rafiee, L., and Sadeghi-Aliabadi, H. (2015a).
 \newblock Effect of human wharton's jelly mesenchymal stem cell secretome on
@@ -156,6 +161,12 @@ Koltsova, A., Krylova, T., Musorina, A., Zenin, V., Turilova, V., Yakovleva,
   lines of mesenchymal stem cells derived from wharton’s jelly of human
   umbilical cord.
 \newblock {\em Cell and Tissue Biology}, 12(1):7--19.
+
+\bibitem[Kruskal and Wallis, 1952]{kruskal1952use}
+Kruskal, W.~H. and Wallis, W.~A. (1952).
+\newblock Use of ranks in one-criterion variance analysis.
+\newblock {\em Journal of the American statistical Association},
+  47(260):583--621.
 
 \bibitem[Krylova et~al., 2017]{krylova2017derivation}
 Krylova, T., Koltsova, A., Musorina, A., Zenin, V., Turilova, V., Yakovleva,
@@ -224,6 +235,12 @@ Niedernhofer, L.~J., Gurkar, A.~U., Wang, Y., Vijg, J., Hoeijmakers, J.~H., and
   to identify common components following different genotoxic stresses.
 \newblock {\em Aging (Albany NY)}, 8(7):1316.
 
+\bibitem[Pantaloni and Carlier, 1993]{pantaloni1993profilin}
+Pantaloni, D. and Carlier, M.-F. (1993).
+\newblock How profilin promotes actin filament assembly in the presence of
+  thymosin $\beta$4.
+\newblock {\em Cell}, 75(5):1007--1014.
+
 \bibitem[Phinney and Prockop, 2007]{phinney2007concise}
 Phinney, D.~G. and Prockop, D.~J. (2007).
 \newblock Concise review: mesenchymal stem/multipotent stromal cells: the state
@@ -263,10 +280,32 @@ Sensebe, L., Krampera, M., Schrezenmeier, H., Bourin, P., and Giordano, R.
 \newblock Mesenchymal stem cells for clinical application.
 \newblock {\em Vox sanguinis}, 98(2):93--107.
 
+\bibitem[Sept and McCammon, 2001]{sept2001thermodynamics}
+Sept, D. and McCammon, J.~A. (2001).
+\newblock Thermodynamics and kinetics of actin filament nucleation.
+\newblock {\em Biophysical journal}, 81(2):667--674.
+
 \bibitem[Sethe et~al., 2006]{sethe2006aging}
 Sethe, S., Scutt, A., and Stolzing, A. (2006).
 \newblock Aging of mesenchymal stem cells.
 \newblock {\em Ageing research reviews}, 5(1):91--116.
+
+\bibitem[Shapiro and Francia, 1972]{shapiro1972approximate}
+Shapiro, S.~S. and Francia, R. (1972).
+\newblock An approximate analysis of variance test for normality.
+\newblock {\em Journal of the American Statistical Association},
+  67(337):215--216.
+
+\bibitem[Shapiro and Wilk, 1965]{shapiro1965analysis}
+Shapiro, S.~S. and Wilk, M.~B. (1965).
+\newblock An analysis of variance test for normality (complete samples).
+\newblock {\em Biometrika}, 52(3/4):591--611.
+
+\bibitem[Shutova and Svitkina, 2018]{shutova2018mammalian}
+Shutova, M.~S. and Svitkina, T.~M. (2018).
+\newblock Mammalian nonmuscle myosin ii comes in three flavors.
+\newblock {\em Biochemical and biophysical research communications},
+  506(2):394--402.
 
 \bibitem[Team et~al., 2014]{team2014r}
 Team, R.~C. et~al. (2014).
@@ -337,6 +376,11 @@ Wang, D. and Jang, D.-J. (2009).
 \newblock Protein kinase ck2 regulates cytoskeletal reorganization during
   ionizing radiation--induced senescence of human mesenchymal stem cells.
 \newblock {\em Cancer research}, 69(20):8200--8207.
+
+\bibitem[Wilcoxon, 1992]{wilcoxon1992individual}
+Wilcoxon, F. (1992).
+\newblock Individual comparisons by ranking methods.
+\newblock In {\em Breakthroughs in statistics}, pages 196--202. Springer.
 
 \bibitem[Yu et~al., 2018]{yu2018replicative}
 Yu, J., Shi, J., Zhang, Y., Zhang, Y., Huang, Y., Chen, Z., and Yang, J.
