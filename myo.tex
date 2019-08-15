@@ -12,7 +12,13 @@
 %\usepackage{gensymb}
 \usepackage{xcolor}
 \usepackage[version=3]{mhchem}
+\usepackage{makecell}
 %\usepackage[colorlinks,allcolors=cyan!70!black]{hyperref}
+\renewcommand\theadalign{bc}
+\renewcommand\theadfont{\bfseries}
+\renewcommand\theadgape{\Gape[4pt]}
+\renewcommand\cellgape{\Gape[4pt]}
+
 \title{Cytoskeletal and motility changes in human mesenchymal stem cells associated with nuclear-cytoplasmic RhoА redistribution during replicative aging}
 \begin{document}
 \date{today}
@@ -111,9 +117,9 @@ Rabbit polyclonal antibodies produced against the N-terminal peptide of the heav
 For determining the movement characteristics of individual cells we used high-content Quantitative Image Cytometer CQ1 (Yokogawa) with Nipkow spinning disk confocal technology (\cite{sakashita2015cq1}).
 Images were acquired with 405-nm laser and bright field illumination using 40x 0.95-NA dry objective lens. All images had a 2560 x 2160 pixel resolution, with a pixel size equivalent to 0.2 $\mu$m in x and y.
 
-trajectories were obtained from images with the help of a program that manually marked the middle of the nucleus of each moving cell. Only cells satisfying the following conditions were noted: the cell must be in the field of view in all frames, the cell does not divide. Dividing cells were not counted.
+Trajectories were obtained from images with the help of a program that manually marked the middle of the nucleus of each moving cell. Only cells satisfying the following conditions were noted: the cell must be in the field of view in all frames, the cell does not divide. Dividing cells were not counted.
 
-The resulting tracks were combined into a data frame and analyzed in the R environment
+The resulting tracks were combined into a data frame and analyzed in the R environment.
 
 \subsection{Colocalization analysis}
 
@@ -131,12 +137,7 @@ the $\tau$-Kendall rank correlation coefficient
 
 The values of the correlation coefficient rxy were interpreted in accordance with the Cheddock scale:
 Values of the correlation coefficient rxy Characteristic of correlation constraint
-less than 0.1 no link
-0.1-0.3 weak
-0.3-0.5 moderate
-0.5-0.7 noticeable
-0.7-0.9 high
-0.9-0.99 very high
+
 \cite{tinevez2017trackmate}
 \cite{mclean2018trajr}
 
@@ -152,21 +153,6 @@ Signal detection was performed using .. Millichrome A-02
 Elution was performed with elution buffer (150 mM NaCl, 50 mM Tris, pH 7.5, 0.02\% NaN3).
 The column was calibrated with the set of proteins shown in table \ref{calibration}.
 
-\begin{table}
-  \caption{$\beta$-galactosidase enzyme activity in MSCWJ-1 cells}
-  \label{calibration}
-\centering
-\begin{tabular}{l|c|}
- Protein & Molecular weight (Mr), kDa  \\
- \hline
- Ovalbumin & 43000 \\
- Horse spleen Thyroglobulin & 669 \\
- Rabbit muscle Ferritin & 440 \\
- Chicken egg white Aldolase & 158 \\
- Bovine erythrocytes Ovalbumin & 43 \\
- Bovine lung Ribonuclease A & 13.7
-\end{tabular}
-\end{table}
 
 Collected fractions on ice 1 ml.
 100 $\mu$l of 0.15\% DOX sodium deoxycholate was added to the collected fractions and mixed vigorously, incubated for 10 minutes in a refrigerator, then 100 $\mu$l of 50\% TCA was added, mixed, incubated for 15 minutes in a freezer, and precipitated by centrifuging the protein for 30 minutes at 16000 RPM (G) at +4$\degree$ C.
@@ -189,39 +175,36 @@ Densitometry of blots was performed using the ImageJ program (\cite{rueden2017im
 
 \subsection{Description of statistical analysis methods}
 
-The study materials were subjected to statistical processing using the methods of parametric and non-parametric analysis. The accumulation, correction, systematization of the initial information and visualization of the obtained results were carried out in Microsoft Office Excel 2016 spreadsheets.
+The study materials were subjected to statistical processing using the methods of parametric and non-parametric analysis.
+The accumulation, correction, systematization of the initial information and visualization of the obtained results were carried out in Microsoft Office Excel 2016 spreadsheets.
 Statistical analysis was carried out using the free software computing environment R v. 3.5.3 (\cite{team2014r}).
-The data obtained from measurements of the colocalization coefficient were combined into variational series, in which the arithmetic mean values (M) and standard deviations (SD) were calculated,
-Quantitative indicators were evaluated for compliance with the normal distribution, for this purpose, the Shapiro – Wilk criterion [6, 7] was used (with 8 <n <15).
+The data obtained from measurements of the colocalization coefficient were combined into variational series, in which the arithmetic mean values (M) and standard deviations (SD) were calculated.
+Quantitative indicators were evaluated for compliance with the normal distribution, for this purpose, the Shapiro – Wilk criterion  was used (with $8 < n < 15$).
 as well as indicators of asymmetry and kurtosis.
-When comparing several samples of quantitative data with a distribution other than normal, Kruskal-Wallis criterion was used, which is a non-parametric alternative to single-factor analysis of variance. The Kruskal-Wallis criterion was calculated after ranking all the elements of the analyzed sets by the following formula:
-
-
-where H is the Kruskal-Wallis criterion, n is the total number of measurements, Ri is the sum of the ranks of measurements related to a particular sample, k is the number of matched samples.
-In the event that the calculated value of the Kruskal-Wallis criterion exceeded the critical one, the differences in the indicators were considered statistically significant. Otherwise, the null hypothesis was recognized true.
-When comparing the mean values in normally distributed sets of quantitative data, the Student’s t-test was calculated using the following formula:
-
-where: M1 and M2 are compared average values, m1 and m2 are standard errors of average values, respectively. The resulting values of Student's t-test were evaluated by comparing with critical values. Differences in indicators were considered statistically significant at a significance level of p <0.05.
-
-Multiple Testing Correction
-In the course of multiple pairwise comparisons, the Bonferroni method, the Benjamin-Yekuteli-Hochberg method (FDR) was used to adjust the P-values.
-the results were visualized using the free Python computing software environment and the scikit-posthocs package (Terpilowski, 2019).
+When comparing several samples of quantitative data with a distribution other than normal, Kruskal-Wallis criterion was used, which is a non-parametric alternative to single-factor analysis of variance.
+The Kruskal-Wallis criterion was calculated after ranking all the elements of the analyzed sets.
+In the event that the calculated value of the Kruskal-Wallis criterion exceeded the critical one, the differences in the indicators were considered statistically significant.
+Otherwise, the null hypothesis was recognized true.
 We also used the Wilcoxon W-test to check the differences between the two paired samples compared.
 At the same time, for each group of measurements, the magnitude of the change in the colocalization coefficient was calculated.
 All changes were ordered in absolute value (excluding the sign). Then ranks were assigned a change sign (“+” or “-”), for each sign the ranks were summed.
 A smaller sum of ranks (W) was selected, which was compared with the critical value of the W-criterion.
 If the calculated value of W was less than or equal to the critical value, it was concluded that the differences of the compared samples were statistically significant.
 
+\subsubsection{Multiple Testing Correction}
+
+In the course of all-pairs comparisons Mann-Whitney rank test, Bonferroni method, Scheffe’s test and post hoc pairwise test for multiple comparisons of mean rank sums (Dunn’s test) were used to adjust the P-values. The results were visualized using the free Python computing software environment and the scikit-posthocs package (\cite{Terpilowski2019}).
+
 
 \section{RESULTS}
 
-Beta-galactosidase activity is expected to increase as the culture is passaged. See table \ref{tab} for details. From the results of Table 1, it follows that in the MSCWJ-1 line, the process of replicative aging begins with the limits of the 95\% confidence interval (95\% CI).
+Beta-galactosidase activity is expected to increase as the culture is passaged. See table \ref{tab} for details. From the results of Table 1, it follows that in the MSCWJ-1 line, the process of replicative aging begins with the .
 
 \begin{table}
-  \caption{$\beta$-galactosidase enzyme activity in MSCWJ-1 cells}
+  \caption{$\beta$-galactosidase enzyme activity in MSCWJ-1 cells with limits of the 95\% confidence interval}
   \label{tab}
 \centering
-\begin{tabular}{l|c|c}
+\begin{tabular}{c|c|c}
  Passage Number & Cells stained for $\beta$-gal,\% & Cell count  \\
  \hline
  9 & 6.00 $\pm$ 0.74 & 1025 \\
@@ -285,20 +268,6 @@ It turns out, that Keandall and Spearman coefficients shows perfect correlation,
 Colocalization of proteins
 
 
-\begin{table}
-  \caption{Kruskal-Wallis rank sum test results for myosin-9 and F-actin colocalization coefficients}
-  \label{tab1}
-\centering
-\begin{tabular}{l|ccc}
- Colocalization coefficient & chi-squared & df & p-value  \\
- Kendall's Tau-b & 34.669 & 10 & 0.0001422 \\
- Spearman's R & 34.373 & 10 &  0.0001596 \\
- Manders' M & 16.107 & 10 & 0.09661 \\
- Pearson's R & 15.152 & 10 & 0.1266
-
-\end{tabular}
-\end{table}
-
 To check the data for normality, we applied the Shapiro-Wilk criterion.
 The results of the Shapiro-Wilk test for measurements are presented in the table:
 ...
@@ -327,18 +296,6 @@ Therefore, to eliminate doubts about the normality of the data, we also used the
 
 Figure \ref{rho-3d} shows aRhoA in the nucleus...
 
-\begin{table}
-  \caption{Kruskal-Wallis rank sum test results for RhoA colocalization}
-  \label{tab2}
-\centering
-\begin{tabular}{l|ccc}
- Colocalization with & chi-squared & df & p-value  \\
- F-actin & 5.8289 & 3 & 0.1202 \\
- Nucleus & 32.203 & 3 &  4.742e-07
-
-\end{tabular}
-\end{table}
-
 
 \begin{figure}
   \includegraphics[width=1\linewidth]{fig_traj.jpg}
@@ -350,12 +307,12 @@ Figure \ref{rho-3d} shows aRhoA in the nucleus...
 Table 1
 
 \begin{table}
-  \caption{Trajectory analysis parameters}
+  \caption{24 h Trajectory analysis parameters}
   \label{tab3}
 \centering
-\begin{tabular}{|l|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|c|}
  \hline
- Passage & Mean Speed, $\mu$m/h & Max Speed, $\mu$m/h & Length, $\mu$m  & Distance, $\mu$m \\
+ \thead{Passage} & \thead{Mean Speed, \\ $\mu$m/h} & \thead{Max Speed, \\ $\mu$m/h} & \thead{Length, \\ $\mu$m} & \thead{Distance, \\ $\mu$m} \\
  \hline
  9 & 38.3 $\pm$ 15.2 & 164.9 $\pm$ 56.4 & 911.3 $\pm$ 362.4 &  278.2 $\pm$ 169.8 \\
  15 & 25.0 $\pm$ 11.1 & 127.9 $\pm$ 59.3& 595.1 $\pm$ 263.4 & 211.7 $\pm$ 162.8  \\
@@ -441,6 +398,42 @@ Video files with cell tracking...
 
 alltracks.csv
 
+\subsection*{Colocalization interpretation for bTau coefficient}
+
+\begin{table}
+  \caption{Cheddock scale}
+  \label{cheddock}
+\centering
+\begin{tabular}{l|c|}
+ Protein & Molecular weight (Mr), kDa  \\
+ \hline
+ $ <0.1 $ & no link \\
+ 0.1-0.3 & weak \\
+ 0.3-0.5 & moderate \\
+ 0.5-0.7 & noticeable \\
+ 0.7-0.9 & high \\
+ 0.9-0.99 & very high
+\end{tabular}
+\end{table}
+
+\subsection*{FPLC Superoce 6 column calibration}
+
+\begin{table}
+  \caption{Gel-filtration calibration protein set}
+  \label{calibration}
+\centering
+\begin{tabular}{l|c|}
+ Protein & Molecular weight (Mr), kDa  \\
+ \hline
+ Ovalbumin & 43 \\
+ Horse spleen Thyroglobulin & 669 \\
+ Rabbit muscle Ferritin & 440 \\
+ Chicken egg white Aldolase & 158 \\
+ Bovine erythrocytes Ovalbumin & 43 \\
+ Bovine lung Ribonuclease A & 13.7
+\end{tabular}
+\end{table}
+
 \subsection*{Colocalization coefficients correlation analisys}
 
 The supplement presents the dependence of the studied parameters from each other, in the form of a matrix.
@@ -452,6 +445,20 @@ Vertically and horizontally, the correlation coefficients are plotted that we ca
   \label{supp1}
   \centering
 \end{figure}
+
+\begin{table}
+  \caption{Kruskal-Wallis rank sum test results for myosin-9 and F-actin colocalization coefficients}
+  \label{tab1}
+\centering
+\begin{tabular}{l|ccc}
+ Colocalization coefficient & chi-squared & df & p-value  \\
+ Kendall's Tau-b & 34.669 & 10 & 0.0001422 \\
+ Spearman's R & 34.373 & 10 &  0.0001596 \\
+ Manders' M & 16.107 & 10 & 0.09661 \\
+ Pearson's R & 15.152 & 10 & 0.1266
+
+\end{tabular}
+\end{table}
 
 
 \end{document}

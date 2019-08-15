@@ -251,6 +251,11 @@ Teixeira, F.~G., Carvalho, M.~M., Panchalingam, K.~M., Rodrigues, A.~J.,
   structure and animal behavior in a rat model of parkinson's disease.
 \newblock {\em Stem cells translational medicine}, 6(2):634--646.
 
+\bibitem[Terpilowski, 2019]{Terpilowski2019}
+Terpilowski, M. (2019).
+\newblock scikit-posthocs: Pairwise multiple comparison tests in python.
+\newblock {\em The Journal of Open Source Software}, 4(36):1169.
+
 \bibitem[Tinevez et~al., 2017]{tinevez2017trackmate}
 Tinevez, J.-Y., Perry, N., Schindelin, J., Hoopes, G.~M., Reynolds, G.~D.,
   Laplantine, E., Bednarek, S.~Y., Shorte, S.~L., and Eliceiri, K.~W. (2017).
