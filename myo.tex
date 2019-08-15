@@ -115,29 +115,36 @@ Rabbit polyclonal antibodies produced against the N-terminal peptide of the heav
 \subsection{Quantitative image cytometry and cell movement analisys}
 
 For determining the movement characteristics of individual cells we used high-content Quantitative Image Cytometer CQ1 (Yokogawa) with Nipkow spinning disk confocal technology (\cite{sakashita2015cq1}).
-Images were acquired with 405-nm laser and bright field illumination using 40x 0.95-NA dry objective lens. All images had a 2560 x 2160 pixel resolution, with a pixel size equivalent to 0.2 $\mu$m in x and y.
+Cells were plated on 6-well dishes and stained with Hoechst 33342 (Invitrogen, USA).
+Images were acquired during 24 h session with 405-nm laser and bright field illumination using 40x 0.95-NA dry objective lens.
+All images had a 2560 x 2160 pixel resolution, with a pixel size equivalent to 0.2 $\mu$m in x and y.
+A set of x-y coordinates were obrained from images in ImageJ software with Manual tracking plugin.
+Eack cell was manually marked in the middle of the nucleus in each time point.
+Only cells satisfying the following conditions were noted: the cell must be in the field of view in all frames, the cell does not divide.
+Dividing cells were not counted.
+Trajectories were obtained from from a set of x-y coordinates.
+The resulting tracks were combined into a data frame and analyzed in the R environment using trajr package (\cite{mclean2018trajr}), which is a sutable toolkit for the numerical characterisation and analysis of the trajectories of moving cells.
+Trajectory coordinates were read from a CSV data file, and then passed in to the trajectory analysis functions.
+Trajectorys was resampled to 15 min fixed step lenght by rediscretization function using the algorithm described by Bovet & Benhamou (\cite{bovet1988spatial}).
+As a result of the analysis of the trajectories, we obtained the following parameters: total length of the trajectory, straight-line distance from the start to the end of the trajectory, mean and maximum speeds, straightness and sinuosity indexes.
+To measure the straightness, or conversely, tortuosity, of trajectories, we used two indexes.
+The simplest is straightness index and computed as D/L, where D is the distance from the start to the end of the trajectory, and L is the length of the trajectory.
+This straightness index is a number ranging from 0 to 1, where 1 indicates a straight line.
+The straightness index is considered to be a reliable measure of the efficiency of a directed walk, but inapplicable to random trajectories (\cite{benhamou2006detecting}).
+The sinuosity index defined by Benhamou (\cite{benhamou2004reliably}) may be an appropriate measure of the tortuosity of a random search path.
+Sinuosity is a function of the mean cosine of turning angles, and is a corrected form of the original sinuosity index defined by Bovet and Benhamou (\cite{bovet1988spatial}).
 
-Trajectories were obtained from images with the help of a program that manually marked the middle of the nucleus of each moving cell. Only cells satisfying the following conditions were noted: the cell must be in the field of view in all frames, the cell does not divide. Dividing cells were not counted.
-
-The resulting tracks were combined into a data frame and analyzed in the R environment.
 
 \subsection{Colocalization analysis}
 
-For colocalization images opened in ImageJ in
-The microscope initially captures images in a resolution of 72 dpi with a side of 1024, we took each image in the red and green channels, to determine the ROI manually traced the cells, from 9 to 14 in each group of measurements...
+For colocalization images opened in ImageJ were converted to 32 bit grayscale
+The microscope initially captures images in a resolution of 72 dpi with a side of 1024, we took each image in the red and green channels, to select the ROI with 1 cell inside manually, from 9 to 15 in each group of measurements.
 The coefficients of Pearson, Spearman, Manders and Kendall colocalization were calculated using ImageJ version 1.52i using the Coloc 2 plugin (\cite{rueden2017imagej2}).
-However, Pearsons correlation coeff. It can be pretty noisy, it can be noisy, it can be lost, it can be lost. RBNCC for Replicate Based Noise Corrected Correlation and a patent has been applied for.
-Corrected Correlation for Accurate Measurements of Colocalization. Journal of Microscopy 230, 121-133 (2008) Adler, J., Pagakis, S.  Parmryd, I. Journal of Microscopy pairs corrupted by severe noise.
-Journal of Mathematical Imaging and Vision 37, 204-219 (2010) Bergholm, F., Adler, J.  Parmryd, I.Journal of Mathematical Imaging and Vision
-
-For further analysis,
-the values of
-the $\tau$-Kendall rank correlation coefficient
- were used.
-
-The values of the correlation coefficient rxy were interpreted in accordance with the Cheddock scale:
-Values of the correlation coefficient rxy Characteristic of correlation constraint
-
+However, Pearsons correlation coeff.
+It can be pretty noisy, it can be noisy, it can be lost, it can be lost.
+... for Replicate Based Noise Corrected Correlation and a patent has been applied for pairs corrupted by severe noise.. (\cite{adler2008replicate}; \cite{bergholm2010analysis})
+For further analysis, the values of the $\tau$-Kendall rank correlation coefficient (bTau) and Pearson product-moment correlation coefficient (Rval) were used.
+The values of the correlation coefficient bTau were interpreted in accordance with the Cheddock scale (see table \ref{cheddock} in supplement for details).
 \cite{tinevez2017trackmate}
 \cite{mclean2018trajr}
 
@@ -149,16 +156,15 @@ Next, the method of sequential selection of cell extract was collected in the ep
 
 
 For gel-chromatographic separation of cell lysates, an FPLC system (Pharmacia) was used.
-Signal detection was performed using .. Millichrome A-02
+Signal detection was performed using Millichrome A-02 detection unit.
 Elution was performed with elution buffer (150 mM NaCl, 50 mM Tris, pH 7.5, 0.02\% NaN3).
 The column was calibrated with the set of proteins shown in table \ref{calibration}.
 
-
-Collected fractions on ice 1 ml.
-100 $\mu$l of 0.15\% DOX sodium deoxycholate was added to the collected fractions and mixed vigorously, incubated for 10 minutes in a refrigerator, then 100 $\mu$l of 50\% TCA was added, mixed, incubated for 15 minutes in a freezer, and precipitated by centrifuging the protein for 30 minutes at 16000 RPM (G) at +4$\degree$ C.
-The supernatant was removed, and cold 100\% acetone was added to the precipitate, mixed vigorously and incubated for 12 hours at -20$\degree$ C. A repeated washing with acetone was done, and then ..
-The protein was then precipitated by centrifugation for 15 min at 16,000 RPM at +4$\degree$ C, the supernatant was collected, the precipitate was dried, and 2-fold sample buffer was added to the precipitate (125 mM Tris-HCl, pH 6.8, 4\% SDS, 10\% glycerol, 0.006\% bromo-phenol blue, 1.8\% $\beta$-mercaptoethanol).
-Samples were boiled for 10 minutes at 98$\degree$ C.
+Fractions were collected on ice 1 ml each 2 min starting from time point determined by calibration set separation (see supplement for detales).
+For protein sedimentation, 100 $\mu$l of 0.15\% DOX sodium deoxycholate was added to the collected fractions and mixed vigorously, incubated for 10 minutes in a refrigerator, then 100 $\mu$l of 50\% TCA was added, mixed, incubated for 15 minutes in a freezer, and precipitated by centrifuging the protein for 30 minutes at 20000 G at +4$\degree$ C.
+The supernatant was removed, and cold 100\% acetone was added to the precipitate, mixed vigorously and incubated for 12 hours at -20$\degree$ C.
+A repeated washing with acetone was done, and then the protein was precipitated by centrifugation for 15 min at 20000 G at +4$\degree$ C, the supernatant was collected, the precipitate was dried, and 2-fold sample buffer was added to the precipitate (125 mM Tris-HCl, pH 6.8, 4\% SDS, 10\% glycerol, 0.006\% bromo-phenol blue, 1.8\% $\beta$-mercaptoethanol).
+Samples were heated for 10 minutes at 98$\degree$ C, probes were stored at -20$\degree$ C before electrophoretic separation.
 
 \subsection{Electrophoresis and western blot}
 
