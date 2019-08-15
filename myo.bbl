@@ -1,5 +1,60 @@
 \begin{thebibliography}{}
 
+\bibitem[Alessio et~al., 2018]{alessio2018mesenchymal}
+Alessio, N., Pipino, C., Mandatori, D., Di~Tomo, P., Ferone, A., Marchiso, M.,
+  Melone, M.~A., Peluso, G., Pandolfi, A., and Galderisi, U. (2018).
+\newblock Mesenchymal stromal cells from amniotic fluid are less prone to
+  senescence compared to those obtained from bone marrow: an in vitro study.
+\newblock {\em Journal of cellular physiology}, 233(11):8996--9006.
+
+\bibitem[Ando et~al., 2014]{ando2014stem}
+Ando, Y., Matsubara, K., Ishikawa, J., Fujio, M., Shohara, R., Hibi, H., Ueda,
+  M., and Yamamoto, A. (2014).
+\newblock Stem cell-conditioned medium accelerates distraction osteogenesis
+  through multiple regenerative mechanisms.
+\newblock {\em Bone}, 61:82--90.
+
+\bibitem[Bertolo et~al., 2015]{bertolo2015vitro}
+Bertolo, A., Gemperli, A., Gruber, M., Gantenbein, B., Baur, M., P{\"o}tzel,
+  T., and Stoyanov, J. (2015).
+\newblock In vitro cell motility as a potential mesenchymal stem cell marker
+  for multipotency.
+\newblock {\em Stem cells translational medicine}, 4(1):84--90.
+
+\bibitem[Bongso and Fong, 2013]{bongso2013therapeutic}
+Bongso, A. and Fong, C.-Y. (2013).
+\newblock The therapeutic potential, challenges and future clinical directions
+  of stem cells from the wharton’s jelly of the human umbilical cord.
+\newblock {\em Stem Cell Reviews and Reports}, 9(2):226--240.
+
+\bibitem[Carvalho et~al., 2011]{m2011mesenchymal}
+Carvalho, M.~M., Teixeira, G.~F., Rui, R.~L., Sousa, N., and J~Salgado, A.
+  (2011).
+\newblock Mesenchymal stem cells in the umbilical cord: phenotypic
+  characterization, secretome and applications in central nervous system
+  regenerative medicine.
+\newblock {\em Current stem cell research \& therapy}, 6(3):221--228.
+
+\bibitem[Danieli et~al., 2016]{danieli2016testing}
+Danieli, P., Malpasso, G., Ciuffreda, M.~C., and Gnecchi, M. (2016).
+\newblock Testing the paracrine properties of human mesenchymal stem cells
+  using conditioned medium.
+\newblock In {\em Mesenchymal Stem Cells}, pages 445--456. Springer.
+
+\bibitem[Danisovic et~al., 2017]{danisovic2017effect}
+Danisovic, L., Oravcova, L., Krajciova, L., Varchulova~Novakova, Z., Bohac, M.,
+  Varga, I., and Vojtassak, J. (2017).
+\newblock Effect of long-term culture on the biological and morphological
+  characteristics of human adipose tissue-derived stem cells.
+\newblock {\em J Physiol Pharmacol}, 68(1):149--158.
+
+\bibitem[Dominici et~al., 2006]{dominici2006minimal}
+Dominici, M., Le~Blanc, K., Mueller, I., Slaper-Cortenbach, I., Marini, F.,
+  Krause, D., Deans, R., Keating, A., Prockop, D., and Horwitz, E. (2006).
+\newblock Minimal criteria for defining multipotent mesenchymal stromal cells.
+  the international society for cellular therapy position statement.
+\newblock {\em Cytotherapy}, 8(4):315--317.
+
 \bibitem[Elliott et~al., 2015]{elliott2015myosin}
 Elliott, H., Fischer, R.~S., Myers, K.~A., Desai, R.~A., Gao, L., Chen, C.~S.,
   Adelstein, R.~S., Waterman, C.~M., and Danuser, G. (2015).
@@ -7,15 +62,194 @@ Elliott, H., Fischer, R.~S., Myers, K.~A., Desai, R.~A., Gao, L., Chen, C.~S.,
   three dimensions by minimizing cell-surface curvature.
 \newblock {\em Nature cell biology}, 17(2):137.
 
+\bibitem[Estrada et~al., 2013]{estrada2013human}
+Estrada, J.~C., Torres, Y., Benguria, A., Dopazo, A., Roche, E.,
+  Carrera-Quintanar, L., P{\'e}rez, R., Enriquez, J.~A., Torres, R., Ramirez,
+  J.~C., et~al. (2013).
+\newblock Human mesenchymal stem cell-replicative senescence and oxidative
+  stress are closely linked to aneuploidy.
+\newblock {\em Cell death \& disease}, 4(6):e691.
+
+\bibitem[Gei{\ss}ler et~al., 2012]{geissler2012functional}
+Gei{\ss}ler, S., Textor, M., K{\"u}hnisch, J., K{\"o}nnig, D., Klein, O., Ode,
+  A., Pfitzner, T., Adjaye, J., Kasper, G., and Duda, G.~N. (2012).
+\newblock Functional comparison of chronological and in vitro aging:
+  differential role of the cytoskeleton and mitochondria in mesenchymal stromal
+  cells.
+\newblock {\em PloS one}, 7(12):e52700.
+
+\bibitem[Gruenloh et~al., 2011]{gruenloh2011characterization}
+Gruenloh, W., Kambal, A., Sondergaard, C., McGee, J., Nacey, C., Kalomoiris,
+  S., Pepper, K., Olson, S., Fierro, F., and Nolta, J.~A. (2011).
+\newblock Characterization and in vivo testing of mesenchymal stem cells
+  derived from human embryonic stem cells.
+\newblock {\em Tissue engineering Part A}, 17(11-12):1517--1525.
+
+\bibitem[Guiducci et~al., 2011]{guiducci2011bone}
+Guiducci, S., Manetti, M., Romano, E., Mazzanti, B., Ceccarelli, C., Dal~Pozzo,
+  S., Milia, A.~F., Bellando-Randone, S., Fiori, G., Conforti, M.~L., et~al.
+  (2011).
+\newblock Bone marrow-derived mesenchymal stem cells from early diffuse
+  systemic sclerosis exhibit a paracrine machinery and stimulate angiogenesis
+  in vitro.
+\newblock {\em Annals of the rheumatic diseases}, 70(11).
+
+\bibitem[Hendijani et~al., 2015a]{hendijani2015effect}
+Hendijani, F., Javanmard, S.~H., Rafiee, L., and Sadeghi-Aliabadi, H. (2015a).
+\newblock Effect of human wharton's jelly mesenchymal stem cell secretome on
+  proliferation, apoptosis and drug resistance of lung cancer cells.
+\newblock {\em Research in pharmaceutical sciences}, 10(2):134.
+
+\bibitem[Hendijani et~al., 2015b]{hendijani2015human}
+Hendijani, F., Javanmard, S.~H., and Sadeghi-aliabadi, H. (2015b).
+\newblock Human wharton's jelly mesenchymal stem cell secretome display
+  antiproliferative effect on leukemia cell line and produce additive cytotoxic
+  effect in combination with doxorubicin.
+\newblock {\em Tissue and Cell}, 47(3):229--234.
+
+\bibitem[Huang et~al., 2013]{huang2013effects}
+Huang, Y.-C., Leung, V.~Y., Lu, W.~W., and Luk, K.~D. (2013).
+\newblock The effects of microenvironment in mesenchymal stem cell--based
+  regeneration of intervertebral disc.
+\newblock {\em The Spine Journal}, 13(3):352--362.
+
+\bibitem[Julianto and Rindastuti, 2016]{julianto2016topical}
+Julianto, I. and Rindastuti, Y. (2016).
+\newblock Topical delivery of mesenchymal stem cells" secretomes" in wound
+  repair.
+\newblock {\em Acta Medica Indonesiana}, 48(3):217--220.
+
+\bibitem[Koltsova et~al., 2018]{koltsova2018dynamics}
+Koltsova, A., Krylova, T., Musorina, A., Zenin, V., Turilova, V., Yakovleva,
+  T., and Poljanskaya, G. (2018).
+\newblock The dynamics of cell properties during long-term cultivation of two
+  lines of mesenchymal stem cells derived from wharton’s jelly of human
+  umbilical cord.
+\newblock {\em Cell and Tissue Biology}, 12(1):7--19.
+
+\bibitem[Krylova et~al., 2017]{krylova2017derivation}
+Krylova, T., Koltsova, A., Musorina, A., Zenin, V., Turilova, V., Yakovleva,
+  T., and Poljanskaya, G. (2017).
+\newblock Derivation and characteristic of two lines of human mesenchymal stem
+  cells, generated from the wharton’s jelly of the human umbilical cord.
+\newblock {\em Tsitologiia}, 59(5):315--327.
+
+\bibitem[Krylova et~al., 2018]{krylova2018isolation}
+Krylova, T., Musorina, A., Koltsova, A., Zenin, V., Turilova, V., Yakovleva,
+  T., and Poljanskaya, G. (2018).
+\newblock Isolation and comparative characteristics of mesenchymal stem-cell
+  lines derived from foreskin of two donors of similar age.
+\newblock {\em Cell and Tissue Biology}, 12(4):271--280.
+
+\bibitem[Kuilman et~al., 2010]{kuilman2010essence}
+Kuilman, T., Michaloglou, C., Mooi, W.~J., and Peeper, D.~S. (2010).
+\newblock The essence of senescence.
+\newblock {\em Genes \& development}, 24(22):2463--2479.
+
+\bibitem[Laemmli, 1970]{laemmli1970cleavage}
+Laemmli, U.~K. (1970).
+\newblock Cleavage of structural proteins during the assembly of the head of
+  bacteriophage t4.
+\newblock {\em nature}, 227(5259):680.
+
+\bibitem[Larsen et~al., 2003]{larsen2003phosphatases}
+Larsen, M., Tremblay, M.~L., and Yamada, K.~M. (2003).
+\newblock Phosphatases in cell--matrix adhesion and migration.
+\newblock {\em Nature reviews Molecular cell biology}, 4(9):700.
+
+\bibitem[Le~Clainche and Carlier, 2008]{le2008regulation}
+Le~Clainche, C. and Carlier, M.-F. (2008).
+\newblock Regulation of actin assembly associated with protrusion and adhesion
+  in cell migration.
+\newblock {\em Physiological reviews}, 88(2):489--513.
+
+\bibitem[Luo et~al., 2013]{luo2013mesenchymal}
+Luo, J., Zhao, X., Tan, Z., Su, Z., Meng, F., and Zhang, M. (2013).
+\newblock Mesenchymal-like progenitors derived from human embryonic stem cells
+  promote recovery from acute kidney injury via paracrine actions.
+\newblock {\em Cytotherapy}, 15(6):649--662.
+
 \bibitem[McLean and Skowron~Volponi, 2018]{mclean2018trajr}
 McLean, D.~J. and Skowron~Volponi, M.~A. (2018).
 \newblock trajr: An r package for characterisation of animal trajectories.
 \newblock {\em Ethology}, 124(6):440--448.
 
+\bibitem[Moujaber et~al., 2019]{moujaber2019cellular}
+Moujaber, O., Fishbein, F., Omran, N., Liang, Y., Colmegna, I., Presley, J.~F.,
+  and Stochaj, U. (2019).
+\newblock Cellular senescence is associated with reorganization of the
+  microtubule cytoskeleton.
+\newblock {\em Cellular and Molecular Life Sciences}, pages 1--15.
+
+\bibitem[Niedernhofer et~al., 2018]{niedernhofer2018nuclear}
+Niedernhofer, L.~J., Gurkar, A.~U., Wang, Y., Vijg, J., Hoeijmakers, J.~H., and
+  Robbins, P.~D. (2018).
+\newblock Nuclear genomic instability and aging.
+\newblock {\em Annual review of biochemistry}, 87:295--322.
+
+\bibitem[{\"O}zcan et~al., 2016]{ozcan2016unbiased}
+{\"O}zcan, S., Alessio, N., Acar, M.~B., Mert, E., Omerli, F., Peluso, G., and
+  Galderisi, U. (2016).
+\newblock Unbiased analysis of senescence associated secretory phenotype (sasp)
+  to identify common components following different genotoxic stresses.
+\newblock {\em Aging (Albany NY)}, 8(7):1316.
+
+\bibitem[Phinney and Prockop, 2007]{phinney2007concise}
+Phinney, D.~G. and Prockop, D.~J. (2007).
+\newblock Concise review: mesenchymal stem/multipotent stromal cells: the state
+  of transdifferentiation and modes of tissue repair—current views.
+\newblock {\em Stem cells}, 25(11):2896--2902.
+
+\bibitem[Redaelli et~al., 2012]{redaelli2012cytogenomic}
+Redaelli, S., Bentivegna, A., Foudah, D., Miloso, M., Redondo, J., Riva, G.,
+  Baronchelli, S., Dalpr{\`a}, L., and Tredici, G. (2012).
+\newblock From cytogenomic to epigenomic profiles: monitoring the biologic
+  behavior of in vitro cultured human bone marrow mesenchymal stem cells.
+\newblock {\em Stem cell research \& therapy}, 3(6):47.
+
+\bibitem[Rueden et~al., 2017]{rueden2017imagej2}
+Rueden, C.~T., Schindelin, J., Hiner, M.~C., DeZonia, B.~E., Walter, A.~E.,
+  Arena, E.~T., and Eliceiri, K.~W. (2017).
+\newblock Imagej2: Imagej for the next generation of scientific image data.
+\newblock {\em BMC bioinformatics}, 18(1):529.
+
+\bibitem[Sakashita et~al., 2015]{sakashita2015cq1}
+Sakashita, H., Ohashi, K., Ozawa, K., and Tsubouchi, Y. (2015).
+\newblock The cq1 confocal quantitative image cytometer and its application to
+  biological measurement.
+\newblock Technical report, Yokogawa Technical Report English Edition.
+
+\bibitem[Savickien{\.e} et~al., 2016]{savickiene2016senescence}
+Savickien{\.e}, J., Baronait{\.e}, S., Zentelyt{\.e}, A., Treigyt{\.e}, G., and
+  Navakauskien{\.e}, R. (2016).
+\newblock Senescence-associated molecular and epigenetic alterations in
+  mesenchymal stem cell cultures from amniotic fluid of normal and
+  fetus-affected pregnancy.
+\newblock {\em Stem cells international}, 2016.
+
+\bibitem[Sensebe et~al., 2010]{sensebe2010mesenchymal}
+Sensebe, L., Krampera, M., Schrezenmeier, H., Bourin, P., and Giordano, R.
+  (2010).
+\newblock Mesenchymal stem cells for clinical application.
+\newblock {\em Vox sanguinis}, 98(2):93--107.
+
+\bibitem[Sethe et~al., 2006]{sethe2006aging}
+Sethe, S., Scutt, A., and Stolzing, A. (2006).
+\newblock Aging of mesenchymal stem cells.
+\newblock {\em Ageing research reviews}, 5(1):91--116.
+
 \bibitem[Team et~al., 2014]{team2014r}
 Team, R.~C. et~al. (2014).
 \newblock R: A language and environment for statistical computing.
 \newblock {\em R}.
+
+\bibitem[Teixeira et~al., 2017]{teixeira2017impact}
+Teixeira, F.~G., Carvalho, M.~M., Panchalingam, K.~M., Rodrigues, A.~J.,
+  Mendes-Pinheiro, B., Anjo, S., Manadas, B., Behie, L.~A., Sousa, N., and
+  Salgado, A.~J. (2017).
+\newblock Impact of the secretome of human mesenchymal stem cells on brain
+  structure and animal behavior in a rat model of parkinson's disease.
+\newblock {\em Stem cells translational medicine}, 6(2):634--646.
 
 \bibitem[Tinevez et~al., 2017]{tinevez2017trackmate}
 Tinevez, J.-Y., Perry, N., Schindelin, J., Hoopes, G.~M., Reynolds, G.~D.,
@@ -24,10 +258,69 @@ Tinevez, J.-Y., Perry, N., Schindelin, J., Hoopes, G.~M., Reynolds, G.~D.,
   tracking.
 \newblock {\em Methods}, 115:80--90.
 
+\bibitem[Towbin et~al., 1979]{towbin1979electrophoretic}
+Towbin, H., Staehelin, T., and Gordon, J. (1979).
+\newblock Electrophoretic transfer of proteins from polyacrylamide gels to
+  nitrocellulose sheets: procedure and some applications.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  76(9):4350--4354.
+
+\bibitem[Truong et~al., 2018]{truong2018characterization}
+Truong, N.~C., Bui, K. H.-T., and Van~Pham, P. (2018).
+\newblock Characterization of senescence of human adipose-derived stem cells
+  after long-term expansion.
+
+\bibitem[Turinetto et~al., 2016]{turinetto2016senescence}
+Turinetto, V., Vitale, E., and Giachino, C. (2016).
+\newblock Senescence in human mesenchymal stem cells: functional changes and
+  implications in stem cell-based therapy.
+\newblock {\em International journal of molecular sciences}, 17(7):1164.
+
 \bibitem[Vicente-Manzanares et~al., 2009]{vicente2009non}
 Vicente-Manzanares, M., Ma, X., Adelstein, R.~S., and Horwitz, A.~R. (2009).
 \newblock Non-muscle myosin ii takes centre stage in cell adhesion and
   migration.
 \newblock {\em Nature reviews Molecular cell biology}, 10(11):778.
+
+\bibitem[Vulcano et~al., 2016]{vulcano2016wharton}
+Vulcano, F., Milazzo, L., Ciccarelli, C., Eramo, A., Sette, G., Mauro, A.,
+  Macioce, G., Martinelli, A., La~Torre, R., Casalbore, P., et~al. (2016).
+\newblock Wharton's jelly mesenchymal stromal cells have contrasting effects on
+  proliferation and phenotype of cancer stem cells from different subtypes of
+  lung cancer.
+\newblock {\em Experimental cell research}, 345(2):190--198.
+
+\bibitem[Wagner et~al., 2008]{wagner2008replicative}
+Wagner, W., Horn, P., Castoldi, M., Diehlmann, A., Bork, S., Saffrich, R.,
+  Benes, V., Blake, J., Pfister, S., Eckstein, V., et~al. (2008).
+\newblock Replicative senescence of mesenchymal stem cells: a continuous and
+  organized process.
+\newblock {\em PloS one}, 3(5):e2213.
+
+\bibitem[Wang and Jang, 2009]{wang2009protein}
+Wang, D. and Jang, D.-J. (2009).
+\newblock Protein kinase ck2 regulates cytoskeletal reorganization during
+  ionizing radiation--induced senescence of human mesenchymal stem cells.
+\newblock {\em Cancer research}, 69(20):8200--8207.
+
+\bibitem[Yu et~al., 2018]{yu2018replicative}
+Yu, J., Shi, J., Zhang, Y., Zhang, Y., Huang, Y., Chen, Z., and Yang, J.
+  (2018).
+\newblock The replicative senescent mesenchymal stem/stromal cells defect in
+  dna damage response and anti-oxidative capacity.
+\newblock {\em International journal of medical sciences}, 15(8):771.
+
+\bibitem[Zachar et~al., 2016]{zachar2016activation}
+Zachar, L., Ba{\v{c}}enkov{\'a}, D., and Rosocha, J. (2016).
+\newblock Activation, homing, and role of the mesenchymal stem cells in the
+  inflammatory environment.
+\newblock {\em Journal of inflammation research}, 9:231.
+
+\bibitem[Zhang et~al., 2018]{zhang2018overexpression}
+Zhang, T., Wang, P., Liu, Y., Zhou, J., Shi, Z., Cheng, K., Huang, T., Wang,
+  X., Yang, G.~L., Yang, B., et~al. (2018).
+\newblock Overexpression of foxq1 enhances anti-senescence and migration
+  effects of human umbilical cord mesenchymal stem cells in vitro and in vivo.
+\newblock {\em Cell and tissue research}, 373(2):379--393.
 
 \end{thebibliography}
