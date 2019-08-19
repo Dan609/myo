@@ -89,8 +89,9 @@ Thus, the objective of this study is analysis of replicative aging in the proces
 
 The hypothesis of this study was that motility changes associated with human MSC senescence are actin-cytoskeleton and RhoA-dependent.
 Little is known about how the structural aspects of these cells are modified as a result of replicative aging.
-We investigated changes in distribution of F-actin and actin-binding proteins myosin-9 and $\alpha$-actinin-4 as well as small GTPase RhoA simultaneously with the registration of parameters characterizing cell motility using fluorescence and confocal microscopy-based quantitative image cytometry techniques in combination with liquid chromatography.
-In order to give a structural interpretation to the immunofluorescence data we investigated changes in distribution of cytosole-derived myosin-9 in FPLC gel-filtration fractions.
+Using fluorescence and confocal microscopy-based quantitative image cytometry techniques, we investigated changes in distribution of F-actin and actin-binding proteins myosin-9 and $\alpha$-actinin-4 as well as small GTPase RhoA in conjunction with the registration of parameters characterizing cell motility.
+In order to characterize the change in the composition of cytoplasmic protein complexes containing myosin-9 and beta-actin, we used liquid chromatography.
+
 
 
 \section{MATERIALS AND METHODS}
@@ -102,7 +103,7 @@ The characterized cell line was obtained from "Collection of vertebrate cell cul
 MSCWJ-1 cells were cultured in growth medium containing 90\% DMEM/F12 medium (Biolot, Russia) and 10\% fetal bovine serum (FBS) (Hyclone, United States).
 Cells were cultured in 5\% $CO_2$, $37\degree C$ and 90\% humidity conditions.
 Microbiological analysis confirmed the absence of bacterial, fungal and mycoplasmal contamination in the resulting line.
-The cultivation method is monolayer, the reseeding procedure consists in removing the cells with 0.25\% trypsin, the multiplicity of sieving is 1:3 and its optimum density is 4.0 --- 5.0 x $10^{6}$ cells/ml in ampule.
+The cultivation method was monolayer reseeding, the reseeding procedure consists in removing the cells with 0.25\% trypsin, the multiplicity of sieving is 1:3, optimum density of cell suspension was 5.0 x $10^{6}$ cells/ml.
 
 \subsection{Replicative cell aging}
 
@@ -126,16 +127,14 @@ Cells were analyzed on a confocal microscope Leica SP8 (Germany).
 
 \subsection{Colocalization analysis}
 
-For colocalization images opened in ImageJ were converted to 32 bit grayscale
-The microscope initially captures images in a resolution of 72 dpi with a side of 1024, we took each image in the red and green channels, to select the ROI with 1 cell inside manually, from 9 to 15 in each group of measurements.
-The Pearson, Spearman, Manders and Kendall colocalization coefficients were calculated using ImageJ version 1.52i using the Coloc 2 plugin (\cite{rueden2017imagej2}).
+Colocalization coefficients were calculated using ImageJ version 1.52i using the Coloc 2 plugin (\cite{rueden2017imagej2}).
+Raw 1024 x 1024 px images was in 72 dpi resolution.
+For colocalization analysis images were opened in ImageJ, RGB channels were converted to 32 bit grayscale.
+Cells were selected manually on merged image and ROI passed to Coloc 2 plugin.
+The Pearson, Spearman, Manders and Kendall colocalization coefficients were calculated and passed as CSV files to R environment.
 However, Pearsons correlation coeff can be pretty noisy (\cite{adler2008replicate}; \cite{bergholm2010analysis}).
 For further analysis, the values of the $\tau$-Kendall rank correlation coefficient (bTau) and Pearson product-moment correlation coefficient (Rval) were used.
 The values of the correlation coefficient bTau were interpreted in accordance with the Cheddock scale (see table \ref{cheddock}).
-\cite{tinevez2017trackmate}
-\cite{mclean2018trajr}
-
-\subsection*{Colocalization interpretation for bTau coefficient}
 
 \begin{table}[h]
   \caption{Cheddock scale}
@@ -157,12 +156,13 @@ The values of the correlation coefficient bTau were interpreted in accordance wi
 
 \subsection{Quantitative image cytometry and cell movement analisys}
 
-For determining the movement characteristics of individual cells we used high-content Quantitative Image Cytometer CQ1 (Yokogawa) with Nipkow spinning disk confocal technology (\cite{sakashita2015cq1}).
+Comparative analysis of cell movement characteristics relative to replicative aging was performed using time-lapse movies.
+For recording the movement of individual cells we used high-content Quantitative Image Cytometer CQ1 (Yokogawa) with Nipkow spinning disk confocal technology (\cite{sakashita2015cq1}).
 Cells were plated on 6-well dishes and stained with Hoechst 33342 (Invitrogen, USA).
 Images were acquired during 24 h session with 405-nm laser and bright field illumination using 40x 0.95-NA dry objective lens.
 All images had a 2560 x 2160 pixel resolution, with a pixel size equivalent to 0.2 $\mu$m in x and y.
-A set of x-y coordinates were obrained from images in ImageJ software with Manual tracking plugin.
-Eack cell was manually marked in the middle of the nucleus in each time point.
+A set of x-y coordinates were obtained from images in ImageJ software with Manual tracking plugin.
+Each cell was manually marked in the middle of the nucleus in each time point.
 Only cells satisfying the following conditions were noted: the cell must be in the field of view in all frames, the cell does not divide.
 Dividing cells were not counted.
 Trajectories were obtained from from a set of x-y coordinates.
@@ -192,7 +192,7 @@ The column was calibrated with the set of proteins shown in table
 
 
 The protein extract was filtered and applied to the column in a volume of 500 $\mu$l.
-Fractions were collected on ice 1 ml each 2 min starting from time point determined by calibration set separation (see supplement for detales).
+Fractions were collected on ice 1 ml each 2 min starting from time point determined by calibration set separation.
 For protein sedimentation, 100 $\mu$l of 0.15\% DOX sodium deoxycholate was added to the collected fractions and mixed vigorously, incubated for 10 minutes in a refrigerator, then 100 $\mu$l of 50\% TCA was added, mixed, incubated for 15 minutes in a freezer, and precipitated by centrifuging the protein for 30 minutes at 20000 G at +4$\degree$ C.
 The supernatant was removed, and cold 100\% acetone was added to the precipitate, mixed vigorously and incubated for 12 hours at -20$\degree$ C.
 A repeated washing with acetone was done, and then the protein was precipitated by centrifugation for 15 min at 20000 G at +4$\degree$ C, the supernatant was collected, the precipitate was dried, and 2-fold sample buffer was added to the precipitate (125 mM Tris-HCl, pH 6.8, 4\% SDS, 10\% glycerol, 0.006\% bromo-phenol blue, 1.8\% $\beta$-mercaptoethanol).
@@ -210,7 +210,7 @@ Rabbit polyclonal antibodies produced against the N-terminal peptide of myosin-9
 Rabbit antibodies to mouse antigens and goat antibodies to rabbit antigens conjugated with horseradish peroxidase (Sigma, USA) were used as second antibodies.
 To enhance the signal in western blotting, SuperSignal substrate (Thermo Scientific, USA) was used.
 Chemiluminescent radiation was recorded using a ChemiDoc system (Bio-Rad, USA).
-% Densitometry of blots was performed using the ImageJ program (\cite{rueden2017imagej2}), and statistical analysis of the densitometry data was performed using Microsoft Excel.
+
 
 \subsection{Description of statistical analysis methods}
 
@@ -225,9 +225,7 @@ The Kruskal-Wallis criterion was calculated after ranking all the elements of th
 In the event that the calculated value of the Kruskal-Wallis criterion exceeded the critical one, the differences in the indicators were considered statistically significant.
 Otherwise, the null hypothesis was recognized true.
 We also used the Wilcoxon W-test to check the differences between the two paired samples compared (\cite{wilcoxon1992individual}).
-At the same time, for each group of measurements, the magnitude of the change in the colocalization coefficient was calculated.
-All changes were ordered in absolute value (excluding the sign). Then ranks were assigned a change sign (“+” or “-”), for each sign the ranks were summed.
-A smaller sum of ranks (W) was selected, which was compared with the critical value of the W-criterion.
+For each group of measurements, the magnitude of the change in the colocalization coefficient was calculated.
 If the calculated value of W was less than or equal to the critical value, it was concluded that the differences of the compared samples were statistically significant.
 
 \subsubsection{Multiple Testing Correction}
@@ -263,25 +261,16 @@ For definiteness, we assume that the cell lines are old, in which more than 40 p
 
 \subsection{Immunofluorescent cell analysis}
 
-In order to assess the changes in the structure of the contractile apparatus that can occur during replicative aging, we investigated the structures of the actin cytoskeleton using rhodamine-phalloidin staining.
-Since myosin is a key protein for cell migration...
-When stained with antibodies against myosin heavy chain ...
-In fig. \ref{m9-actin-bgal} shows cells ..
-Myosin-9 is distributed along stress-fibrils, striation is often observed along stress-fibrils,
-
-Morphological analysis of the cell line during long-term cultivation showed homogeneity of cell populations with medium-sized elongated fibroblast-like cells at the 9th and 28th passages (\ref{m9-actin-bgal}).
+Morphological analysis of the cell line during long-term cultivation showed homogeneity of cell populations with medium-sized elongated fibroblast-like cells at the 9th and 28th passages.
 In the process of cultivation, there is a change in the morphology of the cells, expressed in an increase in the size and degree of cell spreading.
 
+In order to assess the changes in the structure of the contractile apparatus that can occur during replicative aging, we investigated the structures of the actin cytoskeleton using rhodamine-phalloidin staining.
+Since myosin is a key protein for cell migration.
 
+Fig. \ref{m9-actin-bgal} shows cells stained with antibodies against myosin-9, actin cytoskeleton visualized with rhodamine phalloidin.
+In all spread cells, staining for myosin-9 reveals a characteristic striated pattern.
 
-Description
-glm \ref{glm} is used to fit generalized linear models, specified by giving a symbolic description of the linear predictor and a description of the error distribution.
-Analysis of Deviance Table
-
-Model: binomial, link: logit
-
-Response: probe
-
+Myosin-9 is distributed along stress-fibrils, striation is often observed along stress-fibrils.
 
 
 \begin{figure}[hbt!]
@@ -291,8 +280,6 @@ Response: probe
 \caption{(A) Staining of F-actin (red) and myosin-9 (green) in cells at different passages (E) The proportion of cells with pronounced activity of $\beta$-galactosidase ($\beta$-gal) in the process of cultivating the MSCWJ-1 line}
 \end{figure}
 
-
-Confocal microscopy of fixed cells ..., at different passages ... 6 p - cells at 9 passage. Red - rhodamine-phalloidin, green - myosin-9, blue - nucleus
 
 
 \begin{figure}[hbt!]
@@ -441,7 +428,7 @@ The reduction of stress-fibrils, characteristic of many types of transformed cel
 The transformed cells in the culture are observed violations of spreading.
 At all stages of spreading, the distribution of lamellipodia is disturbed, as a result of which lamellae are formed as separate fragments, and not along the entire perimeter of the cell. Flattening of the cell is uneven, disc-shaped is not observed.
 Upon completion of the spreading, such cells do not reach a large area comparable to the area of normal cells (Rovensky, Vasiliev, 2004).
-
+In order to give a structural interpretation to the immunofluorescence data we investigated changes in distribution of cytosole-derived myosin-9 in FPLC gel-filtration fractions.
 Apparently, the accumulation of myosin-9 in light molecular weight fractions after gel filtration, which we observe at passage 15, is due to the fact that the protein is in the assembly-incompetent form (\cite{vicente2009non}), which is also consistent with immunofluorescence data, where we see the accumulation of actin-binding proteins in the form of individual particles, or multimolecular protein complexes.
 \cite{shutova2018mammalian}
 These data can be compared with the results of the analysis of cell motility, in which the sinuosity index reaches its maximum at passage 15, which indicates that such cells change direction of movement more often than young and old cells.
