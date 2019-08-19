@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  15 AUG 2019 22:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  19 AUG 2019 20:00
 entering extended mode
 **./myo.tex
 (myo.tex
@@ -872,82 +872,87 @@ Overfull \hbox (2.22168pt too wide) has occurred while \output is active
 
 
 {C:/Users/1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (1.73119pt too wide) in paragraph at lines 62--64
+Overfull \hbox (1.73119pt too wide) in paragraph at lines 62--65
 []\T2A/cmr/m/n/10 Non-immortalized cell lines undergo a process of replicative 
 aging. Replicative
  []
 
 
-Overfull \hbox (0.8944pt too wide) in paragraph at lines 62--64
+Overfull \hbox (0.8944pt too wide) in paragraph at lines 62--65
 \T2A/cmr/m/n/10 increase in the process of long-term cultivation. It is charact
 erized by a significant
  []
 
 [2]
-Overfull \hbox (9.91997pt too wide) in paragraph at lines 84--88
+Overfull \hbox (9.91997pt too wide) in paragraph at lines 90--94
 \T2A/cmr/m/n/10 techniques in combination with liquid chromatography. In order 
 to give a structural
  []
 
 
-Overfull \hbox (21.07727pt too wide) in paragraph at lines 84--88
+Overfull \hbox (21.07727pt too wide) in paragraph at lines 90--94
 \T2A/cmr/m/n/10 interpretation to the immunofluorescence data we investigated c
 hanges in distribution
  []
 
 
-Overfull \hbox (0.64445pt too wide) in paragraph at lines 94--100
+Overfull \hbox (0.64445pt too wide) in paragraph at lines 100--106
 \T2A/cmr/m/n/10 umbilical cord of the person (MSCWJ-1) was used in the work. Th
 e characterized
  []
 
 
-Overfull \hbox (8.65025pt too wide) in paragraph at lines 94--100
+Overfull \hbox (8.65025pt too wide) in paragraph at lines 100--106
 \T2A/cmr/m/n/10 of Cytology of the Russian Academy of Sciences (St. Petersburg,
  Russia). MSCWJ-
  []
 
 
-Overfull \hbox (10.0658pt too wide) in paragraph at lines 103--110
+Overfull \hbox (10.6174pt too wide) in paragraph at lines 100--106
+\T2A/cmr/m/n/10 Cells were cultured in 5% $\OML/cmm/m/it/10 CO[]$\T2A/cmr/m/n/1
+0 , $\OT1/cmr/m/n/10 37[]\OML/cmm/m/it/10 C$ \T2A/cmr/m/n/10 and 90% humidity c
+onditions. Microbiological
+ []
+
+
+Overfull \hbox (9.63673pt too wide) in paragraph at lines 100--106
+\T2A/cmr/m/n/10 analysis confirmed the absence of bacterial, fungal and mycopla
+smal contamination
+ []
+
+
+Overfull \hbox (5.7832pt too wide) in paragraph at lines 100--106
+\T2A/cmr/m/n/10 in the resulting line. The cultivation method is monolayer, the
+ reseeding procedure
+ []
+
+
+Overfull \hbox (10.0658pt too wide) in paragraph at lines 109--116
 []\T2A/cmr/m/n/10 The efficacy of the $\OML/cmm/m/it/10 $\T2A/cmr/m/n/10 -gala
 ctosidase enzyme was evaluated by the $\OML/cmm/m/it/10 $\T2A/cmr/m/n/10 -gala
 ctosidase
  []
 
 
-Overfull \hbox (16.33507pt too wide) in paragraph at lines 103--110
+Overfull \hbox (16.33507pt too wide) in paragraph at lines 109--116
 \T2A/cmr/m/n/10 enzyme activity. MSCWJ-1 cells were grown in 3.5 cm Petri dishe
 s until subconfluent
  []
 
 
-myo.tex:116: Package inputenc Error: Unicode character − (U+2212)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.116 ...h final concentration 1.5 $\mu$g m$L^{−
-                                                  1}$. Preparations were mad...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-Overfull \hbox (2.50214pt too wide) in paragraph at lines 113--118
+Overfull \hbox (2.50214pt too wide) in paragraph at lines 119--125
 []\T2A/cmr/m/n/10 Coverslips with adherent cells were fixed in a 3% solution of
  paraformaldehyde
  []
 
 [3]
-Overfull \hbox (0.69592pt too wide) in paragraph at lines 122--130
+Overfull \hbox (0.69592pt too wide) in paragraph at lines 129--137
 []\T2A/cmr/m/n/10 For colocalization images opened in ImageJ were converted to 
 32 bit grayscale
  []
 
-myo.tex:145: Misplaced alignment tab character &.
-l.145 ... using the algorithm described by Bovet &
+myo.tex:171: Misplaced alignment tab character &.
+l.171 ... using the algorithm described by Bovet &
                                                    Benhamou (\cite{bovet1988...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -957,186 +962,180 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (15.27313pt too wide) in paragraph at lines 134--153
+Overfull \hbox (15.27313pt too wide) in paragraph at lines 160--179
 \T2A/cmr/m/n/10 high-content Quantitative Image Cytometer CQ1 (Yokogawa) with N
 ipkow spinning
  []
 
 [4]
-Overfull \hbox (14.63808pt too wide) in paragraph at lines 161--170
+Overfull \hbox (14.63808pt too wide) in paragraph at lines 187--192
 []\T2A/cmr/m/n/10 For gel-chromatographic separation of cell lysates, an FPLC s
 ystem (Pharmacia)
  []
 
 [5]
-Overfull \hbox (11.5807pt too wide) in paragraph at lines 173--184
+Overfull \hbox (11.5807pt too wide) in paragraph at lines 203--214
 \T2A/cmr/m/n/10 against the N-terminal peptide of myosin-9, mouse monoclonal an
 tibodies produced
  []
 
 
-Overfull \hbox (8.10822pt too wide) in paragraph at lines 173--184
+Overfull \hbox (8.10822pt too wide) in paragraph at lines 203--214
 \T2A/cmr/m/n/10 mouse antigens and goat antibodies to rabbit antigens conjugate
 d with horseradish
  []
 
 
-Overfull \hbox (4.66827pt too wide) in paragraph at lines 187--202
+Overfull \hbox (4.66827pt too wide) in paragraph at lines 217--232
 []\T2A/cmr/m/n/10 The study materials were subjected to statistical processing 
 using the methods
  []
 
 
-Overfull \hbox (40.30367pt too wide) in paragraph at lines 187--202
+Overfull \hbox (40.30367pt too wide) in paragraph at lines 217--232
 \T2A/cmr/m/n/10 of parametric and non-parametric analysis. The accumulation, co
 rrection, systematization
  []
 
 
-Overfull \hbox (22.44469pt too wide) in paragraph at lines 187--202
+Overfull \hbox (22.44469pt too wide) in paragraph at lines 217--232
 \T2A/cmr/m/n/10 considered outliers and deleted. Quantitative indicators were e
 valuated for compliance
  []
 
 
-Overfull \hbox (13.82904pt too wide) in paragraph at lines 187--202
+Overfull \hbox (13.82904pt too wide) in paragraph at lines 217--232
 \T2A/cmr/m/n/10 W-test to check the differences between the two paired samples 
 compared (Wilcoxon
  []
 
 [6] [7]
-<fig_m9-actin-bgal.jpg, id=40, 758.835pt x 1011.78pt>
+<fig_m9-actin-bgal.jpg, id=38, 758.835pt x 1011.78pt>
 File: fig_m9-actin-bgal.jpg Graphic file (type jpg)
 <use fig_m9-actin-bgal.jpg>
-Package pdftex.def Info: fig_m9-actin-bgal.jpg  used on input line 248.
+Package pdftex.def Info: fig_m9-actin-bgal.jpg  used on input line 290.
 (pdftex.def)             Requested size: 310.4979pt x 413.99881pt.
-<fig_m9-actin-col.jpg, id=41, 758.835pt x 1011.78pt>
+<fig_m9-actin-col.jpg, id=39, 758.835pt x 1011.78pt>
 File: fig_m9-actin-col.jpg Graphic file (type jpg)
 <use fig_m9-actin-col.jpg>
-Package pdftex.def Info: fig_m9-actin-col.jpg  used on input line 258.
+Package pdftex.def Info: fig_m9-actin-col.jpg  used on input line 300.
 (pdftex.def)             Requested size: 310.4979pt x 413.99881pt.
- [8 <./fig_m9-actin-bgal.jpg>]
-Overfull \hbox (2.94504pt too wide) in paragraph at lines 264--265
-\T2A/cmr/m/n/10 standard error, Dynamics with confidence intervals, significant
- difference between
- []
 
-
-Overfull \hbox (8.89058pt too wide) in paragraph at lines 267--268
+Overfull \hbox (8.89058pt too wide) in paragraph at lines 309--310
 []\T2A/cmr/m/n/10 It turns out, that Keandall and Spearman coefficients shows p
 erfect correlation,
  []
 
 
-Overfull \hbox (29.90845pt too wide) in paragraph at lines 267--268
+Overfull \hbox (29.90845pt too wide) in paragraph at lines 309--310
 \T2A/cmr/m/n/10 Manders and Pearson coefficient moderate correlation (Corr = 0.
 758) (see supplement9[])
  []
 
-<fig_a4-actin.jpg, id=45, 758.835pt x 1011.78pt>
+<fig_a4-actin.jpg, id=40, 758.835pt x 1011.78pt>
 File: fig_a4-actin.jpg Graphic file (type jpg)
 <use fig_a4-actin.jpg>
-Package pdftex.def Info: fig_a4-actin.jpg  used on input line 272.
+Package pdftex.def Info: fig_a4-actin.jpg  used on input line 314.
 (pdftex.def)             Requested size: 310.4979pt x 413.99881pt.
-<fig_a4-actin-col.jpg, id=46, 758.835pt x 1011.78pt>
+<fig_a4-actin-col.jpg, id=41, 758.835pt x 1011.78pt>
 File: fig_a4-actin-col.jpg Graphic file (type jpg)
 <use fig_a4-actin-col.jpg>
-Package pdftex.def Info: fig_a4-actin-col.jpg  used on input line 280.
+Package pdftex.def Info: fig_a4-actin-col.jpg  used on input line 323.
 (pdftex.def)             Requested size: 310.4979pt x 413.99881pt.
-[9 <./fig_m9-actin-col.jpg>] [10 <./fig_a4-actin.jpg>] [11 <./fig_a4-actin-col.
-jpg>]
-<fig_rho-actin-col.jpg, id=56, 758.835pt x 1011.78pt>
+[8] [9 <./fig_m9-actin-bgal.jpg>]
+<fig_rho-actin-col.jpg, id=50, 758.835pt x 1011.78pt>
 File: fig_rho-actin-col.jpg Graphic file (type jpg)
 <use fig_rho-actin-col.jpg>
-Package pdftex.def Info: fig_rho-actin-col.jpg  used on input line 296.
+Package pdftex.def Info: fig_rho-actin-col.jpg  used on input line 341.
 (pdftex.def)             Requested size: 310.4979pt x 413.99881pt.
-<fig_rho-3d.png, id=57, 1161.33875pt x 1083.04625pt>
+<fig_rho-3d.png, id=51, 1161.33875pt x 1083.04625pt>
 File: fig_rho-3d.png Graphic file (type png)
 <use fig_rho-3d.png>
-Package pdftex.def Info: fig_rho-3d.png  used on input line 305.
+Package pdftex.def Info: fig_rho-3d.png  used on input line 350.
 (pdftex.def)             Requested size: 310.4979pt x 289.56741pt.
-<fig_traj.jpg, id=58, 758.835pt x 1011.78pt>
+<fig_traj.jpg, id=52, 758.835pt x 1011.78pt>
 File: fig_traj.jpg Graphic file (type jpg)
 <use fig_traj.jpg>
-Package pdftex.def Info: fig_traj.jpg  used on input line 319.
+Package pdftex.def Info: fig_traj.jpg  used on input line 364.
 (pdftex.def)             Requested size: 345.0pt x 460.00554pt.
 
-Overfull \hbox (1.00412pt too wide) in paragraph at lines 331--340
+Overfull \hbox (1.00412pt too wide) in paragraph at lines 376--385
  [][] 
  []
 
-<fig_fplc.png, id=59, 1514.65875pt x 1083.04625pt>
-File: fig_fplc.png Graphic file (type png)
-<use fig_fplc.png>
-Package pdftex.def Info: fig_fplc.png  used on input line 346.
-(pdftex.def)             Requested size: 310.4979pt x 222.00938pt.
+<fig_fplc.jpg, id=53, 963.6pt x 542.025pt>
+File: fig_fplc.jpg Graphic file (type jpg)
+<use fig_fplc.jpg>
+Package pdftex.def Info: fig_fplc.jpg  used on input line 391.
+(pdftex.def)             Requested size: 310.4979pt x 174.65077pt.
 
-Overfull \hbox (13.55133pt too wide) in paragraph at lines 357--375
+Overfull \hbox (13.55133pt too wide) in paragraph at lines 399--417
 \T2A/cmr/m/n/10 forces for creating amazing morphological diversity and the dyn
 amics of mammalian
  []
 
 
-Overfull \hbox (3.9492pt too wide) in paragraph at lines 357--375
+Overfull \hbox (3.9492pt too wide) in paragraph at lines 399--417
 \T2A/cmr/m/n/10 cells. Beta-galactosidase activity is expected to increase as t
 he culture is passaged.
  []
 
 
-Overfull \hbox (11.58846pt too wide) in paragraph at lines 357--375
+Overfull \hbox (11.58846pt too wide) in paragraph at lines 399--417
 \T2A/cmr/m/n/10 replicative cycle, Hayflick limit. Currently, two main theories
  about the mechanisms
  []
 
-[12] [13 <./fig_rho-actin-col.jpg>] [14 <./fig_rho-3d.png (PNG copy)>] [15 <./f
-ig_traj.jpg>] [16 <./fig_fplc.png (PNG copy)>]
+[10 <./fig_m9-actin-col.jpg>] [11 <./fig_a4-actin.jpg>] [12 <./fig_a4-actin-col
+.jpg>] [13 <./fig_rho-actin-col.jpg>] [14 <./fig_rho-3d.png (PNG copy)>]
+[15 <./fig_traj.jpg>] [16 <./fig_fplc.jpg>]
 
 Package natbib Warning: Citation `shutova2010normal' on page 17 undefined on in
-put line 389.
+put line 431.
 
 
-Overfull \hbox (8.0341pt too wide) in paragraph at lines 388--402
+Overfull \hbox (8.0341pt too wide) in paragraph at lines 430--444
 []\T2A/cmr/m/n/10 Elliott et al. find that Rho/ROCK-stimulated myosin II contra
 ctility minimizes
  []
 
 
-Overfull \hbox (7.976pt too wide) in paragraph at lines 388--402
+Overfull \hbox (7.976pt too wide) in paragraph at lines 430--444
 \T2A/cmr/m/n/10 pseudopodia around the entire perimeter of the cell. The networ
 k of microfilaments
  []
 
 
-Overfull \hbox (22.46582pt too wide) in paragraph at lines 388--402
+Overfull \hbox (22.46582pt too wide) in paragraph at lines 430--444
 \T2A/cmr/m/n/10 structures arising in sprawling cells are mainly the result of 
 a sequential reorganization
  []
 
 [17]
-Overfull \hbox (4.11473pt too wide) in paragraph at lines 407--410
+Overfull \hbox (4.11473pt too wide) in paragraph at lines 449--452
 \T2A/cmr/m/n/10 nucleus. Moving to the nucleus,RhoA can down-regulate stress fi
 brils organization
  []
 
 
-Overfull \hbox (5.33478pt too wide) in paragraph at lines 416--417
+Overfull \hbox (5.33478pt too wide) in paragraph at lines 458--459
 []\T2A/cmr/m/n/10 Replicative aging of human mesenchymal stem cells is accompan
 ied by changes
  []
 
-(myo.bbl
+[18] (myo.bbl
 Underfull \hbox (badness 1009) in paragraph at lines 4--8
 \T2A/cmr/m/n/10 correlation for accurate measurements of colocalization.  \T2A/
 cmr/m/it/10 Journal of
  []
 
-[18] [19]
+[19]
 Underfull \hbox (badness 3199) in paragraph at lines 112--117
 \T2A/cmr/m/n/10 S., Pepper, K., Olson, S., Fierro, F., and Nolta, J. A. (2011).
 
  []
 
-[20]
+[20] [21]
 Underfull \hbox (badness 1178) in paragraph at lines 208--212
 []\T2A/cmr/m/n/10 Luo, J., Zhao, X., Tan, Z., Su, Z., Meng, F., and Zhang, M. (
 2013).
@@ -1148,39 +1147,39 @@ Underfull \hbox (badness 2772) in paragraph at lines 208--212
 .
  []
 
-[21]
+[22]
 Underfull \hbox (badness 2213) in paragraph at lines 305--309
 []\T2A/cmr/m/n/10 Shutova, M. S. and Svitkina, T. M. (2018).  Mammalian nonmusc
 le
  []
 
-[22] [23])
+[23])
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-myo.tex:484: Package inputenc Error: Unicode character ​ (U+200B)
+myo.tex:508: Package inputenc Error: Unicode character ​ (U+200B)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.484 ...plate remains with correlation values ​
+l.508 ...plate remains with correlation values ​
                                                   ​between the measured so...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-myo.tex:484: Package inputenc Error: Unicode character ​ (U+200B)
+myo.tex:508: Package inputenc Error: Unicode character ​ (U+200B)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.484 ...te remains with correlation values ​​
+l.508 ...te remains with correlation values ​​
                                                   between the measured soloc...
 
 You may provide a definition with
@@ -1190,7 +1189,7 @@ You may provide a definition with
 <supp1.jpeg, id=101, 963.6pt x 583.42969pt>
 File: supp1.jpeg Graphic file (type jpg)
 <use supp1.jpeg>
-Package pdftex.def Info: supp1.jpeg  used on input line 487.
+Package pdftex.def Info: supp1.jpeg  used on input line 511.
 (pdftex.def)             Requested size: 345.0pt x 208.88611pt.
 
 
@@ -1201,13 +1200,13 @@ Package natbib Warning: There were undefined citations.
 
 [25 <./supp1.jpeg>] [26] (myo.aux) ) 
 Here is how much of TeX's memory you used:
- 18903 strings out of 492895
- 331150 string characters out of 3125603
- 412539 words of memory out of 3000000
- 22630 multiletter control sequences out of 15000+200000
+ 18906 strings out of 492895
+ 331207 string characters out of 3125603
+ 413557 words of memory out of 3000000
+ 22633 multiletter control sequences out of 15000+200000
  544901 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,17n,63p,1050b,347s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,17n,63p,829b,339s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts
 /pk/ljfour/lh/lh-t2a/dpi600\latt0800.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\f
 onts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\1\AppData\Local\MiKTeX\2
@@ -1226,9 +1225,9 @@ lic/amsfonts/cm/cmr7.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/1/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on myo.pdf (26 pages, 3173319 bytes).
+Output written on myo.pdf (26 pages, 2802128 bytes).
 PDF statistics:
- 521 PDF objects out of 1000 (max. 8388607)
+ 524 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

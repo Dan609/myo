@@ -222,11 +222,11 @@ INPUT .\fig_traj.jpg
 INPUT .\fig_traj.jpg
 INPUT .\fig_traj.jpg
 INPUT .\fig_traj.jpg
-INPUT fig_fplc.png
-INPUT .\fig_fplc.png
-INPUT .\fig_fplc.png
-INPUT .\fig_fplc.png
-INPUT .\fig_fplc.png
+INPUT fig_fplc.jpg
+INPUT .\fig_fplc.jpg
+INPUT .\fig_fplc.jpg
+INPUT .\fig_fplc.jpg
+INPUT .\fig_fplc.jpg
 INPUT myo.bbl
 INPUT myo.bbl
 INPUT supp1.jpeg
