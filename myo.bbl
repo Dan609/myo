@@ -199,6 +199,10 @@ Julianto, I. and Rindastuti, Y. (2016).
   repair.
 \newblock {\em Acta Medica Indonesiana}, 48(3):217--220.
 
+\bibitem[Khaitlina, 2001]{khaitlina2001functional}
+Khaitlina, S.~Y. (2001).
+\newblock Functional specificity of actin isoforms.
+
 \bibitem[Koltsova et~al., 2018]{koltsova2018dynamics}
 Koltsova, A., Krylova, T., Musorina, A., Zenin, V., Turilova, V., Yakovleva,
   T., and Poljanskaya, G. (2018).
@@ -285,6 +289,14 @@ Niedernhofer, L.~J., Gurkar, A.~U., Wang, Y., Vijg, J., Hoeijmakers, J.~H., and
   Robbins, P.~D. (2018).
 \newblock Nuclear genomic instability and aging.
 \newblock {\em Annual review of biochemistry}, 87:295--322.
+
+\bibitem[Omelchenko et~al., 2002]{omelchenko2002mechanisms}
+Omelchenko, T., Vasiliev, J., Gelfand, I., Feder, H., and Bonder, E. (2002).
+\newblock Mechanisms of polarization of the shape of fibroblasts and
+  epitheliocytes: Separation of the roles of microtubules and rho-dependent
+  actin--myosin contractility.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  99(16):10452--10457.
 
 \bibitem[{\"O}zcan et~al., 2016]{ozcan2016unbiased}
 {\"O}zcan, S., Alessio, N., Acar, M.~B., Mert, E., Omerli, F., Peluso, G., and
@@ -389,6 +401,12 @@ Terpilowski, M. (2019).
 \newblock scikit-posthocs: Pairwise multiple comparison tests in python.
 \newblock {\em The Journal of Open Source Software}, 4(36):1169.
 
+\bibitem[Tiurin-Kuz'min et~al., 2013]{tiurin2013molecular}
+Tiurin-Kuz'min, P., Vorotnikov, A., and Tkachuk, V. (2013).
+\newblock Molecular mechanisms of gradient sensing in mesenchymal cells.
+\newblock {\em Rossiiskii fiziologicheskii zhurnal imeni IM Sechenova},
+  99(3):294--312.
+
 \bibitem[Towbin et~al., 1979]{towbin1979electrophoretic}
 Towbin, H., Staehelin, T., and Gordon, J. (1979).
 \newblock Electrophoretic transfer of proteins from polyacrylamide gels to
@@ -406,6 +424,11 @@ Turinetto, V., Vitale, E., and Giachino, C. (2016).
 \newblock Senescence in human mesenchymal stem cells: functional changes and
   implications in stem cell-based therapy.
 \newblock {\em International journal of molecular sciences}, 17(7):1164.
+
+\bibitem[Vasiliev, 1991]{vasiliev1991polarization}
+Vasiliev, J. (1991).
+\newblock Polarization of pseudopodial activities: cytoskeletal mechanisms.
+\newblock {\em Journal of Cell Science}, 98(1):1--4.
 
 \bibitem[Vicente-Manzanares et~al., 2009]{vicente2009non}
 Vicente-Manzanares, M., Ma, X., Adelstein, R.~S., and Horwitz, A.~R. (2009).
