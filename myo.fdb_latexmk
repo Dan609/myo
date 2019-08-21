@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex myo"] 1566409609 "myo.aux" "myo.bbl" "myo" 1566409618
+["bibtex myo"] 1566410593 "myo.aux" "myo.bbl" "myo" 1566410603
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "mybib.bib" 1566408097 74021 3e69e9ddf848358332e3e35cb3a00111 ""
-  "myo.aux" 1566409616 13429 b288cc3321a02e6426b5b944ff057fc5 "pdflatex"
+  "mybib.bib" 1566410563 76530 db3f74b9130348312110f5aa7ec7ccd4 ""
+  "myo.aux" 1566410601 13959 0abff93e375c2c0b5c7e7b7d8fd789b2 "pdflatex"
   (generated)
-  "myo.blg"
   "myo.bbl"
-["pdflatex"] 1566409610 "myo.tex" "myo.pdf" "myo" 1566409618
+  "myo.blg"
+["pdflatex"] 1566410594 "myo.tex" "myo.pdf" "myo" 1566410603
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1000.pk" 1565462790 23468 2764712db66ece9360f5cfc2602b2925 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm0700.pk" 1565542075 16080 0c8342af7a4ce5dfccf0a7158d4ba370 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm0800.pk" 1565462777 18244 b65f1ffe18c93eb7570c0ec00f566da3 ""
@@ -127,13 +127,13 @@
   "fig_rho-3d.png" 1565542549 854562 ace5ee7e01a7bc48ed1194479168fabe ""
   "fig_rho-actin-col.jpg" 1566229925 178373 3a5b715144bd7e6e0241e18155207741 ""
   "fig_traj.jpg" 1565724652 252294 ebe06b12f48e833758e63af279090eb0 ""
-  "myo.aux" 1566409616 13429 b288cc3321a02e6426b5b944ff057fc5 "pdflatex"
-  "myo.bbl" 1566409610 20424 e98ce19e426f34de816d6e5afa21adb8 "bibtex myo"
-  "myo.spl" 1566409611 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "myo.tex" 1566409600 42599 abbebd5a78e16c4353fa7ac23c8ed349 ""
+  "myo.aux" 1566410601 13959 0abff93e375c2c0b5c7e7b7d8fd789b2 "pdflatex"
+  "myo.bbl" 1566410593 22411 b895df2a78d5290d63a9a4a991ae67f9 "bibtex myo"
+  "myo.spl" 1566410595 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "myo.tex" 1566410571 43125 0c690e0ea835e41b0bc2c834573f3344 ""
   "supp1.jpeg" 1565691692 315082 19467261fb06c1c57345caee69a45c60 ""
   (generated)
   "myo.pdf"
-  "myo.aux"
   "myo.log"
   "myo.spl"
+  "myo.aux"
