@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  20 AUG 2019 20:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  21 AUG 2019 19:01
 entering extended mode
 **./myo.tex
 (myo.tex
@@ -1018,107 +1018,112 @@ Overfull \hbox (29.90845pt too wide) in paragraph at lines 305--306
 <fig_a4-actin.jpg, id=40, 758.835pt x 1011.78pt>
 File: fig_a4-actin.jpg Graphic file (type jpg)
 <use fig_a4-actin.jpg>
-Package pdftex.def Info: fig_a4-actin.jpg  used on input line 310.
+Package pdftex.def Info: fig_a4-actin.jpg  used on input line 332.
 (pdftex.def)             Requested size: 310.4979pt x 413.99881pt.
 <fig_a4-actin-col.jpg, id=41, 758.835pt x 1011.78pt>
 File: fig_a4-actin-col.jpg Graphic file (type jpg)
 <use fig_a4-actin-col.jpg>
-Package pdftex.def Info: fig_a4-actin-col.jpg  used on input line 322.
+Package pdftex.def Info: fig_a4-actin-col.jpg  used on input line 344.
 (pdftex.def)             Requested size: 310.4979pt x 413.99881pt.
 [8] [9 <./fig_m9-actin-bgal.jpg>]
 <fig_rho-actin-col.jpg, id=50, 758.835pt x 1011.78pt>
 File: fig_rho-actin-col.jpg Graphic file (type jpg)
 <use fig_rho-actin-col.jpg>
-Package pdftex.def Info: fig_rho-actin-col.jpg  used on input line 340.
+Package pdftex.def Info: fig_rho-actin-col.jpg  used on input line 362.
 (pdftex.def)             Requested size: 310.4979pt x 413.99881pt.
-<fig_rho-3d.png, id=51, 1161.33875pt x 1083.04625pt>
+ [10 <./fig_m9-actin-col.jpg>]
+
+LaTeX Warning: Text page 11 contains only floats.
+
+[11 <./fig_a4-actin.jpg>]
+<fig_rho-3d.png, id=57, 1161.33875pt x 1083.04625pt>
 File: fig_rho-3d.png Graphic file (type png)
 <use fig_rho-3d.png>
-Package pdftex.def Info: fig_rho-3d.png  used on input line 349.
+Package pdftex.def Info: fig_rho-3d.png  used on input line 371.
 (pdftex.def)             Requested size: 310.4979pt x 289.56741pt.
-<fig_traj.jpg, id=52, 758.835pt x 1011.78pt>
+<fig_traj.jpg, id=58, 758.835pt x 1011.78pt>
 File: fig_traj.jpg Graphic file (type jpg)
 <use fig_traj.jpg>
-Package pdftex.def Info: fig_traj.jpg  used on input line 363.
+Package pdftex.def Info: fig_traj.jpg  used on input line 385.
 (pdftex.def)             Requested size: 345.0pt x 460.00554pt.
 
-Overfull \hbox (1.00412pt too wide) in paragraph at lines 375--384
+Overfull \hbox (1.00412pt too wide) in paragraph at lines 397--406
  [][] 
  []
 
-<fig_fplc.jpg, id=53, 963.6pt x 542.025pt>
+<fig_fplc.jpg, id=59, 963.6pt x 542.025pt>
 File: fig_fplc.jpg Graphic file (type jpg)
 <use fig_fplc.jpg>
-Package pdftex.def Info: fig_fplc.jpg  used on input line 390.
+Package pdftex.def Info: fig_fplc.jpg  used on input line 412.
 (pdftex.def)             Requested size: 310.4979pt x 174.65077pt.
 
-Overfull \hbox (13.55133pt too wide) in paragraph at lines 399--400
+Overfull \hbox (13.55133pt too wide) in paragraph at lines 421--422
 \T2A/cmr/m/n/10 forces for creating amazing morphological diversity and the dyn
 amics of mammalian
  []
 
-[10 <./fig_m9-actin-col.jpg>] [11 <./fig_a4-actin.jpg>]
-Overfull \hbox (17.78394pt too wide) in paragraph at lines 405--409
+[12 <./fig_a4-actin-col.jpg>] [13 <./fig_rho-actin-col.jpg>] [14 <./fig_rho-3d.
+png (PNG copy)>] [15 <./fig_traj.jpg>]
+Overfull \hbox (17.78394pt too wide) in paragraph at lines 427--431
 []\T2A/cmr/m/n/10 Cellular actin cytoskeleton appears. Such as maintaining cell
  shape, its migration,
  []
 
 
-Overfull \hbox (15.0576pt too wide) in paragraph at lines 405--409
+Overfull \hbox (15.0576pt too wide) in paragraph at lines 427--431
 \T2A/cmr/m/n/10 signal and the regulation of gene expression. The globular acti
 n assembly mechanism
  []
 
-[12 <./fig_a4-actin-col.jpg>] [13 <./fig_rho-actin-col.jpg>] [14 <./fig_rho-3d.
-png (PNG copy)>] [15 <./fig_traj.jpg>]
-Overfull \hbox (29.27449pt too wide) in paragraph at lines 410--411
+[16 <./fig_fplc.jpg>]
+Overfull \hbox (29.27449pt too wide) in paragraph at lines 432--433
 []\T2A/cmr/m/n/10 On the other hand, a number of actin-binding proteins prevent
  the depolymerization
  []
 
 
-Overfull \hbox (2.33849pt too wide) in paragraph at lines 412--413
+Overfull \hbox (2.33849pt too wide) in paragraph at lines 434--435
 \T2A/cmr/m/n/10 conservative protein complexes to orchestrate the generation of
  power. (Pantaloni
  []
 
-[16 <./fig_fplc.jpg>]
-Overfull \hbox (8.0341pt too wide) in paragraph at lines 447--448
+[17]
+Overfull \hbox (8.0341pt too wide) in paragraph at lines 469--470
 []\T2A/cmr/m/n/10 Elliott et al. find that Rho/ROCK-stimulated myosin II contra
 ctility minimizes
  []
 
-[17]
-Overfull \hbox (18.0528pt too wide) in paragraph at lines 461--462
+
+Overfull \hbox (18.0528pt too wide) in paragraph at lines 483--484
 []\T2A/cmr/m/n/10 A striking example of the dynamic organization of the cytocel
 l is its restructuring,
  []
 
 
-Overfull \hbox (12.636pt too wide) in paragraph at lines 478--479
+Overfull \hbox (12.636pt too wide) in paragraph at lines 500--501
 \T2A/cmr/m/n/10 regulated by the actin-myosin complex, is of central importance
  for the development
  []
 
 [18]
-Overfull \hbox (4.13953pt too wide) in paragraph at lines 507--508
+Overfull \hbox (4.13953pt too wide) in paragraph at lines 529--530
 []\T2A/cmr/m/n/10 Smurf1 thus links the polarity complex to degradation of RhoA
  in lamellipodia
  []
 
 
-Overfull \hbox (5.33478pt too wide) in paragraph at lines 516--517
+Overfull \hbox (5.33478pt too wide) in paragraph at lines 538--539
 []\T2A/cmr/m/n/10 Replicative aging of human mesenchymal stem cells is accompan
 ied by changes
  []
 
-(myo.bbl
+[19] (myo.bbl
 Underfull \hbox (badness 1009) in paragraph at lines 4--8
 \T2A/cmr/m/n/10 correlation for accurate measurements of colocalization.  \T2A/
 cmr/m/it/10 Journal of
  []
 
-[19] [20]
+[20]
 Underfull \hbox (badness 3199) in paragraph at lines 112--117
 \T2A/cmr/m/n/10 S., Pepper, K., Olson, S., Fierro, F., and Nolta, J. A. (2011).
 
@@ -1144,69 +1149,75 @@ le
 
 [24])
 
-myo.tex:566: Package inputenc Error: Unicode character ​ (U+200B)
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[25]
+
+myo.tex:588: Package inputenc Error: Unicode character ​ (U+200B)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.566 ...plate remains with correlation values ​
+l.588 ...plate remains with correlation values ​
                                                   ​between the measured so...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-myo.tex:566: Package inputenc Error: Unicode character ​ (U+200B)
+myo.tex:588: Package inputenc Error: Unicode character ​ (U+200B)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.566 ...te remains with correlation values ​​
+l.588 ...te remains with correlation values ​​
                                                   between the measured soloc...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[25]
 <supp1.jpeg, id=105, 963.6pt x 583.42969pt>
 File: supp1.jpeg Graphic file (type jpg)
 <use supp1.jpeg>
-Package pdftex.def Info: supp1.jpeg  used on input line 569.
+Package pdftex.def Info: supp1.jpeg  used on input line 591.
 (pdftex.def)             Requested size: 345.0pt x 208.88611pt.
- [26 <./supp1.jpeg>] [27] (myo.aux) ) 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[26] [27 <./supp1.jpeg>] [28] (myo.aux) ) 
 Here is how much of TeX's memory you used:
- 18908 strings out of 492895
- 331253 string characters out of 3125603
- 413606 words of memory out of 3000000
- 22635 multiletter control sequences out of 15000+200000
+ 18909 strings out of 492895
+ 331265 string characters out of 3125603
+ 414617 words of memory out of 3000000
+ 22636 multiletter control sequences out of 15000+200000
  544901 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,17n,63p,829b,347s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\1\AppData\Local\MiKTeX\2.9\font
-s/pk/ljfour/lh/lh-t2a/dpi600\latt0800.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\
-fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\1\AppData\Local\MiKTeX\
-2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1000.pk> <C:\Users\1\AppData\Local\MiK
-TeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\1\AppData\Local
-\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati0800.pk> <C:\Users\1\AppData\L
-ocal\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati0600.pk> <C:\Users\1\AppDa
-ta\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\1\A
-ppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users
-\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><C:/Us
-ers/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.p
-fb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmmi8.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr10.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmr7.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/1/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on myo.pdf (27 pages, 2810812 bytes).
+ 41i,17n,63p,829b,339s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\1\AppData\Local\MiKTeX\2.9\
+fonts/pk/ljfour/lh/lh-t2a/dpi600\latt0800.pk> <C:\Users\1\AppData\Local\MiKTeX\
+2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\1\AppData\Local\MiK
+TeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1000.pk> <C:\Users\1\AppData\Local
+\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\1\AppData\L
+ocal\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati0800.pk> <C:\Users\1\AppDa
+ta\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati0600.pk> <C:\Users\1\A
+ppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users
+\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\U
+sers\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><C
+:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
+10.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr7.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/1/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/1/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on myo.pdf (28 pages, 2818480 bytes).
 PDF statistics:
- 521 PDF objects out of 1000 (max. 8388607)
+ 526 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

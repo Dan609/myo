@@ -296,13 +296,35 @@ The use of post hoc analysis revealed significant differences between groups ass
 \begin{figure}[hbt!]
 \centering
 \includegraphics[width=0.9\linewidth]{fig_m9-actin-col.jpg}
-\caption{F-actin and Myosin-9 Colocalization in MSCWJ-1}
+\caption{F-actin and Myosin-9 Colocalization in MSCWJ-1 (A) bTau coefficient changes in course of replicative aging (B) Variables factor map (PCA) (C) Scree plot (D) Correlation plot (E) Pairwise comparison post hoc tests}
 \label{m9-actin-col}
 \end{figure}
 
 
 
-It turns out, that Keandall and Spearman coefficients shows perfect correlation, Manders and Pearson coefficient moderate correlation (Corr = 0.758) (see supplement\ref{supp1}) ... with correlation coefficient 0.985,
+It turns out, that Keandall and Spearman coefficients shows perfect correlation, Manders and Pearson coefficient moderate correlation (Corr = 0.758) (see supplement\ref{supp1}) ... with correlation coefficient 0.985.
+
+The output from factor analysis in R shown in table \ref{tab:pca-M9}.
+
+The uniqueness is the variance that is unexplained by the factors and is unique to that specific variable. The factors have different weights for different variables and they are called the loadings.
+
+% latex table generated in R 3.6.1 by xtable 1.8-4 package
+% Wed Aug 21 18:45:03 2019
+\begin{table}[ht]
+  \label{tab:pca-M9}
+  \caption{PCA analisys loadings for 2 factors}
+\centering
+\begin{tabular}{c|rrrrr}
+  \hline
+  & Rval & tM1 & tM2 & bTau & Rs \\
+  \hline
+Factor 1 & 0.77 & 0.91 & 0.97 & 0.19 & 0.23 \\
+  Factor 2 & 0.46 & 0.13 & 0.17 & 0.98 & 0.96 \\
+Uniqueness &  0.198 & 0.159 & 0.039 & 0.005 & 0.024 \\
+   \hline
+\end{tabular}
+\end{table}
+
 
 
 \begin{figure}[hbt!]
