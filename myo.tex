@@ -222,11 +222,10 @@ Those observations that deviate from the 1st or 3rd quartile by more than one an
 Quantitative indicators were evaluated for compliance with the normal distribution, for this purpose, the Shapiro – Wilk criterion  was used with $8 < n < 15$ (\cite{shapiro1965analysis}; \cite{shapiro1972approximate}) as well as indicators of asymmetry and kurtosis.
 When comparing several samples of quantitative data with a distribution other than normal, Kruskal-Wallis criterion was used, which is a non-parametric alternative to single-factor analysis of variance (\cite{kruskal1952use}).
 The Kruskal-Wallis criterion was calculated after ranking all the elements of the analyzed sets.
-In the event that the calculated value of the Kruskal-Wallis criterion exceeded the critical one, the differences in the indicators were considered statistically significant.
-Otherwise, the null hypothesis was recognized true.
-We also used the Wilcoxon W-test to check the differences between the two paired samples compared (\cite{wilcoxon1992individual}).
-For each group of measurements, the magnitude of the change in the colocalization coefficient was calculated.
-If the calculated value of W was less than or equal to the critical value, it was concluded that the differences of the compared samples were statistically significant.
+In the event that the calculated value of the Kruskal-Wallis criterion exceeded the critical one, the differences in the indicators were considered statistically significant (\cite{wilcoxon1992individual}).
+We performed maximum-likelihood factor analysis on a data matrix with correlation coefficients (\cite{lawley1971factor}).
+Principal component analisys (PCA)  and generalized linear model (GLM) analisys was performed if R environment (\cite{husson2010exploratory}, \cite{dobson2008introduction}).
+
 
 \subsubsection{Multiple Testing Correction}
 
@@ -245,7 +244,7 @@ For definiteness, we assume that  the cell lines are young, in which less than 1
 the cell lines are old, in which more than 40 percent of the cells stained. Other cases are middle-aged cells.
 
 
-\begin{table}[hb]
+\begin{table}[ht]
   \caption{$\beta$-galactosidase enzyme activity in MSCWJ-1 cells with limits of the 95\% confidence interval}
   \label{tab}
 \centering
@@ -260,21 +259,15 @@ the cell lines are old, in which more than 40 percent of the cells stained. Othe
 \end{tabular}
 \end{table}
 
-\subsection{Immunofluorescent cell analysis}
+\subsection{Immunofluorescent and colocalization analysis}
 
 Morphological analysis of the cell line during long-term cultivation showed homogeneity of cell populations with medium-sized elongated fibroblast-like cells at the 9th and 28th passages.
-In the process of cultivation, there is a change in the morphology of the cells, expressed in an increase in the size and degree of cell spreading.
-
-In order to assess the changes in the structure of the contractile apparatus that can occur during replicative aging, we investigated the structures of the actin cytoskeleton using rhodamine-phalloidin staining.
-
-Since myosin is a key protein for cell migration, we decided to study the distribution of this protein in various passages.
-
-Fig. \ref{m9-actin-bgal} shows cells stained with antibodies against myosin-9.
-
+In the process of cultivation, there was a change in the morphology of the cells, expressed in an increase in the size and degree of cell spreading.
+In order to assess the changes in the structure of the contractile apparatus that can occur during replicative aging, we used the immunofluorescence method.
+We used rhodamine-phalloidin to visualize staining F-actin.
+Fig. \ref{m9-actin-bgal} shows cells stained with rhodamine-phalloidin and antibodies against myosin-9.
 In all spread cells, staining for myosin-9 reveals a characteristic striated pattern.
-
 Myosin-9 is distributed along stress-fibrils (Fig. \ref{m9-actin-bgal} B).
-
 In addition to the striated pattern (Fig. \ref{m9-actin-bgal} C), myosin-9 is detected in lamellae as separate spots (Fig. \ref{m9-actin-bgal} D).
 
 
@@ -287,10 +280,16 @@ In addition to the striated pattern (Fig. \ref{m9-actin-bgal} C), myosin-9 is de
 
 
 In order to follow the dynamics of the reorganization of the contractile apparatus during replicative aging, we analyzed the localization of myosin-9 and F-actin in different passages.
-
 The results are presented in the figure \ref{m9-actin-col}.
-
-The use of post hoc analysis revealed significant differences between groups associated with a decrease in colocalization at 15 and 18 passages.
+In the analysis of immunofluorescence images, we calculated five variants of the colocalization coefficients, namely: Kendall's Tau-b rank correlation value (Tau-b), Spearman's rank correlation value (Rs), Manders' M in two varians was get above threshold (tM1 and tM2), and Pearson's R value above threshold (Rval).
+We conducted PCA and a show correlation matrix plot in order to identify the coefficient most suitable for our purposes.
+It turns out, that bTau and Rs coefficients shows very high correlation.
+tM1 and Rval coefficient shows moderate correlation (see supplement\ref{supp1}).
+Kruskal-Wallis rank sum test results presened in table \ref{tab:M9colocs} suggest that bTau reflects changes in colocalization so well.
+The output from factor analysis in R shown in table \ref{tab:pca-M9}.
+The uniqueness is the variance that is unexplained by the factors and is unique to that specific variable.
+The factors have different weights for different variables and they are called the loadings.
+The PCA and factor analysis allowed us to conclude that bTau is the most suitable coefficient and in the future we use it for the analysis of cytoskeletal rearrangements.
 
 
 \begin{figure}[hbt!]
@@ -301,12 +300,9 @@ The use of post hoc analysis revealed significant differences between groups ass
 \end{figure}
 
 
-
-It turns out, that Keandall and Spearman coefficients shows perfect correlation, Manders and Pearson coefficient moderate correlation (Corr = 0.758) (see supplement\ref{supp1}) ... with correlation coefficient 0.985.
-
-The output from factor analysis in R shown in table \ref{tab:pca-M9}.
-
-The uniqueness is the variance that is unexplained by the factors and is unique to that specific variable. The factors have different weights for different variables and they are called the loadings.
+As can be seen in \ref{m9-actin-col}, A, the colocalization of myosin-9 and F-actin decreases from high to moderate level during cultivation and reaches a minimum at passage 15.
+Then, the colocolization rises to a very high level at passage 28, after which it again decreases during passage of cultivation to passage 36, which was our last time point.
+The use of post hoc analysis revealed the most significant differences between groups associated with a decrease in colocalization at 15 and 18 passages (\ref{m9-actin-col}, E).
 
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
 % Wed Aug 21 18:45:03 2019
@@ -326,6 +322,22 @@ Uniqueness &  0.198 & 0.159 & 0.039 & 0.005 & 0.024 \\
 \end{table}
 
 
+\begin{table} [ht]
+  \caption{Kruskal-Wallis rank sum test results for myosin-9 and F-actin colocalization coefficients}
+  \label{tab:M9colocs}
+\centering
+\begin{tabular}{l|ccc}
+    \hline
+ Colocalization coefficient & chi-squared & df & p-value  \\
+   \hline
+ Kendall's Tau-b & 34.669 & 10 & 0.0001422 \\
+ Spearman's R & 34.373 & 10 &  0.0001596 \\
+ Manders' M & 16.107 & 10 & 0.09661 \\
+ Pearson's R & 15.152 & 10 & 0.1266
+\end{tabular}
+\end{table}
+
+
 
 \begin{figure}[hbt!]
 \centering
@@ -335,27 +347,15 @@ Uniqueness &  0.198 & 0.159 & 0.039 & 0.005 & 0.024 \\
 \end{figure}
 
 a-A-4 and nucleus colocalization.
-Shapiro-Wilk normality test data:bTau W = 0.98584, p-value = 0.481
-
 
 
 \begin{figure}[hbt!]
 \centering
-\includegraphics[width=0.9\linewidth]{fig_a4-actin-col.jpg}
-\caption{Colocalization of F-actin and alpha-actintin-4 at different passages}
+\includegraphics[width=0.8\linewidth]{fig_a4-actin-col.jpg}
+\caption{(A) Colocalization of F-actin and Hoechst 33224 at different passages (B) Colocalization of F-actin and alpha-actintin-4 at different passages (C, D) Correlation matrix of correlation coefficients calculated for correspondent colocalization}
 \label{a4-actin-col}
 \end{figure}
 
-
-\subsection{Colocalization of proteins}
-
-The results of the Shapiro-Wilk test for measurements are presented in the table.
-The results of the Shapiro-Wilk test indicate that the distribution of the values of the tau-Kendall rank correlation coefficient is not statistically significantly different from the normal (p> 0.05) in all groups of measurements. A multiple comparison of the medians of all samples was performed using the Kruskal-Wallis test, his results (chi-squared = 30.751, df = 8, p-value = 0.0001556) allowed to reject the null hypothesis and to conclude that there is a significant difference between the samples.
-During the post hoc analysis, we used parametric Student’s two-sample t-test for independent samples to check the differences between paired samples of independent measurements by the level of the tau-Kendall rank correlation coefficient.
-
-However, in the Shapiro-Wilk test, the p-value for the p25 sample turned out to be 0.05657, which is only slightly higher than the significance criterion chosen by us. At the same time, quantile plots show deviations from normality for high and low index values (Fig.).
-
-Therefore, to eliminate doubts about the normality of the data, we also used the non-parametric Wilcoxon sign rank test to check the differences between paired samples of independent measurements by the level of the tau-Kendall rank correlation coefficient.
 
 
 \begin{figure}
@@ -410,7 +410,7 @@ Figure \ref{rho-3d} shows aRhoA in the nucleus...
 \begin{figure}[hbt!]
 \centering
 \includegraphics[width=0.9\linewidth]{fig_fplc.jpg}
-\caption{Gel chromatographic separation of cytoplasmic extracts from WJ1 cells at different stages of replicative aging. Separation of calibration proteins (A) and comparison of elution profiles are presented. Fig.5 Electrophoretic separation of proteins from fractions obtained as a result of gel-chromatographic separation of cytoplasmic extracts from WJ1 cells in various stages of replicative aging.}
+\caption{Gel chromatographic separation of cytoplasmic extracts from MSCWJ-1 cells at different stages of replicative aging. Separation of calibration proteins (A) and comparison of elution profiles are presented. Electrophoretic separation of proteins from fractions obtained as a result of gel-chromatographic separation of cytoplasmic extracts from WJ1 cells in various stages of replicative aging.}
 \label{fpcl}
 \end{figure}
 
@@ -440,6 +440,7 @@ Cellular aging, replicative cycle, Hayflick limit.
 
 We believe that the detected changes in the localization of F-actin and actin-binding proteins reflect the phenomenon of partial disassembly of the cytoskeleton, which is characteristic for switching types of cell movement.
 
+Since myosin-9 is a key protein for cell migration, we investigated the distribution various passages.
 
 Currently, two main theories about the mechanisms of aging are competing with each other: telomeric and oxidative (it is free radical, it is mitochondrial). In 1961, an American doctor, Leonard Hayflick, discovered that human cells cannot endlessly divide: in vitro they undergo approximately 50 doublings and stop proliferation (\cite{hayflick1961serial}).
 
@@ -452,12 +453,6 @@ Cell cycle arrest during replicative aging.
 Another structure characteristic mainly of non-muscle cells is stress fibrils — bundles of F-actin filaments stabilized by such proteins.
 
 Features of the organization of the actin cytoskeleton in mesenchymal stem cells.
-
-The most important population of adult stem cells are mesenchymal stem cells (MSCs).
-
-For the first time, these cells were detected and isolated from the bone marrow stroma.
-
-It was believed that bone marrow MSCs serve as a source for the renewal and restoration of connective tissues such as bone, cartilage and adipose.
 
 At present, analogs of bone marrow MSC are found in all other tissues.
 
@@ -479,19 +474,13 @@ The formation of contacts with the substrate is initiated in the lamellipodia, a
 
 The tension generated by myosin affects the initial focal complexes, inducing their growth and transformation into focal contacts (Ingber, 1991; Riveline et al., 2001; Rottner et al., 2001; Krendel, Mooseker, 2005).
 
-
 A striking example of the dynamic organization of the cytocell is its restructuring, occurring in the cell spreading process.
-
 The process of spreading begins with the formation of pseudopodia around the entire perimeter of the cell.
-
-
 The network of microfilaments on the active edge is constantly formed during the entire spreading process due to the intense polymerization of actin.
-
 
 The remaining types of actin-containing structures arising in sprawling cells are mainly the result of a sequential reorganization of actin polymerized at the edges.
 
 The first stage of such a rearrangement is the emergence of an annular beam located along the edge of the discoid cell immediately behind the zone of the active edge (radial spreading stage) (Svitkina et al., 1986).
-
 
 In the case of fibroblast-like cells, the spreading process on the substrate ends with the stage of polarization. Fibroblasts acquire an elongated polarized form as a result of the redistribution of pseudopodial activity - the division of the cell edge into active and stable zones (Rivne, Vasiliev, 2004).
 
@@ -506,12 +495,9 @@ At all stages of spreading, the distribution of lamellipodia is disturbed, as a 
 
 Flattening of the cell is uneven, disc-shaped is not observed.
 
-
 Upon completion of the spreading, such cells do not reach a large area comparable to the area of normal cells (Rovensky, Vasiliev, 2004).
 
-
 In order to give a structural interpretation to the immunofluorescence data we investigated changes in distribution of cytosole-derived myosin-9 in FPLC gel-filtration fractions.
-
 
 Apparently, the accumulation of myosin-9 in light molecular weight fractions after gel filtration, which we observe at passage 15, is due to the fact that the protein is in the assembly-incompetent form (\cite{vicente2009non}), which is also consistent with immunofluorescence data, where we see the accumulation of actin-binding proteins in the form of individual particles, or multimolecular protein complexes.
 
@@ -594,19 +580,6 @@ In the article in fig. 2B, a small plate remains with correlation values ​​b
   \centering
 \end{figure}
 
-\begin{table} [h]
-  \caption{Kruskal-Wallis rank sum test results for myosin-9 and F-actin colocalization coefficients}
-  \label{tab1}
-\centering
-\begin{tabular}{l|ccc}
- Colocalization coefficient & chi-squared & df & p-value  \\
- Kendall's Tau-b & 34.669 & 10 & 0.0001422 \\
- Spearman's R & 34.373 & 10 &  0.0001596 \\
- Manders' M & 16.107 & 10 & 0.09661 \\
- Pearson's R & 15.152 & 10 & 0.1266
-
-\end{tabular}
-\end{table}
 
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
 % Sat Aug 17 01:43:09 2019

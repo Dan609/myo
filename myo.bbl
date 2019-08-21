@@ -78,6 +78,11 @@ Danisovic, L., Oravcova, L., Krajciova, L., Varchulova~Novakova, Z., Bohac, M.,
   characteristics of human adipose tissue-derived stem cells.
 \newblock {\em J Physiol Pharmacol}, 68(1):149--158.
 
+\bibitem[Dobson and Barnett, 2008]{dobson2008introduction}
+Dobson, A.~J. and Barnett, A.~G. (2008).
+\newblock {\em An introduction to generalized linear models}.
+\newblock Chapman and Hall/CRC.
+
 \bibitem[Dominici et~al., 2006]{dominici2006minimal}
 Dominici, M., Le~Blanc, K., Mueller, I., Slaper-Cortenbach, I., Marini, F.,
   Krause, D., Deans, R., Keating, A., Prockop, D., and Horwitz, E. (2006).
@@ -148,6 +153,12 @@ Huang, Y.-C., Leung, V.~Y., Lu, W.~W., and Luk, K.~D. (2013).
   regeneration of intervertebral disc.
 \newblock {\em The Spine Journal}, 13(3):352--362.
 
+\bibitem[Husson et~al., 2010]{husson2010exploratory}
+Husson, F., L{\^e}, S., and Pages, J. (2010).
+\newblock Exploratory multivariate analysis by example using r, volume 20105550
+  of chapman \& hall/crc computer science \& data analysis.
+\newblock {\em CRC Press}, 30:101--102.
+
 \bibitem[Julianto and Rindastuti, 2016]{julianto2016topical}
 Julianto, I. and Rindastuti, Y. (2016).
 \newblock Topical delivery of mesenchymal stem cells" secretomes" in wound
@@ -197,6 +208,11 @@ Laemmli, U.~K. (1970).
 Larsen, M., Tremblay, M.~L., and Yamada, K.~M. (2003).
 \newblock Phosphatases in cell--matrix adhesion and migration.
 \newblock {\em Nature reviews Molecular cell biology}, 4(9):700.
+
+\bibitem[Lawley and Maxwell, 1971]{lawley1971factor}
+Lawley, D.~N. and Maxwell, A.~E. (1971).
+\newblock Factor analysis as statistical method.
+\newblock Technical report.
 
 \bibitem[Le~Clainche and Carlier, 2008]{le2008regulation}
 Le~Clainche, C. and Carlier, M.-F. (2008).

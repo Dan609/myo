@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex myo"] 1566403300 "myo.aux" "myo.bbl" "myo" 1566403307
+["bibtex myo"] 1566409609 "myo.aux" "myo.bbl" "myo" 1566409618
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "mybib.bib" 1566240930 73362 368b13ea6ae1cae8829ed715d90363db ""
-  "myo.aux" 1566403305 13055 4a2d92c3c157c8674d4c5ce5d729dcc5 "pdflatex"
+  "mybib.bib" 1566408097 74021 3e69e9ddf848358332e3e35cb3a00111 ""
+  "myo.aux" 1566409616 13429 b288cc3321a02e6426b5b944ff057fc5 "pdflatex"
   (generated)
   "myo.blg"
   "myo.bbl"
-["pdflatex"] 1566403301 "myo.tex" "myo.pdf" "myo" 1566403307
+["pdflatex"] 1566409610 "myo.tex" "myo.pdf" "myo" 1566409618
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1000.pk" 1565462790 23468 2764712db66ece9360f5cfc2602b2925 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm0700.pk" 1565542075 16080 0c8342af7a4ce5dfccf0a7158d4ba370 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm0800.pk" 1565462777 18244 b65f1ffe18c93eb7570c0ec00f566da3 ""
@@ -119,7 +119,7 @@
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/calc.sty" 1546708598 10212 357072c1d20578a30d6387d8a22e72ab ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/was/gensymb.sty" 1081497500 4755 29d19942d7123701aa6a3876b9ba11b1 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty" 1463135581 57049 34128738f682d033422ca125f82e5d62 ""
-  "fig_a4-actin-col.jpg" 1566322884 160697 f2e563c77069a82f7caffdded4651922 ""
+  "fig_a4-actin-col.jpg" 1566404178 122064 813840019dba4b49f4033d3fd6826444 ""
   "fig_a4-actin.jpg" 1565859712 229306 4206aa5aa3a052290a8b0f67ee6b0d90 ""
   "fig_fplc.jpg" 1566233812 101038 1e4c9a91e312ca029085a767ce36b8a2 ""
   "fig_m9-actin-bgal.jpg" 1565863684 269903 7c88e17798788eedf1ac3650aad95fa8 ""
@@ -127,13 +127,13 @@
   "fig_rho-3d.png" 1565542549 854562 ace5ee7e01a7bc48ed1194479168fabe ""
   "fig_rho-actin-col.jpg" 1566229925 178373 3a5b715144bd7e6e0241e18155207741 ""
   "fig_traj.jpg" 1565724652 252294 ebe06b12f48e833758e63af279090eb0 ""
-  "myo.aux" 1566403305 13055 4a2d92c3c157c8674d4c5ce5d729dcc5 "pdflatex"
-  "myo.bbl" 1566403300 19761 f58e3a0236549d070a9d43bf1e9b91df "bibtex myo"
-  "myo.spl" 1566403301 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "myo.tex" 1566403290 43253 1b4c0002ac1babf0e41df05a7980d362 ""
+  "myo.aux" 1566409616 13429 b288cc3321a02e6426b5b944ff057fc5 "pdflatex"
+  "myo.bbl" 1566409610 20424 e98ce19e426f34de816d6e5afa21adb8 "bibtex myo"
+  "myo.spl" 1566409611 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "myo.tex" 1566409600 42599 abbebd5a78e16c4353fa7ac23c8ed349 ""
   "supp1.jpeg" 1565691692 315082 19467261fb06c1c57345caee69a45c60 ""
   (generated)
-  "myo.log"
   "myo.pdf"
-  "myo.spl"
   "myo.aux"
+  "myo.log"
+  "myo.spl"
