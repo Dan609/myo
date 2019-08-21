@@ -304,6 +304,7 @@ The PCA and factor analysis allowed us to conclude that bTau is the most suitabl
 As can be seen in \ref{m9-actin-col}, A, the colocalization of myosin-9 and F-actin decreases from high to moderate level during cultivation and reaches a minimum at passage 15.
 Then, the colocolization rises to a very high level at passage 28, after which it again decreases during passage of cultivation to passage 36, which was our last time point.
 The use of post hoc analysis revealed the most significant differences between groups associated with a decrease in colocalization at 15 and 18 passages (\ref{m9-actin-col}, E).
+For further research, we decided that 9, 15, 28, and 36 passages would be key points.
 
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
 % Wed Aug 21 18:45:03 2019
@@ -347,8 +348,11 @@ Uniqueness &  0.198 & 0.159 & 0.039 & 0.005 & 0.024 \\
 \label{a4-actin}
 \end{figure}
 
-a-A-4 and nucleus colocalization.
-
+The results of staining cells with alpha-actinin-4 in these passages are presented in Fig. \ref{a4-actin}.
+$\alpha$-Actinin-4 as well as myosin-9 was detected in cells in the form of striated patterns, less pronounced than in myosin-9, but nevertheless quite distinguishable.
+We studied the colocalization of actinin with actin, as well as with nuclei.
+The results are presented in fig. \ref{a4-actin-col}.
+At passage 15, spotting is observed in $\alpha$-actinin-4 stained.
 
 \begin{figure}[hbt!]
 \centering
@@ -357,6 +361,8 @@ a-A-4 and nucleus colocalization.
 \label{a4-actin-col}
 \end{figure}
 
+As seen from figure \ref{a4-actin-col}, A, colocalization of $\alpha$-actinin-4 with nuclei decreases from moderate level to weak when moving from 28 to 36 passages.
+The same decrease is observed in the transition from 9 to 15 passage in case of $\alpha$-actinin-4 and F-actin colocalization.
 
 
 \begin{figure}
@@ -366,6 +372,8 @@ a-A-4 and nucleus colocalization.
   \centering
 \end{figure}
 
+The colocalization of small GTPase RhoA with nuclei significantly increases from moderate to noticeable level while passage gone from 9 to 15, then decreases to the initial level at passage 28, and even more decreases to the weak level at passage 36.
+It should be noted that in almost half of the cells, the coefficient takes negative values, which indicates the complete absence of colocalization.
 
 
 \begin{figure}
@@ -375,9 +383,9 @@ a-A-4 and nucleus colocalization.
   \centering
 \end{figure}
 
-
-Figure \ref{rho-3d} shows aRhoA in the nucleus...
-
+For a more detailed study of the detected phenomenon of nuclear-cytoplasmic shuttle, we used the analysis of 3D models performed in the nuclear region.
+Figure \ref{rho-3d} shows aRhoA in the nucleus images based on Z-stacks.
+In the XZ sections, it is noticeable that at the 9th passage, RhoA is distributed partly in the nucleus and partly in the cytolasm, at the 15th passage for the most part inside the nucleus and in the perinuclear region, and at the 36th passage only along stress fibrils and in the cytoplasm.
 
 \subsection{Trajectory analysis}
 
@@ -389,6 +397,13 @@ Figure \ref{rho-3d} shows aRhoA in the nucleus...
   \centering
 \end{figure}
 
+In fig. \ref{traj}, A characteristic frames from time laps of cell movement recording over 24 hours are presented.
+The results of a statistical analysis of the obtained trajectories are presented in Fig. \ref{traj}, В.
+The R script used to perform this analysis is available in the supplement.
+Speed and path length significantly decreased with increase in passage number.
+At the same time, the total distance traveled significantly decreases only when switching from 9 to 15 passages and 15 passage does not differ from 36.
+The straightness of the trajectory increases significantly with the passage from passage 15 to 36.
+The tortuosity of the trajectory increases with the transition from passage 9 to 15 and then decreases by passage 36 to a level significantly lower than it was at passage 9.
 
 
 \begin{table}[hb]
@@ -406,6 +421,8 @@ Figure \ref{rho-3d} shows aRhoA in the nucleus...
 \end{tabular}
 \end{table}
 
+The numerical values obtained from the analysis of 24-hour cell trajectories are presented in the table \ref{tab3}.
+
 \subsection{Gel chromatography}
 
 \begin{figure}[hbt!]
@@ -415,6 +432,12 @@ Figure \ref{rho-3d} shows aRhoA in the nucleus...
 \label{fpcl}
 \end{figure}
 
+Chromatographic analysis showed that myosin-9 was detected at passage 9 in most of its regions in the region of high molecular fractions 3 and 4, and to a lesser extent in fractions 7 and 9 (Fig \ref{fplc}).
+At passage 15, the amount of myosin in fractions 3–--4 decreases, but the tail of the elution distribution is enriched: low molecular weight fractions are uniformly colored at a good signal level, starting from 10 to 14.
+At passage 36, myosin is detected mainly in 3---4 fractions.
+
+$\beta$-Actin is detected mainly in the 10---11 fractions at passage 9.
+But at 15 and 36 passages it also begins to be revealed in fractions 6---7.
 
 \section{DISCUSSION}
 
@@ -506,6 +529,8 @@ Mammalian nonmuscle myosin II is a kew protein in regulation cell motility \cite
 These data can be compared with the results of the analysis of cell motility, in which the sinuosity index reaches its maximum at passage 15, which indicates that such cells change direction of movement more often than young and old cells.
 
 Apparently, the contribution of cells with a predominant amoeboid type of movement becomes so noticeable.
+
+We can interpret the spotted pattern observed at passage 15 in the case of myosin-9 and alpha-actinin-4, as a partial disassembly of the cytoskeletal structures.
 
 It is possible that switching from the mesenchymal type of movement and vice versa is mediated by the transfer of myosin-9 from one form to another and requires the presence of RhoA in the nucleus.
 
