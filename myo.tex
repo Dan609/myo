@@ -215,21 +215,30 @@ Chemiluminescent radiation was recorded using a ChemiDoc system (Bio-Rad, USA).
 \subsection{Description of statistical analysis methods}
 
 The study materials were subjected to statistical processing using the methods of parametric and non-parametric analysis.
-The accumulation, correction, systematization of the initial information and visualization of the obtained results were carried out in Microsoft Office Excel 2016 spreadsheets.
+The accumulation, correction, systematization of the initial information were carried out in Microsoft Office Excel 2016 spreadsheets.
 Statistical analysis was done using the free software computing environment R v. 3.5.3 (\cite{team2014r}).
+
+
+The data obtained from $\beta$-Galactosidase activity assay were computed following the Wilson method to obtain 95 \% confidence intervals for binomial proportions (\cite{wilson1927probable}).
+
+
 The data obtained from measurements of the colocalization coefficient were combined into variational series, in which the arithmetic mean values (M) and standard deviations (SD) were calculated.
-Those observations that deviate from the 1st or 3rd quartile by more than one and a half interquartile range were considered outliers and deleted.
-Quantitative indicators were evaluated for compliance with the normal distribution, for this purpose, the Shapiro – Wilk criterion  was used with $8 < n < 15$ (\cite{shapiro1965analysis}; \cite{shapiro1972approximate}) as well as indicators of asymmetry and kurtosis.
+Principal component analisys (PCA)  and generalized linear model (GLM) analisys was performed if R environment (\cite{husson2010exploratory}, \cite{dobson2008introduction}).
+In the course of all-pairs comparisons different Multiple Testing Corrections were used to adjust the P-values: Mann-Whitney rank test, Bonferroni method, Scheffe’s test and post hoc pairwise test for multiple comparisons of mean rank sums (Dunn’s test).
+The results were visualized using the free Python computing software environment and the scikit-posthocs package (\cite{Terpilowski2019}).
+
+
+The data obtained from trajectory analysis were cleaned: those observations that deviate from the 1st or 3rd quartile by more than one and a half interquartile range were considered outliers and deleted.
+Quantitative indicators were evaluated for compliance with the normal distribution, for this purpose, the Shapiro – Wilk criterion  was used with $n > 170$ (\cite{shapiro1965analysis}; \cite{shapiro1972approximate}) as well as indicators of asymmetry and kurtosis.
 When comparing several samples of quantitative data with a distribution other than normal, Kruskal-Wallis criterion was used, which is a non-parametric alternative to single-factor analysis of variance (\cite{kruskal1952use}).
-The Kruskal-Wallis criterion was calculated after ranking all the elements of the analyzed sets.
 In the event that the calculated value of the Kruskal-Wallis criterion exceeded the critical one, the differences in the indicators were considered statistically significant (\cite{wilcoxon1992individual}).
 We performed maximum-likelihood factor analysis on a data matrix with correlation coefficients (\cite{lawley1971factor}).
-Principal component analisys (PCA)  and generalized linear model (GLM) analisys was performed if R environment (\cite{husson2010exploratory}, \cite{dobson2008introduction}).
 
 
-\subsubsection{Multiple Testing Correction}
 
-In the course of all-pairs comparisons Mann-Whitney rank test, Bonferroni method, Scheffe’s test and post hoc pairwise test for multiple comparisons of mean rank sums (Dunn’s test) were used to adjust the P-values. The results were visualized using the free Python computing software environment and the scikit-posthocs package (\cite{Terpilowski2019}).
+
+\subsubsection{}
+
 
 
 \section{RESULTS}
@@ -440,6 +449,7 @@ $\beta$-Actin is detected mainly in the 10---11 fractions at passage 9.
 But at 15 and 36 passages it also begins to be revealed in fractions 6---7.
 
 \section{DISCUSSION}
+
 
 The actin cytoskeleton and its associated motor proteins provide the driving forces for creating amazing morphological diversity and the dynamics of mammalian cells (\cite{vasiliev1991polarization}).
 

@@ -181,6 +181,13 @@ Hsu, K.-S. and Kao, H.-Y. (2013).
 \newblock Alpha-actinin 4 and tumorigenesis of breast cancer.
 \newblock In {\em Vitamins \& Hormones}, volume~93, pages 323--351. Elsevier.
 
+\bibitem[Hu et~al., 2019]{hu2019reciprocal}
+Hu, S., Grobe, H., Guo, Z., Wang, Y.-H., Doss, B.~L., Pan, M., Ladoux, B.,
+  Bershadsky, A.~D., and Zaidel-Bar, R. (2019).
+\newblock Reciprocal regulation of actomyosin organization and contractility in
+  non-muscle cells by tropomyosins and alpha-actinins.
+\newblock {\em Molecular Biology of the Cell}, pages mbc--E19.
+
 \bibitem[Huang et~al., 2013]{huang2013effects}
 Huang, Y.-C., Leung, V.~Y., Lu, W.~W., and Luk, K.~D. (2013).
 \newblock The effects of microenvironment in mesenchymal stem cell--based
@@ -355,11 +362,6 @@ Sept, D. and McCammon, J.~A. (2001).
 \newblock Thermodynamics and kinetics of actin filament nucleation.
 \newblock {\em Biophysical journal}, 81(2):667--674.
 
-\bibitem[Sethe et~al., 2006]{sethe2006aging}
-Sethe, S., Scutt, A., and Stolzing, A. (2006).
-\newblock Aging of mesenchymal stem cells.
-\newblock {\em Ageing research reviews}, 5(1):91--116.
-
 \bibitem[Shapiro and Francia, 1972]{shapiro1972approximate}
 Shapiro, S.~S. and Francia, R. (1972).
 \newblock An approximate analysis of variance test for normality.
@@ -468,6 +470,12 @@ Wang, H.-R., Zhang, Y., Ozdamar, B., Ogunjimi, A.~A., Alexandrova, E., Thomsen,
 Wilcoxon, F. (1992).
 \newblock Individual comparisons by ranking methods.
 \newblock In {\em Breakthroughs in statistics}, pages 196--202. Springer.
+
+\bibitem[Wilson, 1927]{wilson1927probable}
+Wilson, E.~B. (1927).
+\newblock Probable inference, the law of succession, and statistical inference.
+\newblock {\em Journal of the American Statistical Association},
+  22(158):209--212.
 
 \bibitem[Yu et~al., 2018]{yu2018replicative}
 Yu, J., Shi, J., Zhang, Y., Zhang, Y., Huang, Y., Chen, Z., and Yang, J.
