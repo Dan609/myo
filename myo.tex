@@ -1,50 +1,86 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% A template for Wiley article submissions.
+% Developed by Overleaf.
+%
+% Please note that whilst this template provides a
+% preview of the typeset manuscript for submission, it
+% will not necessarily be the final publication layout.
+%
+% Usage notes:
+% The "blind" option will make anonymous all author, affiliation, correspondence and funding information.
+% Use "num-refs" option for numerical citation and references style.
+% Use "alpha-refs" option for author-year citation and references style.
 %\documentclass[a4paper,12pt]{article}
-\documentclass[english,authoryear]{elsarticle}
+%\documentclass[english,authoryear]{elsarticle}
+%\documentclass[alpha-refs]{wiley-article}
+\documentclass[blind,alpha-refs]{wiley-article}
 \usepackage{xcolor}
+\usepackage{siunitx}
 \usepackage{apalike}
 \usepackage{gensymb}
 \usepackage{makecell}
 \usepackage{csquotes}
 \usepackage{graphicx}
 \usepackage{listings}
+%\usedpackage{ragged2e}
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage[version=3]{mhchem}
-\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
-\renewcommand\theadalign{bc}
-\renewcommand\theadfont{\bfseries}
-\renewcommand\theadgape{\Gape[4pt]}
-\renewcommand\cellgape{\Gape[4pt]}
+%\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
+%\renewcommand\theadalign{bc}
+%\renewcommand\theadfont{\bfseries}
+%\renewcommand\theadgape{\Gape[4pt]}
+%\renewcommand\cellgape{\Gape[4pt]}
+
+\papertype{Original Article}
 
 \title{Cytoskeletal and motility changes in human MSCs associated with nuclear-cytoplasmic RhoА redistribution during replicative senescence}
+
+% List abbreviations here, if any. Please note that it is preferred that abbreviations be defined at the first instance they appear in the text, rather than creating an abbreviations list.
+\abbrevs{MSCs, mesenchymal stem cells; DEF, doesn't ever fret; GHI, goes home immediately.}
+
+% Include full author names and degrees, when required by the journal.
+% Use the \authfn to add symbols for additional footnotes and present addresses, if any. Usually start with 1 for notes about author contributions; then continuing with 2 etc if any author has a different present address.
+\author[1\authfn{1}]{Danila Bobkov PhD}
+\author[2\authfn{1}]{Anastasia Polyanskaya BD}
+\author[1\authfn{2}]{Anastasia Musorina PhD}
+\author[1\authfn{2}]{Ekaterina Lomert PhD}
+\author[1\authfn{2}]{Sergey Shabelnikov PhD}
+\author[1\authfn{2}]{Galina Poljanskaya PhD}
+\author[2]{Author B.~Four}
+
+\contrib[\authfn{1}]{Equally contributing authors.}
+
+% Include full affiliation details for all authors
+\affil[1]{Institute of Cytology of the Russian Academy of Science, 194064 Tikhoretsky ave. 4, St-Petersburg, Russia }
+\affil[2]{Department, Institution, City, State or Province, Postal Code, Country}
+
+\corraddress{Author One PhD, Department, Institution, City, State or Province, Postal Code, Country}
+\corremail{bobkov@incras.ru}
+
+\presentadd[\authfn{2}]{Department, Institution, City, State or Province, Postal Code, Country}
+
+\fundinginfo{Funder One, Funder One Department, Grant/Award Number: 123456, 123457 and 123458; Funder Two, Funder Two Department, Grant/Award Number: 123459}
+
+
+% Include the name of the author that should appear in the running header
+\runningauthor{Bobkov et al.}
+
+
 \begin{document}
-\date{today}
-
-\author[rvt]{Danila Bobkov\corref{cor1}}
-\ead{bobkov@incras.ru}
-\author[add]{Anastasia Polyanskaya}
-\author[rvt]{Anastasia Musorina}
-\author[rvt]{Ekaterina Lomert}
-\author[rvt]{Sergey Shabelnikov}
-\author[rvt]{Galina Poljanskaya}
-\cortext[cor1]{Corresponding author}
-%\author{Danila Bobkov, Anastasia Polyanskaya, Anastasia Musorina, Ekaterina Lomert, Sergey Shabelnikov, Galina Polyanskaya}
-%\affil[1,2,3]{Institute of Cytology of the Russian Academy of Science, 194064 Tikhoretsky ave. 4, St-Petersburg, Russia}
-\address[rvt]{Institute of Cytology of the Russian Academy of Science, 194064 Tikhoretsky ave. 4, St-Petersburg, Russia }
-\address[add]{Centre for Study of Things}
-
-
-\begin{abstract}
-Here we provide evidence.
-The analysis of data from measurements is analyzed.
-\end{abstract}
-
-\begin{keyword}
-mesenchymal stem cells\sep cellular senescense\sep actin\sep myosin-9\sep $\alpha$-actinin-4\sep RhoA\sep cell motility.
-\end{keyword}
 
 \maketitle
+
+\begin{abstract}
+
+Here we provide evidence.
+The analysis of data from measurements is analyzed.
+
+% Please include a maximum of seven keywords
+\keywords{mesenchymal stem cells, \emph{cellular senescense}, actin, myosin-9, $\alpha$-actinin-4, RhoA, cell motility}
+\end{abstract}
+
 \section{Introduction}
 
 At present, the urgent task of cell biology is the isolation and comparative characterization of human mesenchymal stem cells (MSCs) isolated from various sources.
@@ -160,7 +196,7 @@ Dividing cells were not counted.
 Trajectories were obtained from from a set of x-y coordinates.
 The resulting tracks were combined into a data frame and analyzed in the R environment using trajr package (\cite{mclean2018trajr}), which is a sutable toolkit for the numerical characterisation and analysis of the trajectories of moving cells.
 Trajectory coordinates were read from a CSV data file, and then passed in to the trajectory analysis functions.
-Trajectorys was resampled to 15 min fixed step lenght by rediscretization function using the algorithm described by Bovet & Benhamou (\cite{bovet1988spatial}).
+Trajectorys was resampled to 15 min fixed step lenght by rediscretization function using the algorithm described by Bovet \& Benhamou (\cite{bovet1988spatial}).
 As a result of the analysis of the trajectories, we obtained the following parameters: total length of the trajectory, straight-line distance from the start to the end of the trajectory, mean and maximum speeds, straightness and sinuosity indexes.
 To measure the straightness, or conversely, tortuosity, of trajectories, we used two indexes.
 The simplest is straightness index and computed as D/L, where D is the distance from the start to the end of the trajectory, and L is the length of the trajectory.
@@ -179,8 +215,7 @@ Next, the method of sequential selection of cell extract was collected in the ep
 For gel-chromatographic separation of cell lysates, an FPLC system (Pharmacia) was used.
 Signal detection was performed using Millichrome A-02 detection unit.
 Elution was performed with elution buffer (150 mM NaCl, 50 mM Tris, pH 7.5, 0.02\% NaN3).
-The column was calibrated with the set of proteins shown in table
-\ref{calibration}.
+The column was calibrated with the set of proteins shown in table 1.
 
 
 The protein extract was filtered and applied to the column in a volume of 500 $\mu$l.
@@ -226,12 +261,7 @@ When comparing several samples of quantitative data with a distribution other th
 In the event that the calculated value of the Kruskal-Wallis criterion exceeded the critical one, the differences in the indicators were considered statistically significant (\cite{wilcoxon1992individual}).
 We performed maximum-likelihood factor analysis on a data matrix with correlation coefficients (\cite{lawley1971factor}).
 
-
-
-
-\subsubsection{}
-
-
+All row data and R scripts are available on Github: \url{https://github.com/Dan609/myo}.
 
 \section{RESULTS}
 
@@ -267,14 +297,13 @@ Morphological analysis of the cell line during long-term cultivation showed homo
 In the process of cultivation, there was a change in the morphology of the cells, expressed in an increase in the size and degree of cell spreading.
 In order to assess the changes in the structure of the contractile apparatus that can occur during replicative senescence, we used the immunofluorescence method.
 We used rhodamine-phalloidin to visualize staining F-actin.
-Fig. \ref{m9-actin-bgal} shows cells stained with rhodamine-phalloidin and antibodies against myosin-9.
+Fig. 1 shows cells stained with rhodamine-phalloidin and antibodies against myosin-9.
 In all spread cells, staining for myosin-9 reveals a characteristic striated pattern.
-Myosin-9 is distributed along stress-fibrils (Fig. \ref{m9-actin-bgal} B).
-In addition to the striated pattern (Fig. \ref{m9-actin-bgal} C), myosin-9 is detected in lamellae as separate spots (Fig. \ref{m9-actin-bgal} D).
+Myosin-9 is distributed along stress-fibrils (Fig. 1 B).
+In addition to the striated pattern (Fig. 1 C), myosin-9 is detected in lamellae as separate spots (Fig. 1 D).
 
 
 \begin{figure}[hbt!]
-  \label{m9-actin-bgal}
 \centering
 \includegraphics[width=0.9\linewidth]{fig_m9-actin-bgal.jpg}
 \caption{(A) Staining of F-actin (red) and myosin-9 (green) in cells at different passages (E) The proportion of cells with pronounced activity of $\beta$-galactosidase ($\beta$-gal) in the process of cultivating the MSCWJ-1 line}
@@ -413,7 +442,7 @@ The tortuosity of the trajectory increases with the transition from passage 9 to
 \centering
 \begin{tabular}{|c|c|c|c|c|}
  \hline
- \thead{Passage} & \thead{Mean Speed, \\ $\mu$m/h} & \thead{Max Speed, \\ $\mu$m/h} & \thead{Length, \\ $\mu$m} & \thead{Distance, \\ $\mu$m} \\
+ \thead{Passage} & \thead{Mean Speed, $\mu$m/h} & \thead{Max Speed, $\mu$m/h} & \thead{Length, $\mu$m} & \thead{Distance, $\mu$m} \\
  \hline
  9 & 38.3 $\pm$ 15.2 & 164.9 $\pm$ 56.4 & 911.3 $\pm$ 362.4 &  278.2 $\pm$ 169.8 \\
  15 & 25.0 $\pm$ 11.1 & 127.9 $\pm$ 59.3& 595.1 $\pm$ 263.4 & 211.7 $\pm$ 162.8  \\
@@ -573,8 +602,17 @@ We thank G. Harrison, B. Harper, and J. Doe for their help.
 %\bibliographystyle{plain}
 %\bibliographystyle{plainnat}
 %\bibliographystyle{apacite}
+
+\section*{acknowledgements}
+Acknowledgements should include contributions from anyone who does not meet the criteria for authorship (for example, to recognize contributions from people who provided technical help, collation of data, writing assistance, acquisition of funding, or a department chairperson who provided general support), as well as any funding or other support information.
+
+\section*{conflict of interest}
+You may be asked to provide a conflict of interest statement during the submission process. Please check the journal's author guidelines for details on what to include in this section. Please ensure you liaise with all co-authors to confirm agreement with the final statement.
+
+
 \bibliographystyle{apalike}
 \bibliography{mybib}
+
 \section*{Supplementary Material}
 
 \subsection{Superose 6 column calibration kit}

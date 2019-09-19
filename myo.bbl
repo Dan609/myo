@@ -1,495 +1,516 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{77}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL: }\fi
 
-\bibitem[Adler et~al., 2008]{adler2008replicate}
-Adler, J., Pagakis, S., and Parmryd, I. (2008).
-\newblock Replicate-based noise corrected correlation for accurate measurements
-  of colocalization.
-\newblock {\em Journal of microscopy}, 230(1):121--133.
+\bibitem[{Adler et~al.(2008)Adler, Pagakis and Parmryd}]{adler2008replicate}
+Adler, J., Pagakis, S. and Parmryd, I. (2008) Replicate-based noise corrected
+  correlation for accurate measurements of colocalization.
+\newblock \textit{Journal of microscopy}, \textbf{230}, 121--133.
 
-\bibitem[Alessio et~al., 2018]{alessio2018mesenchymal}
+\bibitem[{Alessio et~al.(2018)Alessio, Pipino, Mandatori, Di~Tomo, Ferone,
+  Marchiso, Melone, Peluso, Pandolfi and Galderisi}]{alessio2018mesenchymal}
 Alessio, N., Pipino, C., Mandatori, D., Di~Tomo, P., Ferone, A., Marchiso, M.,
-  Melone, M.~A., Peluso, G., Pandolfi, A., and Galderisi, U. (2018).
-\newblock Mesenchymal stromal cells from amniotic fluid are less prone to
-  senescence compared to those obtained from bone marrow: an in vitro study.
-\newblock {\em Journal of cellular physiology}, 233(11):8996--9006.
+  Melone, M.~A., Peluso, G., Pandolfi, A. and Galderisi, U. (2018) Mesenchymal
+  stromal cells from amniotic fluid are less prone to senescence compared to
+  those obtained from bone marrow: an in vitro study.
+\newblock \textit{Journal of cellular physiology}, \textbf{233}, 8996--9006.
 
-\bibitem[An et~al., 2016]{an2016alpha}
-An, H., Yoo, S., and Ko, J. (2016).
-\newblock $\alpha$-actinin-4 induces the epithelial-to-mesenchymal transition
-  and tumorigenesis via regulation of snail expression and $\beta$-catenin
-  stabilization in cervical cancer.
-\newblock {\em Oncogene}, 35(45):5893.
+\bibitem[{An et~al.(2016)An, Yoo and Ko}]{an2016alpha}
+An, H., Yoo, S. and Ko, J. (2016) $\alpha$-actinin-4 induces the
+  epithelial-to-mesenchymal transition and tumorigenesis via regulation of
+  snail expression and $\beta$-catenin stabilization in cervical cancer.
+\newblock \textit{Oncogene}, \textbf{35}, 5893.
 
-\bibitem[Ando et~al., 2014]{ando2014stem}
+\bibitem[{Ando et~al.(2014)Ando, Matsubara, Ishikawa, Fujio, Shohara, Hibi,
+  Ueda and Yamamoto}]{ando2014stem}
 Ando, Y., Matsubara, K., Ishikawa, J., Fujio, M., Shohara, R., Hibi, H., Ueda,
-  M., and Yamamoto, A. (2014).
-\newblock Stem cell-conditioned medium accelerates distraction osteogenesis
-  through multiple regenerative mechanisms.
-\newblock {\em Bone}, 61:82--90.
+  M. and Yamamoto, A. (2014) Stem cell-conditioned medium accelerates
+  distraction osteogenesis through multiple regenerative mechanisms.
+\newblock \textit{Bone}, \textbf{61}, 82--90.
 
-\bibitem[Babakov et~al., 2008]{babakov2008rela}
+\bibitem[{Babakov et~al.(2008)Babakov, Petukhova, Turoverova, Kropacheva,
+  Tentler, Bolshakova, Podolskaya, Magnusson and Pinaev}]{babakov2008rela}
 Babakov, V.~N., Petukhova, O.~A., Turoverova, L.~V., Kropacheva, I.~V.,
-  Tentler, D.~G., Bolshakova, A.~V., Podolskaya, E.~P., Magnusson, K.-E., and
-  Pinaev, G.~P. (2008).
-\newblock Rela/nf-$\kappa$b transcription factor associates with
+  Tentler, D.~G., Bolshakova, A.~V., Podolskaya, E.~P., Magnusson, K.-E. and
+  Pinaev, G.~P. (2008) Rela/nf-$\kappa$b transcription factor associates with
   $\alpha$-actinin-4.
-\newblock {\em Experimental cell research}, 314(5):1030--1038.
+\newblock \textit{Experimental cell research}, \textbf{314}, 1030--1038.
 
-\bibitem[Barbolina et~al., 2008]{barbolina2008motility}
+\bibitem[{Barbolina et~al.(2008)Barbolina, Adley, Kelly, Fought, Scholtens,
+  Shea and Stack}]{barbolina2008motility}
 Barbolina, M.~V., Adley, B.~P., Kelly, D.~L., Fought, A.~J., Scholtens, D.~M.,
-  Shea, L.~D., and Stack, M.~S. (2008).
-\newblock Motility-related actinin alpha-4 is associated with advanced and
-  metastatic ovarian carcinoma.
-\newblock {\em Laboratory investigation}, 88(6):602.
+  Shea, L.~D. and Stack, M.~S. (2008) Motility-related actinin alpha-4 is
+  associated with advanced and metastatic ovarian carcinoma.
+\newblock \textit{Laboratory investigation}, \textbf{88}, 602.
 
-\bibitem[Benhamou, 2004]{benhamou2004reliably}
-Benhamou, S. (2004).
-\newblock How to reliably estimate the tortuosity of an animal's path::
-  straightness, sinuosity, or fractal dimension?
-\newblock {\em Journal of theoretical biology}, 229(2):209--220.
+\bibitem[{Benhamou(2004)}]{benhamou2004reliably}
+Benhamou, S. (2004) How to reliably estimate the tortuosity of an animal's
+  path:: straightness, sinuosity, or fractal dimension?
+\newblock \textit{Journal of theoretical biology}, \textbf{229}, 209--220.
 
-\bibitem[Benhamou, 2006]{benhamou2006detecting}
-Benhamou, S. (2006).
-\newblock Detecting an orientation component in animal paths when the preferred
-  direction is individual-dependent.
-\newblock {\em Ecology}, 87(2):518--528.
+\bibitem[{Benhamou(2006)}]{benhamou2006detecting}
+--- (2006) Detecting an orientation component in animal paths when the
+  preferred direction is individual-dependent.
+\newblock \textit{Ecology}, \textbf{87}, 518--528.
 
-\bibitem[Bergholm et~al., 2010]{bergholm2010analysis}
-Bergholm, F., Adler, J., and Parmryd, I. (2010).
-\newblock Analysis of bias in the apparent correlation coefficient between
-  image pairs corrupted by severe noise.
-\newblock {\em Journal of Mathematical Imaging and Vision}, 37(3):204--219.
+\bibitem[{Bergholm et~al.(2010)Bergholm, Adler and
+  Parmryd}]{bergholm2010analysis}
+Bergholm, F., Adler, J. and Parmryd, I. (2010) Analysis of bias in the apparent
+  correlation coefficient between image pairs corrupted by severe noise.
+\newblock \textit{Journal of Mathematical Imaging and Vision}, \textbf{37},
+  204--219.
 
-\bibitem[Bertolo et~al., 2015]{bertolo2015vitro}
-Bertolo, A., Gemperli, A., Gruber, M., Gantenbein, B., Baur, M., P{\"o}tzel,
-  T., and Stoyanov, J. (2015).
-\newblock In vitro cell motility as a potential mesenchymal stem cell marker
-  for multipotency.
-\newblock {\em Stem cells translational medicine}, 4(1):84--90.
+\bibitem[{Bertolo et~al.(2015)Bertolo, Gemperli, Gruber, Gantenbein, Baur,
+  P{\"o}tzel and Stoyanov}]{bertolo2015vitro}
+Bertolo, A., Gemperli, A., Gruber, M., Gantenbein, B., Baur, M., P{\"o}tzel, T.
+  and Stoyanov, J. (2015) In vitro cell motility as a potential mesenchymal
+  stem cell marker for multipotency.
+\newblock \textit{Stem cells translational medicine}, \textbf{4}, 84--90.
 
-\bibitem[Bolshakova et~al., 2007]{bolshakova2007extra}
+\bibitem[{Bolshakova et~al.(2007)Bolshakova, Petukhova, Turoverova, Tentler,
+  Babakov, Magnusson and Pinaev}]{bolshakova2007extra}
 Bolshakova, A., Petukhova, O., Turoverova, L., Tentler, D., Babakov, V.,
-  Magnusson, K.-E., and Pinaev, G. (2007).
-\newblock Extra-cellular matrix proteins induce re-distribution of
-  $\alpha$-actinin-1 and $\alpha$-actinin-4 in a431 cells.
-\newblock {\em Cell biology international}, 31(4):360--365.
+  Magnusson, K.-E. and Pinaev, G. (2007) Extra-cellular matrix proteins induce
+  re-distribution of $\alpha$-actinin-1 and $\alpha$-actinin-4 in a431 cells.
+\newblock \textit{Cell biology international}, \textbf{31}, 360--365.
 
-\bibitem[Bovet and Benhamou, 1988]{bovet1988spatial}
-Bovet, P. and Benhamou, S. (1988).
-\newblock Spatial analysis of animals' movements using a correlated random walk
-  model.
-\newblock {\em Journal of theoretical biology}, 131(4):419--433.
+\bibitem[{Bovet and Benhamou(1988)}]{bovet1988spatial}
+Bovet, P. and Benhamou, S. (1988) Spatial analysis of animals' movements using
+  a correlated random walk model.
+\newblock \textit{Journal of theoretical biology}, \textbf{131}, 419--433.
 
-\bibitem[Carvalho et~al., 2011]{m2011mesenchymal}
-Carvalho, M.~M., Teixeira, G.~F., Rui, R.~L., Sousa, N., and J~Salgado, A.
-  (2011).
-\newblock Mesenchymal stem cells in the umbilical cord: phenotypic
+\bibitem[{Carvalho et~al.(2011)Carvalho, Teixeira, Rui, Sousa and
+  J~Salgado}]{m2011mesenchymal}
+Carvalho, M.~M., Teixeira, G.~F., Rui, R.~L., Sousa, N. and J~Salgado, A.
+  (2011) Mesenchymal stem cells in the umbilical cord: phenotypic
   characterization, secretome and applications in central nervous system
   regenerative medicine.
-\newblock {\em Current stem cell research \& therapy}, 6(3):221--228.
+\newblock \textit{Current stem cell research \& therapy}, \textbf{6}, 221--228.
 
-\bibitem[Danieli et~al., 2016]{danieli2016testing}
-Danieli, P., Malpasso, G., Ciuffreda, M.~C., and Gnecchi, M. (2016).
-\newblock Testing the paracrine properties of human mesenchymal stem cells
-  using conditioned medium.
-\newblock In {\em Mesenchymal Stem Cells}, pages 445--456. Springer.
+\bibitem[{Danieli et~al.(2016)Danieli, Malpasso, Ciuffreda and
+  Gnecchi}]{danieli2016testing}
+Danieli, P., Malpasso, G., Ciuffreda, M.~C. and Gnecchi, M. (2016) Testing the
+  paracrine properties of human mesenchymal stem cells using conditioned
+  medium.
+\newblock In \textit{Mesenchymal Stem Cells}, 445--456. Springer.
 
-\bibitem[Danisovic et~al., 2017]{danisovic2017effect}
+\bibitem[{Danisovic et~al.(2017)Danisovic, Oravcova, Krajciova,
+  Varchulova~Novakova, Bohac, Varga and Vojtassak}]{danisovic2017effect}
 Danisovic, L., Oravcova, L., Krajciova, L., Varchulova~Novakova, Z., Bohac, M.,
-  Varga, I., and Vojtassak, J. (2017).
-\newblock Effect of long-term culture on the biological and morphological
-  characteristics of human adipose tissue-derived stem cells.
-\newblock {\em J Physiol Pharmacol}, 68(1):149--158.
+  Varga, I. and Vojtassak, J. (2017) Effect of long-term culture on the
+  biological and morphological characteristics of human adipose tissue-derived
+  stem cells.
+\newblock \textit{J Physiol Pharmacol}, \textbf{68}, 149--158.
 
-\bibitem[Dobson and Barnett, 2008]{dobson2008introduction}
-Dobson, A.~J. and Barnett, A.~G. (2008).
-\newblock {\em An introduction to generalized linear models}.
+\bibitem[{Dobson and Barnett(2008)}]{dobson2008introduction}
+Dobson, A.~J. and Barnett, A.~G. (2008) \textit{An introduction to generalized
+  linear models}.
 \newblock Chapman and Hall/CRC.
 
-\bibitem[Dominici et~al., 2006]{dominici2006minimal}
+\bibitem[{Dominici et~al.(2006)Dominici, Le~Blanc, Mueller, Slaper-Cortenbach,
+  Marini, Krause, Deans, Keating, Prockop and Horwitz}]{dominici2006minimal}
 Dominici, M., Le~Blanc, K., Mueller, I., Slaper-Cortenbach, I., Marini, F.,
-  Krause, D., Deans, R., Keating, A., Prockop, D., and Horwitz, E. (2006).
-\newblock Minimal criteria for defining multipotent mesenchymal stromal cells.
-  the international society for cellular therapy position statement.
-\newblock {\em Cytotherapy}, 8(4):315--317.
+  Krause, D., Deans, R., Keating, A., Prockop, D. and Horwitz, E. (2006)
+  Minimal criteria for defining multipotent mesenchymal stromal cells. the
+  international society for cellular therapy position statement.
+\newblock \textit{Cytotherapy}, \textbf{8}, 315--317.
 
-\bibitem[Elliott et~al., 2015]{elliott2015myosin}
+\bibitem[{Elliott et~al.(2015)Elliott, Fischer, Myers, Desai, Gao, Chen,
+  Adelstein, Waterman and Danuser}]{elliott2015myosin}
 Elliott, H., Fischer, R.~S., Myers, K.~A., Desai, R.~A., Gao, L., Chen, C.~S.,
-  Adelstein, R.~S., Waterman, C.~M., and Danuser, G. (2015).
-\newblock Myosin ii controls cellular branching morphogenesis and migration in
-  three dimensions by minimizing cell-surface curvature.
-\newblock {\em Nature cell biology}, 17(2):137.
+  Adelstein, R.~S., Waterman, C.~M. and Danuser, G. (2015) Myosin ii controls
+  cellular branching morphogenesis and migration in three dimensions by
+  minimizing cell-surface curvature.
+\newblock \textit{Nature cell biology}, \textbf{17}, 137.
 
-\bibitem[Estrada et~al., 2013]{estrada2013human}
+\bibitem[{Estrada et~al.(2013)Estrada, Torres, Benguria, Dopazo, Roche,
+  Carrera-Quintanar, P{\'e}rez, Enriquez, Torres, Ramirez
+  et~al.}]{estrada2013human}
 Estrada, J.~C., Torres, Y., Benguria, A., Dopazo, A., Roche, E.,
   Carrera-Quintanar, L., P{\'e}rez, R., Enriquez, J.~A., Torres, R., Ramirez,
-  J.~C., et~al. (2013).
-\newblock Human mesenchymal stem cell-replicative senescence and oxidative
-  stress are closely linked to aneuploidy.
-\newblock {\em Cell death \& disease}, 4(6):e691.
+  J.~C. et~al. (2013) Human mesenchymal stem cell-replicative senescence and
+  oxidative stress are closely linked to aneuploidy.
+\newblock \textit{Cell death \& disease}, \textbf{4}, e691.
 
-\bibitem[Gei{\ss}ler et~al., 2012]{geissler2012functional}
+\bibitem[{Gei{\ss}ler et~al.(2012)Gei{\ss}ler, Textor, K{\"u}hnisch,
+  K{\"o}nnig, Klein, Ode, Pfitzner, Adjaye, Kasper and
+  Duda}]{geissler2012functional}
 Gei{\ss}ler, S., Textor, M., K{\"u}hnisch, J., K{\"o}nnig, D., Klein, O., Ode,
-  A., Pfitzner, T., Adjaye, J., Kasper, G., and Duda, G.~N. (2012).
-\newblock Functional comparison of chronological and in vitro aging:
-  differential role of the cytoskeleton and mitochondria in mesenchymal stromal
-  cells.
-\newblock {\em PloS one}, 7(12):e52700.
+  A., Pfitzner, T., Adjaye, J., Kasper, G. and Duda, G.~N. (2012) Functional
+  comparison of chronological and in vitro aging: differential role of the
+  cytoskeleton and mitochondria in mesenchymal stromal cells.
+\newblock \textit{PloS one}, \textbf{7}, e52700.
 
-\bibitem[Gruenloh et~al., 2011]{gruenloh2011characterization}
+\bibitem[{Gruenloh et~al.(2011)Gruenloh, Kambal, Sondergaard, McGee, Nacey,
+  Kalomoiris, Pepper, Olson, Fierro and Nolta}]{gruenloh2011characterization}
 Gruenloh, W., Kambal, A., Sondergaard, C., McGee, J., Nacey, C., Kalomoiris,
-  S., Pepper, K., Olson, S., Fierro, F., and Nolta, J.~A. (2011).
-\newblock Characterization and in vivo testing of mesenchymal stem cells
-  derived from human embryonic stem cells.
-\newblock {\em Tissue engineering Part A}, 17(11-12):1517--1525.
+  S., Pepper, K., Olson, S., Fierro, F. and Nolta, J.~A. (2011)
+  Characterization and in vivo testing of mesenchymal stem cells derived from
+  human embryonic stem cells.
+\newblock \textit{Tissue engineering Part A}, \textbf{17}, 1517--1525.
 
-\bibitem[Guiducci et~al., 2011]{guiducci2011bone}
+\bibitem[{Guiducci et~al.(2011)Guiducci, Manetti, Romano, Mazzanti, Ceccarelli,
+  Dal~Pozzo, Milia, Bellando-Randone, Fiori, Conforti
+  et~al.}]{guiducci2011bone}
 Guiducci, S., Manetti, M., Romano, E., Mazzanti, B., Ceccarelli, C., Dal~Pozzo,
-  S., Milia, A.~F., Bellando-Randone, S., Fiori, G., Conforti, M.~L., et~al.
-  (2011).
-\newblock Bone marrow-derived mesenchymal stem cells from early diffuse
-  systemic sclerosis exhibit a paracrine machinery and stimulate angiogenesis
-  in vitro.
-\newblock {\em Annals of the rheumatic diseases}, 70(11).
+  S., Milia, A.~F., Bellando-Randone, S., Fiori, G., Conforti, M.~L. et~al.
+  (2011) Bone marrow-derived mesenchymal stem cells from early diffuse systemic
+  sclerosis exhibit a paracrine machinery and stimulate angiogenesis in vitro.
+\newblock \textit{Annals of the rheumatic diseases}, \textbf{70}.
 
-\bibitem[Hayflick and Moorhead, 1961]{hayflick1961serial}
-Hayflick, L. and Moorhead, P.~S. (1961).
-\newblock The serial cultivation of human diploid cell strains.
-\newblock {\em Experimental cell research}, 25(3):585--621.
+\bibitem[{Hayflick and Moorhead(1961)}]{hayflick1961serial}
+Hayflick, L. and Moorhead, P.~S. (1961) The serial cultivation of human diploid
+  cell strains.
+\newblock \textit{Experimental cell research}, \textbf{25}, 585--621.
 
-\bibitem[Hendijani et~al., 2015a]{hendijani2015effect}
-Hendijani, F., Javanmard, S.~H., Rafiee, L., and Sadeghi-Aliabadi, H. (2015a).
-\newblock Effect of human wharton's jelly mesenchymal stem cell secretome on
-  proliferation, apoptosis and drug resistance of lung cancer cells.
-\newblock {\em Research in pharmaceutical sciences}, 10(2):134.
+\bibitem[{Hendijani et~al.(2015{\natexlab{a}})Hendijani, Javanmard, Rafiee and
+  Sadeghi-Aliabadi}]{hendijani2015effect}
+Hendijani, F., Javanmard, S.~H., Rafiee, L. and Sadeghi-Aliabadi, H.
+  (2015{\natexlab{a}}) Effect of human wharton's jelly mesenchymal stem cell
+  secretome on proliferation, apoptosis and drug resistance of lung cancer
+  cells.
+\newblock \textit{Research in pharmaceutical sciences}, \textbf{10}, 134.
 
-\bibitem[Hendijani et~al., 2015b]{hendijani2015human}
-Hendijani, F., Javanmard, S.~H., and Sadeghi-aliabadi, H. (2015b).
-\newblock Human wharton's jelly mesenchymal stem cell secretome display
+\bibitem[{Hendijani et~al.(2015{\natexlab{b}})Hendijani, Javanmard and
+  Sadeghi-aliabadi}]{hendijani2015human}
+Hendijani, F., Javanmard, S.~H. and Sadeghi-aliabadi, H. (2015{\natexlab{b}})
+  Human wharton's jelly mesenchymal stem cell secretome display
   antiproliferative effect on leukemia cell line and produce additive cytotoxic
   effect in combination with doxorubicin.
-\newblock {\em Tissue and Cell}, 47(3):229--234.
+\newblock \textit{Tissue and Cell}, \textbf{47}, 229--234.
 
-\bibitem[Hsu and Kao, 2013]{hsu2013alpha}
-Hsu, K.-S. and Kao, H.-Y. (2013).
-\newblock Alpha-actinin 4 and tumorigenesis of breast cancer.
-\newblock In {\em Vitamins \& Hormones}, volume~93, pages 323--351. Elsevier.
+\bibitem[{Hsu and Kao(2013)}]{hsu2013alpha}
+Hsu, K.-S. and Kao, H.-Y. (2013) Alpha-actinin 4 and tumorigenesis of breast
+  cancer.
+\newblock In \textit{Vitamins \& Hormones}, vol.~93, 323--351. Elsevier.
 
-\bibitem[Hu et~al., 2019]{hu2019reciprocal}
+\bibitem[{Hu et~al.(2019)Hu, Grobe, Guo, Wang, Doss, Pan, Ladoux, Bershadsky
+  and Zaidel-Bar}]{hu2019reciprocal}
 Hu, S., Grobe, H., Guo, Z., Wang, Y.-H., Doss, B.~L., Pan, M., Ladoux, B.,
-  Bershadsky, A.~D., and Zaidel-Bar, R. (2019).
-\newblock Reciprocal regulation of actomyosin organization and contractility in
-  non-muscle cells by tropomyosins and alpha-actinins.
-\newblock {\em Molecular Biology of the Cell}, pages mbc--E19.
+  Bershadsky, A.~D. and Zaidel-Bar, R. (2019) Reciprocal regulation of
+  actomyosin organization and contractility in non-muscle cells by tropomyosins
+  and alpha-actinins.
+\newblock \textit{Molecular Biology of the Cell}, mbc--E19.
 
-\bibitem[Huang et~al., 2013]{huang2013effects}
-Huang, Y.-C., Leung, V.~Y., Lu, W.~W., and Luk, K.~D. (2013).
-\newblock The effects of microenvironment in mesenchymal stem cell--based
-  regeneration of intervertebral disc.
-\newblock {\em The Spine Journal}, 13(3):352--362.
+\bibitem[{Huang et~al.(2013)Huang, Leung, Lu and Luk}]{huang2013effects}
+Huang, Y.-C., Leung, V.~Y., Lu, W.~W. and Luk, K.~D. (2013) The effects of
+  microenvironment in mesenchymal stem cell--based regeneration of
+  intervertebral disc.
+\newblock \textit{The Spine Journal}, \textbf{13}, 352--362.
 
-\bibitem[Husson et~al., 2010]{husson2010exploratory}
-Husson, F., L{\^e}, S., and Pages, J. (2010).
-\newblock Exploratory multivariate analysis by example using r, volume 20105550
-  of chapman \& hall/crc computer science \& data analysis.
-\newblock {\em CRC Press}, 30:101--102.
+\bibitem[{Husson et~al.(2010)Husson, L{\^e} and Pages}]{husson2010exploratory}
+Husson, F., L{\^e}, S. and Pages, J. (2010) Exploratory multivariate analysis
+  by example using r, volume 20105550 of chapman \& hall/crc computer science
+  \& data analysis.
+\newblock \textit{CRC Press}, \textbf{30}, 101--102.
 
-\bibitem[Julianto and Rindastuti, 2016]{julianto2016topical}
-Julianto, I. and Rindastuti, Y. (2016).
-\newblock Topical delivery of mesenchymal stem cells" secretomes" in wound
-  repair.
-\newblock {\em Acta Medica Indonesiana}, 48(3):217--220.
+\bibitem[{Julianto and Rindastuti(2016)}]{julianto2016topical}
+Julianto, I. and Rindastuti, Y. (2016) Topical delivery of mesenchymal stem
+  cells" secretomes" in wound repair.
+\newblock \textit{Acta Medica Indonesiana}, \textbf{48}, 217--220.
 
-\bibitem[Khaitlina, 2001]{khaitlina2001functional}
-Khaitlina, S.~Y. (2001).
-\newblock Functional specificity of actin isoforms.
-\newblock {\em International Review of Cytology}, 202:35--98.
+\bibitem[{Khaitlina(2001)}]{khaitlina2001functional}
+Khaitlina, S.~Y. (2001) Functional specificity of actin isoforms.
+\newblock \textit{International Review of Cytology}, \textbf{202}, 35--98.
 
-\bibitem[Koltsova et~al., 2018]{koltsova2018dynamics}
-Koltsova, A., Krylova, T., Musorina, A., Zenin, V., Turilova, V., Yakovleva,
-  T., and Poljanskaya, G. (2018).
-\newblock The dynamics of cell properties during long-term cultivation of two
-  lines of mesenchymal stem cells derived from wharton’s jelly of human
-  umbilical cord.
-\newblock {\em Cell and Tissue Biology}, 12(1):7--19.
+\bibitem[{Koltsova et~al.(2018)Koltsova, Krylova, Musorina, Zenin, Turilova,
+  Yakovleva and Poljanskaya}]{koltsova2018dynamics}
+Koltsova, A., Krylova, T., Musorina, A., Zenin, V., Turilova, V., Yakovleva, T.
+  and Poljanskaya, G. (2018) The dynamics of cell properties during long-term
+  cultivation of two lines of mesenchymal stem cells derived from wharton’s
+  jelly of human umbilical cord.
+\newblock \textit{Cell and Tissue Biology}, \textbf{12}, 7--19.
 
-\bibitem[Kruskal and Wallis, 1952]{kruskal1952use}
-Kruskal, W.~H. and Wallis, W.~A. (1952).
-\newblock Use of ranks in one-criterion variance analysis.
-\newblock {\em Journal of the American statistical Association},
-  47(260):583--621.
+\bibitem[{Kruskal and Wallis(1952)}]{kruskal1952use}
+Kruskal, W.~H. and Wallis, W.~A. (1952) Use of ranks in one-criterion variance
+  analysis.
+\newblock \textit{Journal of the American statistical Association},
+  \textbf{47}, 583--621.
 
-\bibitem[Krylova et~al., 2017]{krylova2017derivation}
-Krylova, T., Koltsova, A., Musorina, A., Zenin, V., Turilova, V., Yakovleva,
-  T., and Poljanskaya, G. (2017).
-\newblock Derivation and characteristic of two lines of human mesenchymal stem
-  cells, generated from the wharton’s jelly of the human umbilical cord.
-\newblock {\em Tsitologiia}, 59(5):315--327.
+\bibitem[{Krylova et~al.(2017)Krylova, Koltsova, Musorina, Zenin, Turilova,
+  Yakovleva and Poljanskaya}]{krylova2017derivation}
+Krylova, T., Koltsova, A., Musorina, A., Zenin, V., Turilova, V., Yakovleva, T.
+  and Poljanskaya, G. (2017) Derivation and characteristic of two lines of
+  human mesenchymal stem cells, generated from the wharton’s jelly of the
+  human umbilical cord.
+\newblock \textit{Tsitologiia}, \textbf{59}, 315--327.
 
-\bibitem[Krylova et~al., 2018]{krylova2018isolation}
-Krylova, T., Musorina, A., Koltsova, A., Zenin, V., Turilova, V., Yakovleva,
-  T., and Poljanskaya, G. (2018).
-\newblock Isolation and comparative characteristics of mesenchymal stem-cell
-  lines derived from foreskin of two donors of similar age.
-\newblock {\em Cell and Tissue Biology}, 12(4):271--280.
+\bibitem[{Krylova et~al.(2018)Krylova, Musorina, Koltsova, Zenin, Turilova,
+  Yakovleva and Poljanskaya}]{krylova2018isolation}
+Krylova, T., Musorina, A., Koltsova, A., Zenin, V., Turilova, V., Yakovleva, T.
+  and Poljanskaya, G. (2018) Isolation and comparative characteristics of
+  mesenchymal stem-cell lines derived from foreskin of two donors of similar
+  age.
+\newblock \textit{Cell and Tissue Biology}, \textbf{12}, 271--280.
 
-\bibitem[Kuilman et~al., 2010]{kuilman2010essence}
-Kuilman, T., Michaloglou, C., Mooi, W.~J., and Peeper, D.~S. (2010).
-\newblock The essence of senescence.
-\newblock {\em Genes \& development}, 24(22):2463--2479.
+\bibitem[{Kuilman et~al.(2010)Kuilman, Michaloglou, Mooi and
+  Peeper}]{kuilman2010essence}
+Kuilman, T., Michaloglou, C., Mooi, W.~J. and Peeper, D.~S. (2010) The essence
+  of senescence.
+\newblock \textit{Genes \& development}, \textbf{24}, 2463--2479.
 
-\bibitem[Laemmli, 1970]{laemmli1970cleavage}
-Laemmli, U.~K. (1970).
-\newblock Cleavage of structural proteins during the assembly of the head of
-  bacteriophage t4.
-\newblock {\em nature}, 227(5259):680.
+\bibitem[{Laemmli(1970)}]{laemmli1970cleavage}
+Laemmli, U.~K. (1970) Cleavage of structural proteins during the assembly of
+  the head of bacteriophage t4.
+\newblock \textit{nature}, \textbf{227}, 680.
 
-\bibitem[Larsen et~al., 2003]{larsen2003phosphatases}
-Larsen, M., Tremblay, M.~L., and Yamada, K.~M. (2003).
-\newblock Phosphatases in cell--matrix adhesion and migration.
-\newblock {\em Nature reviews Molecular cell biology}, 4(9):700.
+\bibitem[{Larsen et~al.(2003)Larsen, Tremblay and
+  Yamada}]{larsen2003phosphatases}
+Larsen, M., Tremblay, M.~L. and Yamada, K.~M. (2003) Phosphatases in
+  cell--matrix adhesion and migration.
+\newblock \textit{Nature reviews Molecular cell biology}, \textbf{4}, 700.
 
-\bibitem[Lawley and Maxwell, 1971]{lawley1971factor}
-Lawley, D.~N. and Maxwell, A.~E. (1971).
-\newblock Factor analysis as statistical method.
-\newblock Technical report.
+\bibitem[{Lawley and Maxwell(1971)}]{lawley1971factor}
+Lawley, D.~N. and Maxwell, A.~E. (1971) Factor analysis as statistical method.
+\newblock \textit{Tech. rep.}
 
-\bibitem[Le~Clainche and Carlier, 2008]{le2008regulation}
-Le~Clainche, C. and Carlier, M.-F. (2008).
-\newblock Regulation of actin assembly associated with protrusion and adhesion
-  in cell migration.
-\newblock {\em Physiological reviews}, 88(2):489--513.
+\bibitem[{Le~Clainche and Carlier(2008)}]{le2008regulation}
+Le~Clainche, C. and Carlier, M.-F. (2008) Regulation of actin assembly
+  associated with protrusion and adhesion in cell migration.
+\newblock \textit{Physiological reviews}, \textbf{88}, 489--513.
 
-\bibitem[Lomert et~al., 2018]{lomert2018co}
+\bibitem[{Lomert et~al.(2018)Lomert, Turoverova, Kriger, Aksenov, Nikotina,
+  Petukhov, Mittenberg, Panyushev, Khotin, Volkov et~al.}]{lomert2018co}
 Lomert, E., Turoverova, L., Kriger, D., Aksenov, N.~D., Nikotina, A.~D.,
-  Petukhov, A., Mittenberg, A.~G., Panyushev, N.~V., Khotin, M., Volkov, K.,
-  et~al. (2018).
-\newblock Co-expression of rela/p65 and actn4 induces apoptosis in non-small
-  lung carcinoma cells.
-\newblock {\em Cell Cycle}, 17(5):616--626.
+  Petukhov, A., Mittenberg, A.~G., Panyushev, N.~V., Khotin, M., Volkov, K.
+  et~al. (2018) Co-expression of rela/p65 and actn4 induces apoptosis in
+  non-small lung carcinoma cells.
+\newblock \textit{Cell Cycle}, \textbf{17}, 616--626.
 
-\bibitem[Luo et~al., 2013]{luo2013mesenchymal}
-Luo, J., Zhao, X., Tan, Z., Su, Z., Meng, F., and Zhang, M. (2013).
-\newblock Mesenchymal-like progenitors derived from human embryonic stem cells
-  promote recovery from acute kidney injury via paracrine actions.
-\newblock {\em Cytotherapy}, 15(6):649--662.
+\bibitem[{Luo et~al.(2013)Luo, Zhao, Tan, Su, Meng and
+  Zhang}]{luo2013mesenchymal}
+Luo, J., Zhao, X., Tan, Z., Su, Z., Meng, F. and Zhang, M. (2013)
+  Mesenchymal-like progenitors derived from human embryonic stem cells promote
+  recovery from acute kidney injury via paracrine actions.
+\newblock \textit{Cytotherapy}, \textbf{15}, 649--662.
 
-\bibitem[McLean and Skowron~Volponi, 2018]{mclean2018trajr}
-McLean, D.~J. and Skowron~Volponi, M.~A. (2018).
-\newblock trajr: An r package for characterisation of animal trajectories.
-\newblock {\em Ethology}, 124(6):440--448.
+\bibitem[{McLean and Skowron~Volponi(2018)}]{mclean2018trajr}
+McLean, D.~J. and Skowron~Volponi, M.~A. (2018) trajr: An r package for
+  characterisation of animal trajectories.
+\newblock \textit{Ethology}, \textbf{124}, 440--448.
 
-\bibitem[Moujaber et~al., 2019]{moujaber2019cellular}
-Moujaber, O., Fishbein, F., Omran, N., Liang, Y., Colmegna, I., Presley, J.~F.,
-  and Stochaj, U. (2019).
-\newblock Cellular senescence is associated with reorganization of the
-  microtubule cytoskeleton.
-\newblock {\em Cellular and Molecular Life Sciences}, pages 1--15.
+\bibitem[{Moujaber et~al.(2019)Moujaber, Fishbein, Omran, Liang, Colmegna,
+  Presley and Stochaj}]{moujaber2019cellular}
+Moujaber, O., Fishbein, F., Omran, N., Liang, Y., Colmegna, I., Presley, J.~F.
+  and Stochaj, U. (2019) Cellular senescence is associated with reorganization
+  of the microtubule cytoskeleton.
+\newblock \textit{Cellular and Molecular Life Sciences}, 1--15.
 
-\bibitem[Niedernhofer et~al., 2018]{niedernhofer2018nuclear}
-Niedernhofer, L.~J., Gurkar, A.~U., Wang, Y., Vijg, J., Hoeijmakers, J.~H., and
-  Robbins, P.~D. (2018).
-\newblock Nuclear genomic instability and aging.
-\newblock {\em Annual review of biochemistry}, 87:295--322.
+\bibitem[{Niedernhofer et~al.(2018)Niedernhofer, Gurkar, Wang, Vijg,
+  Hoeijmakers and Robbins}]{niedernhofer2018nuclear}
+Niedernhofer, L.~J., Gurkar, A.~U., Wang, Y., Vijg, J., Hoeijmakers, J.~H. and
+  Robbins, P.~D. (2018) Nuclear genomic instability and aging.
+\newblock \textit{Annual review of biochemistry}, \textbf{87}, 295--322.
 
-\bibitem[Omelchenko et~al., 2002]{omelchenko2002mechanisms}
-Omelchenko, T., Vasiliev, J., Gelfand, I., Feder, H., and Bonder, E. (2002).
-\newblock Mechanisms of polarization of the shape of fibroblasts and
-  epitheliocytes: Separation of the roles of microtubules and rho-dependent
-  actin--myosin contractility.
-\newblock {\em Proceedings of the National Academy of Sciences},
-  99(16):10452--10457.
+\bibitem[{Omelchenko et~al.(2002)Omelchenko, Vasiliev, Gelfand, Feder and
+  Bonder}]{omelchenko2002mechanisms}
+Omelchenko, T., Vasiliev, J., Gelfand, I., Feder, H. and Bonder, E. (2002)
+  Mechanisms of polarization of the shape of fibroblasts and epitheliocytes:
+  Separation of the roles of microtubules and rho-dependent actin--myosin
+  contractility.
+\newblock \textit{Proceedings of the National Academy of Sciences},
+  \textbf{99}, 10452--10457.
 
-\bibitem[{\"O}zcan et~al., 2016]{ozcan2016unbiased}
-{\"O}zcan, S., Alessio, N., Acar, M.~B., Mert, E., Omerli, F., Peluso, G., and
-  Galderisi, U. (2016).
-\newblock Unbiased analysis of senescence associated secretory phenotype (sasp)
-  to identify common components following different genotoxic stresses.
-\newblock {\em Aging (Albany NY)}, 8(7):1316.
+\bibitem[{{\"O}zcan et~al.(2016){\"O}zcan, Alessio, Acar, Mert, Omerli, Peluso
+  and Galderisi}]{ozcan2016unbiased}
+{\"O}zcan, S., Alessio, N., Acar, M.~B., Mert, E., Omerli, F., Peluso, G. and
+  Galderisi, U. (2016) Unbiased analysis of senescence associated secretory
+  phenotype (sasp) to identify common components following different genotoxic
+  stresses.
+\newblock \textit{Aging (Albany NY)}, \textbf{8}, 1316.
 
-\bibitem[Pantaloni and Carlier, 1993]{pantaloni1993profilin}
-Pantaloni, D. and Carlier, M.-F. (1993).
-\newblock How profilin promotes actin filament assembly in the presence of
-  thymosin $\beta$4.
-\newblock {\em Cell}, 75(5):1007--1014.
+\bibitem[{Pantaloni and Carlier(1993)}]{pantaloni1993profilin}
+Pantaloni, D. and Carlier, M.-F. (1993) How profilin promotes actin filament
+  assembly in the presence of thymosin $\beta$4.
+\newblock \textit{Cell}, \textbf{75}, 1007--1014.
 
-\bibitem[Phinney and Prockop, 2007]{phinney2007concise}
-Phinney, D.~G. and Prockop, D.~J. (2007).
-\newblock Concise review: mesenchymal stem/multipotent stromal cells: the state
-  of transdifferentiation and modes of tissue repair—current views.
-\newblock {\em Stem cells}, 25(11):2896--2902.
+\bibitem[{Phinney and Prockop(2007)}]{phinney2007concise}
+Phinney, D.~G. and Prockop, D.~J. (2007) Concise review: mesenchymal
+  stem/multipotent stromal cells: the state of transdifferentiation and modes
+  of tissue repair—current views.
+\newblock \textit{Stem cells}, \textbf{25}, 2896--2902.
 
-\bibitem[Redaelli et~al., 2012]{redaelli2012cytogenomic}
+\bibitem[{Redaelli et~al.(2012)Redaelli, Bentivegna, Foudah, Miloso, Redondo,
+  Riva, Baronchelli, Dalpr{\`a} and Tredici}]{redaelli2012cytogenomic}
 Redaelli, S., Bentivegna, A., Foudah, D., Miloso, M., Redondo, J., Riva, G.,
-  Baronchelli, S., Dalpr{\`a}, L., and Tredici, G. (2012).
-\newblock From cytogenomic to epigenomic profiles: monitoring the biologic
-  behavior of in vitro cultured human bone marrow mesenchymal stem cells.
-\newblock {\em Stem cell research \& therapy}, 3(6):47.
+  Baronchelli, S., Dalpr{\`a}, L. and Tredici, G. (2012) From cytogenomic to
+  epigenomic profiles: monitoring the biologic behavior of in vitro cultured
+  human bone marrow mesenchymal stem cells.
+\newblock \textit{Stem cell research \& therapy}, \textbf{3}, 47.
 
-\bibitem[Rueden et~al., 2017]{rueden2017imagej2}
+\bibitem[{Rueden et~al.(2017)Rueden, Schindelin, Hiner, DeZonia, Walter, Arena
+  and Eliceiri}]{rueden2017imagej2}
 Rueden, C.~T., Schindelin, J., Hiner, M.~C., DeZonia, B.~E., Walter, A.~E.,
-  Arena, E.~T., and Eliceiri, K.~W. (2017).
-\newblock Imagej2: Imagej for the next generation of scientific image data.
-\newblock {\em BMC bioinformatics}, 18(1):529.
+  Arena, E.~T. and Eliceiri, K.~W. (2017) Imagej2: Imagej for the next
+  generation of scientific image data.
+\newblock \textit{BMC bioinformatics}, \textbf{18}, 529.
 
-\bibitem[Sakashita et~al., 2015]{sakashita2015cq1}
-Sakashita, H., Ohashi, K., Ozawa, K., and Tsubouchi, Y. (2015).
-\newblock The cq1 confocal quantitative image cytometer and its application to
-  biological measurement.
-\newblock Technical report, Yokogawa Technical Report English Edition.
+\bibitem[{Sakashita et~al.(2015)Sakashita, Ohashi, Ozawa and
+  Tsubouchi}]{sakashita2015cq1}
+Sakashita, H., Ohashi, K., Ozawa, K. and Tsubouchi, Y. (2015) The cq1 confocal
+  quantitative image cytometer and its application to biological measurement.
+\newblock \textit{Tech. rep.}, Yokogawa Technical Report English Edition.
 
-\bibitem[Savickien{\.e} et~al., 2016]{savickiene2016senescence}
-Savickien{\.e}, J., Baronait{\.e}, S., Zentelyt{\.e}, A., Treigyt{\.e}, G., and
-  Navakauskien{\.e}, R. (2016).
-\newblock Senescence-associated molecular and epigenetic alterations in
-  mesenchymal stem cell cultures from amniotic fluid of normal and
-  fetus-affected pregnancy.
-\newblock {\em Stem cells international}, 2016.
+\bibitem[{Savickien{\.e} et~al.(2016)Savickien{\.e}, Baronait{\.e},
+  Zentelyt{\.e}, Treigyt{\.e} and Navakauskien{\.e}}]{savickiene2016senescence}
+Savickien{\.e}, J., Baronait{\.e}, S., Zentelyt{\.e}, A., Treigyt{\.e}, G. and
+  Navakauskien{\.e}, R. (2016) Senescence-associated molecular and epigenetic
+  alterations in mesenchymal stem cell cultures from amniotic fluid of normal
+  and fetus-affected pregnancy.
+\newblock \textit{Stem cells international}, \textbf{2016}.
 
-\bibitem[Sensebe et~al., 2010]{sensebe2010mesenchymal}
-Sensebe, L., Krampera, M., Schrezenmeier, H., Bourin, P., and Giordano, R.
-  (2010).
-\newblock Mesenchymal stem cells for clinical application.
-\newblock {\em Vox sanguinis}, 98(2):93--107.
+\bibitem[{Sensebe et~al.(2010)Sensebe, Krampera, Schrezenmeier, Bourin and
+  Giordano}]{sensebe2010mesenchymal}
+Sensebe, L., Krampera, M., Schrezenmeier, H., Bourin, P. and Giordano, R.
+  (2010) Mesenchymal stem cells for clinical application.
+\newblock \textit{Vox sanguinis}, \textbf{98}, 93--107.
 
-\bibitem[Sept and McCammon, 2001]{sept2001thermodynamics}
-Sept, D. and McCammon, J.~A. (2001).
-\newblock Thermodynamics and kinetics of actin filament nucleation.
-\newblock {\em Biophysical journal}, 81(2):667--674.
+\bibitem[{Sept and McCammon(2001)}]{sept2001thermodynamics}
+Sept, D. and McCammon, J.~A. (2001) Thermodynamics and kinetics of actin
+  filament nucleation.
+\newblock \textit{Biophysical journal}, \textbf{81}, 667--674.
 
-\bibitem[Shapiro and Francia, 1972]{shapiro1972approximate}
-Shapiro, S.~S. and Francia, R. (1972).
-\newblock An approximate analysis of variance test for normality.
-\newblock {\em Journal of the American Statistical Association},
-  67(337):215--216.
+\bibitem[{Shapiro and Francia(1972)}]{shapiro1972approximate}
+Shapiro, S.~S. and Francia, R. (1972) An approximate analysis of variance test
+  for normality.
+\newblock \textit{Journal of the American Statistical Association},
+  \textbf{67}, 215--216.
 
-\bibitem[Shapiro and Wilk, 1965]{shapiro1965analysis}
-Shapiro, S.~S. and Wilk, M.~B. (1965).
-\newblock An analysis of variance test for normality (complete samples).
-\newblock {\em Biometrika}, 52(3/4):591--611.
+\bibitem[{Shapiro and Wilk(1965)}]{shapiro1965analysis}
+Shapiro, S.~S. and Wilk, M.~B. (1965) An analysis of variance test for
+  normality (complete samples).
+\newblock \textit{Biometrika}, \textbf{52}, 591--611.
 
-\bibitem[Shutova and Alexandrova, 2010]{shutova2010normal}
-Shutova, M. and Alexandrova, A.~Y. (2010).
-\newblock Normal and transformed fibroblast spreading: Role of microfilament
-  polymerization and actin-myosin contractility.
-\newblock {\em Cell and Tissue Biology}, 4(1):25--35.
+\bibitem[{Shutova and Alexandrova(2010)}]{shutova2010normal}
+Shutova, M. and Alexandrova, A.~Y. (2010) Normal and transformed fibroblast
+  spreading: Role of microfilament polymerization and actin-myosin
+  contractility.
+\newblock \textit{Cell and Tissue Biology}, \textbf{4}, 25--35.
 
-\bibitem[Shutova and Svitkina, 2018]{shutova2018mammalian}
-Shutova, M.~S. and Svitkina, T.~M. (2018).
-\newblock Mammalian nonmuscle myosin ii comes in three flavors.
-\newblock {\em Biochemical and biophysical research communications},
-  506(2):394--402.
+\bibitem[{Shutova and Svitkina(2018)}]{shutova2018mammalian}
+Shutova, M.~S. and Svitkina, T.~M. (2018) Mammalian nonmuscle myosin ii comes
+  in three flavors.
+\newblock \textit{Biochemical and biophysical research communications},
+  \textbf{506}, 394--402.
 
-\bibitem[Team et~al., 2014]{team2014r}
-Team, R.~C. et~al. (2014).
-\newblock R: A language and environment for statistical computing.
-\newblock {\em R}.
+\bibitem[{Team et~al.(2014)}]{team2014r}
+Team, R.~C. et~al. (2014) R: A language and environment for statistical
+  computing.
+\newblock \textit{R}.
 
-\bibitem[Teixeira et~al., 2017]{teixeira2017impact}
+\bibitem[{Teixeira et~al.(2017)Teixeira, Carvalho, Panchalingam, Rodrigues,
+  Mendes-Pinheiro, Anjo, Manadas, Behie, Sousa and
+  Salgado}]{teixeira2017impact}
 Teixeira, F.~G., Carvalho, M.~M., Panchalingam, K.~M., Rodrigues, A.~J.,
-  Mendes-Pinheiro, B., Anjo, S., Manadas, B., Behie, L.~A., Sousa, N., and
-  Salgado, A.~J. (2017).
-\newblock Impact of the secretome of human mesenchymal stem cells on brain
-  structure and animal behavior in a rat model of parkinson's disease.
-\newblock {\em Stem cells translational medicine}, 6(2):634--646.
+  Mendes-Pinheiro, B., Anjo, S., Manadas, B., Behie, L.~A., Sousa, N. and
+  Salgado, A.~J. (2017) Impact of the secretome of human mesenchymal stem cells
+  on brain structure and animal behavior in a rat model of parkinson's disease.
+\newblock \textit{Stem cells translational medicine}, \textbf{6}, 634--646.
 
-\bibitem[Terpilowski, 2019]{Terpilowski2019}
-Terpilowski, M. (2019).
-\newblock scikit-posthocs: Pairwise multiple comparison tests in python.
-\newblock {\em The Journal of Open Source Software}, 4(36):1169.
+\bibitem[{Terpilowski(2019)}]{Terpilowski2019}
+Terpilowski, M. (2019) scikit-posthocs: Pairwise multiple comparison tests in
+  python.
+\newblock \textit{The Journal of Open Source Software}, \textbf{4}, 1169.
 
-\bibitem[Tiurin-Kuz'min et~al., 2013]{tiurin2013molecular}
-Tiurin-Kuz'min, P., Vorotnikov, A., and Tkachuk, V. (2013).
-\newblock Molecular mechanisms of gradient sensing in mesenchymal cells.
-\newblock {\em Rossiiskii fiziologicheskii zhurnal imeni IM Sechenova},
-  99(3):294--312.
+\bibitem[{Tiurin-Kuz'min et~al.(2013)Tiurin-Kuz'min, Vorotnikov and
+  Tkachuk}]{tiurin2013molecular}
+Tiurin-Kuz'min, P., Vorotnikov, A. and Tkachuk, V. (2013) Molecular mechanisms
+  of gradient sensing in mesenchymal cells.
+\newblock \textit{Rossiiskii fiziologicheskii zhurnal imeni IM Sechenova},
+  \textbf{99}, 294--312.
 
-\bibitem[Towbin et~al., 1979]{towbin1979electrophoretic}
-Towbin, H., Staehelin, T., and Gordon, J. (1979).
-\newblock Electrophoretic transfer of proteins from polyacrylamide gels to
-  nitrocellulose sheets: procedure and some applications.
-\newblock {\em Proceedings of the National Academy of Sciences},
-  76(9):4350--4354.
+\bibitem[{Towbin et~al.(1979)Towbin, Staehelin and
+  Gordon}]{towbin1979electrophoretic}
+Towbin, H., Staehelin, T. and Gordon, J. (1979) Electrophoretic transfer of
+  proteins from polyacrylamide gels to nitrocellulose sheets: procedure and
+  some applications.
+\newblock \textit{Proceedings of the National Academy of Sciences},
+  \textbf{76}, 4350--4354.
 
-\bibitem[Truong et~al., 2018]{truong2018characterization}
-Truong, N.~C., Bui, K. H.-T., and Van~Pham, P. (2018).
-\newblock Characterization of senescence of human adipose-derived stem cells
-  after long-term expansion.
+\bibitem[{Truong et~al.(2018)Truong, Bui and
+  Van~Pham}]{truong2018characterization}
+Truong, N.~C., Bui, K. H.-T. and Van~Pham, P. (2018) Characterization of
+  senescence of human adipose-derived stem cells after long-term expansion.
 
-\bibitem[Turinetto et~al., 2016]{turinetto2016senescence}
-Turinetto, V., Vitale, E., and Giachino, C. (2016).
-\newblock Senescence in human mesenchymal stem cells: functional changes and
-  implications in stem cell-based therapy.
-\newblock {\em International journal of molecular sciences}, 17(7):1164.
+\bibitem[{Turinetto et~al.(2016)Turinetto, Vitale and
+  Giachino}]{turinetto2016senescence}
+Turinetto, V., Vitale, E. and Giachino, C. (2016) Senescence in human
+  mesenchymal stem cells: functional changes and implications in stem
+  cell-based therapy.
+\newblock \textit{International journal of molecular sciences}, \textbf{17},
+  1164.
 
-\bibitem[Vasiliev, 1991]{vasiliev1991polarization}
-Vasiliev, J. (1991).
-\newblock Polarization of pseudopodial activities: cytoskeletal mechanisms.
-\newblock {\em Journal of Cell Science}, 98(1):1--4.
+\bibitem[{Vasiliev(1991)}]{vasiliev1991polarization}
+Vasiliev, J. (1991) Polarization of pseudopodial activities: cytoskeletal
+  mechanisms.
+\newblock \textit{Journal of Cell Science}, \textbf{98}, 1--4.
 
-\bibitem[Vicente-Manzanares et~al., 2009]{vicente2009non}
-Vicente-Manzanares, M., Ma, X., Adelstein, R.~S., and Horwitz, A.~R. (2009).
-\newblock Non-muscle myosin ii takes centre stage in cell adhesion and
-  migration.
-\newblock {\em Nature reviews Molecular cell biology}, 10(11):778.
+\bibitem[{Vicente-Manzanares et~al.(2009)Vicente-Manzanares, Ma, Adelstein and
+  Horwitz}]{vicente2009non}
+Vicente-Manzanares, M., Ma, X., Adelstein, R.~S. and Horwitz, A.~R. (2009)
+  Non-muscle myosin ii takes centre stage in cell adhesion and migration.
+\newblock \textit{Nature reviews Molecular cell biology}, \textbf{10}, 778.
 
-\bibitem[Vulcano et~al., 2016]{vulcano2016wharton}
+\bibitem[{Vulcano et~al.(2016)Vulcano, Milazzo, Ciccarelli, Eramo, Sette,
+  Mauro, Macioce, Martinelli, La~Torre, Casalbore et~al.}]{vulcano2016wharton}
 Vulcano, F., Milazzo, L., Ciccarelli, C., Eramo, A., Sette, G., Mauro, A.,
-  Macioce, G., Martinelli, A., La~Torre, R., Casalbore, P., et~al. (2016).
-\newblock Wharton's jelly mesenchymal stromal cells have contrasting effects on
+  Macioce, G., Martinelli, A., La~Torre, R., Casalbore, P. et~al. (2016)
+  Wharton's jelly mesenchymal stromal cells have contrasting effects on
   proliferation and phenotype of cancer stem cells from different subtypes of
   lung cancer.
-\newblock {\em Experimental cell research}, 345(2):190--198.
+\newblock \textit{Experimental cell research}, \textbf{345}, 190--198.
 
-\bibitem[Wagner et~al., 2008]{wagner2008replicative}
+\bibitem[{Wagner et~al.(2008)Wagner, Horn, Castoldi, Diehlmann, Bork, Saffrich,
+  Benes, Blake, Pfister, Eckstein et~al.}]{wagner2008replicative}
 Wagner, W., Horn, P., Castoldi, M., Diehlmann, A., Bork, S., Saffrich, R.,
-  Benes, V., Blake, J., Pfister, S., Eckstein, V., et~al. (2008).
-\newblock Replicative senescence of mesenchymal stem cells: a continuous and
-  organized process.
-\newblock {\em PloS one}, 3(5):e2213.
+  Benes, V., Blake, J., Pfister, S., Eckstein, V. et~al. (2008) Replicative
+  senescence of mesenchymal stem cells: a continuous and organized process.
+\newblock \textit{PloS one}, \textbf{3}, e2213.
 
-\bibitem[Wang and Jang, 2009]{wang2009protein}
-Wang, D. and Jang, D.-J. (2009).
-\newblock Protein kinase ck2 regulates cytoskeletal reorganization during
-  ionizing radiation--induced senescence of human mesenchymal stem cells.
-\newblock {\em Cancer research}, 69(20):8200--8207.
+\bibitem[{Wang and Jang(2009)}]{wang2009protein}
+Wang, D. and Jang, D.-J. (2009) Protein kinase ck2 regulates cytoskeletal
+  reorganization during ionizing radiation--induced senescence of human
+  mesenchymal stem cells.
+\newblock \textit{Cancer research}, \textbf{69}, 8200--8207.
 
-\bibitem[Wang et~al., 2003]{wang2003regulation}
+\bibitem[{Wang et~al.(2003)Wang, Zhang, Ozdamar, Ogunjimi, Alexandrova, Thomsen
+  and Wrana}]{wang2003regulation}
 Wang, H.-R., Zhang, Y., Ozdamar, B., Ogunjimi, A.~A., Alexandrova, E., Thomsen,
-  G.~H., and Wrana, J.~L. (2003).
-\newblock Regulation of cell polarity and protrusion formation by targeting
-  rhoa for degradation.
-\newblock {\em Science}, 302(5651):1775--1779.
+  G.~H. and Wrana, J.~L. (2003) Regulation of cell polarity and protrusion
+  formation by targeting rhoa for degradation.
+\newblock \textit{Science}, \textbf{302}, 1775--1779.
 
-\bibitem[Wilcoxon, 1992]{wilcoxon1992individual}
-Wilcoxon, F. (1992).
-\newblock Individual comparisons by ranking methods.
-\newblock In {\em Breakthroughs in statistics}, pages 196--202. Springer.
+\bibitem[{Wilcoxon(1992)}]{wilcoxon1992individual}
+Wilcoxon, F. (1992) Individual comparisons by ranking methods.
+\newblock In \textit{Breakthroughs in statistics}, 196--202. Springer.
 
-\bibitem[Wilson, 1927]{wilson1927probable}
-Wilson, E.~B. (1927).
-\newblock Probable inference, the law of succession, and statistical inference.
-\newblock {\em Journal of the American Statistical Association},
-  22(158):209--212.
+\bibitem[{Wilson(1927)}]{wilson1927probable}
+Wilson, E.~B. (1927) Probable inference, the law of succession, and statistical
+  inference.
+\newblock \textit{Journal of the American Statistical Association},
+  \textbf{22}, 209--212.
 
-\bibitem[Yu et~al., 2018]{yu2018replicative}
-Yu, J., Shi, J., Zhang, Y., Zhang, Y., Huang, Y., Chen, Z., and Yang, J.
-  (2018).
-\newblock The replicative senescent mesenchymal stem/stromal cells defect in
-  dna damage response and anti-oxidative capacity.
-\newblock {\em International journal of medical sciences}, 15(8):771.
+\bibitem[{Yu et~al.(2018)Yu, Shi, Zhang, Zhang, Huang, Chen and
+  Yang}]{yu2018replicative}
+Yu, J., Shi, J., Zhang, Y., Zhang, Y., Huang, Y., Chen, Z. and Yang, J. (2018)
+  The replicative senescent mesenchymal stem/stromal cells defect in dna damage
+  response and anti-oxidative capacity.
+\newblock \textit{International journal of medical sciences}, \textbf{15}, 771.
 
-\bibitem[Zachar et~al., 2016]{zachar2016activation}
-Zachar, L., Ba{\v{c}}enkov{\'a}, D., and Rosocha, J. (2016).
-\newblock Activation, homing, and role of the mesenchymal stem cells in the
-  inflammatory environment.
-\newblock {\em Journal of inflammation research}, 9:231.
+\bibitem[{Zachar et~al.(2016)Zachar, Ba{\v{c}}enkov{\'a} and
+  Rosocha}]{zachar2016activation}
+Zachar, L., Ba{\v{c}}enkov{\'a}, D. and Rosocha, J. (2016) Activation, homing,
+  and role of the mesenchymal stem cells in the inflammatory environment.
+\newblock \textit{Journal of inflammation research}, \textbf{9}, 231.
 
-\bibitem[Zhang et~al., 2018]{zhang2018overexpression}
+\bibitem[{Zhang et~al.(2018)Zhang, Wang, Liu, Zhou, Shi, Cheng, Huang, Wang,
+  Yang, Yang et~al.}]{zhang2018overexpression}
 Zhang, T., Wang, P., Liu, Y., Zhou, J., Shi, Z., Cheng, K., Huang, T., Wang,
-  X., Yang, G.~L., Yang, B., et~al. (2018).
-\newblock Overexpression of foxq1 enhances anti-senescence and migration
-  effects of human umbilical cord mesenchymal stem cells in vitro and in vivo.
-\newblock {\em Cell and tissue research}, 373(2):379--393.
+  X., Yang, G.~L., Yang, B. et~al. (2018) Overexpression of foxq1 enhances
+  anti-senescence and migration effects of human umbilical cord mesenchymal
+  stem cells in vitro and in vivo.
+\newblock \textit{Cell and tissue research}, \textbf{373}, 379--393.
 
 \end{thebibliography}
