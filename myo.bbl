@@ -1,4 +1,4 @@
-\begin{thebibliography}{77}
+\begin{thebibliography}{75}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -321,11 +321,6 @@ Omelchenko, T., Vasiliev, J., Gelfand, I., Feder, H. and Bonder, E. (2002)
   stresses.
 \newblock \textit{Aging (Albany NY)}, \textbf{8}, 1316.
 
-\bibitem[{Pantaloni and Carlier(1993)}]{pantaloni1993profilin}
-Pantaloni, D. and Carlier, M.-F. (1993) How profilin promotes actin filament
-  assembly in the presence of thymosin $\beta$4.
-\newblock \textit{Cell}, \textbf{75}, 1007--1014.
-
 \bibitem[{Phinney and Prockop(2007)}]{phinney2007concise}
 Phinney, D.~G. and Prockop, D.~J. (2007) Concise review: mesenchymal
   stem/multipotent stromal cells: the state of transdifferentiation and modes
@@ -366,11 +361,6 @@ Savickien{\.e}, J., Baronait{\.e}, S., Zentelyt{\.e}, A., Treigyt{\.e}, G. and
 Sensebe, L., Krampera, M., Schrezenmeier, H., Bourin, P. and Giordano, R.
   (2010) Mesenchymal stem cells for clinical application.
 \newblock \textit{Vox sanguinis}, \textbf{98}, 93--107.
-
-\bibitem[{Sept and McCammon(2001)}]{sept2001thermodynamics}
-Sept, D. and McCammon, J.~A. (2001) Thermodynamics and kinetics of actin
-  filament nucleation.
-\newblock \textit{Biophysical journal}, \textbf{81}, 667--674.
 
 \bibitem[{Shapiro and Francia(1972)}]{shapiro1972approximate}
 Shapiro, S.~S. and Francia, R. (1972) An approximate analysis of variance test
