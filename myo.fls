@@ -564,14 +564,14 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-B
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Bold-T2A-TLF--base.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-Regular-T2A-TLF.vf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Regular-T2A-TLF--base.tfm
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-Bold-T2A-TLF.vf
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Bold-T2A-TLF--base.tfm
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-Regular-T2A-TLF.vf
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Regular-T2A-TLF--base.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Bold-T2A-TLF.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lato\ot1lato-tlf.fd
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lato\ot1lato-tlf.fd
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Regular-OT1-TLF.tfm
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-Bold-T2A-TLF.vf
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Bold-T2A-TLF--base.tfm
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-Regular-T2A-TLF.vf
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Regular-T2A-TLF--base.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-Bold-T2A-TLF.vf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Bold-T2A-TLF--base.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-Regular-OT1-TLF.vf
@@ -582,7 +582,6 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\txfonts\rtxm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\newtx\ntxsy7.vf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\txsys.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\txex-bar.tfm
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Bold-T2A-TLF.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\newtxsf\ntxsfmia.vf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtxsf\zsfmia-reg.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\txfonts\txsyc.tfm
@@ -599,17 +598,18 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\txex-b
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmtt.fd
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmtt.fd
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\latt0800.tfm
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Bold-T2A-TLF.tfm
 INPUT myo.bbl
 INPUT myo.bbl
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Regular-T2A-TLF.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Regular-T2A-TLF.tfm
+INPUT figures.jpg
+INPUT .\figures.jpg
+INPUT .\figures.jpg
+INPUT .\figures.jpg
+INPUT .\figures.jpg
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-Heavy-T2A-TLF.vf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Heavy-T2A-TLF--base.tfm
-INPUT fig_m9-actin-bgal.jpg
-INPUT .\fig_m9-actin-bgal.jpg
-INPUT .\fig_m9-actin-bgal.jpg
-INPUT .\fig_m9-actin-bgal.jpg
-INPUT .\fig_m9-actin-bgal.jpg
 INPUT fig_m9-actin-col.jpg
 INPUT .\fig_m9-actin-col.jpg
 INPUT .\fig_m9-actin-col.jpg
@@ -645,11 +645,6 @@ INPUT .\fig_fplc.jpg
 INPUT .\fig_fplc.jpg
 INPUT .\fig_fplc.jpg
 INPUT .\fig_fplc.jpg
-INPUT supp1.jpeg
-INPUT .\supp1.jpeg
-INPUT .\supp1.jpeg
-INPUT .\supp1.jpeg
-INPUT .\supp1.jpeg
 INPUT myo.aux
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt0800.pk
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt0800.pk

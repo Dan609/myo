@@ -54,7 +54,7 @@
 
 \presentadd[\authfn{2}]{Department, Institution, City, State or Province, Postal Code, Country}
 
-\fundinginfo{Funder One, Funder One Department, Grant/Award Number: 123456, 123457 and 123458; Funder Two, Funder Two Department, Grant/Award Number: 123459}
+\fundinginfo{ This research received no external funding. }
 
 % Include the name of the author that should appear in the running header
 \runningauthor{Bobkov et al. Motility changes in ageing MSCs}
@@ -65,8 +65,13 @@
 
 \begin{abstract}
 
-Here we provide evidence.
-The analysis of data from measurements is analyzed.
+One of the essential signs of replicative aging is a decrease in cell motility.
+Here we provide evidence for changes in the organization of the contractile apparatus of human mesenchymal stem cells in the process of replicative senescence.
+The colocalization dynamics of  of myosin-9 and alpha-actinin-4 with F-actin, as well as colocalization of alpha-actinin-4 and RhoA with nuclei, were studied at various passages during long cultivation of mesenchymal stem cells.
+A decrease in the colocalization of myosin-9 and alpha-actinin-4 F-actin was found at 15 passages, then the colocalization gradually increased to passage 36.
+Using the automated system of intravital confocal microscopy CQ1, the characteristics of cell motility in various passages were studied.
+It was found that during replicative aging in MSCWJ-1 cells, a decline in cell speed and path lenth occurs.
+
 
 % Please include a maximum of seven keywords
 \keywords{mesenchymal stem cells, \emph{cellular senescense}, actin, myosin-9, $\alpha$-actinin-4, RhoA, cell motility}
@@ -142,28 +147,28 @@ In addition to the striated pattern (Fig. 1 C), myosin-9 is detected in lamellae
 
 
 In order to follow the dynamics of the reorganization of the contractile apparatus during replicative senescence, we analyzed the localization of myosin-9 and F-actin in different passages.
-The results are presented in the figure \ref{m9-actin-col}.
+The results are presented in the figure 2.
 In the analysis of immunofluorescence images, we calculated five variants of the colocalization coefficients, namely: Kendall's Tau-b rank correlation value (Tau-b), Spearman's rank correlation value (Rs), Manders' M in two varians was get above threshold (tM1 and tM2), and Pearson's R value above threshold (Rval).
 We conducted PCA and a show correlation matrix plot in order to identify the coefficient most suitable for our purposes.
 It turns out, that bTau and Rs coefficients shows very high correlation.
-tM1 and Rval coefficient shows moderate correlation (see supplement \ref{supp1} for details).
-Kruskal-Wallis rank sum test results presened in table \ref{tab:M9colocs} suggest that bTau reflects changes in colocalization so well.
+tM1 and Rval coefficient shows moderate correlation (see supplement for details).
+Kruskal-Wallis rank sum test results presened in table (supp 3) suggest that bTau reflects changes in colocalization so well.
 The output from factor analysis in R shown in table 2.
 The uniqueness is the variance that is unexplained by the factors and is unique to that specific variable.
 The factors have different weights for different variables and they are called the loadings.
 The PCA and factor analysis allowed us to conclude that bTau is the most suitable coefficient and in the future we use it for the analysis of cytoskeletal rearrangements.
 
 
-As can be seen in \ref{m9-actin-col}, A, the colocalization of myosin-9 and F-actin decreases from high to moderate level during cultivation and reaches a minimum at passage 15.
+As can be seen in fig 3, A, the colocalization of myosin-9 and F-actin decreases from high to moderate level during cultivation and reaches a minimum at passage 15.
 Then, the colocolization rises to a very high level at passage 28, after which it again decreases during passage of cultivation to passage 36, which was our last time point.
-The use of post hoc analysis revealed the most significant differences between groups associated with a decrease in colocalization at 15 and 18 passages (\ref{m9-actin-col}, E).
+The use of post hoc analysis revealed the most significant differences between groups associated with a decrease in colocalization at 15 and 18 passages (fig 2, E).
 For further research, we decided that 9, 15, 28, and 36 passages would be key points.
 
 
-The results of staining cells with alpha-actinin-4 in these passages are presented in Fig. \ref{a4-actin}.
+The results of staining cells with alpha-actinin-4 in these passages are presented in Fig. 6.
 $\alpha$-Actinin-4 as well as myosin-9 was detected in cells in the form of striated patterns, less pronounced than in myosin-9, but nevertheless quite distinguishable.
 We studied the colocalization of actinin with actin, as well as with nuclei.
-The results are presented in fig. \ref{a4-actin-col}.
+The results are presented in fig. 6.
 At passage 15, spotting is observed in $\alpha$-actinin-4 stained.
 
 
@@ -179,14 +184,13 @@ It should be noted that in almost half of the cells, the coefficient takes negat
 
 
 For a more detailed study of the detected phenomenon of nuclear-cytoplasmic shuttle, we used the analysis of 3D models performed in the nuclear region.
-Figure \ref{rho-3d} shows aRhoA in the nucleus images based on Z-stacks.
+Figure 7 shows aRhoA in the nucleus images based on Z-stacks.
 In the XZ sections, it is noticeable that at the 9th passage, RhoA is distributed partly in the nucleus and partly in the cytolasm, at the 15th passage for the most part inside the nucleus and in the perinuclear region, and at the 36th passage only along stress fibrils and in the cytoplasm.
 
 \subsection{Trajectory analysis}
 
 
-
-In fig. \ref{traj}, A characteristic frames from time laps of cell movement recording over 24 hours are presented.
+In fig.8, A characteristic frames from time laps of cell movement recording over 24 hours are presented.
 The results of a statistical analysis of the obtained trajectories are presented in Fig. \ref{traj}, В.
 The R script used to perform this analysis is available in the supplement.
 Speed and path length significantly decreased with increase in passage number.
@@ -195,12 +199,9 @@ The straightness of the trajectory increases significantly with the passage from
 The tortuosity of the trajectory increases with the transition from passage 9 to 15 and then decreases by passage 36 to a level significantly lower than it was at passage 9.
 
 
-
-
 The numerical values obtained from the analysis of 24-hour cell trajectories are presented in the table \ref{tab3}.
 
 \subsection{Gel chromatography}
-
 
 
 Chromatographic analysis showed that myosin-9 was detected at passage 9 in most of its regions in the region of high molecular fractions 3 and 4, and to a lesser extent in fractions 7 and 9 (Fig \ref{fplc}).
@@ -212,23 +213,18 @@ But at 15 and 36 passages it also begins to be revealed in fractions 6---7.
 
 \section{DISCUSSION}
 
+The proportion of cells with pronounced activity of $\beta$-galactosidase ($\beta$-gal) in the process of cultivating the MSCWJ-1 line confirm the aging status of cells.
+
 
 The actin cytoskeleton and its associated motor proteins provide the driving forces for creating amazing morphological diversity and the dynamics of mammalian cells (\cite{vasiliev1991polarization}).
-
 Such as maintaining cell shape, its migration, interaction with the substrate and with other cells, cytogenesis, processes of intracellular transport, as well as participation in the conduct of the cellular signal and the regulation of gene expression (\cite{omelchenko2002mechanisms}).
-
 Cytoskeleton isoactins form less stable polymers than skeletal muscle actin \cite{khaitlina2001functional}.
-
 The globular actin assembly mechanism (G-actin) into threads consisting of double helix (F-actin).
-
 Assembling and disassembling F-actin is a very dynamic process to perform various functions of actin.
-
 Similar dynamics are regulated by a number of actin-binding and regulatory proteins.
-
 On the other hand, a number of actin-binding proteins prevent the depolymerization of F-actin microfilaments and regulate their stability (such as tropomyosin, alpha-actinin, for example).
 
 A recent study has shown that targeting and activation of actin filament nucleators (gelsolin), elongators, and myosin engines are closely coordinated by conservative protein complexes to orchestrate the generation of power. (\cite{pantaloni1993profilin}; \cite{sept2001thermodynamics}).
-
 To establish the many different actin assembly functions required in time and space, actin nucleators target specific subcellular compartments, thereby limiting the formation of specific structures of actin filaments to these sites.
 Cellular senescence, replicative cycle, Hayflick limit.
 
@@ -237,9 +233,7 @@ Both external and intrinsic factors control directionality of cell movement. \ci
 We believe that the detected changes in the localization of F-actin and actin-binding proteins reflect the phenomenon of partial disassembly of the cytoskeleton, which is characteristic for switching types of cell movement.
 
 Since myosin-9 is a key protein for cell migration, we investigated the distribution various passages.
-
 It was shown that tropomyosins act as negative regulators of myosin stack formation \cite{hu2019reciprocal}.
-
 This figure of 50 doublings, called the Hayflick limit, is fairly arbitrary, since it is not possible to accurately determine how many times a single human cell can share.
 
 Thus, the results of Hayflick's experiments do not mean that the human cell is able to share exactly 50 times (most likely more), but only mean that with the counting method that Hayflik used and which is used now as the simplest and most convenient, a population of human fibroblasts in culture doubles usually ~ 50 $\pm$ 10 times.
@@ -247,7 +241,6 @@ Thus, the results of Hayflick's experiments do not mean that the human cell is a
 Cell cycle arrest during replicative senescence.
 
 Another structure characteristic mainly of non-muscle cells is stress fibrils — bundles of F-actin filaments stabilized by such proteins.
-
 Features of the organization of the actin cytoskeleton in mesenchymal stem cells.
 
 At present, analogs of bone marrow MSC are found in all other tissues.
@@ -325,12 +318,6 @@ In addition to regulating cell motility, this protein plays a role in carcinogen
 
  Moving to the nucleus, RhoA can down-regulate stress fibrils organization and at the same time regulate a number of genes.
 
-
-\section*{Conclusion}
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-
-Replicative senescence of human mesenchymal stem cells is accompanied by changes in the organization of the contractile apparatus.
 
 \section{Experimental Procedures}
 
@@ -468,23 +455,42 @@ All row data and R scripts are available on Github: \url{https://github.com/Dan6
 
 Author2 designed the research. Author1 carried out all simulations, analyzed the data. Author1 and Author2 wrote the article.
 
-\section*{acknowledgements}
+\section*{Acknowledgements}
 
 We thank G. Harrison, B. Harper, and J. Doe for their help.
 Acknowledgements should include contributions from anyone who does not meet the criteria for authorship (for example, to recognize contributions from people who provided technical help, collation of data, writing assistance, acquisition of funding, or a department chairperson who provided general support), as well as any funding or other support information.
 
-\section*{conflict of interest}
-You may be asked to provide a conflict of interest statement during the submission process. Please check the journal's author guidelines for details on what to include in this section. Please ensure you liaise with all co-authors to confirm agreement with the final statement.
+\section*{Conflict of interest}
+The authors declare no conflict of interest.
 
 
 \bibliographystyle{apalike}
 \bibliography{mybib}
 
+\section*{Supporting Information}
 
-\section*{Supporting Information listing, if appropriate}
+Video files with cell tracking.
 
+Tables with data:
+alltracks.csv
 
 \section*{Tables}
+
+\begin{table}[hbt!]
+  \caption{Cheddock scale}
+  \label{cheddock}
+\centering
+\begin{tabular}{l|c|}
+  Tau-Kendall Correlation coeff value & Colocalization \\
+ \hline
+ $ <0.1 $ & no link \\
+ 0.1-0.3 & weak \\
+ 0.3-0.5 & moderate \\
+ 0.5-0.7 & noticeable \\
+ 0.7-0.9 & high \\
+ 0.9-0.99 & very high
+\end{tabular}
+\end{table}
 
 
 \begin{table}[hbt!]
@@ -516,43 +522,32 @@ You may be asked to provide a conflict of interest statement during the submissi
 \end{tabular}
 \end{table}
 
-\begin{table}[hbt!]
-  \caption{Cheddock scale}
-  \label{cheddock}
-\centering
-\begin{tabular}{l|c|}
-  bTau Value & Colocalization \\
- \hline
- $ <0.1 $ & no link \\
- 0.1-0.3 & weak \\
- 0.3-0.5 & moderate \\
- 0.5-0.7 & noticeable \\
- 0.7-0.9 & high \\
- 0.9-0.99 & very high
-\end{tabular}
-\end{table}
-
 
 \section*{Figure legends}
 
 
-Figure 1. (A) Staining of F-actin (red) and myosin-9 (green) in cells at different passages (E) The proportion of cells with pronounced activity of $\beta$-galactosidase ($\beta$-gal) in the process of cultivating the MSCWJ-1 line
+Figure 1. (A) Staining of F-actin (red) and myosin-9 (green) in cells at different passages.
 
-Figure 2. F-actin and Myosin-9 Colocalization in MSCWJ-1 (A) bTau coefficient changes in course of replicative senescence (B) Variables factor map (PCA) (C) Scree plot (D) Correlation plot (E) Pairwise comparison post hoc tests
 
-Figure 3. Different passages staining of F-actin (red) and alpha-actintin-4 (green)
+Figure 2. F-actin and Myosin-9 Colocalization in MSCWJ-1 (A) bTau coefficient changes in course of replicative senescence (B) Variables factor map (PCA) (C) Scree plot (D) Correlation plot (E) Pairwise comparison post hoc tests.
 
-Figure 4. (A) Colocalization of F-actin and Hoechst 33224 at different passages (B) Colocalization of F-actin and alpha-actintin-4 at different passages (C, D) Correlation matrix of correlation coefficients calculated for correspondent colocalization
 
-Figure 5. RhoA in the nucleus, along the stress In the perinuclear region, diffusely in the cytoplasm
+Figure 3. Different passages staining of F-actin (red) and alpha-actintin-4 (green).
 
-Figure 6. Confocal view of RhoA in the nucleus
 
-Fig 7 Cell movement analisys
+Figure 4. (A) Colocalization of F-actin and Hoechst 33224 at different passages (B) Colocalization of F-actin and alpha-actintin-4 at different passages (C, D) Correlation matrix of correlation coefficients calculated for correspondent colocalization.
+
+
+Figure 5. RhoA in the nucleus, along the stress In the perinuclear region, diffusely in the cytoplasm.
+
+
+Figure 6. Confocal view of RhoA in the nucleus.
+
+
+Figure 7. Cell movement analisys.
+
 
 Figure 8. Gel chromatographic separation of cytoplasmic extracts from MSCWJ-1 cells at different stages of replicative senescence. Separation of calibration proteins (A) and comparison of elution profiles are presented. Electrophoretic separation of proteins from fractions obtained as a result of gel-chromatographic separation of cytoplasmic extracts from WJ1 cells in various stages of replicative senescence.
-
-Supplementary figure. Matrix of plots with a data set containing myosin-9/F-actin colocalization coefficients. Colocalization coefficients correlation analisys.
 
 
 \section*{ Figures}
@@ -560,7 +555,7 @@ Supplementary figure. Matrix of plots with a data set containing myosin-9/F-acti
 
 \begin{figure}[hbt!]
 \centering
-\includegraphics[width=0.9\linewidth]{fig_m9-actin-bgal.jpg}
+\includegraphics[width=0.9\linewidth]{figures.jpg}
 \caption{Fig. 1}
 \end{figure}
 
@@ -614,25 +609,5 @@ Supplementary figure. Matrix of plots with a data set containing myosin-9/F-acti
 \label{fplc}
 \end{figure}
 
-\begin{figure}[hbt!]
-  \includegraphics[width=1\linewidth]{supp1.jpeg}
-  \caption{Fig. Suppl 9}
-  \label{supp1}
-  \centering
-\end{figure}
-
-
-\section*{Supporting Information}
-
-\subsection*{Video files}
-
-Video files with cell tracking...
-
-\subsection*{Tables in csv format}
-
-alltracks.csv
-
-
-% \graphicalabstract{example-image-1x1}{Please check the journal's author guildines for whether a graphical abstract, key points, new findings, or other items are required for display in the Table of Contents.}
 
 \end{document}
