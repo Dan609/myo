@@ -1,0 +1,14 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{}
+
+\bibitem[{Lees-Miller et~al.(2010)Lees-Miller, John and Hammersley, John and
+  Wilson, R}]{lees2010theoretical}
+Lees-Miller J, Hammersley J, Wilson R.
+\newblock Theoretical maximum capacity as benchmark for empty vehicle
+  redistribution in personal rapid transit.
+\newblock Transportation Research Record: Journal of the Transportation
+  Research Board 2010;(2146):76--83.
+
+\end{thebibliography}
