@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex myo"] 1568889106 "myo.aux" "myo.bbl" "myo" 1568889124
+["bibtex myo"] 1568894397 "myo.aux" "myo.bbl" "myo" 1568897853
   "./rss.bst" 1568243248 28273 d1fc7c677ccbb43865e3f2faa61fa9d4 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
   "mybib.bib" 1568806523 79021 0809cbc6e291aac9c9ebf764fc2b3659 ""
-  "myo.aux" 1568889117 17664 8e4f7d8d5a26dcb0400ecbaf971b87f0 "pdflatex"
+  "myo.aux" 1568897848 17664 0c46dcf317452cfc7b6a779141df3b3e "pdflatex"
   (generated)
   "myo.blg"
   "myo.bbl"
-["pdflatex"] 1568889107 "myo.tex" "myo.pdf" "myo" 1568889124
+["pdflatex"] 1568897840 "myo.tex" "myo.pdf" "myo" 1568897853
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/latt0800.pk" 1565462819 14360 24a444e5ca576b448b94c391aaa549d9 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/larm0800.tfm" 1563465479 3240 04766e423166ba63b7fbbf132b8618cb ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/latt0800.tfm" 1565462814 1272 2a21550efcb075c108e98819097de5c8 ""
@@ -23,9 +23,11 @@
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecss0800.tfm" 993062232 3132 210522a5f285ef2b785f82479c3624db ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecss0900.tfm" 993062232 3172 f4c246f493a9716483a2fec90fe5af0d ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecss1000.tfm" 993062234 3140 7eb06dfefee71119860002af13820d26 ""
+  "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecss1200.tfm" 993062236 3176 f34de6d605be5cc6bf472e93240318a5 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/jknappen/ec/ectt0800.tfm" 993062338 1348 ad6a25e9916b0e5ddfcc7ffcb8d43448 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/jknappen/ec/ectt0900.tfm" 993062338 1348 c9911882a95d2c1b82f0cccb2c651de8 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/jknappen/ec/ectt1000.tfm" 993062340 1348 d70ddf2d5d512b838e50a335e385e919 ""
+  "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/jknappen/ec/ectt1200.tfm" 993062344 1348 c48a0620e07683860afba1730adf9e53 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1233951848 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1233951848 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1233951848 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -38,6 +40,7 @@
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmmib9.tfm" 1233951848 1528 159d57adcba064aab4277245c826577d ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbsy10.tfm" 1136765053 1116 4e6ba9d7914baa6482fd69f67d126380 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx5.tfm" 1136765053 1332 f817c21a1ba54560425663374f1b651a ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx6.tfm" 1136765053 1344 8a0be4fe4d376203000810ad4dc81558 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx7.tfm" 1136765053 1336 3125ccb448c1a09074e3aa4a9832f130 ""
@@ -45,6 +48,7 @@
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx9.tfm" 1136765053 1328 5442e22a7072966dbaf88ca900acf3f0 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmmib10.tfm" 1136765053 1524 554068197b70979a55370e6c6495f441 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm" 1136765053 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmsy9.tfm" 1136765053 1116 25a7bf822c58caf309a702ef79f4afbb ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/newtx/ntxexa.tfm" 1486840886 732 730660503dd6bc64b030e3f4fe261450 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/newtx/ntxexx.tfm" 1471038301 1760 f7941e7c7fabc375ade49a2a30be25a5 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/newtx/ntxsy.tfm" 1496284307 2012 56f863302ceeeff46cad50f046b53d1a ""
@@ -73,6 +77,7 @@
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/typoland/lato/Lato-Regular-T2A-TLF--base.tfm" 1561405626 1920 7a86552b99642fd42792ca31e4cd2a69 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/typoland/lato/Lato-Regular-T2A-TLF.tfm" 1561405626 40004 2c2eb360ffedc286ff8421559e565a4b ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb" 1247596666 32915 7bf7720c61a5b3a7ff25b0964421c9b6 ""
+  "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb" 1247596666 32442 c975af247b6702f7ca0c299af3616b80 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb" 1496283765 43662 caa6b1a15a692b245428edef9d4a3ed2 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtxsf/zsfmi-reg.pfb" 1416068404 19257 ff352117d6e74762419dafa740354944 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtxsf/zsfmia-reg.pfb" 1416070130 27005 ddd85a6596e0b4f5b83af4eb2741a129 ""
@@ -294,9 +299,9 @@
   "lato.sty" 1568245769 4717 0ba40ad77d1a64ac75af8e74b410ae62 ""
   "md-frame-1.mdf" 1568245215 25307 f97393fd984d0c7ee0f5971e04db8fc7 ""
   "mdframed.sty" 1568245082 55179 7069e8f55fec6e9634881cb9a008ebcc ""
-  "myo.aux" 1568889117 17664 8e4f7d8d5a26dcb0400ecbaf971b87f0 "pdflatex"
-  "myo.bbl" 1568889106 27073 d36e2156d9d5cfcfef0e8404c84d862c "bibtex myo"
-  "myo.tex" 1568889080 48899 f8aa52f69daea031edb349b3b05a923d ""
+  "myo.aux" 1568897848 17664 0c46dcf317452cfc7b6a779141df3b3e "pdflatex"
+  "myo.bbl" 1568894398 27073 d36e2156d9d5cfcfef0e8404c84d862c "bibtex myo"
+  "myo.tex" 1568897834 48356 b3cda2f2174b53dd95e989e573d9ce28 ""
   "needspace.sty" 1568245142 2659 c95cea214a7438990598c598a385bd28 ""
   "quoting.sty" 1568245886 3987 983dbc0726b5dfe128878b7d57f3c19f ""
   "silence.sty" 1568245312 18212 358c5f05d1760d4ae8ea8c0f4181ddc1 ""
@@ -306,6 +311,6 @@
   "wiley-article.cls" 1568244479 20085 d050ed5138313743da856847194e9119 ""
   "xpatch.sty" 1568245004 8516 a5b67f9a435dc2b965229e94ca94f1dc ""
   (generated)
-  "myo.log"
   "myo.pdf"
+  "myo.log"
   "myo.aux"
