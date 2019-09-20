@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex myo"] 1569001700 "myo.aux" "myo.bbl" "myo" 1569002951
+["bibtex myo"] 1569001700 "myo.aux" "myo.bbl" "myo" 1569005868
   "./rss.bst" 1568243248 28273 d1fc7c677ccbb43865e3f2faa61fa9d4 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
   "mybib.bib" 1568806523 79021 0809cbc6e291aac9c9ebf764fc2b3659 ""
-  "myo.aux" 1569001713 14253 c68c94392083f37365dd88282fe84983 "pdflatex"
+  "myo.aux" 1569005864 14253 c68c94392083f37365dd88282fe84983 "pdflatex"
   (generated)
-  "myo.blg"
   "myo.bbl"
-["pdflatex"] 1569001702 "myo.tex" "myo.pdf" "myo" 1569002951
+  "myo.blg"
+["pdflatex"] 1569005856 "myo.tex" "myo.pdf" "myo" 1569005868
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/latt0800.pk" 1565462819 14360 24a444e5ca576b448b94c391aaa549d9 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/larm0800.tfm" 1563465479 3240 04766e423166ba63b7fbbf132b8618cb ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/latt0800.tfm" 1565462814 1272 2a21550efcb075c108e98819097de5c8 ""
@@ -294,9 +294,9 @@
   "lato.sty" 1568245769 4717 0ba40ad77d1a64ac75af8e74b410ae62 ""
   "md-frame-1.mdf" 1568245215 25307 f97393fd984d0c7ee0f5971e04db8fc7 ""
   "mdframed.sty" 1568245082 55179 7069e8f55fec6e9634881cb9a008ebcc ""
-  "myo.aux" 1569001713 14253 c68c94392083f37365dd88282fe84983 "pdflatex"
+  "myo.aux" 1569005864 14253 c68c94392083f37365dd88282fe84983 "pdflatex"
   "myo.bbl" 1569001701 26603 0b1248d86352957f3f1497d70ca478b9 "bibtex myo"
-  "myo.tex" 1569002948 44105 99f0358f5d5073dced331c113dc6015f ""
+  "myo.tex" 1569005852 44142 1b21c1131a12c514fa8a18a5ea0e7d84 ""
   "myosin-9.jpg" 1568982170 279306 4c8c6b1a7483f4bc308987329525e234 ""
   "needspace.sty" 1568245142 2659 c95cea214a7438990598c598a385bd28 ""
   "quoting.sty" 1568245886 3987 983dbc0726b5dfe128878b7d57f3c19f ""
@@ -309,6 +309,6 @@
   "wiley-article.cls" 1568244479 20085 d050ed5138313743da856847194e9119 ""
   "xpatch.sty" 1568245004 8516 a5b67f9a435dc2b965229e94ca94f1dc ""
   (generated)
-  "myo.aux"
-  "myo.pdf"
   "myo.log"
+  "myo.pdf"
+  "myo.aux"
