@@ -18,17 +18,18 @@
 \usepackage{siunitx}
 
 % Update article type if known
-\papertype{Original Article}
+% \papertype{Original Article}
 % Include section in journal if known, otherwise delete
 \paperfield{Journal Section}
 
-\title{This is my title}
+\title{Supplementary for "Cytoskeletal and motility changes in human MSCs associated with nuclear-cytoplasmic RhoА redistribution during replicative senescence"}
 
 % List abbreviations here, if any. Please note that it is preferred that abbreviations be defined at the first instance they appear in the text, rather than creating an abbreviations list.
-\abbrevs{ABC, a black cat; DEF, doesn't ever fret; GHI, goes home immediately.}
+% \abbrevs{ABC, a black cat; DEF, doesn't ever fret; GHI, goes home immediately.}
 
 % Include full author names and degrees, when required by the journal.
 % Use the \authfn to add symbols for additional footnotes and present addresses, if any. Usually start with 1 for notes about author contributions; then continuing with 2 etc if any author has a different present address.
+\iffalse
 \author[1\authfn{1}]{Author One PhD}
 \author[2\authfn{1}]{Author A.~Two MD}
 \author[2\authfn{2}]{Author Three PhD}
@@ -46,14 +47,14 @@
 \presentadd[\authfn{2}]{Department, Institution, City, State or Province, Postal Code, Country}
 
 \fundinginfo{Funder One, Funder One Department, Grant/Award Number: 123456, 123457 and 123458; Funder Two, Funder Two Department, Grant/Award Number: 123459}
-
+\fi
 % Include the name of the author that should appear in the running header
-\runningauthor{Author One et al.}
+\runningauthor{Bobkov et al. Motility changes in aging MSCs}
 
 \begin{document}
 
 \maketitle
-
+\iffalse
 \begin{abstract}
 This is a generic template designed for use by multiple journals, which includes several options for customization. Please consult the author guidelines for the journal to which you are submitting in order to confirm that your manuscript will comply with the journal's requirements. Please replace this text with your abstract.
 
@@ -61,7 +62,9 @@ This is a generic template designed for use by multiple journals, which includes
 \keywords{keyword 1, \emph{keyword 2}, keyword 3, keyword 4, keyword 5, keyword 6, keyword 7}
 \end{abstract}
 
+
 \section{First Level Heading}
+
 Please lay out your article using the section headings and example objects below, and remember to delete all help text prior to submitting your article to the journal.
 
 \begin{figure}[bt]
@@ -137,8 +140,12 @@ Age at testing & 38 & 58 & 504.48 & 58 ms\\
 \end{threeparttable}
 \end{table}
 
+\fi
+
+\section{Additional tables}
+
 \begin{table}[hbt!]
-  \caption{Cheddock scale}
+  \caption{Cheddock scale for Kendall correlation coefficient estimation}
   \label{cheddock}
 \centering
 \begin{tabular}{l|c|}
@@ -156,7 +163,7 @@ Age at testing & 38 & 58 & 504.48 & 58 ms\\
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
 \begin{table}[hbt!]
   \label{tab:pca-M9}
-  \caption{PCA analisys loadings for 2 factors}
+  \caption{PCA analisys of myosin-9/F-actin colocalization data loadings for 2 factors}
 \centering
 \begin{tabular}{c|rrrrr}
   \hline
@@ -255,32 +262,26 @@ NULL &  &  & 115 & 68.13 &  \\
 \end{tablenotes}
 \end{table}
 
+\section{Additional figures}
+
 \begin{figure}[hbt!]
   \includegraphics[width=1\linewidth]{supp1.jpeg}
-  \caption{Fig. Suppl 9}
-  \label{supp1}
+  \caption{Correlation matrix of correlation coefficients calculated for correspondent colocalization.}
   \centering
 \end{figure}
 
-(C) Scree plot (D) Correlation plot (E) Pairwise comparison post hoc tests.
+\begin{figure}[hbt!]
+  \includegraphics[width=1\linewidth]{supp2.jpg}
+  \caption{(A) Variables factor map (PCA) (C) Scree plot (D) Correlation plot (E) Pairwise comparison post hoc tests.}
+  \centering
+\end{figure}
 
-(C, D) Correlation matrix of correlation coefficients calculated for correspondent colocalization.
-
-(B) Variables factor map (PCA).
-
-Supplementary figure. Matrix of plots with a data set containing myosin-9/F-actin colocalization coefficients. Colocalization coefficients correlation analisys.
-
-\section*{acknowledgements}
-Acknowledgements should include contributions from anyone who does not meet the criteria for authorship (for example, to recognize contributions from people who provided technical help, collation of data, writing assistance, acquisition of funding, or a department chairperson who provided general support), as well as any funding or other support information.
-
-\section*{conflict of interest}
-You may be asked to provide a conflict of interest statement during the submission process. Please check the journal's author guidelines for details on what to include in this section. Please ensure you liaise with all co-authors to confirm agreement with the final statement.
 
 \printendnotes
 
 % Submissions are not required to reflect the precise reference formatting of the journal (use of italics, bold etc.), however it is important that all key elements of each reference are included.
-\bibliography{sample}
-
+% \bibliography{sample}
+\iffalse
 \begin{biography}[example-image-1x1]{A.~One}
 Please check with the journal's author guidelines whether author biographies are required. They are usually only included for review-type articles, and typically require photos and brief biographies (up to 75 words) for each author.
 \bigskip
@@ -310,5 +311,5 @@ Recommended
 Antonina Alexandrova
 tonya_alex@yahoo.com
 FBGU National Medical Research Center of Oncology named after N N Blokhin Research Institute of Carcinogenesis
-
+\fi
 \end{document}

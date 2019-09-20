@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  20 SEP 2019 12:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  20 SEP 2019 21:08
 entering extended mode
 **./OVR.tex
 (OVR.tex
@@ -1351,131 +1351,53 @@ Package: siunitx 2018/05/17 v2.7s A comprehensive (SI) units package
 sty"
 Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
 ))
-LaTeX Font Info:    Try loading font information for T1+lato-TLF on input line 
-28.
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 54.
+ (OVR.aux)
+\openout1 = `OVR.aux'.
 
-("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lato\t1lato-tlf.fd"
-File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
-)
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 28.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 6.66675pt on input line 28.
-LaTeX Font Info:    Calculating math sizes for size <6.66675> on input line 28.
-
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 4.86668pt on input line 28.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 3.66672pt on input line 28.
+LaTeX Font Info:    Checking defaults for OML/ntxsfmi/m/it on input line 54.
 LaTeX Font Info:    Try loading font information for OML+ntxsfmi on input line 
-28.
+54.
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtxsf\omlntxsfmi.fd"
 File: omlntxsfmi.fd 2014/11/16 Fontinst v1.933 font definitions for OML/ntxsfmi
 .
 )
-LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 28
-.
- ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtx\lmsntxsy.fd"
-File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
-)
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 54.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 54.
 
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <3.66672> not available
-(Font)              size <5> substituted on input line 28.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <3.66672> not available
-(Font)              size <5> substituted on input line 28.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <3.66672> not available
-(Font)              size <5> substituted on input line 28.
-
-LaTeX Font Info:    Try loading font information for U+ntxsfmia on input line 2
-8.
-("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtxsf\untxsfmia.fd"
-File: untxsfmia.fd 2014/11/16 Fontinst v1.933 font definitions for U/ntxsfmia.
-)
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 28.
-
-("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtx\untxsym.fd"
-File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
-)
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 28.
-
-
-("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtx\untxexa.fd"
+ ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtx\untxexa.fd"
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 28.
-LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <6> not available
-(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 28
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 54.
+LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 54
 .
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 6.0pt on input line 28.
+
+("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtx\lmsntxsy.fd"
+File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
+)
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Try loading font information for T1+lato-TLF on input line 
+54.
+
+("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lato\t1lato-tlf.fd"
+File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
+)
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 6.5pt on input line 37.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 37.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 37.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 37.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <6.5> not available
-(Font)              size <6> substituted on input line 37.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 37.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 37.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 37.
-
-LaTeX Font Info:    Try loading font information for OMS+lato-TLF on input line
- 37.
-LaTeX Font Info:    No file OMSlato-TLF.fd. on input line 37.
-
-LaTeX Font Warning: Font shape `OMS/lato-TLF/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textasteriskcentered' on input line 37.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 37.
-
-Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 53.
-(OVR.aux)
-\openout1 = `OVR.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/ntxsfmi/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
+(Font)              scaled to size 8.0pt on input line 54.
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.m
 kii"
@@ -1506,11 +1428,11 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 ) ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 53.
+LaTeX Info: Redefining \selectfont on input line 54.
 \AtBeginShipoutBox=\box79
 
 ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \microtypecontext on input line 53.
+LaTeX Info: Redefining \microtypecontext on input line 54.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1572,7 +1494,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 53.
+or `english'. on input line 54.
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
@@ -1658,13 +1580,38 @@ iations.cfg"
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 6.2pt on input line 53.
+(Font)              scaled to size 6.2pt on input line 54.
+LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
+(Font)              scaled to size 5.5pt on input line 54.
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-cmr.cfg"
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 53.
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 54.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.5> not available
+(Font)              size <5> substituted on input line 54.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 54.
+
+LaTeX Font Info:    Try loading font information for U+ntxsfmia on input line 5
+4.
+("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtxsf\untxsfmia.fd"
+File: untxsfmia.fd 2014/11/16 Fontinst v1.933 font definitions for U/ntxsfmia.
+)
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 54.
+
+("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtx\untxsym.fd"
+File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 54.
+
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmss.fd"
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -1675,9 +1622,9 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 53.
+(Font)              size <5> substituted on input line 54.
 
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 53.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 54.
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -1688,83 +1635,63 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 53.
+(Font)              size <5> substituted on input line 54.
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/eb/n' will be
-(Font)              scaled to size 8.0pt on input line 55.
+(Font)              scaled to size 8.0pt on input line 56.
 LaTeX Font Info:    Font shape `T1/lato-TLF/eb/n' will be
-(Font)              scaled to size 9.0pt on input line 55.
+(Font)              scaled to size 9.0pt on input line 56.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 55.
+(Font)              scaled to size 9.0pt on input line 56.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 55.
+(Font)              scaled to size 7.3pt on input line 56.
 LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <18> not available
-(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 55
+(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 56
 .
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 18.0pt on input line 55.
+(Font)              scaled to size 18.0pt on input line 56.
+
+OVR.tex:56: Package inputenc Error: Unicode character А (U+0410)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 \maketitle
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
 LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <12> not available
-(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 55
+(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 56
 .
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 55.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 55.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 8.8pt on input line 55.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 6.6pt on input line 55.
-LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <8.8> not available
-(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 55
-.
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 8.8pt on input line 55.
-
-LaTeX Font Warning: Font shape `OMS/lato-TLF/bx/n' undefined
-(Font)              using `OMS/lato-TLF/m/n' instead
-(Font)              for symbol `textasteriskcentered' on input line 55.
-
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 62.
-LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <7> not available
-(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 62
-.
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 7.0pt on input line 62.
-
-LaTeX Font Warning: Font shape `OMS/lato-TLF/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 62.
-
-\wiley@abstractbox=\box80
-Package mdframed Info: mdframed works in twoside mode on input line 62.
-LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <9> not available
-(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 62
-.
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 62.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 62.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 62.
-Package mdframed Info: mdframed works in twoside mode on input line 62.
-
-Overfull \hbox (7.36005pt too wide) in paragraph at lines 62--62
-\T1/lato-TLF/m/n/9 nals, which in-cludes sev-eral op-tions for cus-tomiza-tion.
- Please
- []
-
+(Font)              scaled to size 12.0pt on input line 56.
 LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <10> not available
-(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 64
-.
+(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 14
+5.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 64.
+(Font)              scaled to size 10.0pt on input line 145.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 64.
-<example-image-rectangle.png, id=4, 401.5pt x 301.125pt>
-File: example-image-rectangle.png Graphic file (type png)
-<use example-image-rectangle.png>
-Package pdftex.def Info: example-image-rectangle.png  used on input line 69.
-(pdftex.def)             Requested size: 170.71652pt x 128.03845pt.
+(Font)              scaled to size 10.0pt on input line 145.
+LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
+(Font)              scaled to size 7.5pt on input line 147.
+<supp1.jpeg, id=4, 963.6pt x 583.42969pt>
+File: supp1.jpeg Graphic file (type jpg)
+<use supp1.jpeg>
+Package pdftex.def Info: supp1.jpeg  used on input line 268.
+(pdftex.def)             Requested size: 405.16722pt x 245.31476pt.
+<supp2.jpg, id=5, 758.835pt x 1011.78pt>
+File: supp2.jpg Graphic file (type jpg)
+<use supp2.jpg>
+Package pdftex.def Info: supp2.jpg  used on input line 274.
+(pdftex.def)             Requested size: 405.16722pt x 540.22398pt.
+
+LaTeX Warning: Float too large for page by 10.22398pt on input line 277.
+
+LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 315.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][][] 
@@ -1772,220 +1699,39 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [1
 
-{C:/Users/1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/Users/1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <3.66672> not available
-(Font)              size <5> substituted on input line 88.
+LaTeX Warning: No \author given.
 
-
-LaTeX Font Warning: Font shape `T1/cmtt/m/n' in size <3.66672> not available
-(Font)              size <5> substituted on input line 88.
-
-
-LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 88.
-
-
-LaTeX Font Warning: Font shape `T1/cmtt/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 88.
-
-LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <8> not available
-(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 94
-.
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 94.
-LaTeX Font Info:    Font shape `T1/lato-TLF/eb/n' will be
-(Font)              scaled to size 8.5pt on input line 103.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 6.2pt on input line 106.
-[2 <./example-image-rectangle.png>]
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 7.5pt on input line 117.
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 6.2pt on input line 122.
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 5.5pt on input line 122.
-<supp1.jpeg, id=24, 963.6pt x 583.42969pt>
-File: supp1.jpeg Graphic file (type jpg)
-<use supp1.jpeg>
-Package pdftex.def Info: supp1.jpeg  used on input line 259.
-(pdftex.def)             Requested size: 405.16722pt x 245.31476pt.
- [3]
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 273.
-
-
-LaTeX Font Warning: Font shape `T1/lato-TLF/bx/sc' undefined
-(Font)              using `T1/lato-TLF/bx/n' instead on input line 273.
-
-LaTeX Font Info:    Font shape `T1/lato-TLF/bx/sc' in size <10> not available
-(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 27
-3.
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 273.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
-OVR.tex:280: Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.280 
-      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <7.5> not available
-(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 28
-0.
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 7.5pt on input line 280.
-LaTeX Font Info:    Calculating math sizes for size <7.5> on input line 280.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 5.47496pt on input line 280.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 4.12502pt on input line 280.
-
-LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <7.5> not available
-(Font)              size <7> substituted on input line 280.
-
-
-LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <5.47496> not available
-(Font)              size <5> substituted on input line 280.
-
-
-LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <4.12502> not available
-(Font)              size <5> substituted on input line 280.
-
-
-LaTeX Font Warning: Font shape `T1/cmtt/m/n' in size <7.5> not available
-(Font)              size <7> substituted on input line 280.
-
-
-LaTeX Font Warning: Font shape `T1/cmtt/m/n' in size <5.47496> not available
-(Font)              size <5> substituted on input line 280.
-
-
-LaTeX Font Warning: Font shape `T1/cmtt/m/n' in size <4.12502> not available
-(Font)              size <5> substituted on input line 280.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <7.5> not available
-(Font)              size <7> substituted on input line 280.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.47496> not available
-(Font)              size <5> substituted on input line 280.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <4.12502> not available
-(Font)              size <5> substituted on input line 280.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <7.5> not available
-(Font)              size <7> substituted on input line 280.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.47496> not available
-(Font)              size <5> substituted on input line 280.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <4.12502> not available
-(Font)              size <5> substituted on input line 280.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <7.5> not available
-(Font)              size <7> substituted on input line 280.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <5.47496> not available
-(Font)              size <5> substituted on input line 280.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <4.12502> not available
-(Font)              size <5> substituted on input line 280.
-
-LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <5.47496> not availab
-le
-(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 28
-0.
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 5.47496pt on input line 280.
-(OVR.bbl)
-Package mdframed Info: mdframed works in twoside mode on input line 284.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 284.
-<example-image-1x1.pdf, id=34, 200.75pt x 200.75pt>
-File: example-image-1x1.pdf Graphic file (type pdf)
-<use example-image-1x1.pdf>
-Package pdftex.def Info: example-image-1x1.pdf  used on input line 284.
-(pdftex.def)             Requested size: 56.03194pt x 56.034pt.
-Package lettrine.sty Info: Targeted height = 56.034pt
-(lettrine.sty)             (no accent, loversize=0),
-(lettrine.sty)             Lettrine height = 56.034pt (example-image-1x1);
-(lettrine.sty)             reported on input line 284.
-LaTeX Font Info:    Font shape `T1/lato-TLF/bx/sc' in size <8> not available
-(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 28
-4.
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 284.
- [5]
-Package mdframed Info: Not enough space on this page on input line 288.
-File: example-image-1x1.pdf Graphic file (type pdf)
-<use example-image-1x1.pdf>
-Package pdftex.def Info: example-image-1x1.pdf  used on input line 290.
-(pdftex.def)             Requested size: 121.03598pt x 121.034pt.
-Package lettrine.sty Info: Targeted height = 121.034pt
-(lettrine.sty)             (no accent, loversize=0),
-(lettrine.sty)             Lettrine height = 121.034pt (example-image-1x1);
-(lettrine.sty)             reported on input line 290.
- [6 <./supp1.jpeg> <C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/mwe/
-example-image-1x1.pdf>] (OVR.aux)
+] [2] [3 <./supp1.jpeg>] [4 <./supp2.jpg>] (OVR.aux)
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.33328pt have occurred.
+(Font)              up to 0.5pt have occurred.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 37124 strings out of 492895
- 741511 string characters out of 3125603
- 803885 words of memory out of 3000000
- 40378 multiletter control sequences out of 15000+200000
- 1505261 words of font info for 277 fonts, out of 3000000 for 9000
+ 36536 strings out of 492895
+ 728009 string characters out of 3125603
+ 800318 words of memory out of 3000000
+ 39849 multiletter control sequences out of 15000+200000
+ 934215 words of font info for 131 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,20n,102p,816b,1130s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi450\ectt
-0800.pk> <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ectt0800.pk>{C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lat
-o/a_cl4kdn.enc}<C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/typola
-nd/lato/Lato-Bold.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/typoland/lato/Lato-Heavy.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/typoland/lato/Lato-Italic.pfb><C:/Users/1/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/typoland/lato/Lato-Regular.pfb><C:/Users/1/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Users/1/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/User
-s/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-<C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb>
-<C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss8.pfb><
-C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><
-C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C
-:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/txfonts/rtxmi.pf
-b><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txexs.
-pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txsy
-s.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtxsf/
-zsfmi-reg.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-newtxsf/zsfmia-bol.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/newtxsf/zsfmia-reg.pfb>
-Output written on OVR.pdf (6 pages, 552998 bytes).
+ 74i,20n,102p,816b,643s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lato/a_cl4kdn.e
+nc}<C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/typoland/lato/Lato
+-Bold.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/typoland/la
+to/Lato-Heavy.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/typ
+oland/lato/Lato-Regular.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/txfonts/rtxmi.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/newtx/txsys.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/newtxsf/zsfmi-reg.pfb><C:/Users/1/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/newtxsf/zsfmia-reg.pfb>
+Output written on OVR.pdf (4 pages, 567810 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
+ 49 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36892 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 22039 words of extra memory for PDF output out of 24883 (max. 10000000)
 
