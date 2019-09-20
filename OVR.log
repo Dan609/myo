@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  19 SEP 2019 18:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  20 SEP 2019 12:32
 entering extended mode
 **./OVR.tex
 (OVR.tex
@@ -1805,139 +1805,143 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 6.2pt on input line 122.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 5.5pt on input line 122.
+<supp1.jpeg, id=24, 963.6pt x 583.42969pt>
+File: supp1.jpeg Graphic file (type jpg)
+<use supp1.jpeg>
+Package pdftex.def Info: supp1.jpeg  used on input line 259.
+(pdftex.def)             Requested size: 405.16722pt x 245.31476pt.
+ [3]
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 242.
+(Font)              scaled to size 10.0pt on input line 273.
 
 
 LaTeX Font Warning: Font shape `T1/lato-TLF/bx/sc' undefined
-(Font)              using `T1/lato-TLF/bx/n' instead on input line 242.
+(Font)              using `T1/lato-TLF/bx/n' instead on input line 273.
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/bx/sc' in size <10> not available
-(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 24
-2.
+(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 27
+3.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 242.
+(Font)              scaled to size 10.0pt on input line 273.
 
-Underfull \vbox (badness 1728) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3]
-OVR.tex:249: Missing number, treated as zero.
+ [4]
+OVR.tex:280: Missing number, treated as zero.
 <to be read again> 
                    \c@* 
-l.249 
+l.280 
       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <7.5> not available
-(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 24
-9.
+(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 28
+0.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 7.5pt on input line 249.
-LaTeX Font Info:    Calculating math sizes for size <7.5> on input line 249.
+(Font)              scaled to size 7.5pt on input line 280.
+LaTeX Font Info:    Calculating math sizes for size <7.5> on input line 280.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 5.47496pt on input line 249.
+(Font)              scaled to size 5.47496pt on input line 280.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 4.12502pt on input line 249.
+(Font)              scaled to size 4.12502pt on input line 280.
 
 LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <7.5> not available
-(Font)              size <7> substituted on input line 249.
+(Font)              size <7> substituted on input line 280.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <5.47496> not available
-(Font)              size <5> substituted on input line 249.
+(Font)              size <5> substituted on input line 280.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <4.12502> not available
-(Font)              size <5> substituted on input line 249.
+(Font)              size <5> substituted on input line 280.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/m/n' in size <7.5> not available
-(Font)              size <7> substituted on input line 249.
+(Font)              size <7> substituted on input line 280.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/m/n' in size <5.47496> not available
-(Font)              size <5> substituted on input line 249.
+(Font)              size <5> substituted on input line 280.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/m/n' in size <4.12502> not available
-(Font)              size <5> substituted on input line 249.
+(Font)              size <5> substituted on input line 280.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <7.5> not available
-(Font)              size <7> substituted on input line 249.
+(Font)              size <7> substituted on input line 280.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.47496> not available
-(Font)              size <5> substituted on input line 249.
+(Font)              size <5> substituted on input line 280.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <4.12502> not available
-(Font)              size <5> substituted on input line 249.
+(Font)              size <5> substituted on input line 280.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <7.5> not available
-(Font)              size <7> substituted on input line 249.
+(Font)              size <7> substituted on input line 280.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.47496> not available
-(Font)              size <5> substituted on input line 249.
+(Font)              size <5> substituted on input line 280.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <4.12502> not available
-(Font)              size <5> substituted on input line 249.
+(Font)              size <5> substituted on input line 280.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <7.5> not available
-(Font)              size <7> substituted on input line 249.
+(Font)              size <7> substituted on input line 280.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <5.47496> not available
-(Font)              size <5> substituted on input line 249.
+(Font)              size <5> substituted on input line 280.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <4.12502> not available
-(Font)              size <5> substituted on input line 249.
+(Font)              size <5> substituted on input line 280.
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <5.47496> not availab
 le
-(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 24
-9.
+(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 28
+0.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 5.47496pt on input line 249.
-(OVR.bbl
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4])
-Package mdframed Info: mdframed works in twoside mode on input line 253.
+(Font)              scaled to size 5.47496pt on input line 280.
+(OVR.bbl)
+Package mdframed Info: mdframed works in twoside mode on input line 284.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 253.
-<example-image-1x1.pdf, id=33, 200.75pt x 200.75pt>
+(Font)              scaled to size 8.0pt on input line 284.
+<example-image-1x1.pdf, id=34, 200.75pt x 200.75pt>
 File: example-image-1x1.pdf Graphic file (type pdf)
 <use example-image-1x1.pdf>
-Package pdftex.def Info: example-image-1x1.pdf  used on input line 253.
+Package pdftex.def Info: example-image-1x1.pdf  used on input line 284.
 (pdftex.def)             Requested size: 56.03194pt x 56.034pt.
 Package lettrine.sty Info: Targeted height = 56.034pt
 (lettrine.sty)             (no accent, loversize=0),
 (lettrine.sty)             Lettrine height = 56.034pt (example-image-1x1);
-(lettrine.sty)             reported on input line 253.
+(lettrine.sty)             reported on input line 284.
 LaTeX Font Info:    Font shape `T1/lato-TLF/bx/sc' in size <8> not available
-(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 25
-3.
+(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 28
+4.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 253.
+(Font)              scaled to size 8.0pt on input line 284.
+ [5]
+Package mdframed Info: Not enough space on this page on input line 288.
 File: example-image-1x1.pdf Graphic file (type pdf)
 <use example-image-1x1.pdf>
-Package pdftex.def Info: example-image-1x1.pdf  used on input line 259.
+Package pdftex.def Info: example-image-1x1.pdf  used on input line 290.
 (pdftex.def)             Requested size: 121.03598pt x 121.034pt.
 Package lettrine.sty Info: Targeted height = 121.034pt
 (lettrine.sty)             (no accent, loversize=0),
 (lettrine.sty)             Lettrine height = 121.034pt (example-image-1x1);
-(lettrine.sty)             reported on input line 259.
-
-[5 <C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/mwe/example-image-1x
-1.pdf>] (OVR.aux)
+(lettrine.sty)             reported on input line 290.
+ [6 <./supp1.jpeg> <C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/mwe/
+example-image-1x1.pdf>] (OVR.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.33328pt have occurred.
@@ -1950,10 +1954,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 37116 strings out of 492895
- 741421 string characters out of 3125603
- 802869 words of memory out of 3000000
- 40372 multiletter control sequences out of 15000+200000
+ 37124 strings out of 492895
+ 741511 string characters out of 3125603
+ 803885 words of memory out of 3000000
+ 40378 multiletter control sequences out of 15000+200000
  1505261 words of font info for 277 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,20n,102p,816b,1130s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1979,9 +1983,9 @@ s.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtxsf/
 zsfmi-reg.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
 newtxsf/zsfmia-bol.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/newtxsf/zsfmia-reg.pfb>
-Output written on OVR.pdf (5 pages, 230779 bytes).
+Output written on OVR.pdf (6 pages, 552998 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
+ 164 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36887 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 36892 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex OVR"] 1568905674 "OVR.aux" "OVR.bbl" "OVR" 1568905686
+["bibtex OVR"] 1568971957 "OVR.aux" "OVR.bbl" "OVR" 1568971968
   "./vancouver-authoryear.bst" 1568243248 33949 1757543878dcff3f7f84b5569406f445 ""
-  "OVR.aux" 1568905684 3881 8bedffdff3cdcebdef82e972fceab092 "pdflatex"
+  "OVR.aux" 1568971966 4179 4e188a53e13d75806f20895e9ea84e0d "pdflatex"
   "sample.bib" 1568243248 418 8f3cedace789a2b5b80e36fa686812f1 ""
   (generated)
-  "OVR.blg"
   "OVR.bbl"
-["pdflatex"] 1568905675 "OVR.tex" "OVR.pdf" "OVR" 1568905686
+  "OVR.blg"
+["pdflatex"] 1568971959 "OVR.tex" "OVR.pdf" "OVR" 1568971968
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/jknappen/ec/dpi450/ectt0800.pk" 1568905216 11472 bb7ee85706f712400fa2d92bed0ff405 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/jknappen/ec/dpi600/ectt0800.pk" 1568905218 15192 c76c89c5d4a7041ec2bc2beca7988111 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1568888313 4243260 2031522b3f75818a8332505a00fc7e80 ""
@@ -278,9 +278,9 @@
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty" 1463135581 57049 34128738f682d033422ca125f82e5d62 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xkeyval/xkeyval.sty" 1419270738 5114 9c1069474ff71dbc47d5006555e352d3 ""
-  "OVR.aux" 1568905684 3881 8bedffdff3cdcebdef82e972fceab092 "pdflatex"
-  "OVR.bbl" 1568905674 541 8ed3b0a499ebfde67edcce025949445c "bibtex OVR"
-  "OVR.tex" 1568905446 11903 8b533c1d5c8749c64cf781d0f5a06859 ""
+  "OVR.aux" 1568971966 4179 4e188a53e13d75806f20895e9ea84e0d "pdflatex"
+  "OVR.bbl" 1568971958 541 8ed3b0a499ebfde67edcce025949445c "bibtex OVR"
+  "OVR.tex" 1568971943 12737 031e19d00f75d7319b63650646a1762c ""
   "dashrule.sty" 1568244942 1914 af9874e3abd0c18e3a98a1d51687a667 ""
   "enotez.sty" 1568246056 38184 1480b78a33e1c6a890f62163fc410122 ""
   "example-image-rectangle.png" 1568243248 6710 25f01aadfc99599135dee9ecd92c8919 ""
@@ -290,11 +290,12 @@
   "needspace.sty" 1568245142 2659 c95cea214a7438990598c598a385bd28 ""
   "quoting.sty" 1568245886 3987 983dbc0726b5dfe128878b7d57f3c19f ""
   "silence.sty" 1568245312 18212 358c5f05d1760d4ae8ea8c0f4181ddc1 ""
+  "supp1.jpeg" 1565691692 315082 19467261fb06c1c57345caee69a45c60 ""
   "threeparttable.sty" 1568245943 13885 dc621998178dfb8b4add5261fa0eba5c ""
   "translations.sty" 1568246152 42954 e16517ba7d955fed2615ef4896871812 ""
   "wiley-article.cls" 1568244479 20085 d050ed5138313743da856847194e9119 ""
   "xpatch.sty" 1568245004 8516 a5b67f9a435dc2b965229e94ca94f1dc ""
   (generated)
-  "OVR.pdf"
   "OVR.aux"
+  "OVR.pdf"
   "OVR.log"
