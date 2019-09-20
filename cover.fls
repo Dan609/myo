@@ -15,6 +15,7 @@ OUTPUT cover.aux
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1pnc.fd
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1pnc.fd
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\ncntrsbk\pncr7t.tfm
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\ncntrsbk\pncri7t.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
@@ -28,7 +29,11 @@ OUTPUT cover.pdf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\ncntrsbk\pncr7t.vf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\ncntrsbk\pncr8r.tfm
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\ncntrsbk\pncri7t.vf
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\ncntrsbk\pncri8r.tfm
 INPUT cover.aux
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\ncntrsbk\uncr8a.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\ncntrsbk\uncr8a.pfb
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\ncntrsbk\uncri8a.pfb
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\ncntrsbk\uncri8a.pfb

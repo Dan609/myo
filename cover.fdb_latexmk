@@ -1,10 +1,12 @@
 # Fdb version 3
-["pdflatex"] 1569003387 "cover.tex" "cover.pdf" "cover" 1569003388
+["pdflatex"] 1569004824 "cover.tex" "cover.pdf" "cover" 1569004825
   "C:/Users/1/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1568888313 4243260 2031522b3f75818a8332505a00fc7e80 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1568903279 225322 0d7d57d7a3068ea3a17e19274486d436 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/adobe/ncntrsbk/pncr7t.tfm" 1136761454 1980 374b78d353944c62a044c663f9536ad3 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/adobe/ncntrsbk/pncr8r.tfm" 1136761454 3824 bc0da12160f5765b82e6719f9e7a7b7a ""
+  "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/adobe/ncntrsbk/pncri7t.tfm" 1136761454 2132 d7d367d30decc1779bbc3edd90e6d791 ""
+  "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/adobe/ncntrsbk/pncri8r.tfm" 1136761454 4148 832add51bc8aa63233d192e6f515b012 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmmi10.tfm" 1136765053 1528 abec98dbc43e172678c11b3b9031252a ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmmi6.tfm" 1136765053 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmmi8.tfm" 1136765053 1520 eccf95517727cb11801f4f1aee3a21b4 ""
@@ -15,14 +17,16 @@
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb" 1136842548 46830 cd5096196d3593e2833f96c3de8bc518 ""
+  "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb" 1136842548 45832 158a4a02ef8850fd37bf56026965e779 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/vf/adobe/ncntrsbk/pncr7t.vf" 1136761454 1372 638b2822bb99a8ebca60406f1c68470d ""
+  "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/vf/adobe/ncntrsbk/pncri7t.vf" 1136761454 1376 57761c5621394eaa367dcd7d00f2c12b ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/letter.cls" 1544471102 13667 3504aaa1ce7c8ee5868298a7fa3380f8 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size11.clo" 1544471102 8310 3be7fb8fac17ab8f3f822aa0c9800815 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/psnfss/newcent.sty" 1156698854 867 427acff8409b9d9f662a9ad4269f1931 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/psnfss/ot1pnc.fd" 1137103430 961 9da02194e59015d6facc38fc21efa49d ""
-  "cover.aux" 1569003388 205 b734ebf65a4a95922e4a72e99d4cc3ae "pdflatex"
-  "cover.tex" 1569003384 4002 8d4d77ebf5c301df6367f6ef1d838302 ""
+  "cover.aux" 1569004825 234 0808233e639a4138ac5c386921551511 "pdflatex"
+  "cover.tex" 1569004821 4084 0eb9a85b146ad4f13d0177bafc6b0c6c ""
   (generated)
+  "cover.pdf"
   "cover.aux"
   "cover.log"
-  "cover.pdf"
