@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  21 SEP 2019 15:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  21 SEP 2019 16:13
 entering extended mode
 **./OVR.tex
 (OVR.tex
@@ -1672,6 +1672,11 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 77.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 7.3pt on input line 77.
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+
+ []
+
 LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <18> not available
 (Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 77
 .
@@ -1759,7 +1764,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  36676 strings out of 492895
  730740 string characters out of 3125603
- 795846 words of memory out of 3000000
+ 795829 words of memory out of 3000000
  39976 multiletter control sequences out of 15000+200000
  1149583 words of font info for 188 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1774,7 +1779,7 @@ oland/lato/Lato-Regular.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts
 eX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/1/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/newtxsf/zsfmi-reg.pfb><C:/Users/1/AppData/Local/Pro
 grams/MiKTeX 2.9/fonts/type1/public/newtxsf/zsfmia-reg.pfb>
-Output written on OVR.pdf (5 pages, 582247 bytes).
+Output written on OVR.pdf (5 pages, 579337 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
