@@ -29,6 +29,27 @@
 
 % Include full author names and degrees, when required by the journal.
 % Use the \authfn to add symbols for additional footnotes and present addresses, if any. Usually start with 1 for notes about author contributions; then continuing with 2 etc if any author has a different present address.
+\abbrevs{MSCs, mesenchymal stem cells;  PCA, principal component analisysu }
+
+% Include full author names and degrees, when required by the journal.
+% Use the \authfn to add symbols for additional footnotes and present addresses, if any. Usually start with 1 for notes about author contributions; then continuing with 2 etc if any author has a different present address.
+\author[1\authfn{1}]{Danila Bobkov}
+\author[2\authfn{2}]{Anastasia Polyanskaya}
+\author[1\authfn{1}]{Anastasia Musorina}
+\author[1\authfn{1}]{Ekaterina Lomert}
+\author[1\authfn{1}]{Sergey Shabelnikov}
+\author[1\authfn{1}]{Galina Poljanskaya}
+
+% \contrib[\authfn{1}]{Equally contributing authors.}
+
+% Include full affiliation details for all authors
+\affil[1]{Institute of Cytology of the Russian Academy of Science, 194064 Tikhoretsky ave. 4, St-Petersburg, Russia }
+\affil[2]{Peter the Great St. Petersburg Polytechnic University, Polytechnicheskaya, 29,  St.Petersburg, 195251, Russia}
+
+\corraddress{Tikhoretsky ave. 4, St-Petersburg, 194064, Russia}
+\corremail{bobkov@incras.ru}
+
+\presentadd[\authfn{2}]{Peter the Great St. Petersburg Polytechnic University, Polytechnicheskaya, 29,  St.Petersburg, 195251, Russia}
 \iffalse
 \author[1\authfn{1}]{Author One PhD}
 \author[2\authfn{1}]{Author A.~Two MD}
@@ -143,7 +164,7 @@ Age at testing & 38 & 58 & 504.48 & 58 ms\\
 
 \fi
 
-\section{Additional tables}
+\section{Tables}
 
 \begin{table}[hbt!]
   \caption{Cheddock scale for Kendall correlation coefficient estimation}
@@ -164,7 +185,7 @@ Age at testing & 38 & 58 & 504.48 & 58 ms\\
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
 \begin{table}[hbt!]
   \label{tab:pca-M9}
-  \caption{PCA analisys of myosin-9/F-actin colocalization data loadings for 2 factors}
+  \caption{PCA of myosin-9/F-actin colocalization data loadings for 2 factors}
 \centering
 \begin{tabular}{c|rrrrr}
   \hline
@@ -178,7 +199,7 @@ Uniqueness &  0.198 & 0.159 & 0.039 & 0.005 & 0.024 \\
 \end{table}
 
 \begin{table}[hbt!]
-  \caption{Kruskal-Wallis rank sum test results for myosin-9 and F-actin colocalization coefficients}
+  \caption{Kruskal-Wallis rank sum test results for myosin-9/F-actin colocalization coefficients}
   \label{tab:M9colocs}
 \centering
 \begin{tabular}{l|ccc}
@@ -193,7 +214,7 @@ Uniqueness &  0.198 & 0.159 & 0.039 & 0.005 & 0.024 \\
 \end{table}
 
 \begin{table}[hbt!]
-  \caption{Logistic regression with myosin-9 and F-actin colocalization coefficients as predictors and passage numger as fitted values}
+  \caption{Logistic regression with myosin-9/F-actin colocalization coefficients as predictors and passage numger as fitted values}
   \label{glm-M9-Fact}
 \centering
 \begin{tabular}{lrrrrr}
@@ -211,7 +232,7 @@ NULL &  &  & 115 & 68.13 &  \\
 \end{table}
 
 \begin{table}[hbt!]
-  \caption{Logistic regression with $\alpha$-actinin-4 and nucleus colocalization coefficients as predictors and passage numger as fitted values}
+  \caption{Logistic regression with $\alpha$-actinin-4 and nucleus colocalization coefficients as predictors and passage numbers as fitted values}
   \label{glm-aA4-nuc}
 \centering
 \begin{tabular}{rrrrr}
@@ -259,21 +280,22 @@ NULL &  &  & 115 & 68.13 &  \\
  Bovine lung Ribonuclease A & 13.7
 \end{tabular}
 \begin{tablenotes}
-\item JKL, just keep laughing; MN, merry noise.
+\item
 \end{tablenotes}
 \end{table}
 
-\section{Additional figures}
+\section{Figures}
 
 \begin{figure}[hbt!]
   \includegraphics[width=1\linewidth]{supp1.jpeg}
-  \caption{Correlation matrix of correlation coefficients calculated for correspondent colocalization.}
+  \caption{Correlation matrix of colocalization coefficients calculated in Coloc2 ImageJ plugin: Rs, Rval, tM1, tM2, bTau. Data collected in two channels from manually selected cells as ROIs in confocal images. MSCWJ-1 cells were stained with polyclonal anti-myosin-9 antibodies and rhodamine phalloidin. Cells were fixed at passages: 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36.}
   \centering
 \end{figure}
 
 \begin{figure}[hbt!]
   \includegraphics[width=1\linewidth]{supp2.jpg}
-  \caption{(A) Variables factor map (PCA) (C) Scree plot (D) Correlation plot (E) Pairwise comparison post hoc tests.}
+  \caption{Explorative analisys of colocalization data.
+  PCA factor map (A) and scree plot (B) for colocolization coefficients. Correlation plots for myosin-9/F-actin (C) and alpha-actinin-4/F-actin colocalization coefficients. (E) Pairwise comparison post hoc tests for myosin-9/F-actin bTau coefficient. Data collected in two channels from manually selected cells as ROIs in confocal images. MSCWJ-1 cells were stained with polyclonal anti-myosin-9 antibodies and rhodamine phalloidin. Cells were fixed at passages: 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36.}
   \centering
 \end{figure}
 

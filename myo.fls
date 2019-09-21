@@ -569,6 +569,9 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\newtxsf\ntxsfmi.vf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtxsf\zsfmi-reg.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\txfonts\rtxmi.tfm
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Bold-T2A-TLF.tfm
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-Bold-T2A-TLF.vf
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Bold-T2A-TLF--base.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\newtx\ntxsy7.vf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\txsys.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\txex-bar.tfm
@@ -585,9 +588,6 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\txfonts\txsy
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\newtx\ntxsy5.vf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\txsys.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\txex-bar.tfm
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Bold-T2A-TLF.tfm
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-Bold-T2A-TLF.vf
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Bold-T2A-TLF--base.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmtt.fd
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmtt.fd
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\latt0800.tfm
@@ -596,8 +596,6 @@ INPUT myo.bbl
 INPUT myo.bbl
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Regular-T2A-TLF.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Regular-T2A-TLF.tfm
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-Heavy-T2A-TLF.vf
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Heavy-T2A-TLF--base.tfm
 INPUT myosin-9.jpg
 INPUT .\myosin-9.jpg
 INPUT .\myosin-9.jpg
@@ -628,11 +626,8 @@ INPUT .\fplc.jpg
 INPUT .\fplc.jpg
 INPUT .\fplc.jpg
 INPUT .\fplc.jpg
-INPUT abstract.png
-INPUT .\abstract.png
-INPUT .\abstract.png
-INPUT .\abstract.png
-INPUT .\abstract.png
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-Heavy-T2A-TLF.vf
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Heavy-T2A-TLF--base.tfm
 INPUT myo.aux
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt0800.pk
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt0800.pk

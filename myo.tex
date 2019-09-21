@@ -28,11 +28,11 @@
 
 \papertype{Original Article}
 
-\title{Cytoskeletal and motility changes in human umbilical cord mesenchymal stem cells associated with nuclear-cytoplasmic RhoА redistribution during replicative senescence}
+\title{Cytoskeletal and motility changes in human umbilical cord MSCs associated with nuclear-cytoplasmic RhoА redistribution during replicative senescence}
 
 
 % List abbreviations here, if any. Please note that it is preferred that abbreviations be defined at the first instance they appear in the text, rather than creating an abbreviations list.
-\abbrevs{MSCs, mesenchymal stem cells; RCF, relative centrifugal force; }
+\abbrevs{MSCs, mesenchymal stem cells; RCF, relative centrifugal force; PCA, principal component analisys}
 
 % Include full author names and degrees, when required by the journal.
 % Use the \authfn to add symbols for additional footnotes and present addresses, if any. Usually start with 1 for notes about author contributions; then continuing with 2 etc if any author has a different present address.
@@ -221,7 +221,7 @@ In this regard, we decided to see how the interaction of alpha-actinin with acti
 
 Both external and intrinsic factors control directionality of cell movement \cite{tiurin2013molecular}.
 
-We believe that the detected changes in the localization of F-actin and actin-binding proteins reflect the phenomenon of partial disassembly of the cytoskeleton, which is characteristic for switching types of cell movement.
+We assume that the detected changes in the localization of F-actin and actin-binding proteins reflect the phenomenon of partial disassembly of the cytoskeleton, which is characteristic for switching types of cell movement.
 
 Since myosin-9 is a key protein for cell migration, we investigated the distribution various passages.
 It was shown that tropomyosins act as negative regulators of myosin stack formation \cite{hu2019reciprocal}.
@@ -352,13 +352,14 @@ Cells were analyzed on a confocal microscope Leica SP8 (Germany).
 Colocalization coefficients were calculated using ImageJ version 1.52i using the Coloc 2 plugin (\cite{rueden2017imagej2}).
 Raw 1024 x 1024 px images was in 72 dpi resolution.
 For colocalization analysis images were opened in ImageJ, RGB channels were converted to 32 bit grayscale.
+Data collected in two channels from manually adjusted ROIs in confocal images with MSCWJ-1 cells stained with polyclonal anti-myosin-9 antibodies and rhodamine phalloidin. Cells were fixed at passages: 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36.
 Cells were selected manually on merged image and ROI passed to Coloc 2 plugin.
-The Pearson, Spearman, Manders and Kendall colocalization coefficients were calculated and passed as CSV files to R environment.
-However, Pearsons correlation coeff can be pretty noisy (\cite{adler2008replicate}; \cite{bergholm2010analysis}).
-For further analysis, the values of the $\tau$-Kendall rank correlation coefficient (bTau) and Pearson product-moment correlation coefficient (Rval) were used.
-The values of the correlation coefficient bTau were interpreted in accordance with the Cheddock scale (see table \ref{cheddock}).
+The Pearson, Spearman, Manders and Kendall colocalization coefficients were calculated and passed as CSV files to R environment (\cite{adler2008replicate}; \cite{bergholm2010analysis}).
+
+For further analysis, the values of the $\tau$-Kendall rank correlation coefficient (bTau).
+The values of the correlation coefficient bTau were interpreted in accordance with the Cheddock scale (see table 1 in Supplementary).
 The supplement presents the dependence of the studied parameters from each other, in the form of a matrix.
-Vertically and horizontally, the correlation coefficients are plotted that we calculated for myosin-9 and actin, there are 5 in total: Rs, Rval, tM1, tM2, bTau (these are the Spearman, Pearson, Manders, and Kendall correlation coefficients).
+
 And the work presents the results for bTau and Rval.
 Different coefficients give a slightly different picture of the distribution of means in the measurements, well, this table in the appendix justifies our choice of these bTau and Rval.
 In particular, it can be seen that, for example, Rs and bTau are almost the same thing, and in order to get rid of redundancy, we can only talk about one of them, so we choose bTau.
@@ -471,10 +472,8 @@ The authors declare no conflict of interest.
 
 \section*{Supporting Information}
 
+Supplementary statistical tests results.
 Video files with cell tracking.
-
-Tables with data:
-alltracks.csv
 
 \section*{Tables}
 
@@ -483,7 +482,7 @@ alltracks.csv
   \label{tab}
 \centering
 \begin{tabular}{c|c|c}
- Passage Number & Cells stained for $\beta$-gal,\% & Cell count  \\
+ Passage Number & Cells stained,\% & Cell count  \\
  \hline
  9 & 6.02 $\pm$ 0.72 & 3724 \\
  15 & 20.55 $\pm$ 1.57 & 2404 \\
@@ -493,8 +492,7 @@ alltracks.csv
 \end{table}
 
 \begin{table}[hbt!]
-  \caption{24 h Trajectory analysis parameters. This is a table. Tables should be self-contained and complement, but not duplicate, information contained in the text. They should be not be provided as images. Legends should be concise but comprehensive – the table, legend and footnotes must be understandable without reference to the text. All abbreviations must be defined in footnotes.}
-  \label{tab3}
+  \caption{24 h cell movement trajectory analysis}
 \centering
 \begin{tabular}{|c|c|c|c|c|}
  \hline
@@ -510,26 +508,7 @@ alltracks.csv
 
 \section*{Figure legends}
 
-
-Figure 1. (A) Staining of F-actin (red) and myosin-9 (green) in cells at different passages.
-(B) F-actin and Myosin-9 Colocalization in MSCWJ-1. bTau coefficient changes in course of replicative senescence.
-
-
-Figure 2. (A) Staining of F-actin (red) and alpha-actintin-4 (green).
-(B) Colocalization of F-actin and alpha-actintin-4 at different passages.
-
-
-Figure 3. RhoA in the nucleus, along the stress In the perinuclear region, diffusely in the cytoplasm.
-
-
-Figure 4. Confocal view of RhoA in the nucleus.
-
-
-Figure 5. Cell movement analisys.
-
-
-Figure 6. Gel chromatographic separation of cytoplasmic extracts from MSCWJ-1 cells at different stages of replicative senescence. Separation of calibration proteins (A) and comparison of elution profiles are presented. Electrophoretic separation of proteins from fractions obtained as a result of gel-chromatographic separation of cytoplasmic extracts from WJ1 cells in various stages of replicative senescence.
-
+% bunch of good old long figure legends
 
 \section*{Figures}
 
@@ -537,43 +516,42 @@ Figure 6. Gel chromatographic separation of cytoplasmic extracts from MSCWJ-1 ce
 \begin{figure}[hbt!]
 \centering
 \includegraphics[width=0.9\linewidth]{myosin-9.jpg}
-\caption{Fig. 1}
+\caption{(A) Staining of F-actin (red) and myosin-9 (green) in cells at different passages.
+(B) F-actin and Myosin-9 Colocalization in MSCWJ-1. bTau coefficient changes in course of replicative senescence.}
 \end{figure}
 
 \begin{figure}[hbt!]
 \centering
 \includegraphics[width=0.9\linewidth]{alpha-actinin-4.jpg}
-\caption{Fig. 2}
+\caption{(A) Staining of F-actin (red) and alpha-actintin-4 (green).
+(B) Colocalization of F-actin and alpha-actintin-4 at different passages.}
 \end{figure}
 
 \begin{figure}[hbt!]
   \includegraphics[width=0.9\linewidth]{rho.jpg}
-  \caption{Fig. 3}
+  \caption{RhoA in the nucleus, along the stress In the perinuclear region, diffusely in the cytoplasm.}
   \centering
 \end{figure}
 
 \begin{figure}[hbt!]
   \includegraphics[width=0.9\linewidth]{rho-3d.png}
-  \caption{Fig. 4}
+  \caption{Confocal view of RhoA in the nucleus.}
   \centering
 \end{figure}
 
 \begin{figure}[hbt!]
   \includegraphics[width=1\linewidth]{traj.jpg}
-  \caption{Fib. 5}
+  \caption{Cell movement analisys.}
   \centering
 \end{figure}
 
 \begin{figure}[hbt!]
 \centering
 \includegraphics[width=1\linewidth]{fplc.jpg}
-\caption{Fig. 6}
+\caption{Gel chromatographic separation of cytoplasmic extracts from MSCWJ-1 cells at different stages of replicative senescence. Separation of calibration proteins (A) and comparison of elution profiles are presented. Electrophoretic separation of proteins from fractions obtained as a result of gel-chromatographic separation of cytoplasmic extracts from WJ1 cells in various stages of replicative senescence.}
 \end{figure}
 
-\graphicalabstract{abstract}{We provide evidence for changes in the organization of the contractile apparatus of human mesenchymal stem cells in the process of replicative senescence.
-The colocalization dynamics of of myosin-9 and alpha-actinin-4 with F-actin, as well as RhoA with nuclei, were studied at various passages during long cultivation of mesenchymal stem cells.
-It was found that during replicative aging in MSCWJ-1 cells, a decline in cell speed and path tortuosity occurs.}
-
+%\graphicalabstract{abstract}{We provide evidence for changes in the organization of the contractile apparatus of human mesenchymal stem cells in the process of replicative senescence. The colocalization dynamics of of myosin-9 and alpha-actinin-4 with F-actin, as well as RhoA with nuclei, were studied at various passages during long cultivation of mesenchymal stem cells. It was found that during replicative aging in MSCWJ-1 cells, a decline in cell speed and path tortuosity occurs.}
 %\graphicalabstract{example-image-1x1}{Please check the journal's author guildines for whether a graphical abstract, key points, new findings, or other items are required for display in the Table of Contents.}
 
 \end{document}
