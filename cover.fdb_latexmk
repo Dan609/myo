@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1569150751 "cover.tex" "cover.pdf" "cover" 1569150753
+["pdflatex"] 1569169640 "cover.tex" "cover.pdf" "cover" 1569169640
   "C:/Users/1/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1568888313 4243260 2031522b3f75818a8332505a00fc7e80 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1568903279 225322 0d7d57d7a3068ea3a17e19274486d436 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -24,9 +24,9 @@
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size11.clo" 1544471102 8310 3be7fb8fac17ab8f3f822aa0c9800815 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/psnfss/newcent.sty" 1156698854 867 427acff8409b9d9f662a9ad4269f1931 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/psnfss/ot1pnc.fd" 1137103430 961 9da02194e59015d6facc38fc21efa49d ""
-  "cover.aux" 1569150752 234 0808233e639a4138ac5c386921551511 "pdflatex"
-  "cover.tex" 1569150747 4336 da035942e3769ae84cc6f26e7535e2cc ""
+  "cover.aux" 1569169640 234 0808233e639a4138ac5c386921551511 "pdflatex"
+  "cover.tex" 1569169637 4336 b7b82beedff40414c398cae934ff8875 ""
   (generated)
-  "cover.pdf"
   "cover.aux"
+  "cover.pdf"
   "cover.log"

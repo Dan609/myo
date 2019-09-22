@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  22 SEP 2019 13:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  22 SEP 2019 19:47
 entering extended mode
 **./myo.tex
 (myo.tex
@@ -1749,11 +1749,39 @@ LaTeX Font Info:    Font shape `T2A/lato-TLF/bx/n' in size <6> not available
 5.
 LaTeX Font Info:    Font shape `T2A/lato-TLF/b/n' will be
 (Font)              scaled to size 6.0pt on input line 35.
+LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
+(Font)              scaled to size 6.5pt on input line 35.
+LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
+(Font)              scaled to size 5.5pt on input line 35.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 35.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 35.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <6.5> not available
+(Font)              size <6> substituted on input line 35.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.5> not available
+(Font)              size <5> substituted on input line 35.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 35.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 35.
+
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-
 (myo.aux)
 \openout1 = `myo.aux'.
 
@@ -1981,24 +2009,10 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 6.2pt on input line 62.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 62.
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-cmr.cfg"
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 62.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 62.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 62.
-
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 62.
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmss.fd"
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -2068,56 +2082,53 @@ LaTeX Font Warning: Font shape `OMS/lato-TLF/bx/n' undefined
 (Font)              for symbol `textasteriskcentered' on input line 64.
 
 LaTeX Font Info:    Font shape `T2A/lato-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 78.
+(Font)              scaled to size 7.0pt on input line 81.
 LaTeX Font Info:    Font shape `T2A/lato-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 78.
+(Font)              scaled to size 5.5pt on input line 81.
 LaTeX Font Info:    Font shape `T2A/lato-TLF/bx/n' in size <7> not available
-(Font)              Font shape `T2A/lato-TLF/b/n' tried instead on input line 7
-8.
+(Font)              Font shape `T2A/lato-TLF/b/n' tried instead on input line 8
+1.
 LaTeX Font Info:    Font shape `T2A/lato-TLF/b/n' will be
-(Font)              scaled to size 7.0pt on input line 78.
+(Font)              scaled to size 7.0pt on input line 81.
 
 LaTeX Font Warning: Font shape `OMS/lato-TLF/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textdagger' on input line 78.
+(Font)              for symbol `textdagger' on input line 81.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 78.
+(Font)              size <5> substituted on input line 81.
 
 \wiley@abstractbox=\box82
-Package mdframed Info: mdframed works in twoside mode on input line 78.
+Package mdframed Info: mdframed works in twoside mode on input line 81.
 LaTeX Font Info:    Font shape `T2A/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 78.
+(Font)              scaled to size 9.0pt on input line 81.
 LaTeX Font Info:    Font shape `T2A/lato-TLF/bx/n' in size <9> not available
-(Font)              Font shape `T2A/lato-TLF/b/n' tried instead on input line 7
-8.
+(Font)              Font shape `T2A/lato-TLF/b/n' tried instead on input line 8
+1.
 LaTeX Font Info:    Font shape `T2A/lato-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 78.
+(Font)              scaled to size 9.0pt on input line 81.
 LaTeX Font Info:    Font shape `T2A/lato-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 78.
+(Font)              scaled to size 8.0pt on input line 81.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 78.
+ mdframed uses option nobreak mdframed on input line 81.
 
 LaTeX Font Warning: Font shape `OMS/lato-TLF/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 78.
+(Font)              size <5> substituted on input line 81.
 
-Package mdframed Info: mdframed works in twoside mode on input line 78.
+Package mdframed Info: mdframed works in twoside mode on input line 81.
 
-Overfull \hbox (8.07954pt too wide) in paragraph at lines 78--78
-\T2A/lato-TLF/m/n/9 sages dur-ing long cul-ti-va-tion of MSCWJ-1. We demon-stra
-ted,
+Overfull \hbox (2.68312pt too wide) in paragraph at lines 81--81
+\T2A/lato-TLF/m/n/9 crease in cell motil-ity. Here we pro-vide ev-i-dence for c
+hanges
  []
 
-LaTeX Font Info:    Font shape `T2A/lato-TLF/bx/n' in size <10> not available
-(Font)              Font shape `T2A/lato-TLF/b/n' tried instead on input line 8
-0.
-LaTeX Font Info:    Font shape `T2A/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 80.
-LaTeX Font Info:    Font shape `T2A/lato-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 80.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 80.
+
+Overfull \hbox (3.62563pt too wide) in paragraph at lines 81--81
+\T2A/lato-TLF/m/n/9 tion anal-isys the char-ac-ter-is-tics of cell motil-ity an
+d cy-toskele-
+ []
+
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][][] 
@@ -2126,39 +2137,43 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [1
 
 {C:/Users/1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Font shape `T2A/lato-TLF/bx/n' in size <10> not available
+(Font)              Font shape `T2A/lato-TLF/b/n' tried instead on input line 8
+3.
+LaTeX Font Info:    Font shape `T2A/lato-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 83.
+LaTeX Font Info:    Font shape `T2A/lato-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 83.
+LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 83.
 LaTeX Font Info:    Try loading font information for OT1+lato-TLF on input line
- 98.
+ 100.
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lato\ot1lato-tlf.fd"
 File: OT1lato-TLF.fd 2019/06/24 Font definitions for OT1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/lato-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 98.
+(Font)              scaled to size 8.0pt on input line 100.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lato-TLF' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 [2] [3]
-LaTeX Font Info:    Font shape `T2A/lato-TLF/bx/n' in size <8> not available
-(Font)              Font shape `T2A/lato-TLF/b/n' tried instead on input line 1
-77.
-LaTeX Font Info:    Font shape `T2A/lato-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 177.
-
-
-LaTeX Warning: Reference `tab3' on page 4 undefined on input line 177.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
-[5]
+[5] [6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]
-[7] [8] [9]
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 401
+ [7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 391
 .
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2acmtt.fd"
@@ -2169,50 +2184,59 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T2A/lato-TLF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 404.
+(Font)              scaled to size 10.0pt on input line 394.
 
 
 LaTeX Font Warning: Font shape `T2A/lato-TLF/bx/sc' undefined
-(Font)              using `T2A/lato-TLF/bx/n' instead on input line 404.
+(Font)              using `T2A/lato-TLF/bx/n' instead on input line 394.
 
 LaTeX Font Info:    Font shape `T2A/lato-TLF/bx/sc' in size <10> not available
-(Font)              Font shape `T2A/lato-TLF/b/n' tried instead on input line 4
-04.
+(Font)              Font shape `T2A/lato-TLF/b/n' tried instead on input line 3
+94.
 LaTeX Font Info:    Font shape `T2A/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 404.
-(myo.bbl [10] [11] [12] [13] [14])
+(Font)              scaled to size 10.0pt on input line 394.
+(myo.bbl
+LaTeX Font Info:    Font shape `T2A/lato-TLF/bx/n' in size <8> not available
+(Font)              Font shape `T2A/lato-TLF/b/n' tried instead on input line 1
+0.
+LaTeX Font Info:    Font shape `T2A/lato-TLF/b/n' will be
+(Font)              scaled to size 8.0pt on input line 10.
+
+Underfull \vbox (badness 4279) has occurred while \output is active []
+
+ [10]
+[11] [12] [13] [14] [15])
 LaTeX Font Info:    Font shape `T2A/lato-TLF/m/n' will be
-(Font)              scaled to size 7.5pt on input line 433.
- [15]
+(Font)              scaled to size 7.5pt on input line 423.
 <myosin-9.jpg, id=64, 758.835pt x 1011.78pt>
 File: myosin-9.jpg Graphic file (type jpg)
 <use myosin-9.jpg>
-Package pdftex.def Info: myosin-9.jpg  used on input line 471.
+Package pdftex.def Info: myosin-9.jpg  used on input line 461.
 (pdftex.def)             Requested size: 364.64803pt x 486.20467pt.
 <alpha-actinin-4.jpg, id=65, 758.835pt x 1011.78pt>
 File: alpha-actinin-4.jpg Graphic file (type jpg)
 <use alpha-actinin-4.jpg>
-Package pdftex.def Info: alpha-actinin-4.jpg  used on input line 478.
+Package pdftex.def Info: alpha-actinin-4.jpg  used on input line 468.
 (pdftex.def)             Requested size: 364.64803pt x 486.20467pt.
 <rho.jpg, id=66, 758.835pt x 1011.78pt>
 File: rho.jpg Graphic file (type jpg)
 <use rho.jpg>
-Package pdftex.def Info: rho.jpg  used on input line 484.
+Package pdftex.def Info: rho.jpg  used on input line 474.
 (pdftex.def)             Requested size: 364.64803pt x 486.20467pt.
 <rho-3d.png, id=67, 1161.33875pt x 1083.04625pt>
 File: rho-3d.png Graphic file (type png)
 <use rho-3d.png>
-Package pdftex.def Info: rho-3d.png  used on input line 490.
+Package pdftex.def Info: rho-3d.png  used on input line 480.
 (pdftex.def)             Requested size: 364.64803pt x 340.07066pt.
 <traj.jpg, id=68, 758.835pt x 1011.78pt>
 File: traj.jpg Graphic file (type jpg)
 <use traj.jpg>
-Package pdftex.def Info: traj.jpg  used on input line 496.
+Package pdftex.def Info: traj.jpg  used on input line 486.
 (pdftex.def)             Requested size: 405.16722pt x 540.22398pt.
 <fplc.jpg, id=69, 963.6pt x 542.025pt>
 File: fplc.jpg Graphic file (type jpg)
 <use fplc.jpg>
-Package pdftex.def Info: fplc.jpg  used on input line 503.
+Package pdftex.def Info: fplc.jpg  used on input line 493.
 (pdftex.def)             Requested size: 405.16722pt x 227.90533pt.
  [16] [17 <./myosin-9.jpg>] [18 <./alpha-actinin-4.jpg>] [19 <./rho.jpg>] [20 <
 ./rho-3d.png (PNG copy)>] [21 <./traj.jpg>] [22 <./fplc.jpg>] (myo.aux)
@@ -2228,13 +2252,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 41038 strings out of 492895
- 806978 string characters out of 3125603
- 901622 words of memory out of 3000000
- 44231 multiletter control sequences out of 15000+200000
- 1116228 words of font info for 217 fonts, out of 3000000 for 9000
+ 41056 strings out of 492895
+ 807285 string characters out of 3125603
+ 904921 words of memory out of 3000000
+ 44245 multiletter control sequences out of 15000+200000
+ 1141578 words of font info for 228 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,21n,102p,835b,1143s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 74i,20n,102p,835b,1143s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt08
 00.pk>{C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lato/a_y72t
 7m.enc}{C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lato/a_y2b
@@ -2250,7 +2274,7 @@ ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/1/App
 Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtxsf/zsfmi-reg.pfb><C:/Use
 rs/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtxsf/zsfmia-reg.pf
 b>
-Output written on myo.pdf (22 pages, 2120177 bytes).
+Output written on myo.pdf (22 pages, 2120853 bytes).
 PDF statistics:
  148 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

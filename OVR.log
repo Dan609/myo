@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  21 SEP 2019 16:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  22 SEP 2019 14:55
 entering extended mode
 **./OVR.tex
 (OVR.tex
@@ -1750,7 +1750,7 @@ Package pdftex.def Info: supp2.jpg  used on input line 296.
 (pdftex.def)             Requested size: 405.16722pt x 540.22398pt.
 
 
-LaTeX Warning: Float too large for page by 43.22398pt on input line 300.
+LaTeX Warning: Float too large for page by 54.22398pt on input line 300.
 
 [2] [3] [4 <./supp1.jpeg>] [5 <./supp2.jpg>] (OVR.aux)
 
@@ -1779,7 +1779,7 @@ oland/lato/Lato-Regular.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts
 eX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/1/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/newtxsf/zsfmi-reg.pfb><C:/Users/1/AppData/Local/Pro
 grams/MiKTeX 2.9/fonts/type1/public/newtxsf/zsfmia-reg.pfb>
-Output written on OVR.pdf (5 pages, 579337 bytes).
+Output written on OVR.pdf (5 pages, 579350 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
