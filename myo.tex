@@ -120,7 +120,6 @@ In order to characterize the change in the composition of cytoplasmic protein co
 
 \subsection{$\beta$-Galactosidase activity}
 
-The degree of replicative senescence during long-term cultivation of MSCWJ-1 was assessed by the activity of $\beta$-galactosidase in cell populations.
 The results are presented in the table 1.
 The proportion of stained cells naturally increases with senescence, which confirms the status of this cell line as senescence non-transformed cells.
 
@@ -164,7 +163,8 @@ In the XZ sections, it is noticeable that at the 9th passage, RhoA is distribute
 
 \subsection{Trajectory analysis}
 
-
+All cells in culture are in constant motion.
+Small cells that have recently passed the stage of mitosis move very quickly.
 In fig.8, A characteristic frames from time laps of cell movement recording over 24 hours are presented.
 The results of a statistical analysis of the obtained trajectories are presented in Fig.5, В.
 The R script used to perform this analysis is available in the supplement.
@@ -387,8 +387,8 @@ The data obtained from $\beta$-Galactosidase activity assay were computed follow
 
 
 The data obtained from measurements of the colocalization coefficient were combined into variational series, in which the arithmetic mean values (M) and standard deviations (SD) were calculated.
-Principal component analisys (PCA)  and generalized linear model (GLM) analisys was performed if R environment (\cite{husson2010exploratory}, \cite{dobson2008introduction}).
-In the course of all-pairs comparisons different Multiple Testing Corrections were used to adjust the P-values: Mann-Whitney rank test, Bonferroni method, Scheffe’s test and post hoc pairwise test for multiple comparisons of mean rank sums (Dunn’s test).
+PCA, generalized linear model and maximum-likelihood factor analysis were performed if R environment (\cite{husson2010exploratory}, \cite{dobson2008introduction}, \cite{lawley1971factor}).
+In the course of all-pairs comparisons of colocalization data post hoc multiple testing corrections were used to adjust the P-values: Mann-Whitney rank test, Bonferroni method, Scheffe’s, and Dunn’s tests).
 The results were visualized using the free Python computing software environment and the scikit-posthocs package (\cite{Terpilowski2019}).
 
 
@@ -396,7 +396,6 @@ The data obtained from trajectory analysis were cleaned: those observations that
 Quantitative indicators were evaluated for compliance with the normal distribution, for this purpose, the Shapiro – Wilk criterion  was used with $n > 170$ (\cite{shapiro1965analysis}; \cite{shapiro1972approximate}) as well as indicators of asymmetry and kurtosis.
 When comparing several samples of quantitative data with a distribution other than normal, Kruskal-Wallis criterion was used, which is a non-parametric alternative to single-factor analysis of variance (\cite{kruskal1952use}).
 In the event that the calculated value of the Kruskal-Wallis criterion exceeded the critical one, the differences in the indicators were considered statistically significant (\cite{wilcoxon1992individual}).
-We performed maximum-likelihood factor analysis on a data matrix with correlation coefficients (\cite{lawley1971factor}).
 
 All row data and R scripts are available
 Row data and R scrips used to generate the analyses presented in the article are available via a publicly available data repository on Github : \url{https://github.com/Dan609/myo}.
@@ -405,10 +404,10 @@ Row data and R scrips used to generate the analyses presented in the article are
 \section*{Author contributions}
 
 Author1 and Author6 designed the research, analyzed the data, wrote the article.
-Author1 and Author2 carried out all immunofluorescence.
-Author3 maintained cell line.
-Author4 and Author3 carried out introvital confocal microscopy.
-Author5 and Author2 made the chromatographic separation, Author2 carried out western blotting.
+Author1 and Author2 carried out all immunofluorescence and western blotting.
+Author3 maintained cell line and made the $\beta$-galactosidase test.
+Author4 carried out introvital confocal microscopy.
+Author5 made the chromatographic separation.
 
 \section*{Acknowledgements}
 
