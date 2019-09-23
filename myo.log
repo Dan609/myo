@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  23 SEP 2019 19:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  23 SEP 2019 19:22
 entering extended mode
 **./myo.tex
 (myo.tex
@@ -2179,48 +2179,58 @@ LaTeX Font Info:    Font shape `T2A/lato-TLF/b/n' will be
  [9] [10] [11] [12] [13])
 LaTeX Font Info:    Font shape `T2A/lato-TLF/m/n' will be
 (Font)              scaled to size 7.5pt on input line 354.
-<myosin-9.jpg, id=58, 758.835pt x 1011.78pt>
+ [14]
+Overfull \hbox (21.58278pt too wide) in paragraph at lines 406--418
+[]\T2A/lato-TLF/m/n/8 Figure 3. (A) Cell stained with poly-clonal an-ti-bod-ies
+ against RhoA (green), rhodamine-phalloidin (red), and Hoechst33342
+ []
+
+<myosin-9.jpg, id=61, 758.835pt x 1011.78pt>
 File: myosin-9.jpg Graphic file (type jpg)
 <use myosin-9.jpg>
-Package pdftex.def Info: myosin-9.jpg  used on input line 392.
+Package pdftex.def Info: myosin-9.jpg  used on input line 444.
 (pdftex.def)             Requested size: 364.64803pt x 486.20467pt.
-<alpha-actinin-4.jpg, id=59, 758.835pt x 1011.78pt>
+
+Underfull \vbox (badness 2460) has occurred while \output is active []
+
+ [15]
+<alpha-actinin-4.jpg, id=65, 758.835pt x 1011.78pt>
 File: alpha-actinin-4.jpg Graphic file (type jpg)
 <use alpha-actinin-4.jpg>
-Package pdftex.def Info: alpha-actinin-4.jpg  used on input line 399.
+Package pdftex.def Info: alpha-actinin-4.jpg  used on input line 451.
 (pdftex.def)             Requested size: 364.64803pt x 486.20467pt.
 
 
-LaTeX Warning: Float too large for page by 11.20467pt on input line 402.
+LaTeX Warning: Float too large for page by 11.20467pt on input line 454.
 
-<rho.jpg, id=60, 758.835pt x 1011.78pt>
+<rho.jpg, id=66, 758.835pt x 1011.78pt>
 File: rho.jpg Graphic file (type jpg)
 <use rho.jpg>
-Package pdftex.def Info: rho.jpg  used on input line 405.
+Package pdftex.def Info: rho.jpg  used on input line 457.
 (pdftex.def)             Requested size: 364.64803pt x 486.20467pt.
 
-LaTeX Warning: Float too large for page by 22.20467pt on input line 408.
+LaTeX Warning: Float too large for page by 22.20467pt on input line 460.
 
-<rho-3d.png, id=61, 1161.33875pt x 1083.04625pt>
+<rho-3d.png, id=67, 1161.33875pt x 1083.04625pt>
 File: rho-3d.png Graphic file (type png)
 <use rho-3d.png>
-Package pdftex.def Info: rho-3d.png  used on input line 411.
+Package pdftex.def Info: rho-3d.png  used on input line 463.
 (pdftex.def)             Requested size: 364.64803pt x 340.07066pt.
-<traj.jpg, id=62, 758.835pt x 1011.78pt>
+<traj.jpg, id=68, 758.835pt x 1011.78pt>
 File: traj.jpg Graphic file (type jpg)
 <use traj.jpg>
-Package pdftex.def Info: traj.jpg  used on input line 417.
+Package pdftex.def Info: traj.jpg  used on input line 469.
 (pdftex.def)             Requested size: 405.16722pt x 540.22398pt.
 
-LaTeX Warning: Float too large for page by 43.22398pt on input line 420.
+LaTeX Warning: Float too large for page by 43.22398pt on input line 472.
 
-<fplc.jpg, id=63, 963.6pt x 542.025pt>
+<fplc.jpg, id=69, 963.6pt x 542.025pt>
 File: fplc.jpg Graphic file (type jpg)
 <use fplc.jpg>
-Package pdftex.def Info: fplc.jpg  used on input line 424.
+Package pdftex.def Info: fplc.jpg  used on input line 476.
 (pdftex.def)             Requested size: 405.16722pt x 227.90533pt.
-[14] [15] [16 <./myosin-9.jpg>] [17 <./alpha-actinin-4.jpg>] [18 <./rho.jpg>]
-[19 <./rho-3d.png (PNG copy)>] [20 <./traj.jpg>] [21 <./fplc.jpg>] (myo.aux)
+[16] [17 <./myosin-9.jpg>] [18 <./alpha-actinin-4.jpg>] [19 <./rho.jpg>]
+[20 <./rho-3d.png (PNG copy)>] [21 <./traj.jpg>] [22 <./fplc.jpg>] (myo.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.33328pt have occurred.
@@ -2235,7 +2245,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  41051 strings out of 492895
  807140 string characters out of 3125603
- 909082 words of memory out of 3000000
+ 905082 words of memory out of 3000000
  44240 multiletter control sequences out of 15000+200000
  1141578 words of font info for 228 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2255,9 +2265,9 @@ ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/1/App
 Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtxsf/zsfmi-reg.pfb><C:/Use
 rs/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtxsf/zsfmia-reg.pf
 b>
-Output written on myo.pdf (21 pages, 2119750 bytes).
+Output written on myo.pdf (22 pages, 2122955 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
+ 148 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  33323 words of extra memory for PDF output out of 35830 (max. 10000000)
 
