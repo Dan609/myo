@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  24 SEP 2019 17:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  24 SEP 2019 19:42
 entering extended mode
 **./OVR.tex
 (OVR.tex
@@ -1772,7 +1772,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  36681 strings out of 492895
  730809 string characters out of 3125603
- 803829 words of memory out of 3000000
+ 802829 words of memory out of 3000000
  39980 multiletter control sequences out of 15000+200000
  1149583 words of font info for 188 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1787,7 +1787,7 @@ oland/lato/Lato-Regular.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts
 eX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/1/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/newtxsf/zsfmi-reg.pfb><C:/Users/1/AppData/Local/Pro
 grams/MiKTeX 2.9/fonts/type1/public/newtxsf/zsfmia-reg.pfb>
-Output written on OVR.pdf (6 pages, 698681 bytes).
+Output written on OVR.pdf (6 pages, 698676 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
