@@ -1,4 +1,4 @@
-\begin{thebibliography}{74}
+\begin{thebibliography}{79}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -81,6 +81,10 @@ Bolshakova, A., Petukhova, O., Turoverova, L., Tentler, D., Babakov, V.,
 Bovet, P. and Benhamou, S. (1988) Spatial analysis of animals' movements using
   a correlated random walk model.
 \newblock \textit{Journal of theoretical biology}, \textbf{131}, 419--433.
+
+\bibitem[{Burridge and Wennerberg(2004)}]{burridge2004rho}
+Burridge, K. and Wennerberg, K. (2004) Rho and rac take center stage.
+\newblock \textit{Cell}, \textbf{116}, 167--179.
 
 \bibitem[{Carvalho et~al.(2011)Carvalho, Teixeira, Rui, Sousa and
   J~Salgado}]{m2011mesenchymal}
@@ -168,6 +172,12 @@ Guiducci, S., Manetti, M., Romano, E., Mazzanti, B., Ceccarelli, C., Dal~Pozzo,
   sclerosis exhibit a paracrine machinery and stimulate angiogenesis in vitro.
 \newblock \textit{Annals of the rheumatic diseases}, \textbf{70}.
 
+\bibitem[{Guilluy et~al.(2011)Guilluy, Dubash and
+  Garc{\'\i}a-Mata}]{guilluy2011analysis}
+Guilluy, C., Dubash, A.~D. and Garc{\'\i}a-Mata, R. (2011) Analysis of rhoa and
+  rho gef activity in whole cells and the cell nucleus.
+\newblock \textit{Nature protocols}, \textbf{6}, 2050.
+
 \bibitem[{Hayflick and Moorhead(1961)}]{hayflick1961serial}
 Hayflick, L. and Moorhead, P.~S. (1961) The serial cultivation of human diploid
   cell strains.
@@ -218,6 +228,17 @@ Husson, F., L{\^e}, S. and Pages, J. (2010) Exploratory multivariate analysis
 Julianto, I. and Rindastuti, Y. (2016) Topical delivery of mesenchymal stem
   cells" secretomes" in wound repair.
 \newblock \textit{Acta Medica Indonesiana}, \textbf{48}, 217--220.
+
+\bibitem[{Khaitlina(2001)}]{khaitlina2001functional}
+Khaitlina, S.~Y. (2001) Functional specificity of actin isoforms.
+\newblock \textit{International Review of Cytology}, \textbf{202}, 35--98.
+
+\bibitem[{Kim et~al.(2018)Kim, Islam, Cho, Jeong, Cap, Park, Hossain and
+  Park}]{kim2018regulation}
+Kim, J.-G., Islam, R., Cho, J.~Y., Jeong, H., Cap, K.-C., Park, Y., Hossain,
+  A.~J. and Park, J.-B. (2018) Regulation of rhoa gtpase and various
+  transcription factors in the rhoa pathway.
+\newblock \textit{Journal of cellular physiology}, \textbf{233}, 6381--6392.
 
 \bibitem[{Koltsova et~al.(2018)Koltsova, Krylova, Musorina, Zenin, Turilova,
   Yakovleva and Poljanskaya}]{koltsova2018dynamics}
@@ -338,6 +359,12 @@ Redaelli, S., Bentivegna, A., Foudah, D., Miloso, M., Redondo, J., Riva, G.,
   epigenomic profiles: monitoring the biologic behavior of in vitro cultured
   human bone marrow mesenchymal stem cells.
 \newblock \textit{Stem cell research \& therapy}, \textbf{3}, 47.
+
+\bibitem[{Ridley and Hall(1992)}]{ridley1992small}
+Ridley, A.~J. and Hall, A. (1992) The small gtp-binding protein rho regulates
+  the assembly of focal adhesions and actin stress fibers in response to growth
+  factors.
+\newblock \textit{Cell}, \textbf{70}, 389--399.
 
 \bibitem[{Rueden et~al.(2017)Rueden, Schindelin, Hiner, DeZonia, Walter, Arena
   and Eliceiri}]{rueden2017imagej2}
