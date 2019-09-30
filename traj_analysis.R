@@ -381,18 +381,18 @@ head(data)
 # Plot all-in-one-------------------------
 # plot(data)
 png()
-ggpairs(data)
+ggpairs(data)+ theme_classic(base_size=14)
 ggcorr(data, palette = "RdBu", label = TRUE)
 dev.off()
-
-
-# Summary -----------------------
-summary(data[data$probe=='p09',])
-summary(data[data$probe=='p15',])
-summary(data[data$probe=='p36',])
 ### Stat analysis ###
+kruskal.test(data$mean_speed ~ data$probe)
+kruskal.test(data$max_speed ~ data$probe)
+kruskal.test(data$sinuosity ~ data$probe)
+kruskal.test(data$length ~ data$probe)
+kruskal.test(data$straight ~ data$probe)
+kruskal.test(data$square_displacement ~ data$probe)
 
-
+kruskal.test(data$distance ~ data$probe)
 # (1) Mean speed------------------------
 # Compute the analysis of variance------
 res.aov <- aov(mean_speed ~ probe, data = data) # One-way ANOVA
@@ -541,6 +541,68 @@ qplot(probe, mean_speed, data = data,
               annotation = "****", 
               tip_length = 0.04) + theme_bw()
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ggplot Add jitter and change fill color by probe----------------------
+ggplot(data, aes(x = data$probe, y = data$mean_speed)) + theme_bw()
+
+qplot(data$probe, mean_speed, data = data,
+      geom = c("jitter","boxplot"), alpha = I(0.3), fill = probe, # ,"point"  
+      main = "Mean speed") + 
+  labs(y = 'Micrometers per hour',
+       x = "Cell passage") +
+  # xmin / xmax positions should match the x-axis labels' positions
+  geom_signif(y_position = c(100),
+              xmin = c(1),
+              xmax = c(2),
+              annotation = "****", 
+              tip_length = 0.03) +
+  # xmin / xmax positions should match the x-axis labels' positions
+  geom_signif(y_position = c(80),
+              xmin = c(2),
+              xmax = c(3),
+              annotation = "****", 
+              tip_length = 0.03) + theme_classic(base_size=14)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # (2) Max speed------------------------
 # Compute the analysis of variance-----
 res.aov <- aov(max_speed ~ probe, data = data) # One-way ANOVA
@@ -676,7 +738,7 @@ ggplot(data, aes(probe, max_speed)) +
 qplot(probe, max_speed, data = data,
       geom = c("jitter", "boxplot"), alpha = I(0.3), fill = probe,
       main = "Max speed" ) + 
-  labs(y = 'Micrometers',
+  labs(y = 'Micrometers per hour',
        x = "Cell passage") +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(500),
@@ -689,7 +751,7 @@ qplot(probe, max_speed, data = data,
               xmin = c(2),
               xmax = c(3),
               annotation = "****", 
-              tip_length = 0.04) + theme_bw()
+              tip_length = 0.04) + theme_classic(base_size=14)
 
 
 # (3) Length   ------------------------
@@ -840,7 +902,7 @@ qplot(probe, length, data = data,
               xmin = c(2),
               xmax = c(3),
               annotation = "****", 
-              tip_length = 0.04) + theme_bw()
+              tip_length = 0.04) + theme_classic(base_size=14)
 
 # (4) Distance ------------------------
 # Compute the analysis of variance
@@ -1010,7 +1072,7 @@ qplot(probe, distance, data = data,
               xmin = c(2),
               xmax = c(3),
               annotation = "ns", 
-              tip_length = 0.04) + theme_bw()
+              tip_length = 0.04) + theme_classic(base_size=14)
 
 
 
@@ -1176,7 +1238,7 @@ ggplot(data, aes(probe, straight)) +
 # Add jitter and change fill color by probe----------------------
 qplot(probe, straight, data = data,
       geom = c("jitter", "boxplot"), alpha = I(0.3), fill = probe,
-      main = "Straightness", ) + 
+      main = "Straightness" ) + 
   labs(y = 'Straightness index',
        x = "Cell passage")  +
   # xmin / xmax positions should match the x-axis labels' positions
@@ -1196,7 +1258,7 @@ qplot(probe, straight, data = data,
               xmin = c(1),
               xmax = c(3),
               annotation = "****", 
-              tip_length = 0.04) + theme_bw()
+              tip_length = 0.04) + theme_classic(base_size=14)
 
 
 
@@ -1341,10 +1403,10 @@ ggplot(data, aes(probe, sinuosity)) +
     legend.title = element_text(color = "black", size = 15),
     legend.text = element_text(color = "black", size = 15))
 
-# Add jitter and change fill color by probe
+# Add jitter and change fill color by probe-----
 qplot(probe, sinuosity, data = data,
       geom = c("jitter", "boxplot"), alpha = I(0.3), fill = probe,
-      main = "Random search path tortuosity", ) + 
+      main = "Path tortuosity") + 
   labs(y = 'Sinuosity index',
        x = "Cell passage") +
   # xmin / xmax positions should match the x-axis labels' positions
@@ -1364,7 +1426,7 @@ qplot(probe, sinuosity, data = data,
               xmin = c(1),
               xmax = c(3),
               annotation = "****", 
-              tip_length = 0.04) + theme_bw()
+              tip_length = 0.04)+ theme_classic(base_size=14)
 
 
 
@@ -1394,7 +1456,7 @@ qplot(probe, min_speed, data = data,
       main = "WJ1, 24h")
 
 qplot(probe, sinuosity, data = data,
-      geom = c("jitter", "boxplot"), alpha = I(0.6), log = "y",
+      geom = c("jitter", "boxplot"), alpha = I(0.6), 
       main = "WJ1, 24h")
 
 qplot(probe, DC, data = data,
@@ -1564,3 +1626,15 @@ ggplot(df.SDDC, aes(probe, SDDC)) +
     aes(ymin = SDDC-sd, ymax = SDDC+sd),
     data = df.summary.SDDC, width = 0.2) + ggtitle('SDDC')
 
+#----------regression
+head(alltracks)
+colnames(alltracks)
+
+fit <- glm(probe ~ length + distance + mean_speed + sinuosity + straight, alltracks, 
+           family = 'binomial')
+
+
+summary(fit)
+anova(fit, test = "Chisq")
+
+print(xtable(newobject, type = "latex"), file = "filename.tex")
