@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  25 SEP 2019 15:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  30 SEP 2019 12:57
 entering extended mode
 **./myo.tex
 (myo.tex
@@ -2192,42 +2192,42 @@ LaTeX Font Info:    Font shape `T2A/lato-TLF/m/n' will be
 <myosin-9.jpg, id=67, 758.835pt x 1011.78pt>
 File: myosin-9.jpg Graphic file (type jpg)
 <use myosin-9.jpg>
-Package pdftex.def Info: myosin-9.jpg  used on input line 462.
+Package pdftex.def Info: myosin-9.jpg  used on input line 463.
 (pdftex.def)             Requested size: 364.64803pt x 486.20467pt.
 <alpha-actinin-4.jpg, id=68, 758.835pt x 1011.78pt>
 File: alpha-actinin-4.jpg Graphic file (type jpg)
 <use alpha-actinin-4.jpg>
-Package pdftex.def Info: alpha-actinin-4.jpg  used on input line 469.
+Package pdftex.def Info: alpha-actinin-4.jpg  used on input line 470.
 (pdftex.def)             Requested size: 364.64803pt x 486.20467pt.
 
 
-LaTeX Warning: Float too large for page by 11.20467pt on input line 472.
+LaTeX Warning: Float too large for page by 11.20467pt on input line 473.
 
 <rho.jpg, id=69, 758.835pt x 1011.78pt>
 File: rho.jpg Graphic file (type jpg)
 <use rho.jpg>
-Package pdftex.def Info: rho.jpg  used on input line 475.
+Package pdftex.def Info: rho.jpg  used on input line 476.
 (pdftex.def)             Requested size: 364.64803pt x 486.20467pt.
 
-LaTeX Warning: Float too large for page by 22.20467pt on input line 478.
+LaTeX Warning: Float too large for page by 22.20467pt on input line 479.
 
 <rho-3d.png, id=70, 1161.33875pt x 1083.04625pt>
 File: rho-3d.png Graphic file (type png)
 <use rho-3d.png>
-Package pdftex.def Info: rho-3d.png  used on input line 481.
+Package pdftex.def Info: rho-3d.png  used on input line 482.
 (pdftex.def)             Requested size: 364.64803pt x 340.07066pt.
 <traj.jpg, id=71, 758.835pt x 1011.78pt>
 File: traj.jpg Graphic file (type jpg)
 <use traj.jpg>
-Package pdftex.def Info: traj.jpg  used on input line 487.
+Package pdftex.def Info: traj.jpg  used on input line 488.
 (pdftex.def)             Requested size: 405.16722pt x 540.22398pt.
 
-LaTeX Warning: Float too large for page by 43.22398pt on input line 490.
+LaTeX Warning: Float too large for page by 43.22398pt on input line 491.
 
 <fplc.jpg, id=72, 963.6pt x 542.025pt>
 File: fplc.jpg Graphic file (type jpg)
 <use fplc.jpg>
-Package pdftex.def Info: fplc.jpg  used on input line 494.
+Package pdftex.def Info: fplc.jpg  used on input line 495.
 (pdftex.def)             Requested size: 405.16722pt x 227.90533pt.
 [17] [18 <./myosin-9.jpg>] [19 <./alpha-actinin-4.jpg>] [20 <./rho.jpg>]
 [21 <./rho-3d.png (PNG copy)>] [22 <./traj.jpg>] [23 <./fplc.jpg>] (myo.aux)
@@ -2265,7 +2265,7 @@ ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/1/App
 Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtxsf/zsfmi-reg.pfb><C:/Use
 rs/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtxsf/zsfmia-reg.pf
 b>
-Output written on myo.pdf (23 pages, 2127992 bytes).
+Output written on myo.pdf (23 pages, 2128408 bytes).
 PDF statistics:
  151 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
