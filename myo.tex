@@ -403,57 +403,84 @@ Video files with cell tracking.
 
 % bunch of good old long figure legends
 \subsection*{Figure 1}
-(A) Staining of F-actin (red) and myosin-9 (green) in MSCWJ-1 at passages 9, 15, 36.
-(B) Myosin-9/F-actin colocalization in MSCWJ-1 at passages 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36.
-Boxplots with means indicated by horizontal lines shown over jitter plots, each point indicate one observation.
-Significant differences identified by the Wilcoxon test are indicated by p-values.
-(C) Multiple Pairwise comparison test for the same data as shown in (B).
+(A) Staining of F-actin (red) and myosin-9 (green) and nuclei (blue on merged images) in MSCWJ-1.
+Cells were grown on glasses, fixed and permeabilised at passages 9, 15, 36.
+Polyclonal antibodies against synthetic peptide corresponding to amino acids 1949-1960 of human nonmuscle myosin IIA and Alexa 488 secondary antibodies were used for myosin-9 staining.
+Hoechst33342 was used for nuclei staining.
+Rhodamine phalloidin was used to stain actin cytoskeleton.
+(B) Myosin-9/F-actin colocalization in MSCWJ-1.
+Cells were grown on glasses, fixed and permeabilised at passages 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36.
+F-actin and myosin-9 were stained as previously indicated.
+Ten fields of view were recorded using confocal microscopy, cells were manually selected on merged images and Kendall's colocalization coefficient (bTau) was measured in ImageJ, then data passed to R environment for statistical analysis.
+Calculated means indicated by horizontal lines shown over jitter plots, each point indicate one observation.
+The most interesting significant differences identified by the Wilcoxon test are indicated by p-values shown on square brackets.
+(C) For visualization of all significant differences in this dataset multiple pairwise comparison test was performed in Python environment.
 
 \subsection*{Figure 2}
-(A) Staining of F-actin (red) and $\alpha$-actintin-4 (green).
-(B) $\alpha$-actintin-4/F-actin colocolization at passages 9, 15, 28, 36.
+(A) Staining of F-actin (red) and $\alpha$-actintin-4 (green) and nuclei (blue on merged images) in MSCWJ-1.
+Cells were grown on glasses, fixed and permeabilised at passages 9, 15, 36.
+Polyclonal antibodies against human $\alpha$-actintin-4 and Alexa 488 secondary antibodies were used for $\alpha$-actintin-4 staining.
+Hoechst33342 was used for nuclei staining.
+Rhodamine phalloidin was used to stain actin cytoskeleton.
+$\alpha$-actintin-4/F-actin (B) and $\alpha$-actintin-4/nucleus (C) colocolization in MSCWJ-1.
+Cells were grown on glasses, fixed and permeabilised at passages 9, 15, 28, 36.
+F-actin and $\alpha$-actintin-4 were stained as previously indicated.
+Ten fields of view were recorded using confocal microscopy, cells were manually selected on merged images and Kendall's colocalization coefficient (bTau) was measured in ImageJ, then data passed to R environment for statistical analysis.
+Calculated means indicated by horizontal lines shown over jitter plots, each point indicate one observation.
+Significant differences identified by the Wilcoxon test are shown as asterisks on square brackets (* p < 0.05, *** p < 0.001, **** p < 0.0001, ns --- not significant).
 Boxplots with means indicated by horizontal lines shown over jitter plots, each point indicate one observation.
-Significant differences identified by the Wilcoxon test are indicated by asterisks.
-ns --- not significant.
-Kruskal-Wallis test p-value is indicated.
-(C) $\alpha$-actintin-4/nucleus colocolization at passages 9, 15, 28, 36.
-Boxplots with means indicated by horizontal lines shown over jitter plots, each point indicate one observation.
-Significant differences identified by the Wilcoxon test are indicated by asterisks.
-ns --- not significant.
-Kruskal-Wallis test p-value is indicated.
+Kruskal-Wallis test p-values are indicated under each plot.
 
 \subsection*{Figure 3}
 (A) Cell stained with polyclonal antibodies against RhoA (green), rhodamine-phalloidin (red), and Hoechst33342 (blue).
-MSCWJ-1 fixed at passages 9, 15, and 36.
-(B) RhoA/nucleus colocalization. MSCWJ-1 fixed at passages 9, 15, 28 and 36.
-Boxplots with means indicated by horizontal lines shown over jitter plots, each point indicate one observation.
-Significant differences identified by the Wilcoxon test are indicated by asterisks.
-ns --- not significant.
-Kruskal-Wallis test p-value is indicated.
-(C) RhoA/F-actin colocalization. MSCWJ-1 fixed at passages 9, 15, 28 and 36.
-Boxplots with means indicated by horizontal lines shown over jitter plots, each point indicate one observation.
-Significant differences identified by the Wilcoxon test are indicated by asterisks.
-Kruskal-Wallis test p-value is indicated.
+Cells were grown on glasses, fixed and permeabilised at passages 9, 15, 36.
+Polyclonal antibodies against synthetic peptide corresponding to amino acids 177-189 located near the C-terminus of human RhoA and Alexa 488 secondary antibodies were used for RhoA staining.
+Hoechst33342 was used for nuclei staining.
+Rhodamine phalloidin was used to stain actin cytoskeleton.
+RhoA/nucleus (B) and RhoA/F-actin  (C) colocalization.
+MSCWJ-1 fixed at passages 9, 15, 28 and 36.
+RhoA/nucleus colocolization in MSCWJ-1.
+Cells were grown on glasses, fixed and permeabilised at passages 9, 15, 28, 36.
+RhoA and nuclei were stained as previously indicated.
+Ten fields of view were recorded using confocal microscopy, cells were manually selected on merged images and Kendall's colocalization coefficient (bTau) was measured in ImageJ, then data passed to R environment for statistical analysis.
+Calculated means indicated in boxplots by horizontal lines shown over jitter plots, each point indicate one observation.
+Significant differences identified by the Wilcoxon test are shown as asterisks on square brackets (* p < 0.05, *** p < 0.001, **** p < 0.0001, ns --- not significant).
+Kruskal-Wallis test p-values are indicated under each plot.
 
 \subsection*{Figure 4}
 Confocal view of RhoA in the nucleus.
-MSCWJ-1 fixed and permeabilized at passages 9, 15, and 36.
-Cell stained with polyclonal antibodies against RhoA (green), rhodamine-phalloidin (red), and Hoechst33342 (blue).
-70 confocal optical sections were used to generate 3D image, slices show sections passing through the nucleus.
+Cells were grown on glasses, fixed and permeabilised at passages 9, 15, 36.
+Polyclonal antibodies against synthetic peptide corresponding to amino acids 177-189 located near the C-terminus of human RhoA and Alexa 488 secondary antibodies were used for RhoA staining.
+Hoechst33342 was used for nuclei staining.
+Rhodamine phalloidin was used to stain actin cytoskeleton.
+One characteristic cell were selected and Z-scanning was performed to obtain 70 confocal sections, images were used to generate 3D models in LeicaX software, slices show sections passing through the nucleus.
+White scalebars equals to 10 $\mu$m on each image section.
+
 
 \subsection*{Figure 5}
-Cell movement analisys performed on 24 h confocal cytometry imaging.
-Cells were imaged at passages 9, 15, 36 (A) Characteristic images from trajectory analisys workflow.
+Cell movement trajectory analysis.
+MSCWJ-1 cells were stained with Hoechst33342 and seeded in 6-well plate at passages 9, 15, 36.
+Then cells were incubated for 4 h for adhesion and and the plate was transferred to CQ1 automated cytometer, where 40 fields of view were recorded within 24 hours from each well.
+Tracks were manually collected from recorded images in ImageJ and passed to R for for further analysis.
+(A) Characteristic images from trajectory analisys workflow.
 (B) Statistical analisys of calculated trajectories.
-Boxplots with Means indicated by horizontal lines shown over jitter plots, each point indicate one observation.
+Six calculated track parameters shown as boxplots with means indicated by horizontal lines shown over jitter plots, each point indicate one observation.
+Significant differences identified by the Wilcoxon test are shown as asterisks on square brackets (*** p < 0.001, **** p < 0.0001, ns --- not significant).
 Kruskal-Wallis test p-values are indicated only where $p > 0.00001$.
-Significant differences identified by the Wilcoxon test are indicated by asterisks.
-ns --- not significant.
 
 \subsection*{Figure 6}
 Gel chromatographic separation of cytoplasmic extracts from MSCWJ-1 at different stages of replicative senescence.
-Separation of calibration proteins (B) and comparison of elution profiles (A) are presented.
-(C) Electrophoretic separation and western blot detection of myosin-9 and $\beta$-actin in fractions obtained as a result of gel-chromatographic separation of cytoplasmic extracts from WJMSC1 cells at passages 9, 15, 36.
+MSCWJ-1 cells were grown in 10 dishes 10 cm in diameter and lysed at passages  9, 15, 36.
+Lysing was performed using an actin cytoskeleton preservation buffer as described in Experimental Procedures.
+Cytosolic extracts were loaded on Superose 6 column and 14 fractions (1 ml) were collected on ice during elution.
+Proteins were precipitated from the collected fractions and sample preparation for further electrophoretic analysis.
+(A) Comparison of elution profiles from MSCWJ-1: blue line --- passage 9, red line --- passage 15, green line --- passage 36.
+X axis indicates retention time, in minutes, Y axis indicates optical absorbance at 280 nm, in arbitrary units (a.u.).
+(B) Separation of a set of calibration proteins (blue line), Blue Dextran 2000 (green line) and acetone (red line).
+X axis indicates retention time, in minutes, Y axis indicates optical absorbance at 280 nm, in arbitrary units (a.u.).
+(C) Western blot detection of myosin-9 and $\beta$-actin in fractions obtained as a result of gel-chromatographic separation of cytoplasmic extracts from WJMSC1 cells at passages 9, 15, 36.
+Electrophoretic separation was carried out in 12\% acrilamide gels, then proteins were transferred to PVDF membranes and stained with polyclonal antibodies against synthetic peptide corresponding to amino acids 1949-1960 of human nonmuscle myosin IIA (Myosin-9) and monoclocal anti-$\beta$-actin antibodies (Beta-actin).
+Secondary HRP-conjugated antibodies were applied and visualized using ChemiDoc system.
 
 
 \section*{Figures}
@@ -461,39 +488,37 @@ Separation of calibration proteins (B) and comparison of elution profiles (A) ar
 \begin{figure}[hbt!]
 \centering
 \includegraphics[width=0.9\linewidth]{myosin-9.jpg}
-\caption{(A) Staining of F-actin (red) and myosin-9 (green) in MSCWJ-1 at passages 9, 15, 36.
-(B) Myosin-9/F-actin colocalization in MSCWJ-1 at passages 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36. Boxplots with means indicated by horizontal lines shown over jitter plots, each point indicate one observation. Significant differences identified by the Wilcoxon test are indicated by p-values. (C) Multiple Pairwise comparison test for the same data as shown in (B)}
+\caption{}
 \end{figure}
 
 \begin{figure}[hbt!]
 \centering
 \includegraphics[width=0.9\linewidth]{alpha-actinin-4.jpg}
-\caption{(A) Staining of F-actin (red) and $\alpha$-actintin-4 (green).
-(B) $\alpha$-actintin-4/F-actin colocolization at passages 9, 15, 28, 36. Boxplots with means indicated by horizontal lines shown over jitter plots, each point indicate one observation. Significant differences identified by the Wilcoxon test are indicated by asterisks. ns --- not significant. Kruskal-Wallis test p-value is indicated. (C) $\alpha$-actintin-4/nucleus colocolization at passages 9, 15, 28, 36. Boxplots with means indicated by horizontal lines shown over jitter plots, each point indicate one observation. Significant differences identified by the Wilcoxon test are indicated by asterisks. ns --- not significant. Kruskal-Wallis test p-value is indicated.}
+\caption{}
 \end{figure}
 
 \begin{figure}[hbt!]
   \includegraphics[width=0.9\linewidth]{rho.jpg}
-  \caption{(A) Cell stained with polyclonal antibodies against RhoA (green), rhodamine-phalloidin (red), and Hoechst33342 (blue). MSCWJ-1 fixed at passages 9, 15, and 36. (B) RhoA/nucleus colocalization. MSCWJ-1 fixed at passages 9, 15, 28 and 36. Boxplots with means indicated by horizontal lines shown over jitter plots, each point indicate one observation. Significant differences identified by the Wilcoxon test are indicated by asterisks. ns --- not significant. Kruskal-Wallis test p-value is indicated. (C) RhoA/F-actin colocalization. MSCWJ-1 fixed at passages 9, 15, 28 and 36. Boxplots with means indicated by horizontal lines shown over jitter plots, each point indicate one observation. Significant differences identified by the Wilcoxon test are indicated by asterisks. Kruskal-Wallis test p-value is indicated.}
+  \caption{}
   \centering
 \end{figure}
 
-\begin{figure}[hbt!]
+h\begin{figure}[hbt!]
   \includegraphics[width=0.9\linewidth]{rho-3d.png}
-  \caption{Confocal view of RhoA in the nucleus. MSCWJ-1 fixed and permeabilized at passages 9, 15, and 36. Cell stained with polyclonal antibodies against RhoA (green), rhodamine-phalloidin (red), and Hoechst33342 (blue). 70 confocal optical sections were used to generate 3D image, slices show sections passing through the nucleus.}
+  \caption{}
   \centering
 \end{figure}
 
 \begin{figure}[hbt!]
   \includegraphics[width=1\linewidth]{traj.jpg}
-  \caption{Cell movement analisys performed on 24 h confocal cytometry imaging. Cells were imaged at passages 9, 15, 36 (A) Characteristic images from trajectory analisys workflow. (B) Statistical analisys of calculated trajectories. Boxplots with Means indicated by horizontal lines shown over jitter plots, each point indicate one observation. Kruskal-Wallis test p-values are indicated only where $p > 0.00001$. Significant differences identified by the Wilcoxon test are indicated by asterisks. ns --- not significant.}
+  \caption{}
   \centering
 \end{figure}
 
 \begin{figure}[hbt!]
 \centering
 \includegraphics[width=1\linewidth]{fplc.jpg}
-\caption{ Gel chromatographic separation of cytoplasmic extracts from MSCWJ-1 at different stages of replicative senescence. Separation of calibration proteins (B) and comparison of elution profiles (A) are presented. (C) Electrophoretic separation and western blot detection of myosin-9 and $\beta$-actin in fractions obtained as a result of gel-chromatographic separation of cytoplasmic extracts from WJMSC1 cells at passages 9, 15, 36.}
+\caption{}
 \end{figure}
 
 %\graphicalabstract{abstract}{We provide evidence for changes in the organization of the contractile apparatus of human mesenchymal stem cells in the process of replicative senescence. The colocalization dynamics of of myosin-9 and $\alpha$-actinin-4 with F-actin, as well as RhoA with nuclei, were studied at various passages during long cultivation of mesenchymal stem cells. It was found that during replicative aging in MSCWJ-1 cells, a decline in cell speed and path tortuosity occurs.}
