@@ -1,14 +1,25 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{3}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{}
 
-\bibitem[{Lees-Miller et~al.(2010)Lees-Miller, John and Hammersley, John and
-  Wilson, R}]{lees2010theoretical}
-Lees-Miller J, Hammersley J, Wilson R.
-\newblock Theoretical maximum capacity as benchmark for empty vehicle
-  redistribution in personal rapid transit.
-\newblock Transportation Research Record: Journal of the Transportation
-  Research Board 2010;(2146):76--83.
+\bibitem[{Rueden et~al.(2017)Rueden, Curtis T and Schindelin, Johannes and
+  Hiner, Mark C and DeZonia, Barry E and Walter, Alison E and Arena, Ellen T
+  and Eliceiri, Kevin W}]{rueden2017imagej2}
+Rueden CT, Schindelin J, Hiner MC, DeZonia BE, Walter AE, Arena ET, et~al.
+\newblock ImageJ2: ImageJ for the next generation of scientific image data.
+\newblock BMC bioinformatics 2017;18(1):529.
+
+\bibitem[{Emerson et~al.(2013)Emerson, John W and Green, Walton A and
+  Schloerke, Barret and Crowley, Jason and Cook, Dianne and Hofmann, Heike and
+  Wickham, Hadley}]{emerson2013generalized}
+Emerson JW, Green WA, Schloerke B, Crowley J, Cook D, Hofmann H, et~al.
+\newblock The generalized pairs plot.
+\newblock Journal of Computational and Graphical Statistics 2013;22(1):79--91.
+
+\bibitem[{Terpilowski(2019)Terpilowski, Maksim}]{Terpilowski2019}
+Terpilowski M.
+\newblock scikit-posthocs: Pairwise multiple comparison tests in Python.
+\newblock The Journal of Open Source Software 2019;4(36):1169.
 
 \end{thebibliography}

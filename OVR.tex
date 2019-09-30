@@ -16,6 +16,7 @@
 
 % Add additional packages here if required
 \usepackage{siunitx}
+\usepackage{apalike}
 \papertype{Original Paper}
 % Update article type if known
 % \papertype{Original Article}
@@ -29,7 +30,7 @@
 
 % Include full author names and degrees, when required by the journal.
 % Use the \authfn to add symbols for additional footnotes and present addresses, if any. Usually start with 1 for notes about author contributions; then continuing with 2 etc if any author has a different present address.
-\abbrevs{MSCs, mesenchymal stem cells;  PCA, principal component analisysu }
+\abbrevs{MSCs, mesenchymal stem cells;  $\tau$-Kendall rank correlation coefficient; Rs, Spearman's R correlation coefficient; tM, Manders correlation coefficient; Rval, Pearson correlation coefficient; PCA, principal component analisys}
 
 % Include full author names and degrees, when required by the journal.
 % Use the \authfn to add symbols for additional footnotes and present addresses, if any. Usually start with 1 for notes about author contributions; then continuing with 2 etc if any author has a different present address.
@@ -165,9 +166,30 @@ Age at testing & 38 & 58 & 504.48 & 58 ms\\
 
 \fi
 
-\section{Tables}
+\section*{Figure legends}
 
-\begin{table}[hbt!]
+% bunch of good old long figure legends
+\subsection*{Figure Supp.1}
+
+Correlation matrix of colocalization coefficients calculated in Coloc2 ImageJ plugin: Rs, Rval, tM1, tM2, bTau ((\cite{rueden2017imagej2})).
+Cells were grown on glasses, fixed and permeabilised at passages: 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36. MSCWJ-1 cells were stained with polyclonal antibodies against synthetic peptide corresponding to amino acids 1949-1960 of human nonmuscle myosin IIA and Alexa 488 secondary anti-rabbit antibodies. Rhodamine phalloidin was used to stain actin cytoskeleton. Data collected in two channels from manually selected MSCWJ-1 cells as ROIs in confocal images and passed to R for make a matrix of plot with a given data set (\cite{emerson2013generalized}).
+
+\subsection*{Figure Supp.2}
+
+Explorative analisys of colocalization data. Cells were grown on glasses, fixed and permeabilised at passages: 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36. MSCWJ-1 cells were stained with polyclonal antibodies against synthetic peptide corresponding to amino acids 1949-1960 of human nonmuscle myosin IIA and Alexa 488 secondary anti-rabbit antibodies. Rhodamine phalloidin was used to stain actin cytoskeleton. Data collected in two channels from manually selected MSCWJ-1 cells as ROIs in confocal images.
+PCA factor map (A) and scree plot (B) for myosin-9/F-actin colocolization coefficients. Correlation plots for myosin-9/F-actin (C) and alpha-actinin-4/F-actin colocalization coefficients. (E) Pairwise comparison post hoc tests for myosin-9/F-actin bTau colocalization coefficient, In the course of all-pairs comparisons of colocalization data post hoc multiple testing corrections were used to adjust the P-values: Bonferroni method, Scheffe’s, and Dunn’s tests).
+The results were visualized using the free Python computing software environment and the scikit-posthocs package (\cite{Terpilowski2019}).
+
+\subsection*{Figure Supp.3}
+
+QQ plots of MSCWJ-1 24 movement tracks analysis data. Observations are summarized for all passages.
+
+\bibliographystyle{apalike}
+\bibliography{mybib}
+
+\section*{Tables}
+
+\begin{table}[hb!]
   \caption{Cheddock scale for Kendall correlation coefficient estimation}
 \centering
 \begin{tabular}{l|c|}
@@ -302,28 +324,26 @@ NULL &  &  & 115 & 68.13 &  \\
  Bovine lung Ribonuclease A & 13.7
 \end{tabular}
 \begin{tablenotes}
-\item
 \end{tablenotes}
 \end{table}
 
-\section{Figures}
+\section*{Figures}
 
 \begin{figure}[hbt!]
   \includegraphics[width=1\linewidth]{supp1.jpeg}
-  \caption{Correlation matrix of colocalization coefficients calculated in Coloc2 ImageJ plugin: Rs, Rval, tM1, tM2, bTau. Data collected in two channels from manually selected cells as ROIs in confocal images. MSCWJ-1 cells were stained with polyclonal anti-myosin-9 antibodies and rhodamine phalloidin. Cells were fixed at passages: 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36.}
+  \caption{}
   \centering
 \end{figure}
 
 \begin{figure}[hbt!]
   \includegraphics[width=1\linewidth]{supp2.jpg}
-  \caption{Explorative analisys of colocalization data. Data were collected in two channels from manually selected cells as ROIs in confocal images. MSCWJ-1 cells were stained with polyclonal anti-myosin-9 antibodies and rhodamine phalloidin. Cells were fixed at passages: 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36.
-  PCA factor map (A) and scree plot (B) for myosin-9/F-actin colocolization coefficients. Correlation plots for myosin-9/F-actin (C) and alpha-actinin-4/F-actin colocalization coefficients. (E) Pairwise comparison post hoc tests for myosin-9/F-actin bTau colocalization coefficient.}
+  \caption{}
   \centering
 \end{figure}
 
 \begin{figure}[hbt!]
   \includegraphics[width=1\linewidth]{qqplot.jpg}
-  \caption{QQ plots of MSCWJ-1 24 movement tracks analysis data. Observations are summarized for all passages.}
+  \caption{}
   \centering
 \end{figure}
 

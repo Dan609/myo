@@ -404,7 +404,7 @@ Video files with cell tracking.
 \subsection*{Figure 1}
 (A) Staining of F-actin (red) and myosin-9 (green) and nuclei (blue on merged images) in MSCWJ-1.
 Cells were grown on glasses, fixed and permeabilised at passages 9, 15, 36.
-Polyclonal antibodies against synthetic peptide corresponding to amino acids 1949-1960 of human nonmuscle myosin IIA and Alexa 488 secondary antibodies were used for myosin-9 staining.
+Polyclonal antibodies against synthetic peptide corresponding to amino acids 1949-1960 of human nonmuscle myosin IIA and Alexa 488 secondary anti-rabbit antibodies were used for myosin-9 staining.
 Hoechst33342 was used for nuclei staining.
 Rhodamine phalloidin was used to stain actin cytoskeleton.
 (B) Myosin-9/F-actin colocalization in MSCWJ-1.
@@ -413,7 +413,9 @@ F-actin and myosin-9 were stained as previously indicated.
 Ten fields of view were recorded using confocal microscopy, cells were manually selected on merged images and Kendall's colocalization coefficient (bTau) was measured in ImageJ, then data passed to R environment for statistical analysis.
 Calculated means indicated by horizontal lines shown over jitter plots, each point indicate one observation.
 The most interesting significant differences identified by the Wilcoxon test are indicated by p-values shown on square brackets.
-(C) For visualization of all significant differences in this dataset multiple pairwise comparison test was performed in Python environment.
+(C) In the course of all-pairs comparisons of colocalization data post hoc multiple Mann-Whitney rank test was used to adjust the P-values.
+The results were visualized using the free Python computing software environment and the scikit-posthocs package (\cite{Terpilowski2019})
+For visualization of all significant differences in this dataset multiple pairwise comparison test was performed in Python environment.
 
 \subsection*{Figure 2}
 (A) Staining of F-actin (red) and $\alpha$-actintin-4 (green) and nuclei (blue on merged images) in MSCWJ-1.
