@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  30 SEP 2019 21:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  30 SEP 2019 22:29
 entering extended mode
 **./myo.tex
 (myo.tex
@@ -2190,39 +2190,42 @@ LaTeX Font Info:    Font shape `T2A/lato-TLF/m/n' will be
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
-[17]
+Underfull \vbox (badness 1558) has occurred while \output is active []
+
+ [17]
 <myosin-9.jpg, id=70, 758.835pt x 1011.78pt>
 File: myosin-9.jpg Graphic file (type jpg)
 <use myosin-9.jpg>
-Package pdftex.def Info: myosin-9.jpg  used on input line 491.
+Package pdftex.def Info: myosin-9.jpg  used on input line 496.
 (pdftex.def)             Requested size: 364.64803pt x 486.20467pt.
 <alpha-actinin-4.jpg, id=71, 758.835pt x 1011.78pt>
 File: alpha-actinin-4.jpg Graphic file (type jpg)
 <use alpha-actinin-4.jpg>
-Package pdftex.def Info: alpha-actinin-4.jpg  used on input line 497.
+Package pdftex.def Info: alpha-actinin-4.jpg  used on input line 502.
 (pdftex.def)             Requested size: 364.64803pt x 486.20467pt.
 <rho.jpg, id=72, 758.835pt x 1011.78pt>
 File: rho.jpg Graphic file (type jpg)
 <use rho.jpg>
-Package pdftex.def Info: rho.jpg  used on input line 502.
+Package pdftex.def Info: rho.jpg  used on input line 507.
 (pdftex.def)             Requested size: 364.64803pt x 486.20467pt.
-<rho-3d.png, id=73, 1161.33875pt x 1083.04625pt>
-File: rho-3d.png Graphic file (type png)
-<use rho-3d.png>
-Package pdftex.def Info: rho-3d.png  used on input line 508.
-(pdftex.def)             Requested size: 364.64803pt x 340.07066pt.
+<rho-3d.jpg, id=73, 758.835pt x 1011.78pt>
+File: rho-3d.jpg Graphic file (type jpg)
+<use rho-3d.jpg>
+Package pdftex.def Info: rho-3d.jpg  used on input line 513.
+(pdftex.def)             Requested size: 364.64803pt x 486.20467pt.
 <traj.jpg, id=74, 758.835pt x 1011.78pt>
 File: traj.jpg Graphic file (type jpg)
 <use traj.jpg>
-Package pdftex.def Info: traj.jpg  used on input line 514.
+Package pdftex.def Info: traj.jpg  used on input line 519.
 (pdftex.def)             Requested size: 405.16722pt x 540.22398pt.
 <fplc.jpg, id=75, 963.6pt x 542.025pt>
 File: fplc.jpg Graphic file (type jpg)
 <use fplc.jpg>
-Package pdftex.def Info: fplc.jpg  used on input line 521.
+Package pdftex.def Info: fplc.jpg  used on input line 526.
 (pdftex.def)             Requested size: 405.16722pt x 227.90533pt.
- [18] [19 <./myosin-9.jpg>] [20 <./alpha-actinin-4.jpg>] [21 <./rho.jpg>]
-[22 <./rho-3d.png (PNG copy)>] [23 <./traj.jpg>] [24 <./fplc.jpg>] (myo.aux)
+
+[18] [19 <./myosin-9.jpg>] [20 <./alpha-actinin-4.jpg>] [21 <./rho.jpg>]
+[22 <./rho-3d.jpg>] [23 <./traj.jpg>] [24 <./fplc.jpg>] (myo.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.33328pt have occurred.
@@ -2235,8 +2238,8 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 41066 strings out of 492895
- 807527 string characters out of 3125603
+ 41065 strings out of 492895
+ 807523 string characters out of 3125603
  908368 words of memory out of 3000000
  44255 multiletter control sequences out of 15000+200000
  1141578 words of font info for 228 fonts, out of 3000000 for 9000
@@ -2257,7 +2260,7 @@ ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/1/App
 Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtxsf/zsfmi-reg.pfb><C:/Use
 rs/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtxsf/zsfmia-reg.pf
 b>
-Output written on myo.pdf (24 pages, 2132770 bytes).
+Output written on myo.pdf (24 pages, 1487934 bytes).
 PDF statistics:
  154 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
