@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex myo"] 1569920291 "myo.aux" "myo.bbl" "myo" 1569920305
+["bibtex myo"] 1569924834 "myo.aux" "myo.bbl" "myo" 1569924852
   "./rss.bst" 1568243248 28273 d1fc7c677ccbb43865e3f2faa61fa9d4 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
   "mybib.bib" 1569868283 82718 204c1ad429cf27abcc052d037edb9958 ""
-  "myo.aux" 1569920302 15017 725455e634d1e2d15f4eeaa6bfa1b2fc "pdflatex"
+  "myo.aux" 1569924849 14991 375343ea0bbc5ed946e46f376c021041 "pdflatex"
   (generated)
   "myo.bbl"
   "myo.blg"
-["pdflatex"] 1569920292 "myo.tex" "myo.pdf" "myo" 1569920305
+["pdflatex"] 1569924836 "myo.tex" "myo.pdf" "myo" 1569924852
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/latt0800.pk" 1565462819 14360 24a444e5ca576b448b94c391aaa549d9 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/larm0800.tfm" 1563465479 3240 04766e423166ba63b7fbbf132b8618cb ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/latt0800.tfm" 1565462814 1272 2a21550efcb075c108e98819097de5c8 ""
@@ -293,9 +293,9 @@
   "lato.sty" 1568245769 4717 0ba40ad77d1a64ac75af8e74b410ae62 ""
   "md-frame-1.mdf" 1568245215 25307 f97393fd984d0c7ee0f5971e04db8fc7 ""
   "mdframed.sty" 1568245082 55179 7069e8f55fec6e9634881cb9a008ebcc ""
-  "myo.aux" 1569920302 15017 725455e634d1e2d15f4eeaa6bfa1b2fc "pdflatex"
-  "myo.bbl" 1569920291 27891 b9dbba4a8f1e373298c66950cdc82097 "bibtex myo"
-  "myo.tex" 1569920244 49028 3be67cf3a55887cf8ad485ba7c074716 ""
+  "myo.aux" 1569924849 14991 375343ea0bbc5ed946e46f376c021041 "pdflatex"
+  "myo.bbl" 1569924835 27891 b9dbba4a8f1e373298c66950cdc82097 "bibtex myo"
+  "myo.tex" 1569924821 48718 c89a1e48aa3a0747ed1b90b4b9a61b55 ""
   "myosin-9.jpg" 1569067025 268977 28a024e376a42cb521dd2e6cbea942b7 ""
   "needspace.sty" 1568245142 2659 c95cea214a7438990598c598a385bd28 ""
   "quoting.sty" 1568245886 3987 983dbc0726b5dfe128878b7d57f3c19f ""
@@ -308,6 +308,6 @@
   "wiley-article.cls" 1568244479 20085 d050ed5138313743da856847194e9119 ""
   "xpatch.sty" 1568245004 8516 a5b67f9a435dc2b965229e94ca94f1dc ""
   (generated)
-  "myo.log"
   "myo.aux"
+  "myo.log"
   "myo.pdf"
