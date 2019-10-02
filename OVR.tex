@@ -62,18 +62,14 @@
 \section*{Figure legends}
 
 % bunch of good old long figure legends
-\subsection*{Figure Supp.1}
+\subsection*{Figure S1}
 
-Correlation matrix of colocalization coefficients calculated in Coloc2 ImageJ plugin: Rs, Rval, tM1, tM2, bTau ((\cite{rueden2017imagej2})).
-Cells were grown on glasses, fixed and permeabilised at passages: 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36. MSCWJ-1 cells were stained with polyclonal antibodies against synthetic peptide corresponding to amino acids 1949-1960 of human nonmuscle myosin IIA and Alexa 488 secondary anti-rabbit antibodies. Rhodamine phalloidin was used to stain actin cytoskeleton. Data collected in two channels from manually selected MSCWJ-1 cells as ROIs in confocal images and passed to R for make a matrix of plot with a given data set (\cite{emerson2013generalized}).
-
-\subsection*{Figure Supp.2}
-
-Explorative analisys of colocalization data. Cells were grown on glasses, fixed and permeabilised at passages: 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36. MSCWJ-1 cells were stained with polyclonal antibodies against synthetic peptide corresponding to amino acids 1949-1960 of human nonmuscle myosin IIA and Alexa 488 secondary anti-rabbit antibodies. Rhodamine phalloidin was used to stain actin cytoskeleton. Data collected in two channels from manually selected MSCWJ-1 cells as ROIs in confocal images.
+MSCWJ-1 cells were grown on glasses, fixed and permeabilised at passages: 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36. Cells were stained with polyclonal antibodies against synthetic peptide corresponding to amino acids 1949-1960 of human nonmuscle myosin IIA and Alexa 488 secondary anti-rabbit antibodies. Rhodamine phalloidin was used to stain actin cytoskeleton. Colocalization coefficients calculated in Coloc2 ImageJ plugin: Rs, Rval, tM1, tM2, bTau ((\cite{rueden2017imagej2})).
+Data collected in two channels from manually selected MSCWJ-1 cells as ROIs in confocal images and passed to R for make a matrix of plot with a given data set (\cite{emerson2013generalized}).
 PCA factor map (A) and scree plot (B) for myosin-9/F-actin colocolization coefficients. Correlation plots for myosin-9/F-actin (C) and alpha-actinin-4/F-actin colocalization coefficients. (E) Pairwise comparison post hoc tests for myosin-9/F-actin bTau colocalization coefficient, In the course of all-pairs comparisons of colocalization data post hoc multiple testing corrections were used to adjust the P-values: Bonferroni method, Scheffe’s, and Dunn’s tests).
 The results were visualized using the free Python computing software environment and the scikit-posthocs package (\cite{Terpilowski2019}).
 
-\subsection*{Figure Supp.3}
+\subsection*{Figure S2}
 
 QQ plots for MSCWJ-1 24 h tracks data.
 MSCWJ-1 cells were stained with Hoechst33342 and seeded in 6-well plate at passages 9, 15, 36.
@@ -81,13 +77,23 @@ Then cells were incubated for 4 h for adhesion and and the plate was transferred
 Tracks were manually collected from recorded images in ImageJ and passed to R for analysis with trajr package (\cite{mclean2018trajr}).
 Observations are summarized for all passages.
 
+\subsection*{Figure S3}
+
+Linear regression for calibration kit FPLC Superose 6 calibration.
+Elution was performed with elution buffer (150 mM NaCl, 50 mM Tris, pH 7.5, 0.02\% $NaN_3$).
+The column was calibrated with the set of proteins shown in Table 8.
+
+
+%\subsection*{Figure Supp.4}
+%Superose 6 column calibration with protein kit.
+
 \section*{Tables}
 
 \begin{table}[hb!]
-  \caption{Cheddock scale for Kendall correlation coefficient qualitative estimation as described in \cite{hinkle2003applied} and \cite{mukaka2012guide}}
+  \caption{Cheddock scale for correlation coefficient qualitative estimation as described in \cite{hinkle2003applied} and \cite{mukaka2012guide}}
 \centering
 \begin{tabular}{|c|c|}
-  bTau value & Colocalization \\
+  Value & Colocalization \\
  \hline
  $ <0.1 $ & no link \\
  0.1-0.3 & weak \\
@@ -100,7 +106,7 @@ Observations are summarized for all passages.
 
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
 \begin{table}[hbt!]
-  \caption{Maximum-likelihood factor analysis on the myosin-9/F-actin colocalization data matrix for 2 factors (\cite{lawley1962factor}). Cells were grown on glasses, fixed and permeabilised at passages 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36. F-actin and myosin-9 were stained with specific antibodies, confocal images were passed to ImageJ. Cells were manually selected on merged images and Coloc2 plugin were used to calculate colocalization coefficients ((\cite{rueden2017imagej2})). Statistical analysis was performed in R using factanal function (\cite{team2014r}).}
+  \caption{Maximum-likelihood factor analysis on the myosin-9/F-actin colocalization data matrix for 2 factors (\cite{lawley1962factor}). Cells were grown on glasses, fixed and permeabilised at passages 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36. F-actin and myosin-9 were stained with specific antibodies, confocal images were passed to ImageJ. Cells were manually selected on merged images and Coloc2 plugin were used to calculate colocalization coefficients Rval, tM1, tM2, bTau, Rs ((\cite{rueden2017imagej2})). Statistical analysis was performed in R using factanal function (\cite{team2014r}).}
 \centering
 \begin{tabular}{c|rrrrr}
   \hline
@@ -114,9 +120,9 @@ Uniqueness &  0.198 & 0.159 & 0.039 & 0.005 & 0.024 \\
 \end{table}
 
 \begin{table}[hbt!]
-  \caption{Kruskal-Wallis rank sum test results for myosin-9/F-actin colocalization coefficients. Cells were grown on glasses, fixed and permeabilised at passages 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36. F-actin and myosin-9 were stained with specific antibodies, confocal images were passed to ImageJ. Cells were manually selected on merged images and Coloc2 plugin were used to calculate colocalization coefficients ((\cite{rueden2017imagej2})). Statistical analysis was performed in R (\cite{team2014r}).}
+  \caption{Kruskal-Wallis rank sum test results for myosin-9/F-actin colocalization coefficients. Cells were grown on glasses, fixed and permeabilised at passages 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36. F-actin and myosin-9 were stained with specific antibodies, confocal images were passed to ImageJ. Cells were manually selected on merged images and Coloc2 plugin were used to calculate colocalization coefficients Rval, tM1, tM2, bTau, Rs ((\cite{rueden2017imagej2})). Statistical analysis was performed in R (\cite{team2014r}).}
 \centering
-\begin{tabular}{l|ccc}
+\begin{tabular}{|l|c|c|l|}
     \hline
  Colocalization coefficient & chi-squared & df & p-value  \\
    \hline
@@ -128,7 +134,7 @@ Uniqueness &  0.198 & 0.159 & 0.039 & 0.005 & 0.024 \\
 \end{table}
 
 \begin{table}[hbt!]
-  \caption{Logistic regression with myosin-9/F-actin colocalization coefficients as predictors and passage numger as fitted values. Cells were grown on glasses, fixed and permeabilised at passages 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36. F-actin and myosin-9 were stained with specific antibodies, confocal images were passed to ImageJ. Cells were manually selected on merged images and Coloc2 plugin were used to calculate colocalization coefficients ((\cite{rueden2017imagej2})). Statistical analysis was performed in R (\cite{team2014r}).}
+  \caption{Logistic regression with myosin-9/F-actin colocalization coefficients as predictors and passage numger as fitted values. Cells were grown on glasses, fixed and permeabilised at passages 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36. F-actin and myosin-9 were stained with specific antibodies, confocal images were passed to ImageJ. Cells were manually selected on merged images and Coloc2 plugin were used to calculate colocalization coefficients Rval, tM1, tM2, bTau, Rs ((\cite{rueden2017imagej2})). Statistical analysis was performed in R (\cite{team2014r}).}
 \centering
 \begin{tabular}{lrrrrr}
   \hline
@@ -145,7 +151,7 @@ NULL &  &  & 115 & 68.13 &  \\
 \end{table}
 
 \begin{table}[hbt!]
-  \caption{Logistic regression with $\alpha$-actinin-4/Hoechst33342 colocalization coefficients as predictors and passage numbers as fitted values. Cells were grown on glasses, fixed and permeabilised at passages 9, 15, 28, 36. $\alpha$-actinin-4 was stained with specific antibodies, confocal images were passed to ImageJ. Cells were manually selected on merged images and Coloc2 plugin were used to calculate colocalization coefficients ((\cite{rueden2017imagej2})). Statistical analysis was performed in R (\cite{team2014r}).}
+  \caption{Logistic regression with $\alpha$-actinin-4/Hoechst33342 colocalization coefficients as predictors and passage numbers as fitted values. Cells were grown on glasses, fixed and permeabilised at passages 9, 15, 28, 36. $\alpha$-actinin-4 was stained with specific antibodies, confocal images were passed to ImageJ. Cells were manually selected on merged images and Coloc2 plugin were used to calculate colocalization coefficients Rval, tM1, tM2, bTau, Rs ((\cite{rueden2017imagej2})). Statistical analysis was performed in R (\cite{team2014r}).}
 \centering
 \begin{tabular}{rrrrr}
   \hline
@@ -162,7 +168,7 @@ NULL &  &  & 115 & 68.13 &  \\
 \end{table}
 
 \begin{table}[hbt!]
-  \caption{Logistic regression with RhoA/Hoechst33342 colocalization coefficients as predictors and passage numger as fitted values. Cells were grown on glasses, fixed and permeabilised at passages 9, 15, 28, 36. $\alpha$-actinin-4 was stained with specific antibodies, confocal images were passed to ImageJ. Cells were manually selected on merged images and Coloc2 plugin were used to calculate colocalization coefficients ((\cite{rueden2017imagej2})). Statistical analysis was performed in R (\cite{team2014r}).}
+  \caption{Logistic regression with RhoA/Hoechst33342 colocalization coefficients as predictors and passage numger as fitted values. Cells were grown on glasses, fixed and permeabilised at passages 9, 15, 28, 36. $\alpha$-actinin-4 was stained with specific antibodies, confocal images were passed to ImageJ. Cells were manually selected on merged images and Coloc2 plugin were used to calculate colocalization coefficients Rval, tM1, tM2, bTau, Rs ((\cite{rueden2017imagej2})). Statistical analysis was performed in R (\cite{team2014r}).}
 \centering
 \begin{tabular}{l|rrrr}
   \hline
@@ -181,9 +187,9 @@ NULL &  &  & 115 & 68.13 &  \\
   Then cells were incubated for 4 h for adhesion and and the plate was transferred to CQ1 automated cytometer, where 40 fields of view were recorded within 24 hours from each well.
   Tracks were manually collected from recorded images in ImageJ and passed to R for analysis with trajr package (\cite{mclean2018trajr}).}
 \centering
-\begin{tabular}{l|ccc}
+\begin{tabular}{|c|l|c|c|}
     \hline
- Passage number & Parameter & W & P-value \\
+ Passage & Parameter & W & P-value \\
    \hline
 9 & mean speed & 0.96942 & 0.0008038 \\
 9 & max speed & 0.97546 &  0.003996 \\
@@ -207,18 +213,17 @@ NULL &  &  & 115 & 68.13 &  \\
 \end{table}
 
 \begin{table}[hbt!]
-  \caption{Superose 6 column calibration protein set. FPLC system equipped with Superose 6 column was used.
-Elution was performed with elution buffer (150 mM NaCl, 50 mM Tris, pH 7.5, 0.02\% $NaN_3$).
-  Signal detection was performed using Millichrome A-02 detection unit.}
+  \caption{Gel-chromatography column calibration protein kit for FPLC system equipped with Superose 6 column.
+Elution buffer: 150 mM NaCl, 50 mM Tris, pH 7.5, 0.02\% $NaN_3$.
+}
 \centering
-\begin{tabular}{l|c|}
- Protein & Molecular weight (Mr), kDa  \\
+\begin{tabular}{|l|c|}
+ Protein & Molecular weight, kDa  \\
  \hline
- Ovalbumin & 43 \\
+ Bovine erythrocytes Ovalbumin & 43 \\
  Horse spleen Thyroglobulin & 669 \\
  Rabbit muscle Ferritin & 440 \\
  Chicken egg white Aldolase & 158 \\
- Bovine erythrocytes Ovalbumin & 43 \\
  Bovine lung Ribonuclease A & 13.7
 \end{tabular}
 \begin{tablenotes}
@@ -228,11 +233,13 @@ Elution was performed with elution buffer (150 mM NaCl, 50 mM Tris, pH 7.5, 0.02
 
 \section*{Figures}
 
+\iffalse
 \begin{figure}[hbt!]
   \includegraphics[width=1\linewidth]{supp1.jpeg}
   \caption{}
   \centering
 \end{figure}
+\fi
 
 \begin{figure}[hbt!]
   \includegraphics[width=1\linewidth]{supp2.jpg}
@@ -242,6 +249,12 @@ Elution was performed with elution buffer (150 mM NaCl, 50 mM Tris, pH 7.5, 0.02
 
 \begin{figure}[hbt!]
   \includegraphics[width=1\linewidth]{qqplot.jpg}
+  \caption{}
+  \centering
+\end{figure}
+
+\begin{figure}[hbt!]
+  \includegraphics[width=1\linewidth]{stoke.jpg}
   \caption{}
   \centering
 \end{figure}

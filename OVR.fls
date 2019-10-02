@@ -505,11 +505,6 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-R
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Regular-T1-TLF--base.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-Regular-T1-TLF.vf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Regular-T1-TLF--base.tfm
-INPUT supp1.jpeg
-INPUT .\supp1.jpeg
-INPUT .\supp1.jpeg
-INPUT .\supp1.jpeg
-INPUT .\supp1.jpeg
 INPUT supp2.jpg
 INPUT .\supp2.jpg
 INPUT .\supp2.jpg
@@ -520,11 +515,21 @@ INPUT .\qqplot.jpg
 INPUT .\qqplot.jpg
 INPUT .\qqplot.jpg
 INPUT .\qqplot.jpg
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-Heavy-T1-TLF.vf
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Heavy-T1-TLF--base.tfm
+INPUT stoke.jpg
+INPUT .\stoke.jpg
+INPUT .\stoke.jpg
+INPUT .\stoke.jpg
+INPUT .\stoke.jpg
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\newtxsf\ntxsfmi.vf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtxsf\zsfmi-reg.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\txfonts\rtxmi.tfm
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\newtxsf\ntxsfmia.vf
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtxsf\zsfmia-reg.tfm
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\txfonts\txsyc.tfm
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\txfonts\txmia.tfm
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\txfonts\txsyb.tfm
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-Heavy-T1-TLF.vf
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Heavy-T1-TLF--base.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\newtxsf\ntxsfmia.vf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtxsf\zsfmia-reg.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\txfonts\txsyc.tfm
@@ -544,11 +549,6 @@ INPUT OVR.bbl
 INPUT OVR.bbl
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Italic-T1-TLF.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Bold-T1-TLF.tfm
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\newtxsf\ntxsfmia.vf
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtxsf\zsfmia-reg.tfm
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\txfonts\txsyc.tfm
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\txfonts\txmia.tfm
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\txfonts\txsyb.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-Italic-T1-TLF.vf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Italic-T1-TLF--base.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-Bold-T1-TLF.vf

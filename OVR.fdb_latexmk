@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex OVR"] 1570012175 "OVR.aux" "OVR.bbl" "OVR" 1570012194
+["bibtex OVR"] 1570016173 "OVR.aux" "OVR.bbl" "OVR" 1570016184
   "./rss.bst" 1568243248 28273 d1fc7c677ccbb43865e3f2faa61fa9d4 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "OVR.aux" 1570012190 5974 a42d0fd1ebc904b1fdf9214c1a0d369e "pdflatex"
+  "OVR.aux" 1570016181 5996 3b209a8de98bbbacb4f23ad575a250d9 "pdflatex"
   "mybib.bib" 1570010080 83037 5e5ab11bf3f2949eb022c6407901607a ""
   (generated)
-  "OVR.blg"
   "OVR.bbl"
-["pdflatex"] 1570012178 "OVR.tex" "OVR.pdf" "OVR" 1570012194
+  "OVR.blg"
+["pdflatex"] 1570016174 "OVR.tex" "OVR.pdf" "OVR" 1570016184
   "C:/Users/1/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1568888313 4243260 2031522b3f75818a8332505a00fc7e80 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1568903279 225322 0d7d57d7a3068ea3a17e19274486d436 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lato/a_cl4kdn.enc" 1561405511 2908 33404fff2a7b8e169974e96af0be5333 ""
@@ -254,9 +254,9 @@
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty" 1463135581 57049 34128738f682d033422ca125f82e5d62 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xkeyval/xkeyval.sty" 1419270738 5114 9c1069474ff71dbc47d5006555e352d3 ""
-  "OVR.aux" 1570012190 5974 a42d0fd1ebc904b1fdf9214c1a0d369e "pdflatex"
-  "OVR.bbl" 1570012176 2315 4b791a57f18314a1ad2ad61a83e06708 "bibtex OVR"
-  "OVR.tex" 1570012161 25009 3f0eebb96e84f27317855ed8535b74d9 ""
+  "OVR.aux" 1570016181 5996 3b209a8de98bbbacb4f23ad575a250d9 "pdflatex"
+  "OVR.bbl" 1570016174 2315 4b791a57f18314a1ad2ad61a83e06708 "bibtex OVR"
+  "OVR.tex" 1570016161 24908 79d1a161da7af27458dd381702b5a0bd ""
   "dashrule.sty" 1570004493 1914 af9874e3abd0c18e3a98a1d51687a667 ""
   "enotez.sty" 1570004493 38184 1480b78a33e1c6a890f62163fc410122 ""
   "lato.sty" 1570004493 4717 0ba40ad77d1a64ac75af8e74b410ae62 ""
@@ -266,13 +266,13 @@
   "qqplot.jpg" 1569335703 111611 5da1ec00b5757de2375823d820d03bf6 ""
   "quoting.sty" 1570004493 3987 983dbc0726b5dfe128878b7d57f3c19f ""
   "silence.sty" 1570004493 18212 358c5f05d1760d4ae8ea8c0f4181ddc1 ""
-  "supp1.jpeg" 1565691692 315082 19467261fb06c1c57345caee69a45c60 ""
+  "stoke.jpg" 1570012803 69210 b543bb83f09862906fcb1eb47598debf ""
   "supp2.jpg" 1569864952 165188 f0036f648285fd929f38bbf300c6b2a8 ""
   "threeparttable.sty" 1570004493 13885 dc621998178dfb8b4add5261fa0eba5c ""
   "translations.sty" 1570004493 42954 e16517ba7d955fed2615ef4896871812 ""
   "wiley-article.cls" 1568244479 20085 d050ed5138313743da856847194e9119 ""
   "xpatch.sty" 1570004493 8516 a5b67f9a435dc2b965229e94ca94f1dc ""
   (generated)
-  "OVR.log"
   "OVR.pdf"
   "OVR.aux"
+  "OVR.log"
