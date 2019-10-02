@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  2 OCT 2019 14:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  2 OCT 2019 15:33
 entering extended mode
 **./OVR.tex
 (OVR.tex
@@ -1770,10 +1770,10 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [1
 
 {C:/Users/1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<supp2.jpg, id=12, 758.835pt x 1011.78pt>
-File: supp2.jpg Graphic file (type jpg)
-<use supp2.jpg>
-Package pdftex.def Info: supp2.jpg  used on input line 245.
+<supp1.jpg, id=12, 758.835pt x 1011.78pt>
+File: supp1.jpg Graphic file (type jpg)
+<use supp1.jpg>
+Package pdftex.def Info: supp1.jpg  used on input line 245.
 (pdftex.def)             Requested size: 405.16722pt x 540.22398pt.
 <qqplot.jpg, id=13, 758.835pt x 1011.78pt>
 File: qqplot.jpg Graphic file (type jpg)
@@ -1790,9 +1790,10 @@ Package pdftex.def Info: stoke.jpg  used on input line 257.
 LaTeX Warning: Text page 3 contains only floats.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \vbox (5.32771pt too high) has occurred while \output is active []
 
- [3]
+
+[3]
 
 LaTeX Warning: Text page 4 contains only floats.
 
@@ -1808,7 +1809,7 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <8> not available
 .
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 8.0pt on input line 12.
-) [5] [6 <./supp2.jpg>] [7 <./qqplot.jpg>] [8 <./stoke.jpg>] (OVR.aux)
+) [5] [6 <./supp1.jpg>] [7 <./qqplot.jpg>] [8 <./stoke.jpg>] (OVR.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.33328pt have occurred.
@@ -1820,7 +1821,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  36741 strings out of 492895
  732171 string characters out of 3125603
- 814874 words of memory out of 3000000
+ 814922 words of memory out of 3000000
  40025 multiletter control sequences out of 15000+200000
  1220671 words of font info for 205 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1836,7 +1837,7 @@ type1/typoland/lato/Lato-Regular.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX
 rams/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/1/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/public/newtxsf/zsfmi-reg.pfb><C:/Users/1/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/public/newtxsf/zsfmia-reg.pfb>
-Output written on OVR.pdf (8 pages, 489747 bytes).
+Output written on OVR.pdf (8 pages, 493638 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

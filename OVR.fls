@@ -505,11 +505,11 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-R
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Regular-T1-TLF--base.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-Regular-T1-TLF.vf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Regular-T1-TLF--base.tfm
-INPUT supp2.jpg
-INPUT .\supp2.jpg
-INPUT .\supp2.jpg
-INPUT .\supp2.jpg
-INPUT .\supp2.jpg
+INPUT supp1.jpg
+INPUT .\supp1.jpg
+INPUT .\supp1.jpg
+INPUT .\supp1.jpg
+INPUT .\supp1.jpg
 INPUT qqplot.jpg
 INPUT .\qqplot.jpg
 INPUT .\qqplot.jpg

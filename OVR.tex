@@ -66,7 +66,7 @@
 
 MSCWJ-1 cells were grown on glasses, fixed and permeabilised at passages: 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36. Cells were stained with polyclonal antibodies against synthetic peptide corresponding to amino acids 1949-1960 of human nonmuscle myosin IIA and Alexa 488 secondary anti-rabbit antibodies. Rhodamine phalloidin was used to stain actin cytoskeleton. Colocalization coefficients calculated in Coloc2 ImageJ plugin: Rs, Rval, tM1, tM2, bTau ((\cite{rueden2017imagej2})).
 Data collected in two channels from manually selected MSCWJ-1 cells as ROIs in confocal images and passed to R for make a matrix of plot with a given data set (\cite{emerson2013generalized}).
-PCA factor map (A) and scree plot (B) for myosin-9/F-actin colocolization coefficients. Correlation plots for myosin-9/F-actin (C) and alpha-actinin-4/F-actin colocalization coefficients. (E) Pairwise comparison post hoc tests for myosin-9/F-actin bTau colocalization coefficient, In the course of all-pairs comparisons of colocalization data post hoc multiple testing corrections were used to adjust the P-values: Bonferroni method, Scheffe’s, and Dunn’s tests).
+PCA factor map (A) and scree plot (B) for myosin-9/F-actin colocolization coefficients. Correlation plots for myosin-9/F-actin (C) and alpha-actinin-4 (D) colocalization coefficients. (E) Pairwise comparison post hoc tests for myosin-9/F-actin bTau colocalization coefficient, In the course of all-pairs comparisons of colocalization data post hoc multiple testing corrections were used to adjust the P-values: Bonferroni method, Scheffe’s, and Dunn’s tests).
 The results were visualized using the free Python computing software environment and the scikit-posthocs package (\cite{Terpilowski2019}).
 
 \subsection*{Figure S2}
@@ -126,15 +126,15 @@ Uniqueness &  0.198 & 0.159 & 0.039 & 0.005 & 0.024 \\
     \hline
  Colocalization coefficient & chi-squared & df & p-value  \\
    \hline
- Kendall's Tau-b & 34.669 & 10 & 0.0001422 \\
- Spearman's R & 34.373 & 10 &  0.0001596 \\
- Manders' M & 16.107 & 10 & 0.09661 \\
- Pearson's R & 15.152 & 10 & 0.1266
+ Tau-b & 34.669 & 10 & 0.0001422 \\
+ Rs & 34.373 & 10 &  0.0001596 \\
+ tM1 & 16.107 & 10 & 0.09661 \\
+ Pval & 15.152 & 10 & 0.1266
 \end{tabular}
 \end{table}
 
 \begin{table}[hbt!]
-  \caption{Logistic regression with myosin-9/F-actin colocalization coefficients as predictors and passage numger as fitted values. Cells were grown on glasses, fixed and permeabilised at passages 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36. F-actin and myosin-9 were stained with specific antibodies, confocal images were passed to ImageJ. Cells were manually selected on merged images and Coloc2 plugin were used to calculate colocalization coefficients Rval, tM1, tM2, bTau, Rs ((\cite{rueden2017imagej2})). Statistical analysis was performed in R (\cite{team2014r}).}
+  \caption{Logistic regression with myosin-9/F-actin colocalization coefficients as predictors and WJMSC1 passage number as fitted value. Cells were grown on glasses, fixed and permeabilised at passages 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36. F-actin and myosin-9 were stained with specific antibodies, confocal images were passed to ImageJ. Cells were manually selected on merged images and Coloc2 plugin were used to calculate colocalization coefficients Rval, tM1, tM2, bTau, Rs ((\cite{rueden2017imagej2})). Statistical analysis was performed in R (\cite{team2014r}). * p < 0.05}
 \centering
 \begin{tabular}{lrrrrr}
   \hline
@@ -168,7 +168,7 @@ NULL &  &  & 115 & 68.13 &  \\
 \end{table}
 
 \begin{table}[hbt!]
-  \caption{Logistic regression with RhoA/Hoechst33342 colocalization coefficients as predictors and passage numger as fitted values. Cells were grown on glasses, fixed and permeabilised at passages 9, 15, 28, 36. $\alpha$-actinin-4 was stained with specific antibodies, confocal images were passed to ImageJ. Cells were manually selected on merged images and Coloc2 plugin were used to calculate colocalization coefficients Rval, tM1, tM2, bTau, Rs ((\cite{rueden2017imagej2})). Statistical analysis was performed in R (\cite{team2014r}).}
+  \caption{Logistic regression with RhoA/Hoechst33342 colocalization coefficients as predictors and passage numger as fitted values. Cells were grown on glasses, fixed and permeabilised at passages 9, 15, 28, 36. $\alpha$-actinin-4 was stained with specific antibodies, confocal images were passed to ImageJ. Cells were manually selected on merged images and Coloc2 plugin were used to calculate colocalization coefficients Rval, tM1, tM2, bTau, Rs ((\cite{rueden2017imagej2})). Statistical analysis was performed in R (\cite{team2014r}). ** p < 0.005, *** p < 0.001}
 \centering
 \begin{tabular}{l|rrrr}
   \hline
@@ -242,7 +242,7 @@ Elution buffer: 150 mM NaCl, 50 mM Tris, pH 7.5, 0.02\% $NaN_3$.
 \fi
 
 \begin{figure}[hbt!]
-  \includegraphics[width=1\linewidth]{supp2.jpg}
+  \includegraphics[width=1\linewidth]{supp1.jpg}
   \caption{}
   \centering
 \end{figure}
