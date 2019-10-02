@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex myo"] 1570016350 "myo.aux" "myo.bbl" "myo" 1570029881
+["bibtex myo"] 1570040341 "myo.aux" "myo.bbl" "myo" 1570040357
   "./rss.bst" 1568243248 28273 d1fc7c677ccbb43865e3f2faa61fa9d4 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "mybib.bib" 1570010080 83037 5e5ab11bf3f2949eb022c6407901607a ""
-  "myo.aux" 1570029878 14986 643053b4032adeab5e357c4a5d814ec2 "pdflatex"
+  "mybib.bib" 1570038943 84713 0a830a1db34b5db8fd52abade0d80f7b ""
+  "myo.aux" 1570040354 15596 b3dad521b9ff18fe1136f37115e0f793 "pdflatex"
   (generated)
-  "myo.bbl"
   "myo.blg"
-["pdflatex"] 1570029870 "myo.tex" "myo.pdf" "myo" 1570029881
+  "myo.bbl"
+["pdflatex"] 1570040342 "myo.tex" "myo.pdf" "myo" 1570040357
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/latt0800.pk" 1565462819 14360 24a444e5ca576b448b94c391aaa549d9 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/larm0800.tfm" 1563465479 3240 04766e423166ba63b7fbbf132b8618cb ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/latt0800.tfm" 1565462814 1272 2a21550efcb075c108e98819097de5c8 ""
@@ -293,10 +293,10 @@
   "lato.sty" 1570004493 4717 0ba40ad77d1a64ac75af8e74b410ae62 ""
   "md-frame-1.mdf" 1570004493 25307 f97393fd984d0c7ee0f5971e04db8fc7 ""
   "mdframed.sty" 1570004493 55179 7069e8f55fec6e9634881cb9a008ebcc ""
-  "myo.aux" 1570029878 14986 643053b4032adeab5e357c4a5d814ec2 "pdflatex"
-  "myo.bbl" 1570016351 27891 b9dbba4a8f1e373298c66950cdc82097 "bibtex myo"
-  "myo.tex" 1570029865 50524 d8228505a7e592df0b36ae9a5348aac1 ""
-  "myosin-9.jpg" 1570019750 278767 7af31a59c9f85293759703bbc866aff7 ""
+  "myo.aux" 1570040354 15596 b3dad521b9ff18fe1136f37115e0f793 "pdflatex"
+  "myo.bbl" 1570040341 29342 ae9cb94a1706b4dfc95e6f8156c3615d "bibtex myo"
+  "myo.tex" 1570040299 51376 6156330a5648bb6bc41ef67d9573dffd ""
+  "myosin-9.jpg" 1570040033 281418 9382a3bd5deb2839a8aac2c030ee3779 ""
   "needspace.sty" 1570004493 2659 c95cea214a7438990598c598a385bd28 ""
   "quoting.sty" 1570004493 3987 983dbc0726b5dfe128878b7d57f3c19f ""
   "rho-3d.jpg" 1569919854 232217 e6c4ca341b7c3818c404c702596d8953 ""

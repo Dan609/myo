@@ -1,4 +1,4 @@
-\begin{thebibliography}{79}
+\begin{thebibliography}{83}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -16,6 +16,13 @@ Alessio, N., Pipino, C., Mandatori, D., Di~Tomo, P., Ferone, A., Marchiso, M.,
   stromal cells from amniotic fluid are less prone to senescence compared to
   those obtained from bone marrow: an in vitro study.
 \newblock \textit{Journal of cellular physiology}, \textbf{233}, 8996--9006.
+
+\bibitem[{Alonso et~al.(2015)Alonso, Greenlee, Matts, Kline, Davis and
+  Miller}]{alonso2015emerging}
+Alonso, A., Greenlee, M., Matts, J., Kline, J., Davis, K.~J. and Miller, R.~K.
+  (2015) Emerging roles of sumoylation in the regulation of actin,
+  microtubules, intermediate filaments, and septins.
+\newblock \textit{Cytoskeleton}, \textbf{72}, 305--339.
 
 \bibitem[{An et~al.(2016)An, Yoo and Ko}]{an2016alpha}
 An, H., Yoo, S. and Ko, J. (2016) $\alpha$-actinin-4 induces the
@@ -199,6 +206,12 @@ Hendijani, F., Javanmard, S.~H. and Sadeghi-aliabadi, H. (2015{\natexlab{b}})
   effect in combination with doxorubicin.
 \newblock \textit{Tissue and Cell}, \textbf{47}, 229--234.
 
+\bibitem[{Hofmann et~al.(2009)Hofmann, Arduini, Nicol, Camacho, Lessard,
+  Fuller-Pace and de~Lanerolle}]{hofmann2009sumoylation}
+Hofmann, W.~A., Arduini, A., Nicol, S.~M., Camacho, C.~J., Lessard, J.~L.,
+  Fuller-Pace, F.~V. and de~Lanerolle, P. (2009) Sumoylation of nuclear actin.
+\newblock \textit{The Journal of cell biology}, \textbf{186}, 193--200.
+
 \bibitem[{Hsu and Kao(2013)}]{hsu2013alpha}
 Hsu, K.-S. and Kao, H.-Y. (2013) Alpha-actinin 4 and tumorigenesis of breast
   cancer.
@@ -223,6 +236,11 @@ Husson, F., L{\^e}, S. and Pages, J. (2010) Exploratory multivariate analysis
   by example using r, volume 20105550 of chapman \& hall/crc computer science
   \& data analysis.
 \newblock \textit{CRC Press}, \textbf{30}, 101--102.
+
+\bibitem[{Huveneers and Danen(2009)}]{huveneers2009adhesion}
+Huveneers, S. and Danen, E.~H. (2009) Adhesion signaling--crosstalk between
+  integrins, src and rho.
+\newblock \textit{Journal of cell science}, \textbf{122}, 1059--1069.
 
 \bibitem[{Julianto and Rindastuti(2016)}]{julianto2016topical}
 Julianto, I. and Rindastuti, Y. (2016) Topical delivery of mesenchymal stem
@@ -378,6 +396,15 @@ Rueden, C.~T., Schindelin, J., Hiner, M.~C., DeZonia, B.~E., Walter, A.~E.,
 Sakashita, H., Ohashi, K., Ozawa, K. and Tsubouchi, Y. (2015) The cq1 confocal
   quantitative image cytometer and its application to biological measurement.
 \newblock \textit{Tech. rep.}, Yokogawa Technical Report English Edition.
+
+\bibitem[{Salah et~al.(2016)Salah, Li, Cacciani, Gastaldello, Ogilvie, Akkad,
+  Namuduri, Morbidoni, Artemenko, Balogh et~al.}]{salah2016chaperone}
+Salah, H., Li, M., Cacciani, N., Gastaldello, S., Ogilvie, H., Akkad, H.,
+  Namuduri, A.~V., Morbidoni, V., Artemenko, K.~A., Balogh, G. et~al. (2016)
+  The chaperone co-inducer bgp-15 alleviates ventilation-induced diaphragm
+  dysfunction.
+\newblock \textit{Science translational medicine}, \textbf{8},
+  350ra103--350ra103.
 
 \bibitem[{Savickien{\.e} et~al.(2016)Savickien{\.e}, Baronait{\.e},
   Zentelyt{\.e}, Treigyt{\.e} and Navakauskien{\.e}}]{savickiene2016senescence}
