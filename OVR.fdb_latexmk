@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex OVR"] 1570006823 "OVR.aux" "OVR.bbl" "OVR" 1570006838
-  "./vancouver-authoryear.bst" 1568243248 33949 1757543878dcff3f7f84b5569406f445 ""
+["bibtex OVR"] 1570012175 "OVR.aux" "OVR.bbl" "OVR" 1570012194
+  "./rss.bst" 1568243248 28273 d1fc7c677ccbb43865e3f2faa61fa9d4 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "OVR.aux" 1570006836 2939 fcba92ad4ece318c7f0f6c12f1233cdb "pdflatex"
-  "mybib.bib" 1569868332 82718 204c1ad429cf27abcc052d037edb9958 ""
+  "OVR.aux" 1570012190 5974 a42d0fd1ebc904b1fdf9214c1a0d369e "pdflatex"
+  "mybib.bib" 1570010080 83037 5e5ab11bf3f2949eb022c6407901607a ""
   (generated)
-  "OVR.bbl"
   "OVR.blg"
-["pdflatex"] 1570006825 "OVR.tex" "OVR.pdf" "OVR" 1570006838
+  "OVR.bbl"
+["pdflatex"] 1570012178 "OVR.tex" "OVR.pdf" "OVR" 1570012194
   "C:/Users/1/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1568888313 4243260 2031522b3f75818a8332505a00fc7e80 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1568903279 225322 0d7d57d7a3068ea3a17e19274486d436 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lato/a_cl4kdn.enc" 1561405511 2908 33404fff2a7b8e169974e96af0be5333 ""
@@ -65,6 +65,8 @@
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF.tfm" 1561405524 87492 7b51503c59ec74593309019708c7ca72 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/typoland/lato/Lato-Heavy-T1-TLF--base.tfm" 1561405521 1780 9aec4e68f3e0f282479ec6a32565aa5a ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/typoland/lato/Lato-Heavy-T1-TLF.tfm" 1561405521 84060 3b0fc14663feb7c4631b7af8efe33c98 ""
+  "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/typoland/lato/Lato-Italic-T1-TLF--base.tfm" 1561405513 1888 3ec6bb03fd856bf4662a97cf4e6d2192 ""
+  "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/typoland/lato/Lato-Italic-T1-TLF.tfm" 1561405513 89816 ab88f462f874ec440ebbf7ae64eb1968 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF--base.tfm" 1561405517 1740 a07ca8bf01c702c857120dc5d0acad8b ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF.tfm" 1561405517 87408 f973e06002751c62a44cc0a6b9479d71 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb" 1247596666 32442 c975af247b6702f7ca0c299af3616b80 ""
@@ -74,12 +76,14 @@
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/txfonts/rtxmi.pfb" 1231974540 13806 49b888f4605a088e66b9eb4fee320a6e ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/typoland/lato/Lato-Bold.pfb" 1561405441 440414 ec6de3b6221a394c74d6d39cdc088a6d ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/typoland/lato/Lato-Heavy.pfb" 1561405441 440406 5ffe520ffc64a3dbba0571f337f15654 ""
+  "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/typoland/lato/Lato-Italic.pfb" 1561405438 472156 b6b99a2d66beabd6363e56c51aacfbf1 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/typoland/lato/Lato-Regular.pfb" 1561405438 444904 1f1ab32cdb8ca0491b6a7f8d60cadacf ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/vf/public/newtx/ntxsy7.vf" 1496284307 1764 425418e1afcb32a2a62c4ea285958146 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/vf/public/newtxsf/ntxsfmi.vf" 1436009252 1412 808f1a3416b7ede85c04963421374653 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/vf/public/newtxsf/ntxsfmia.vf" 1436009250 1712 b0d77c0f0c4d06c0dbd41d5d811c6e51 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/vf/typoland/lato/Lato-Bold-T1-TLF.vf" 1561405524 1796 d561e276e9aaf4a3675188af3d5f02aa ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/vf/typoland/lato/Lato-Heavy-T1-TLF.vf" 1561405521 1796 f5a803f7bbec66adaca5c83c60534dd9 ""
+  "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/vf/typoland/lato/Lato-Italic-T1-TLF.vf" 1561405513 1800 49873db817ca461c96cadb7ac4d94beb ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/vf/typoland/lato/Lato-Regular-T1-TLF.vf" 1561405517 1800 bf51c780b92cccea55b4444e6eb9015c ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/mkii/supp-pdf.mkii" 1550860920 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/generic/bibtex/apalike.sty" 1291864383 3180 372a66da74f8a698280020b129e18da4 ""
@@ -250,9 +254,9 @@
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty" 1463135581 57049 34128738f682d033422ca125f82e5d62 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xkeyval/xkeyval.sty" 1419270738 5114 9c1069474ff71dbc47d5006555e352d3 ""
-  "OVR.aux" 1570006836 2939 fcba92ad4ece318c7f0f6c12f1233cdb "pdflatex"
-  "OVR.bbl" 1570006824 1654 3ab695c9147837795c9d69947d98b55a "bibtex OVR"
-  "OVR.tex" 1570006809 21734 d141677d0099daa71a38b2e3dc2f7506 ""
+  "OVR.aux" 1570012190 5974 a42d0fd1ebc904b1fdf9214c1a0d369e "pdflatex"
+  "OVR.bbl" 1570012176 2315 4b791a57f18314a1ad2ad61a83e06708 "bibtex OVR"
+  "OVR.tex" 1570012161 25009 3f0eebb96e84f27317855ed8535b74d9 ""
   "dashrule.sty" 1570004493 1914 af9874e3abd0c18e3a98a1d51687a667 ""
   "enotez.sty" 1570004493 38184 1480b78a33e1c6a890f62163fc410122 ""
   "lato.sty" 1570004493 4717 0ba40ad77d1a64ac75af8e74b410ae62 ""
@@ -270,5 +274,5 @@
   "xpatch.sty" 1570004493 8516 a5b67f9a435dc2b965229e94ca94f1dc ""
   (generated)
   "OVR.log"
-  "OVR.aux"
   "OVR.pdf"
+  "OVR.aux"

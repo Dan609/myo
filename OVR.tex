@@ -11,7 +11,7 @@
 % Use "num-refs" option for numerical citation and references style.
 % Use "alpha-refs" option for author-year citation and references style.
 
-\documentclass[num-refs]{wiley-article}
+\documentclass[alpha-refs]{wiley-article}
 % \documentclass[blind,alpha-refs]{wiley-article}
 
 % Add additional packages here if required
@@ -75,10 +75,11 @@ The results were visualized using the free Python computing software environment
 
 \subsection*{Figure Supp.3}
 
-QQ plots of MSCWJ-1 24 movement tracks analysis data. Observations are summarized for all passages.
-
-\bibliographystyle{apalike}
-\bibliography{mybib}
+QQ plots for MSCWJ-1 24 h tracks data.
+MSCWJ-1 cells were stained with Hoechst33342 and seeded in 6-well plate at passages 9, 15, 36.
+Then cells were incubated for 4 h for adhesion and and the plate was transferred to CQ1 automated cytometer, where 40 fields of view were recorded within 24 hours from each well.
+Tracks were manually collected from recorded images in ImageJ and passed to R for analysis with trajr package (\cite{mclean2018trajr}).
+Observations are summarized for all passages.
 
 \section*{Tables}
 
@@ -99,7 +100,7 @@ QQ plots of MSCWJ-1 24 movement tracks analysis data. Observations are summarize
 
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
 \begin{table}[hbt!]
-  \caption{PCA of myosin-9/F-actin colocalization data loadings for 2 factors}
+  \caption{Maximum-likelihood factor analysis on the myosin-9/F-actin colocalization data matrix for 2 factors (\cite{lawley1962factor}). Cells were grown on glasses, fixed and permeabilised at passages 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36. F-actin and myosin-9 were stained with specific antibodies, confocal images were passed to ImageJ. Cells were manually selected on merged images and Coloc2 plugin were used to calculate colocalization coefficients ((\cite{rueden2017imagej2})). Statistical analysis was performed in R using factanal function (\cite{team2014r}).}
 \centering
 \begin{tabular}{c|rrrrr}
   \hline
@@ -113,7 +114,7 @@ Uniqueness &  0.198 & 0.159 & 0.039 & 0.005 & 0.024 \\
 \end{table}
 
 \begin{table}[hbt!]
-  \caption{Kruskal-Wallis rank sum test results for myosin-9/F-actin colocalization coefficients}
+  \caption{Kruskal-Wallis rank sum test results for myosin-9/F-actin colocalization coefficients. Cells were grown on glasses, fixed and permeabilised at passages 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36. F-actin and myosin-9 were stained with specific antibodies, confocal images were passed to ImageJ. Cells were manually selected on merged images and Coloc2 plugin were used to calculate colocalization coefficients ((\cite{rueden2017imagej2})). Statistical analysis was performed in R (\cite{team2014r}).}
 \centering
 \begin{tabular}{l|ccc}
     \hline
@@ -127,7 +128,7 @@ Uniqueness &  0.198 & 0.159 & 0.039 & 0.005 & 0.024 \\
 \end{table}
 
 \begin{table}[hbt!]
-  \caption{Logistic regression with myosin-9/F-actin colocalization coefficients as predictors and passage numger as fitted values}
+  \caption{Logistic regression with myosin-9/F-actin colocalization coefficients as predictors and passage numger as fitted values. Cells were grown on glasses, fixed and permeabilised at passages 7, 9, 12, 15, 18, 21, 25, 27, 28, 35, 36. F-actin and myosin-9 were stained with specific antibodies, confocal images were passed to ImageJ. Cells were manually selected on merged images and Coloc2 plugin were used to calculate colocalization coefficients ((\cite{rueden2017imagej2})). Statistical analysis was performed in R (\cite{team2014r}).}
 \centering
 \begin{tabular}{lrrrrr}
   \hline
@@ -144,7 +145,7 @@ NULL &  &  & 115 & 68.13 &  \\
 \end{table}
 
 \begin{table}[hbt!]
-  \caption{Logistic regression with $\alpha$-actinin-4/Hoechst33342 colocalization coefficients as predictors and passage numbers as fitted values}
+  \caption{Logistic regression with $\alpha$-actinin-4/Hoechst33342 colocalization coefficients as predictors and passage numbers as fitted values. Cells were grown on glasses, fixed and permeabilised at passages 9, 15, 28, 36. $\alpha$-actinin-4 was stained with specific antibodies, confocal images were passed to ImageJ. Cells were manually selected on merged images and Coloc2 plugin were used to calculate colocalization coefficients ((\cite{rueden2017imagej2})). Statistical analysis was performed in R (\cite{team2014r}).}
 \centering
 \begin{tabular}{rrrrr}
   \hline
@@ -161,7 +162,7 @@ NULL &  &  & 115 & 68.13 &  \\
 \end{table}
 
 \begin{table}[hbt!]
-  \caption{Logistic regression with RhoA/Hoechst33342 colocalization coefficients as predictors and passage numger as fitted values}
+  \caption{Logistic regression with RhoA/Hoechst33342 colocalization coefficients as predictors and passage numger as fitted values. Cells were grown on glasses, fixed and permeabilised at passages 9, 15, 28, 36. $\alpha$-actinin-4 was stained with specific antibodies, confocal images were passed to ImageJ. Cells were manually selected on merged images and Coloc2 plugin were used to calculate colocalization coefficients ((\cite{rueden2017imagej2})). Statistical analysis was performed in R (\cite{team2014r}).}
 \centering
 \begin{tabular}{l|rrrr}
   \hline
@@ -176,7 +177,9 @@ NULL &  &  & 115 & 68.13 &  \\
 \end{table}
 
 \begin{table}[hbt!]
-  \caption{Shapiro-Wilk normality test for MSCWJ-1 24 h trajectory analysis data}
+  \caption{Shapiro-Wilk normality test for MSCWJ-1 24 h trajectory analysis data. MSCWJ-1 cells were stained with Hoechst33342 and seeded in 6-well plate at passages 9, 15, 36.
+  Then cells were incubated for 4 h for adhesion and and the plate was transferred to CQ1 automated cytometer, where 40 fields of view were recorded within 24 hours from each well.
+  Tracks were manually collected from recorded images in ImageJ and passed to R for analysis with trajr package (\cite{mclean2018trajr}).}
 \centering
 \begin{tabular}{l|ccc}
     \hline
@@ -204,7 +207,9 @@ NULL &  &  & 115 & 68.13 &  \\
 \end{table}
 
 \begin{table}[hbt!]
-  \caption{Superose 6 column calibration protein set}
+  \caption{Superose 6 column calibration protein set. FPLC system equipped with Superose 6 column was used.
+Elution was performed with elution buffer (150 mM NaCl, 50 mM Tris, pH 7.5, 0.02\% $NaN_3$).
+  Signal detection was performed using Millichrome A-02 detection unit.}
 \centering
 \begin{tabular}{l|c|}
  Protein & Molecular weight (Mr), kDa  \\
@@ -242,6 +247,11 @@ NULL &  &  & 115 & 68.13 &  \\
 \end{figure}
 
 \printendnotes
+
+\newpage
+
+\bibliographystyle{apalike}
+\bibliography{mybib}
 
 % Submissions are not required to reflect the precise reference formatting of the journal (use of italics, bold etc.), however it is important that all key elements of each reference are included.
 % \bibliography{sample}
@@ -432,7 +442,6 @@ Age at testing & 38 & 58 & 504.48 & 58 ms\\
 \end{tablenotes}
 \end{threeparttable}
 \end{table}
-
 
 Trade names should be capitalized. The manufacturer's name should be followed by an address including town, (state, if USA) and country.
 

@@ -484,8 +484,6 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbsy10.t
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtxsf\ntxsfmia.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\ntxsym.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\ntxexa.tfm
-INPUT OVR.bbl
-INPUT OVR.bbl
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Regular-T1-TLF.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Regular-T1-TLF.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Regular-T1-TLF.tfm
@@ -542,12 +540,27 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\txfonts\rtxm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\newtx\ntxsy7.vf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\txsys.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\txex-bar.tfm
+INPUT OVR.bbl
+INPUT OVR.bbl
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Italic-T1-TLF.tfm
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Bold-T1-TLF.tfm
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\newtxsf\ntxsfmia.vf
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtxsf\zsfmia-reg.tfm
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\txfonts\txsyc.tfm
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\txfonts\txmia.tfm
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\txfonts\txsyb.tfm
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-Italic-T1-TLF.vf
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Italic-T1-TLF--base.tfm
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-Bold-T1-TLF.vf
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Bold-T1-TLF--base.tfm
 INPUT OVR.aux
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lato\a_cl4kdn.enc
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\typoland\lato\Lato-Bold.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\typoland\lato\Lato-Bold.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\typoland\lato\Lato-Heavy.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\typoland\lato\Lato-Heavy.pfb
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\typoland\lato\Lato-Italic.pfb
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\typoland\lato\Lato-Italic.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\typoland\lato\Lato-Regular.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\typoland\lato\Lato-Regular.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy9.pfb

@@ -1,37 +1,52 @@
-\begin{thebibliography}{5}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\providecommand{\urlprefix}{}
+\begin{thebibliography}{8}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL: }\fi
 
-\bibitem[{Rueden et~al.(2017)Rueden, Curtis T and Schindelin, Johannes and
-  Hiner, Mark C and DeZonia, Barry E and Walter, Alison E and Arena, Ellen T
-  and Eliceiri, Kevin W}]{rueden2017imagej2}
-Rueden CT, Schindelin J, Hiner MC, DeZonia BE, Walter AE, Arena ET, et~al.
-\newblock ImageJ2: ImageJ for the next generation of scientific image data.
-\newblock BMC bioinformatics 2017;18(1):529.
+\bibitem[{Emerson et~al.(2013)Emerson, Green, Schloerke, Crowley, Cook, Hofmann
+  and Wickham}]{emerson2013generalized}
+Emerson, J.~W., Green, W.~A., Schloerke, B., Crowley, J., Cook, D., Hofmann, H.
+  and Wickham, H. (2013) The generalized pairs plot.
+\newblock \textit{Journal of Computational and Graphical Statistics},
+  \textbf{22}, 79--91.
 
-\bibitem[{Emerson et~al.(2013)Emerson, John W and Green, Walton A and
-  Schloerke, Barret and Crowley, Jason and Cook, Dianne and Hofmann, Heike and
-  Wickham, Hadley}]{emerson2013generalized}
-Emerson JW, Green WA, Schloerke B, Crowley J, Cook D, Hofmann H, et~al.
-\newblock The generalized pairs plot.
-\newblock Journal of Computational and Graphical Statistics 2013;22(1):79--91.
+\bibitem[{Hinkle et~al.(2003)Hinkle, Wiersma and Jurs}]{hinkle2003applied}
+Hinkle, D.~E., Wiersma, W. and Jurs, S.~G. (2003) \textit{Applied statistics
+  for the behavioral sciences}, vol. 663.
+\newblock Houghton Mifflin College Division.
 
-\bibitem[{Terpilowski(2019)Terpilowski, Maksim}]{Terpilowski2019}
-Terpilowski M.
-\newblock scikit-posthocs: Pairwise multiple comparison tests in Python.
-\newblock The Journal of Open Source Software 2019;4(36):1169.
+\bibitem[{Lawley and Maxwell(1962)}]{lawley1962factor}
+Lawley, D.~N. and Maxwell, A.~E. (1962) Factor analysis as a statistical
+  method.
+\newblock \textit{Journal of the Royal Statistical Society. Series D (The
+  Statistician)}, \textbf{12}, 209--229.
 
-\bibitem[{Hinkle et~al.(2003)Hinkle, Dennis E and Wiersma, William and Jurs,
-  Stephen G}]{hinkle2003applied}
-Hinkle DE, Wiersma W, Jurs SG.
-\newblock Applied statistics for the behavioral sciences, vol. 663.
-\newblock Houghton Mifflin College Division; 2003.
+\bibitem[{McLean and Skowron~Volponi(2018)}]{mclean2018trajr}
+McLean, D.~J. and Skowron~Volponi, M.~A. (2018) trajr: An r package for
+  characterisation of animal trajectories.
+\newblock \textit{Ethology}, \textbf{124}, 440--448.
 
-\bibitem[{Mukaka(2012)Mukaka, Mavuto M}]{mukaka2012guide}
-Mukaka MM.
-\newblock A guide to appropriate use of correlation coefficient in medical
-  research.
-\newblock Malawi Medical Journal 2012;24(3):69--71.
+\bibitem[{Mukaka(2012)}]{mukaka2012guide}
+Mukaka, M.~M. (2012) A guide to appropriate use of correlation coefficient in
+  medical research.
+\newblock \textit{Malawi Medical Journal}, \textbf{24}, 69--71.
+
+\bibitem[{Rueden et~al.(2017)Rueden, Schindelin, Hiner, DeZonia, Walter, Arena
+  and Eliceiri}]{rueden2017imagej2}
+Rueden, C.~T., Schindelin, J., Hiner, M.~C., DeZonia, B.~E., Walter, A.~E.,
+  Arena, E.~T. and Eliceiri, K.~W. (2017) Imagej2: Imagej for the next
+  generation of scientific image data.
+\newblock \textit{BMC bioinformatics}, \textbf{18}, 529.
+
+\bibitem[{Team et~al.(2014)}]{team2014r}
+Team, R.~C. et~al. (2014) R: A language and environment for statistical
+  computing.
+\newblock \textit{R}.
+
+\bibitem[{Terpilowski(2019)}]{Terpilowski2019}
+Terpilowski, M. (2019) scikit-posthocs: Pairwise multiple comparison tests in
+  python.
+\newblock \textit{The Journal of Open Source Software}, \textbf{4}, 1169.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-# Cytoskeletal and motility changes in human umbilical cord MSCs associated with nuclear-cytoplasmic RhoА redistribution during replicative senescence.
+# Cytoskeletal and motility changes in human umbilical cord MSCs associated with nuclear-cytoplasmic RhoА redistribution during replicative senescence. Danila Bobkov et al., 2019.
 
 Data and scrips used to generate the statistical analyses of protein colocalization and cell motility data.
 
