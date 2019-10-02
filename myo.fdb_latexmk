@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex myo"] 1570016350 "myo.aux" "myo.bbl" "myo" 1570019779
+["bibtex myo"] 1570016350 "myo.aux" "myo.bbl" "myo" 1570020001
   "./rss.bst" 1568243248 28273 d1fc7c677ccbb43865e3f2faa61fa9d4 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
   "mybib.bib" 1570010080 83037 5e5ab11bf3f2949eb022c6407901607a ""
-  "myo.aux" 1570019776 14986 643053b4032adeab5e357c4a5d814ec2 "pdflatex"
+  "myo.aux" 1570019998 14986 643053b4032adeab5e357c4a5d814ec2 "pdflatex"
   (generated)
-  "myo.bbl"
   "myo.blg"
-["pdflatex"] 1570019769 "myo.tex" "myo.pdf" "myo" 1570019779
+  "myo.bbl"
+["pdflatex"] 1570019991 "myo.tex" "myo.pdf" "myo" 1570020001
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/latt0800.pk" 1565462819 14360 24a444e5ca576b448b94c391aaa549d9 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/larm0800.tfm" 1563465479 3240 04766e423166ba63b7fbbf132b8618cb ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/latt0800.tfm" 1565462814 1272 2a21550efcb075c108e98819097de5c8 ""
@@ -286,16 +286,16 @@
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/was/gensymb.sty" 1081497500 4755 29d19942d7123701aa6a3876b9ba11b1 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty" 1463135581 57049 34128738f682d033422ca125f82e5d62 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xkeyval/xkeyval.sty" 1419270738 5114 9c1069474ff71dbc47d5006555e352d3 ""
-  "alpha-actinin-4.jpg" 1569856709 259909 d3f5f029c2bef62cf09cb40eafdb3edb ""
+  "alpha-actinin-4.jpg" 1570019971 253201 69ae4b5bf35805b71cf9467278d08160 ""
   "dashrule.sty" 1570004493 1914 af9874e3abd0c18e3a98a1d51687a667 ""
   "enotez.sty" 1570004493 38184 1480b78a33e1c6a890f62163fc410122 ""
   "fplc.jpg" 1569941511 178972 c14acf50bba0d3bcd37f313c61741e6d ""
   "lato.sty" 1570004493 4717 0ba40ad77d1a64ac75af8e74b410ae62 ""
   "md-frame-1.mdf" 1570004493 25307 f97393fd984d0c7ee0f5971e04db8fc7 ""
   "mdframed.sty" 1570004493 55179 7069e8f55fec6e9634881cb9a008ebcc ""
-  "myo.aux" 1570019776 14986 643053b4032adeab5e357c4a5d814ec2 "pdflatex"
+  "myo.aux" 1570019998 14986 643053b4032adeab5e357c4a5d814ec2 "pdflatex"
   "myo.bbl" 1570016351 27891 b9dbba4a8f1e373298c66950cdc82097 "bibtex myo"
-  "myo.tex" 1570019766 50276 efc11950c74694cb37c2e4eeb50a4106 ""
+  "myo.tex" 1570019988 50276 efc11950c74694cb37c2e4eeb50a4106 ""
   "myosin-9.jpg" 1570019750 278767 7af31a59c9f85293759703bbc866aff7 ""
   "needspace.sty" 1570004493 2659 c95cea214a7438990598c598a385bd28 ""
   "quoting.sty" 1570004493 3987 983dbc0726b5dfe128878b7d57f3c19f ""
@@ -308,6 +308,6 @@
   "wiley-article.cls" 1568244479 20085 d050ed5138313743da856847194e9119 ""
   "xpatch.sty" 1570004493 8516 a5b67f9a435dc2b965229e94ca94f1dc ""
   (generated)
+  "myo.log"
   "myo.aux"
   "myo.pdf"
-  "myo.log"
