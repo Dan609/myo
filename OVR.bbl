@@ -1,4 +1,4 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{5}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{}
@@ -21,5 +21,17 @@ Emerson JW, Green WA, Schloerke B, Crowley J, Cook D, Hofmann H, et~al.
 Terpilowski M.
 \newblock scikit-posthocs: Pairwise multiple comparison tests in Python.
 \newblock The Journal of Open Source Software 2019;4(36):1169.
+
+\bibitem[{Hinkle et~al.(2003)Hinkle, Dennis E and Wiersma, William and Jurs,
+  Stephen G}]{hinkle2003applied}
+Hinkle DE, Wiersma W, Jurs SG.
+\newblock Applied statistics for the behavioral sciences, vol. 663.
+\newblock Houghton Mifflin College Division; 2003.
+
+\bibitem[{Mukaka(2012)Mukaka, Mavuto M}]{mukaka2012guide}
+Mukaka MM.
+\newblock A guide to appropriate use of correlation coefficient in medical
+  research.
+\newblock Malawi Medical Journal 2012;24(3):69--71.
 
 \end{thebibliography}

@@ -609,8 +609,6 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-B
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Bold-T2A-TLF--base.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Regular-T2A-TLF.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Regular-T2A-TLF.tfm
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-Heavy-T2A-TLF.vf
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Heavy-T2A-TLF--base.tfm
 INPUT myosin-9.jpg
 INPUT .\myosin-9.jpg
 INPUT .\myosin-9.jpg
@@ -626,11 +624,11 @@ INPUT .\rho.jpg
 INPUT .\rho.jpg
 INPUT .\rho.jpg
 INPUT .\rho.jpg
-INPUT rho-3d.png
-INPUT .\rho-3d.png
-INPUT .\rho-3d.png
-INPUT .\rho-3d.png
-INPUT .\rho-3d.png
+INPUT rho-3d.jpg
+INPUT .\rho-3d.jpg
+INPUT .\rho-3d.jpg
+INPUT .\rho-3d.jpg
+INPUT .\rho-3d.jpg
 INPUT traj.jpg
 INPUT .\traj.jpg
 INPUT .\traj.jpg
@@ -641,6 +639,8 @@ INPUT .\fplc.jpg
 INPUT .\fplc.jpg
 INPUT .\fplc.jpg
 INPUT .\fplc.jpg
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\typoland\lato\Lato-Heavy-T2A-TLF.vf
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\typoland\lato\Lato-Heavy-T2A-TLF--base.tfm
 INPUT myo.aux
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt0800.pk
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt0800.pk
