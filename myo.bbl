@@ -1,4 +1,4 @@
-\begin{thebibliography}{83}
+\begin{thebibliography}{85}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -251,6 +251,14 @@ Julianto, I. and Rindastuti, Y. (2016) Topical delivery of mesenchymal stem
 Khaitlina, S.~Y. (2001) Functional specificity of actin isoforms.
 \newblock \textit{International Review of Cytology}, \textbf{202}, 35--98.
 
+\bibitem[{Khotin et~al.(2009)Khotin, Turoverova, Podolskaya, Krasnov,
+  Solovyeva, Aksenova, Magnusson, Pinaev and Tentler}]{khotin2009analysis}
+Khotin, M., Turoverova, L., Podolskaya, E., Krasnov, I., Solovyeva, A.,
+  Aksenova, V.~Y., Magnusson, K.-E., Pinaev, G. and Tentler, D. (2009) Analysis
+  of nuclear protein complexes comprising $\alpha$-actinin-4 by
+  2d-electrophoresis and mass spectrometry.
+\newblock \textit{Cell and Tissue Biology}, \textbf{3}, 431.
+
 \bibitem[{Kim et~al.(2018)Kim, Islam, Cho, Jeong, Cap, Park, Hossain and
   Park}]{kim2018regulation}
 Kim, J.-G., Islam, R., Cho, J.~Y., Jeong, H., Cap, K.-C., Park, Y., Hossain,
@@ -313,6 +321,11 @@ Lawley, D.~N. and Maxwell, A.~E. (1971) Factor analysis as statistical method.
 Le~Clainche, C. and Carlier, M.-F. (2008) Regulation of actin assembly
   associated with protrusion and adhesion in cell migration.
 \newblock \textit{Physiological reviews}, \textbf{88}, 489--513.
+
+\bibitem[{Li et~al.(2008)Li, N{\o}rrelykke and Cox}]{li2008persistent}
+Li, L., N{\o}rrelykke, S.~F. and Cox, E.~C. (2008) Persistent cell motion in
+  the absence of external signals: a search strategy for eukaryotic cells.
+\newblock \textit{PLoS one}, \textbf{3}, e2093.
 
 \bibitem[{Lomert et~al.(2018)Lomert, Turoverova, Kriger, Aksenov, Nikotina,
   Petukhov, Mittenberg, Panyushev, Khotin, Volkov et~al.}]{lomert2018co}
