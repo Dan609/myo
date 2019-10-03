@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  2 OCT 2019 22:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  3 OCT 2019 12:32
 entering extended mode
 **./myo.tex
 (myo.tex
@@ -2118,6 +2118,12 @@ LaTeX Font Warning: Font shape `OMS/lato-TLF/m/n' in size <5.5> not available
 
 Package mdframed Info: mdframed works in twoside mode on input line 80.
 
+Overfull \hbox (6.43965pt too wide) in paragraph at lines 80--80
+\T2A/lato-TLF/m/n/9 oc-curs dur-ing replica-tive senes-cence, with max-i-mal Rh
+oA/nu-
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][][] 
  []
@@ -2147,21 +2153,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-[2] [3] [4]
-Underfull \vbox (badness 1558) has occurred while \output is active []
-
- [5]
-[6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-Underfull \vbox (badness 3049) has occurred while \output is active []
-
- [8]
-[9]
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 345
+[2] [3] [4] [5] [6] [7] [8] [9]
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 347
 .
- ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2acmtt.fd"
+
+("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2acmtt.fd"
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -2169,62 +2165,61 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T2A/lato-TLF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 348.
+(Font)              scaled to size 10.0pt on input line 350.
 
 
 LaTeX Font Warning: Font shape `T2A/lato-TLF/bx/sc' undefined
-(Font)              using `T2A/lato-TLF/bx/n' instead on input line 348.
+(Font)              using `T2A/lato-TLF/bx/n' instead on input line 350.
 
 LaTeX Font Info:    Font shape `T2A/lato-TLF/bx/sc' in size <10> not available
 (Font)              Font shape `T2A/lato-TLF/b/n' tried instead on input line 3
-48.
+50.
 LaTeX Font Info:    Font shape `T2A/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 348.
+(Font)              scaled to size 10.0pt on input line 350.
 (myo.bbl
 LaTeX Font Info:    Font shape `T2A/lato-TLF/bx/n' in size <8> not available
 (Font)              Font shape `T2A/lato-TLF/b/n' tried instead on input line 1
 0.
 LaTeX Font Info:    Font shape `T2A/lato-TLF/b/n' will be
 (Font)              scaled to size 8.0pt on input line 10.
- [10] [11] [12] [13] [14] [15]) [16] [17]
+ [10] [11] [12] [13] [14] [15]) [16]
+Underfull \vbox (badness 3168) has occurred while \output is active []
+
+ [17]
 LaTeX Font Info:    Font shape `T2A/lato-TLF/m/n' will be
-(Font)              scaled to size 7.5pt on input line 481.
+(Font)              scaled to size 7.5pt on input line 489.
 <myosin-9.jpg, id=70, 758.835pt x 1011.78pt>
 File: myosin-9.jpg Graphic file (type jpg)
 <use myosin-9.jpg>
-Package pdftex.def Info: myosin-9.jpg  used on input line 515.
+Package pdftex.def Info: myosin-9.jpg  used on input line 523.
 (pdftex.def)             Requested size: 364.64803pt x 486.20467pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18]
-<alpha-actinin-4.jpg, id=74, 758.835pt x 1011.78pt>
+<alpha-actinin-4.jpg, id=71, 758.835pt x 1011.78pt>
 File: alpha-actinin-4.jpg Graphic file (type jpg)
 <use alpha-actinin-4.jpg>
-Package pdftex.def Info: alpha-actinin-4.jpg  used on input line 521.
+Package pdftex.def Info: alpha-actinin-4.jpg  used on input line 529.
 (pdftex.def)             Requested size: 364.64803pt x 486.20467pt.
-<rho.jpg, id=75, 758.835pt x 1011.78pt>
+<rho.jpg, id=72, 758.835pt x 1011.78pt>
 File: rho.jpg Graphic file (type jpg)
 <use rho.jpg>
-Package pdftex.def Info: rho.jpg  used on input line 526.
+Package pdftex.def Info: rho.jpg  used on input line 534.
 (pdftex.def)             Requested size: 364.64803pt x 486.20467pt.
-<rho-3d.jpg, id=76, 758.835pt x 1011.78pt>
+<rho-3d.jpg, id=73, 758.835pt x 1011.78pt>
 File: rho-3d.jpg Graphic file (type jpg)
 <use rho-3d.jpg>
-Package pdftex.def Info: rho-3d.jpg  used on input line 532.
+Package pdftex.def Info: rho-3d.jpg  used on input line 540.
 (pdftex.def)             Requested size: 364.64803pt x 486.20467pt.
-<traj.jpg, id=77, 758.835pt x 1011.78pt>
+<traj.jpg, id=74, 758.835pt x 1011.78pt>
 File: traj.jpg Graphic file (type jpg)
 <use traj.jpg>
-Package pdftex.def Info: traj.jpg  used on input line 538.
+Package pdftex.def Info: traj.jpg  used on input line 546.
 (pdftex.def)             Requested size: 405.16722pt x 540.22398pt.
-<fplc.jpg, id=78, 758.835pt x 1011.78pt>
+<fplc.jpg, id=75, 758.835pt x 1011.78pt>
 File: fplc.jpg Graphic file (type jpg)
 <use fplc.jpg>
-Package pdftex.def Info: fplc.jpg  used on input line 545.
+Package pdftex.def Info: fplc.jpg  used on input line 553.
 (pdftex.def)             Requested size: 405.16722pt x 540.22398pt.
 
-[19] [20 <./myosin-9.jpg>] [21 <./alpha-actinin-4.jpg>] [22 <./rho.jpg>]
+[18] [19] [20 <./myosin-9.jpg>] [21 <./alpha-actinin-4.jpg>] [22 <./rho.jpg>]
 [23 <./rho-3d.jpg>] [24 <./traj.jpg>] [25 <./fplc.jpg>] (myo.aux)
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2244,7 +2239,7 @@ Here is how much of TeX's memory you used:
  44267 multiletter control sequences out of 15000+200000
  1141578 words of font info for 228 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,21n,102p,835b,1143s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 74i,20n,102p,835b,1143s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\1\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt08
 00.pk>{C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lato/a_y72t
 7m.enc}{C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lato/a_y2b
@@ -2260,7 +2255,7 @@ ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/1/App
 Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtxsf/zsfmi-reg.pfb><C:/Use
 rs/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtxsf/zsfmia-reg.pf
 b>
-Output written on myo.pdf (25 pages, 1622222 bytes).
+Output written on myo.pdf (25 pages, 1655510 bytes).
 PDF statistics:
  158 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

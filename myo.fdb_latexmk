@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex myo"] 1570045429 "myo.aux" "myo.bbl" "myo" 1570045524
+["bibtex myo"] 1570095151 "myo.aux" "myo.bbl" "myo" 1570095166
   "./rss.bst" 1568243248 28273 d1fc7c677ccbb43865e3f2faa61fa9d4 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
   "mybib.bib" 1570038943 84713 0a830a1db34b5db8fd52abade0d80f7b ""
-  "myo.aux" 1570045521 15596 ce1e742853d377e100ddc2a58ea20c80 "pdflatex"
+  "myo.aux" 1570095163 15596 7c8019c9207e4d5c004a4893d986c727 "pdflatex"
   (generated)
   "myo.blg"
   "myo.bbl"
-["pdflatex"] 1570045512 "myo.tex" "myo.pdf" "myo" 1570045524
+["pdflatex"] 1570095153 "myo.tex" "myo.pdf" "myo" 1570095166
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/latt0800.pk" 1565462819 14360 24a444e5ca576b448b94c391aaa549d9 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/larm0800.tfm" 1563465479 3240 04766e423166ba63b7fbbf132b8618cb ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/latt0800.tfm" 1565462814 1272 2a21550efcb075c108e98819097de5c8 ""
@@ -293,13 +293,13 @@
   "lato.sty" 1570004493 4717 0ba40ad77d1a64ac75af8e74b410ae62 ""
   "md-frame-1.mdf" 1570004493 25307 f97393fd984d0c7ee0f5971e04db8fc7 ""
   "mdframed.sty" 1570004493 55179 7069e8f55fec6e9634881cb9a008ebcc ""
-  "myo.aux" 1570045521 15596 ce1e742853d377e100ddc2a58ea20c80 "pdflatex"
-  "myo.bbl" 1570045430 29342 ae9cb94a1706b4dfc95e6f8156c3615d "bibtex myo"
-  "myo.tex" 1570045508 51992 3a4dc2a4b878e0768d02d3ed16968ec2 ""
-  "myosin-9.jpg" 1570040033 281418 9382a3bd5deb2839a8aac2c030ee3779 ""
+  "myo.aux" 1570095163 15596 7c8019c9207e4d5c004a4893d986c727 "pdflatex"
+  "myo.bbl" 1570095152 29342 ae9cb94a1706b4dfc95e6f8156c3615d "bibtex myo"
+  "myo.tex" 1570095133 52716 2ba5b74637628df318290150e9eca79f ""
+  "myosin-9.jpg" 1570086542 278412 ce4d194f89a0e3c2233655ac844f42e7 ""
   "needspace.sty" 1570004493 2659 c95cea214a7438990598c598a385bd28 ""
   "quoting.sty" 1570004493 3987 983dbc0726b5dfe128878b7d57f3c19f ""
-  "rho-3d.jpg" 1569919854 232217 e6c4ca341b7c3818c404c702596d8953 ""
+  "rho-3d.jpg" 1570088597 268867 3e7515ceb40d2795e3d8aada3f8428ba ""
   "rho.jpg" 1570020821 177455 c79c0a9220a017d340a129eeb8929cb3 ""
   "silence.sty" 1570004493 18212 358c5f05d1760d4ae8ea8c0f4181ddc1 ""
   "threeparttable.sty" 1570004493 13885 dc621998178dfb8b4add5261fa0eba5c ""
@@ -308,6 +308,6 @@
   "wiley-article.cls" 1568244479 20085 d050ed5138313743da856847194e9119 ""
   "xpatch.sty" 1570004493 8516 a5b67f9a435dc2b965229e94ca94f1dc ""
   (generated)
-  "myo.aux"
   "myo.log"
   "myo.pdf"
+  "myo.aux"
