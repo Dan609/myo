@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  4 OCT 2019 14:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  4 OCT 2019 16:45
 entering extended mode
 **./myo.tex
 (myo.tex
@@ -2238,7 +2238,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  41084 strings out of 492895
  808011 string characters out of 3125603
- 908919 words of memory out of 3000000
+ 908980 words of memory out of 3000000
  44274 multiletter control sequences out of 15000+200000
  1141578 words of font info for 228 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2258,7 +2258,7 @@ ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/1/App
 Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtxsf/zsfmi-reg.pfb><C:/Use
 rs/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtxsf/zsfmia-reg.pf
 b>
-Output written on myo.pdf (26 pages, 1680802 bytes).
+Output written on myo.pdf (26 pages, 1680843 bytes).
 PDF statistics:
  161 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
