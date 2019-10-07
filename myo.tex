@@ -91,7 +91,7 @@ At present, the mechanisms of tissue repair using MSCs related to the production
 
 Non-immortalized cell lines undergo a process of replicative senescence.
 Replicative senescence is a complex process that can begin at the early passages and gradually increase in the process of long-term cultivation.
-It is characterized by a significant decrease or cessation of proliferation, shortening of telomeres, morphological changes, increased $\beta$-galactosidase activity, increased expression of the tumor suppressor genes, decreased DNA repair and antioxidant activity of senescence cells, due to reduced expression of the corresponding genes, a number of epigenetic changes (\cite{wagner2008replicative}; \cite{kuilman2010essence}; \cite{redaelli2012cytogenomic}; \cite{estrada2013human}; \cite{savickiene2016senescence}; \cite{danisovic2017effect}; \cite{koltsova2018dynamics}; \cite{alessio2018mesenchymal}; \cite{krylova2018isolation}; \cite{niedernhofer2018nuclear}; \cite{truong2018characterization}; \cite{yu2018replicative}).
+It is characterized by a significant decrease or cessation of proliferation, shortening of telomeres, morphological changes, increased $\beta$-galactosidase activity, increased expression of the tumor suppressor genes, decreased DNA repair and antioxidant activity of senescence cells, due to reduced expression of the corresponding genes, a number of epigenetic changes (\cite{wagner2008replicative}; \cite{kuilman2010essence}; \cite{redaelli2012cytogenomic}; \cite{estrada2013human}; \cite{savickiene2016senescence}; \cite{danisovic2017effect}; \cite{koltsova2018dynamics}; \cite{alessio2018mesenchymal}; \cite{krylova2018isolation}; \cite{niedernhofer2018nuclear}; \cite{yu2018replicative}).
 It is important to emphasize that senescence of MSCs may be associated not only with replicative senescence, which can be traced during long-term cultivation of MSCs in vitro, but also with factors external to MSCs.
 Senescence mechanisms affect both MSCs and microenvironment.
 In this regard, it is the interaction of MSCs and the microenvironment that ensures the age characteristics of MSCs.
@@ -137,7 +137,7 @@ Then, the colocolization rises to a very high level at passage 28, after which i
 The use of post hoc analysis revealed the most significant differences between groups associated with a decrease in colocalization at 15 and 18 passages (Fig 1C).
 For further research, we decided that 9, 15, 28, and 36 passages would be key points.
 
-The immunofluorescence confocal images of WJMSC- 1 stained for $\alpha$-actinin-4 at passages 9, 15, 36 shown in Fig. 2.
+The immunofluorescence confocal images of MSCWJ- 1 stained for $\alpha$-actinin-4 at passages 9, 15, 36 shown in Fig. 2.
 $\alpha$-Actinin-4 as well as myosin-9 was detected in cells at passages 9 and 36 in the form of striated patterns, less pronounced than in myosin-9, but nevertheless quite distinguishable.
 At passages 15--18 $\alpha$-actinin-4 was detected also as spotted pattern and in focal adhesions.
 We studied the $\alpha$-actinin-4/F-actin and $\alpha$-actinin-4/Hoechst33342 colocalization at passages 7--36.
@@ -165,7 +165,7 @@ The numerical values obtained from the analysis are shown in the table 2.
 
 \subsection{Gel chromatography}
 
-Cytosolic extracts from WJMSC-1 were obtained in such a way that after centrifugation, nuclei, cell organelles, vesicles, and the cytoskeleton concentrated in the sediment.
+Cytosolic extracts from MSCWJ-1 were obtained in such a way that after centrifugation, nuclei, cell organelles, vesicles, and the cytoskeleton concentrated in the sediment.
 Supernatants were applied to a column calibrated using a set of proteins with known molecular weights.
 The range of fractions collection was chosen by us in such a way as to capture an area from 10 to 2000 kDa, this range was divided into 14 equal fractions (Fig. 6B).
 Comparison of elution profiles recorded during gel chromatographic separation of cell extracts at passages 9, 15, 36 reveales general similarity (Fig. 6A).
@@ -210,7 +210,7 @@ As critical regulator of cell motility, $\alpha$-actinin-4 was shown to induce t
 Our results demonstrate a decrease in the content of $\alpha$-actinin-4 in the nucleus at passage 36, which may indicate a decrease in the signaling function of this protein as a result of cellular senescence.
 We assume that the detected changes in the myosin-9/F-actin and $\alpha$-actinin-4/F-actin colocalization reflect the phenomenon of partial disassembly of the cytoskeleton at passage 15, followed by reassebly at passage 28, which is may be characteristic for switching types of cell movement.
 
-Since the change in the nature of cell movement is due to changes in adhesion and under control of Rho (\cite{huveneers2009adhesion}), we decided to reveal RhoA distribution in WJMSC1 cells.
+Since the change in the nature of cell movement is due to changes in adhesion and under control of Rho (\cite{huveneers2009adhesion}), we decided to reveal RhoA distribution in MSCWJ1 cells.
 The small GTP-binding protein RhoA was initially shown to regulate the assembly of focal adhesions and actin stress fibers in response to growth factors (\cite{ridley1992small}).
 It soon became clear that RhoA is one of the central regulators in the organization of the actin cytoskeleton (\cite{burridge2004rho}).
 In particular, the Rho/ROCK signaling pathway regulates cell motility through the regulation of myosin-9 phosphorylation (\cite{elliott2015myosin}).
@@ -282,12 +282,12 @@ Data collected in two channels from manually adjusted ROIs in confocal images wi
 Cells were selected manually on merged image and ROI passed to Coloc2 plugin.
 The bTau, Rval, Rs, tM1, tM2 colocalization coefficients were calculated and passed as CSV files to R environment (\cite{adler2008replicate}; \cite{bergholm2010analysis}).
 
-We conducted PCA in order to identify the colocalization coefficient most suitable for our purposes.
-The results shown in Supplementary.
-Shortly, bTau and Rs coefficients shows very high correlation, tM1 and Rval coefficient shows moderate correlation.
-Kruskal-Wallis rank sum test results suggest that bTau reflects changes in colocalization so well.
+We conducted PCA and logistic regression in order to identify the colocalization coefficient most suitable for our purposes.
+The results shown in Supplementary Table S2 and Figure S1.
+Shortly, bTau and Rs coefficients shows very high correlation, tM1 and Rval coefficients shows moderate correlation.
+Logistic regression shows that bTau is the best predictor for MSCWJ-1 passage number, Kruskal-Wallis rank sum test results suggest that bTau reflects changes in colocalization so well (Tables S3---S6 in Supplement).
 The PCA and factor analysis allowed us to conclude that bTau is the most suitable coefficient and in the future we use it for the analysis of cytoskeletal rearrangements.
-In further analysis, the values of the bTau shown were interpreted in accordance with the Cheddock scale (see table 1 in Supplementary).
+In further analysis, the values of the bTau shown were interpreted in accordance with the Cheddock scale (see Table S1 in Supplementary).
 
 \subsection{Quantitative image cytometry and cell movement analysis}
 
@@ -475,7 +475,7 @@ One characteristic cell were selected and Z-scanning was performed to obtain 50 
 Scalebar equals to 5 $\mu$m on image sections XY, XZ, YZ.
 
 
-\subsection*{Figure 5}
+Figure 5
 Cell movement trajectory analysis.
 MSCWJ-1 cells were stained with Hoechst33342 and seeded in 6-well plate at passages 9, 15, 36.
 Then cells were incubated for 4 h for adhesion and and the plate was transferred to CQ1 automated cytometer, where 40 fields of view were recorded within 24 hours from each well.
@@ -498,11 +498,11 @@ Proteins were precipitated from the collected fractions and afrer sample prepara
 X axis indicates retention time, in minutes, Y axis indicates optical absorbance at 280 nm, in arbitrary units (a.u.).
 (B) Separation of a set of calibration proteins (blue line), Blue Dextran 2000 (green line) and acetone (red line).
 X axis indicates retention time, in minutes, Y axis indicates optical absorbance at 280 nm, in arbitrary units (a.u.).
-(C) Western blot detection of myosin-9, $\alpha$-actinin-4 and $\beta$-actin in fractions obtained as a result of gel-chromatographic separation of cytoplasmic extracts from WJMSC1 cells at passages 9, 15, 28.
+(C) Western blot detection of myosin-9, $\alpha$-actinin-4 and $\beta$-actin in fractions obtained as a result of gel-chromatographic separation of cytoplasmic extracts from MSCWJ1 cells at passages 9, 15, 28.
 Polyclonal antibodies against synthetic peptide corresponding to amino acids 1949-1960 of human nonmuscle myosin IIA and monoclocal anti-$\beta$-actin antibodies were used.
 Secondary HRP-conjugated antibodies were applied and visualized using ChemiDoc Touch system.
 Passages 9, 15, 28 denoted as p9, p15, p28.
-(D) Western blot detection of RhoA in fractions obtained as a result of gel-chromatographic separation of cytoplasmic extracts from WJMSC1 cells at passages 9, 15, 28.
+(D) Western blot detection of RhoA in fractions obtained as a result of gel-chromatographic separation of cytoplasmic extracts from MSCWJ1 cells at passages 9, 15, 28.
 Polyclonal rabbit antibodies against synthetic peptide corresponding to amino acids 177-189 located near the C-terminus of human RhoA were used for RhoA staining.
 Secondary anti-rabbit HRP-conjugated antibodies were applied and visualized using ChemiDoc Touch system.
 Passages 9, 15, 28 denoted as p9, p15, p28.

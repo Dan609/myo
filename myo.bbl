@@ -1,4 +1,4 @@
-\begin{thebibliography}{86}
+\begin{thebibliography}{85}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -490,11 +490,6 @@ Towbin, H., Staehelin, T. and Gordon, J. (1979) Electrophoretic transfer of
   some applications.
 \newblock \textit{Proceedings of the National Academy of Sciences},
   \textbf{76}, 4350--4354.
-
-\bibitem[{Truong et~al.(2018)Truong, Bui and
-  Van~Pham}]{truong2018characterization}
-Truong, N.~C., Bui, K. H.-T. and Van~Pham, P. (2018) Characterization of
-  senescence of human adipose-derived stem cells after long-term expansion.
 
 \bibitem[{Turinetto et~al.(2016)Turinetto, Vitale and
   Giachino}]{turinetto2016senescence}
