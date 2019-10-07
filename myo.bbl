@@ -1,4 +1,4 @@
-\begin{thebibliography}{85}
+\begin{thebibliography}{86}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -443,6 +443,13 @@ Shapiro, S.~S. and Francia, R. (1972) An approximate analysis of variance test
 Shapiro, S.~S. and Wilk, M.~B. (1965) An analysis of variance test for
   normality (complete samples).
 \newblock \textit{Biometrika}, \textbf{52}, 591--611.
+
+\bibitem[{Shutova et~al.(2017)Shutova, Asokan, Talwar, Assoian, Bear and
+  Svitkina}]{shutova2017self}
+Shutova, M.~S., Asokan, S.~B., Talwar, S., Assoian, R.~K., Bear, J.~E. and
+  Svitkina, T.~M. (2017) Self-sorting of nonmuscle myosins iia and iib
+  polarizes the cytoskeleton and modulates cell motility.
+\newblock \textit{J Cell Biol}, \textbf{216}, 2877--2889.
 
 \bibitem[{Shutova and Svitkina(2018)}]{shutova2018mammalian}
 Shutova, M.~S. and Svitkina, T.~M. (2018) Mammalian nonmuscle myosin ii comes
