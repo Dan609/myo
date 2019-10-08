@@ -1,5 +1,7 @@
 # Cell movement trajectory analysis by Dan Bobkov, 2019 # dan.bobkov@gmail.com
-
+# 
+# Using trajr package:
+# McLean D. J., Skowron Volponi M. A. trajr: An R package for characterisation of animal trajectories //Ethology. – 2018. – Т. 124. – №. 6. – С. 440-448.
 # Load libraries-------------
 library(GGally)
 library(trajr)
