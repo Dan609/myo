@@ -2,7 +2,6 @@
 
 Data and scrips used to generate the statistical analyses of protein colocalization and cell motility data.
 
-
 ## R scripts:
 
 **CI.R** The proportion of cells with pronounced activity of *beta*-galactosidase during MSCWJ-1 cell line cultivation.
