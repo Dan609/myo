@@ -1,8 +1,0 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: OVR.aux
-The style file: rss.bst
-Illegal, another \bibstyle command---line 30 of file OVR.aux
- : \bibstyle
- :          {apalike}
-I'm skipping whatever remains of this command
-Database file #1: mybib.bib
-(There was 1 error message)
