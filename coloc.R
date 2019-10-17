@@ -16,7 +16,7 @@ library(dplyr)
 library(xlsx)
 library(ggplot2)
 library(plyr)
-library(dplyr) 
+library(dplyr)
 library(ggpubr)
 library(car)
 library(stringi)
@@ -49,25 +49,17 @@ print(xtable(newobject2, type = "latex"), file = "filename2.tex")
 
 data <- data1
 
-
-
-
 data$probe
-
-
 
 # Name dependent variables
 
 data1$probe <- as.factor(data1$probe)
 
-
-
-
 # order levels
 data1$probe <- ordered(data1$probe,
-                       levels = c("p07", "p09", "p12", 
-                                  "p15", "p18", 
-                                  "p21", "p25", "p27", 
+                       levels = c("p07", "p09", "p12",
+                                  "p15", "p18",
+                                  "p21", "p25", "p27",
                                   "p28", "p35", "p36"))
 
 #
@@ -81,8 +73,6 @@ dev.off()
 # Spearman's rank correlation value = Rs
 # Manders' coefficients = tM1 and tM2
 # Pearson's R value (above threshold) = Rval
-
-
 
 
 # Kruskal Wallis Test One Way Anova by Ranks
@@ -111,7 +101,7 @@ shapiro.test(data[data$probe=='p15',]$bTau)
 shapiro.test(data[data$probe=='p18',]$bTau)
 shapiro.test(data[data$probe=='p21',]$bTau)
 shapiro.test(data[data$probe=='p25',]$bTau)
-shapiro.test(data[data$probe=='p27',]$bTau) 
+shapiro.test(data[data$probe=='p27',]$bTau)
 shapiro.test(data[data$probe=='p28',]$bTau)
 shapiro.test(data[data$probe=='p35',]$bTau)
 shapiro.test(data[data$probe=='p36',]$bTau)
@@ -123,20 +113,20 @@ compare_means(bTau ~ probe,  data = data1, method = "t.test") # pairwise compari
 
 qplot(probe, bTau, data = data1,
       geom = c("jitter", "boxplot"), alpha = I(0.3), fill = probe,
-      main = "Kendall's Tau-b rank correlation value", ) + 
+      main = "Kendall's Tau-b rank correlation value", ) +
   labs(y = 'bTau',
        x = "Cell passage") +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(1),
               xmin = c(1),
               xmax = c(9),
-              annotation = "p = 0.028", 
+              annotation = "p = 0.028",
               tip_length = 0.04) +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(0.87),
               xmin = c(1),
               xmax = c(4),
-              annotation = "p = 0.096", 
+              annotation = "p = 0.096",
               tip_length = 0.04)  + theme_classic(base_size=14)
 
 
@@ -147,68 +137,68 @@ compare_means(Rs ~ probe,  data = data, method = "t.test") # pairwise comparison
 
 qplot(probe, Rs, data = data1,
         geom = c("jitter", "boxplot"), alpha = I(0.3), fill = probe,
-        main = "Spearman's rank correlation value", ) + 
+        main = "Spearman's rank correlation value", ) +
     labs(y = 'Rs',
          x = "Cell passage") +
     # xmin / xmax positions should match the x-axis labels' positions
     geom_signif(y_position = c(1.1),
                 xmin = c(1),
                 xmax = c(9),
-                annotation = "p = 0.028", 
+                annotation = "p = 0.028",
                 tip_length = 0.04)  + theme_classic(base_size=14)  +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(0.99),
               xmin = c(1),
               xmax = c(4),
-              annotation = "p = 0.084", 
+              annotation = "p = 0.084",
               tip_length = 0.04)
 #--
-  
+
 
 #-----Pearson's R value----
   ggqqplot(data$Rval, main = 'Rval')
   compare_means(Rval ~ probe,  data = data, method = "wilcox.test") # pairwise comparisons
   compare_means(Rval ~ probe,  data = data, method = "t.test") # pairwise comparisons
-  
+
 qplot(probe, Rval, data = data,
         geom = c("jitter", "boxplot"), alpha = I(0.3), fill = probe,
-        main = "Pearson's R value") + 
+        main = "Pearson's R value") +
     labs(y = 'Rval',
          x = "Cell passage") +
     # xmin / xmax positions should match the x-axis labels' positions
     geom_signif(y_position = c(1),
                 xmin = c(1),
                 xmax = c(4),
-                annotation = "p = 0.037", 
-                tip_length = 0.04) + theme_classic(base_size=14) 
+                annotation = "p = 0.037",
+                tip_length = 0.04) + theme_classic(base_size=14)
 #-----
-  
+
   #----
 compare_means(Rval ~ probe,  data = data1, method = "wilcox.test") # pairwise comparisons
 compare_means(Rval ~ probe,  data = data1, method = "t.test") # pairwise comparisons
 
   qplot(probe, Rval, data = data,
         geom = c("jitter", "boxplot"), alpha = I(0.3), fill = probe,
-        main = "F-actin and Myosin-9 Colocalization in MSCWJ-1", ) + 
+        main = "F-actin and Myosin-9 Colocalization in MSCWJ-1", ) +
     labs(y = 'Rval',
          x = "Cell passage") +
     # xmin / xmax positions should match the x-axis labels' positions
     geom_signif(y_position = c(1.1),
                 xmin = c(1),
                 xmax = c(4),
-                annotation = "p = 0.026", 
+                annotation = "p = 0.026",
                 tip_length = 0.04)   + theme_classic(base_size=14)  + # +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(0.85),
               xmin = c(2),
               xmax = c(3),
-              annotation = "****", 
+              annotation = "****",
               tip_length = 0.04)
-  
-#-----Manders' coefficient----
-  
 
-  
+#-----Manders' coefficient----
+
+
+
   shapiro.test(data[data$probe=='p07',]$tM1)
   shapiro.test(data[data$probe=='p09',]$tM1)
   shapiro.test(data[data$probe=='p12',]$tM1)# data is not normally distributed
@@ -217,11 +207,11 @@ compare_means(Rval ~ probe,  data = data1, method = "t.test") # pairwise compari
   shapiro.test(data[data$probe=='p18',]$tM1)
   shapiro.test(data[data$probe=='p21',]$tM1)
   shapiro.test(data[data$probe=='p25',]$tM1)
-  shapiro.test(data[data$probe=='p27',]$tM1) 
+  shapiro.test(data[data$probe=='p27',]$tM1)
   shapiro.test(data[data$probe=='p28',]$tM1)
   shapiro.test(data[data$probe=='p35',]$tM1)
   shapiro.test(data[data$probe=='p36',]$tM1)
-  
+
   ggqqplot(data$tM2, main = 'tM')
   shapiro.test(data$tM1)
   shapiro.test(data$tM1)# data is not normally distributed
@@ -229,32 +219,32 @@ compare_means(Rval ~ probe,  data = data1, method = "t.test") # pairwise compari
   compare_means(tM1 ~ probe,  data = data, method = "wilcox.test") # pairwise comparisons
   compare_means(tM2 ~ probe,  data = data, method = "wilcox.test") # pairwise comparisons
   compare_means(tM1 ~ probe,  data = data, method = "t.test") # pairwise comparisons
-  
+
   qplot(probe, tM1, data = data1,
         geom = c("jitter", "boxplot"), alpha = I(0.3), fill = probe, #log = "y",
-        main = "Manders' coefficient", ) + 
+        main = "Manders' coefficient", ) +
     labs(y = 'tM',
          x = "Cell passage") +
     # xmin / xmax positions should match the x-axis labels' positions
     geom_signif(y_position = c(1.2),
                 xmin = c(1),
                 xmax = c(7),
-                annotation = "p = 0.004", 
+                annotation = "p = 0.004",
                 tip_length = 0.04)  +
     # xmin / xmax positions should match the x-axis labels' positions
     geom_signif(y_position = c(1.1),
                 xmin = c(1),
                 xmax = c(11),
-                annotation = "p = 0.02", 
-                tip_length = 0.04)  + theme_classic(base_size=14) 
-  
+                annotation = "p = 0.02",
+                tip_length = 0.04)  + theme_classic(base_size=14)
+
   compare_means(tM1 ~ probe,  data = data1, method = "wilcox.test") # pairwise comparisons
   compare_means(tM1 ~ probe,  data = data1, method = "t.test") # pairwise comparisons
-#----------  
-  
+#----------
+
   head(data)
 
-# Bar plot with signifiers 
+# Bar plot with signifiers
 
 df.summary <- group_by(data1, probe) %>%
   summarise(
@@ -264,10 +254,10 @@ df.summary <- group_by(data1, probe) %>%
 
 df.summary
 
-## 
+##
 
 ggplot(df.summary, aes(probe, bTau)) +
-  geom_bar(stat = "identity", fill = 'gray', 
+  geom_bar(stat = "identity", fill = 'gray',
            color = "black", size= 1, show.legend=TRUE) +
   geom_errorbar(aes(ymin = bTau-sd, ymax = bTau+sd), width = 0.2, size=1) +
   theme(
@@ -276,7 +266,7 @@ ggplot(df.summary, aes(probe, bTau)) +
     # Change axis ticks text labels: font color, size and face
     axis.text.x = element_text(face = "bold",
                                size = 12, angle = 90),     # Change x axis tick labels only
-    axis.text.y = element_text(face = "bold", 
+    axis.text.y = element_text(face = "bold",
                                size = 12, angle = 0),     # Change y axis tick labels only
     # Change axis ticks line: font color, size, linetype and length
     axis.ticks = element_line(),      # Change ticks line fo all axes
@@ -285,32 +275,32 @@ ggplot(df.summary, aes(probe, bTau)) +
     axis.ticks.length = unit(3, "pt") # Change the length of tick marks
   ) +
   geom_point() +
-  ylim(0, 1) + 
-  ggtitle("Colocalization of myosin-9 and F-actin in MSCWJ-1 cells") + 
+  ylim(0, 1) +
+  ggtitle("Colocalization of myosin-9 and F-actin in MSCWJ-1 cells") +
   labs(y="Kendall's Tau-b rank correlation value", x = "Passage number") +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(0.95),
               xmin = c(5),
               xmax = c(9),
-              annotation = "***", 
+              annotation = "***",
               tip_length = 0.04)  +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(0.85),
               xmin = c(2),
               xmax = c(4),
-              annotation = "*", 
+              annotation = "*",
               tip_length = 0.04) +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(0.9),
               xmin = c(9),
               xmax = c(11),
-              annotation = "*", 
+              annotation = "*",
               tip_length = 0.04) +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(0.77),
               xmin = c(4),
               xmax = c(6),
-              annotation = "**", 
+              annotation = "**",
               tip_length = 0.04)
 
 
@@ -333,7 +323,7 @@ ggplot(df.bTau, aes(probe, bTau)) +
   geom_bar(stat = "identity", data = df.summary.bTau,
            fill = NA, color = "black") +
   geom_jitter(position = position_jitter(0.2),
-              color = "black") + 
+              color = "black") +
   geom_errorbar(
     aes(ymin = bTau-sd, ymax = bTau+sd),
     data = df.summary.bTau, width = 0.2)
@@ -344,11 +334,11 @@ plotmeans(bTau ~ probe, data = data1, frame = FALSE, ylim = c(0, 1),
           mean.labels=FALSE, connect=TRUE, ccol = 'red',
           n.label=TRUE, text.n.label="n = ",
           xlab = "Passages", ylab = "Kendall's Tau-b rank correlation value",
-          main="Colocalization of Myosin-9 and F-actin in WJMSC-1 cells, 
-          \nMean Plot with 95% CI") + scale_x_discrete(name ="Passages", 
-                                                       limits=c("p07", "p09", "p12", 
-                                                                "p15", "p18", 
-                                                                "p21", "p25", "p27", 
+          main="Colocalization of Myosin-9 and F-actin in WJMSC-1 cells,
+          \nMean Plot with 95% CI") + scale_x_discrete(name ="Passages",
+                                                       limits=c("p07", "p09", "p12",
+                                                                "p15", "p18",
+                                                                "p21", "p25", "p27",
                                                                 "p28", "p35", "p36")) +
   scale_y_continuous(name="Kendall's Tau-b rank correlation value", limits=c(0, 1))
 
@@ -370,7 +360,7 @@ savehistory(file='myscript.R')
 #
 
 #
-# 
+#
 # boxplot(bTau ~ probe, data1)
 # boxplot(Rval ~ probe, data1)
 # boxplot(Rs ~ probe, data1)
@@ -395,12 +385,12 @@ summary(data[data$probe=='p09',])
 summary(data[data$probe=='p15',])
 summary(data[data$probe=='p36',])
 # Density plot: the density plot provides a visual judgment about whether the distribution is bell shaped.
-ggdensity(data1$bTau, 
+ggdensity(data1$bTau,
           main = "Density plot of bTau",
           xlab = "bTau")
 
 
-# Q-Q plot: Q-Q plot (or quantile-quantile plot) draws the correlation between a given sample and the normal distribution. 
+# Q-Q plot: Q-Q plot (or quantile-quantile plot) draws the correlation between a given sample and the normal distribution.
 # qqPlot(data1$bTau)
 ggqqplot(data1$bTau)
 
@@ -427,7 +417,7 @@ wilcox.test <- compare_means(bTau ~ probe,  data = data1, method = "wilcox.test"
 kruskal.test(data$max_speed ~ data$probe)
 
 
-write.xlsx(compare_means(max_speed ~ probe,  data = data, method = "kruskal.test"), 
+write.xlsx(compare_means(max_speed ~ probe,  data = data, method = "kruskal.test"),
            file = 'kruskal.test.max_speed.xlsx')
 
 compare_means(bTau ~ probe,  data = data, method = "wilcox.test") # pairwise comparisons
@@ -454,10 +444,10 @@ data2$probe <- as.factor(data2$probe)
 
 # order levels
 data2$probe <- ordered(data2$probe,
-                       levels = c( "p09", "p15", 
+                       levels = c( "p09", "p15",
                                    "p28", "p36"))
 data3$probe <- ordered(data3$probe,
-                       levels = c( "p09", "p15", 
+                       levels = c( "p09", "p15",
                                   "p28", "p36"))
 data3[data2$probe=='p15',]
 #
@@ -499,7 +489,7 @@ shapiro.test(data[data$probe=='p15',]$bTau)
 shapiro.test(data[data$probe=='p18',]$bTau)
 shapiro.test(data[data$probe=='p21',]$bTau)
 shapiro.test(data[data$probe=='p25',]$bTau)
-shapiro.test(data[data$probe=='p27',]$bTau) 
+shapiro.test(data[data$probe=='p27',]$bTau)
 shapiro.test(data[data$probe=='p28',]$bTau)
 shapiro.test(data[data$probe=='p35',]$bTau)
 shapiro.test(data[data$probe=='p36',]$bTau)
@@ -528,27 +518,27 @@ compare_means(bTau ~ probe,  data = data3, method = "wilcox.test") # pairwise co
 
 qplot(probe, bTau, data = data3,
       geom = c("jitter", "boxplot"), alpha = I(0.3), fill = probe,
-      main = "RhoA and Hoechst colocalization", ) + 
+      main = "RhoA and Hoechst colocalization", ) +
   labs(y = 'bTau',
        x = "Cell passage") + theme_classic(base_size=14) +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(1),
               xmin = c(1),
               xmax = c(2),
-              annotation = "****", 
+              annotation = "****",
               tip_length = 0.04)  +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(.9),
               xmin = c(2),
               xmax = c(3),
-              annotation = "****", 
+              annotation = "****",
               tip_length = 0.04)  +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(.8),
               xmin = c(3),
               xmax = c(4),
-              annotation = "*", 
-              tip_length = 0.04) 
+              annotation = "*",
+              tip_length = 0.04)
 
 #--Pearson RHoa
 
@@ -565,26 +555,26 @@ compare_means(bTau ~ probe,  data = data2, method = "wilcox.test") # pairwise co
 
 qplot(probe, Rval, data = data2,
       geom = c("jitter", "boxplot"), alpha = I(0.3), fill = probe,
-      main = "RhoA and F-actin colocalization", ) + 
+      main = "RhoA and F-actin colocalization", ) +
   labs(y = 'Rval',
        x = "Cell passage") + theme_classic(base_size=14) +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(1),
               xmin = c(1),
               xmax = c(2),
-              annotation = "***", 
+              annotation = "***",
               tip_length = 0.04)  +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(.9),
               xmin = c(2),
               xmax = c(3),
-              annotation = "****", 
+              annotation = "****",
               tip_length = 0.04)  +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(.7),
               xmin = c(2),
               xmax = c(4),
-              annotation = "**", 
+              annotation = "**",
               tip_length = 0.04)
 
 
@@ -606,7 +596,7 @@ data4$Probe <- as.factor(data4$Probe)
 
 # order levels
 data4$Probe <- ordered(data4$Probe,
-                       levels = c( "p07","p09","p12", "p15", 
+                       levels = c( "p07","p09","p12", "p15",
                                    "p21"))
 data4[data4$Probe=='p15',]
 #
@@ -648,7 +638,7 @@ shapiro.test(data[data$probe=='p15',]$bTau)
 shapiro.test(data[data$probe=='p18',]$bTau)
 shapiro.test(data[data$probe=='p21',]$bTau)
 shapiro.test(data[data$probe=='p25',]$bTau)
-shapiro.test(data[data$probe=='p27',]$bTau) 
+shapiro.test(data[data$probe=='p27',]$bTau)
 shapiro.test(data[data$probe=='p28',]$bTau)
 shapiro.test(data[data$probe=='p35',]$bTau)
 shapiro.test(data[data$probe=='p36',]$bTau)
@@ -663,65 +653,65 @@ compare_means(bTau ~ Probe,  data = data4, method = "wilcox.test") # pairwise co
 
 qplot(Probe, bTau, data = data4,
       geom = c("jitter", "boxplot"), alpha = I(0.3), fill = Probe,
-      main = "Kendall's Tau-b rank correlation value" ) + 
+      main = "Kendall's Tau-b rank correlation value" ) +
   labs(y = 'bTau',
        x = "Cell passage") +   theme_classic(base_size=14)+
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(1),
               xmin = c(1),
               xmax = c(4),
-              annotation = "0.0011", 
+              annotation = "0.0011",
               tip_length = 0.04)  +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(0.9),
               xmin = c(2),
               xmax = c(4),
-              annotation = "0.0424", 
+              annotation = "0.0424",
               tip_length = 0.04)  +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(.8),
               xmin = c(3),
               xmax = c(4),
-              annotation = "0.0107", 
+              annotation = "0.0107",
               tip_length = 0.04) +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(.7),
               xmin = c(4),
               xmax = c(5),
-              annotation = "0.0159", 
-              tip_length = 0.04) 
+              annotation = "0.0159",
+              tip_length = 0.04)
 
 #--aA4 Rs---
 
 qplot(Probe, Rs, data = data4,
       geom = c("jitter", "boxplot"), alpha = I(0.3), fill = Probe,
-      main = "Spearman's rank correlation value", ) + 
+      main = "Spearman's rank correlation value", ) +
   labs(y = 'Rs',
        x = "Cell passage") +   theme_classic(base_size=14)+
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(1.2),
               xmin = c(1),
               xmax = c(4),
-              annotation = "0.0022", 
+              annotation = "0.0022",
               tip_length = 0.04)  +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(1.1),
               xmin = c(2),
               xmax = c(4),
-              annotation = "0.0424", 
+              annotation = "0.0424",
               tip_length = 0.04)  +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(1),
               xmin = c(3),
               xmax = c(4),
-              annotation = "0.0081", 
+              annotation = "0.0081",
               tip_length = 0.04) +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(.9),
               xmin = c(4),
               xmax = c(5),
-              annotation = "0.0159", 
-              tip_length = 0.04) 
+              annotation = "0.0159",
+              tip_length = 0.04)
 
 compare_means(Rs ~ Probe,  data = data4, method = "wilcox.test") # pairwise comparisons
 kruskal.test(data4$Rs ~ data4$Probe)
@@ -730,32 +720,32 @@ kruskal.test(data4$Rs ~ data4$Probe)
 
 qplot(Probe, Rval, data = data4,
       geom = c("jitter", "boxplot"), alpha = I(0.3), fill = Probe,
-      main = "Pearson's R value" ) + 
+      main = "Pearson's R value" ) +
   labs(y = 'Rval',
        x = "Cell passage") +   theme_classic(base_size=14)+
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(1.2),
               xmin = c(1),
               xmax = c(2),
-              annotation = "0.02", 
+              annotation = "0.02",
               tip_length = 0.04)  +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(1.1),
               xmin = c(4),
               xmax = c(5),
-              annotation = "0.0195", 
+              annotation = "0.0195",
               tip_length = 0.04)  +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(1),
               xmin = c(2),
               xmax = c(3),
-              annotation = "0.0045", 
+              annotation = "0.0045",
               tip_length = 0.04) +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(.9),
               xmin = c(3),
               xmax = c(4),
-              annotation = "0.004", 
+              annotation = "0.004",
               tip_length = 0.04)
 
 compare_means(Rval ~ Probe,  data = data4, method = "wilcox.test") # pairwise comparisons
@@ -765,32 +755,32 @@ kruskal.test(data4$Rval ~ data4$Probe)
 
 qplot(Probe, Rval, data = data4,
       geom = c("jitter", "boxplot"), alpha = I(0.3), fill = Probe,
-      main = "Pearson's R value" ) + 
+      main = "Pearson's R value" ) +
   labs(y = 'Rval',
        x = "Cell passage") +   theme_classic(base_size=14)+
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(1.2),
               xmin = c(1),
               xmax = c(2),
-              annotation = "0.02", 
+              annotation = "0.02",
               tip_length = 0.04)  +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(1.1),
               xmin = c(4),
               xmax = c(5),
-              annotation = "0.0195", 
+              annotation = "0.0195",
               tip_length = 0.04)  +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(1),
               xmin = c(2),
               xmax = c(3),
-              annotation = "0.0045", 
+              annotation = "0.0045",
               tip_length = 0.04) +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(.9),
               xmin = c(3),
               xmax = c(4),
-              annotation = "0.004", 
+              annotation = "0.004",
               tip_length = 0.04)
 
 compare_means(Rval ~ Probe,  data = data4, method = "wilcox.test") # pairwise comparisons
@@ -800,32 +790,32 @@ kruskal.test(data4$Rval ~ data4$Probe)
 
 qplot(Probe, Rval, data = data4,
       geom = c("jitter", "boxplot"), alpha = I(0.3), fill = Probe,
-      main = "Pearson's R value" ) + 
+      main = "Pearson's R value" ) +
   labs(y = 'Rval',
        x = "Cell passage") +   theme_classic(base_size=14)+
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(1.2),
               xmin = c(1),
               xmax = c(2),
-              annotation = "0.02", 
+              annotation = "0.02",
               tip_length = 0.04)  +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(1.1),
               xmin = c(4),
               xmax = c(5),
-              annotation = "0.0195", 
+              annotation = "0.0195",
               tip_length = 0.04)  +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(1),
               xmin = c(2),
               xmax = c(3),
-              annotation = "0.0045", 
+              annotation = "0.0045",
               tip_length = 0.04) +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(.9),
               xmin = c(3),
               xmax = c(4),
-              annotation = "0.004", 
+              annotation = "0.004",
               tip_length = 0.04)
 
 compare_means(Rval ~ Probe,  data = data4, method = "wilcox.test") # pairwise comparisons
@@ -837,26 +827,26 @@ kruskal.test(data4$Rval ~ data4$Probe)
 
 qplot(Probe, tM1, data = data4,
       geom = c("jitter", "boxplot"), alpha = I(0.3), fill = Probe,
-      main = "Manders' coefficient" ) + 
+      main = "Manders' coefficient" ) +
   labs(y = 'tM1',
        x = "Cell passage") +   theme_classic(base_size=14)+
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(1.3),
               xmin = c(1),
               xmax = c(4),
-              annotation = "0.0091", 
+              annotation = "0.0091",
               tip_length = 0.04)  +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(1.2),
               xmin = c(3),
               xmax = c(4),
-              annotation = "0.0081", 
+              annotation = "0.0081",
               tip_length = 0.04) +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(1.1),
               xmin = c(4),
               xmax = c(5),
-              annotation = "0.0159", 
+              annotation = "0.0159",
               tip_length = 0.04)
 
 compare_means(tM1 ~ Probe,  data = data4, method = "wilcox.test") # pairwise comparisons

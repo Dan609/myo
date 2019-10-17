@@ -1,8 +1,10 @@
 # Cell movement trajectory analysis by Dan Bobkov, 2019 # dan.bobkov@gmail.com
+# If you use this script in your publications, please cite https://github.com/Dan609
+# This script based on trajr package
+# If you use trajr in your publications, please cite McLean DJ, Skowron Volponi MA. trajr:
+# An R package for characterisation of animal trajectories. Ethology. 2018;12739.
+# https://doi.org/10.1111/eth.12739.
 #
-# Using trajr package:
-# McLean D. J., Skowron Volponi M. A. trajr: An R package for characterisation of animal trajectories //Ethology. – 2018. – Т. 124. – №. 6. – С. 440-448.
-
 # Load libraries-------------
 library(GGally)
 library(trajr)
@@ -31,6 +33,7 @@ alltracks <- setNames(data.frame(matrix(ncol = 15, nrow = 0)),
                          "probe"))
 tracks_p09 <- alltracks
 tracks_p15 <- alltracks
+tracks_p28 <- alltracks
 tracks_p36 <- alltracks
 
 # Remove outliers function------
@@ -49,7 +52,7 @@ outliers.rm <- function(x) {
     }
   }
 }
-#
+
 # Load Track analysis functions
 # p09-------------
 traj_analysis_p09 <- function(input) {
@@ -85,7 +88,7 @@ traj_analysis_p09 <- function(input) {
     trj <- TrajFromCoords(coords, spatialUnits = "pixels", timeUnits = "seconds", fps = 95/3600/24)
     TrajDuration(trj) # Returns the temporal duration of the trajectory (or a portion)
     # A 1.315789 object had length 1 pixels in the video, scale to micrometres
-    trj <- TrajScale(trj, 1.3158 / 1, "micrometer")
+    trj <- TrajScale(trj, 1.3158 / 1, "micrometer") # 0.6579 for p28
     TrajGetUnits(trj) # Returns the spatial units of a trajectory
     TrajGetTimeUnits(trj)	#Returns the temporal units of a trajectory
     TrajStepLengths(trj)	#Returns the lengths of each step within the trajectory
@@ -221,8 +224,92 @@ traj_analysis_p15 <- function(input) {
   return(traj_params)
 
 } # 96 frames
-# p36----------
-# modified for 24 frames-data, includes time rediscritization:
+# p28-----------
+traj_analysis_p28 <- function(input) {
+
+  data <- read.csv(input)
+
+  traj_params <- setNames(data.frame(matrix(ncol = 15, nrow = 0)),
+                          c("track",
+                            "length",
+                            "distance",
+                            "straight",
+                            "square_displacement",
+                            "mean_speed",
+                            "sd_speed",
+                            "max_speed",
+                            "min_speed",
+                            "sinuosity",
+                            "emax",
+                            "DC",
+                            "SDDC",
+                            "mean_angle",
+                            "probe"))
+
+  for (i in unique(data$Track)) {
+
+    # Define x, y, and time coordinates
+    coords <- data.frame(x = data$X[data$Track == i],
+                         y = data$Y[data$Track == i],
+                         # times = c(1:96))
+                         timeCol = data$Slice[data$Track == i],
+                         spatialUnits = "pixels", timeUnits = "hours")
+
+    trj <- TrajFromCoords(coords, spatialUnits = "pixels", timeUnits = "seconds", fps = 95/3600/24)
+    TrajDuration(trj) # Returns the temporal duration of the trajectory (or a portion)
+    # A 0.6579 object had length 1 pixels in the video, scale to micrometres
+    trj <- TrajScale(trj, 0.6579 / 1, "micrometer")
+    TrajGetUnits(trj) # Returns the spatial units of a trajectory
+    TrajGetTimeUnits(trj)	#Returns the temporal units of a trajectory
+    TrajStepLengths(trj)	#Returns the lengths of each step within the trajectory
+    # Rediscretization
+    # The function TrajResampleTime linearly interpolates points along a trajectory
+    # to create a new trajectory with fixed step time intervals.
+    trj <- TrajResampleTime(trj, 901)
+    TrajDuration(trj) # Returns the temporal duration of the trajectory (or a portion)
+    TrajGetFPS(trj)
+    par(mar=c(5,5,5,5))
+    # Plot it
+    plot(trj, lwd = 2)
+    points(trj, draw.start.pt = FALSE, pch = 21, col = "black", cex = 1.2)
+    # Trajectory analysis
+    # The TrajDerivatives function calculates linear speed and acceleration along a Trajectory
+    derivs <- TrajDerivatives(trj)
+
+    traj_params <- add_row(traj_params,
+                           track = i,
+                           # total length of the trajectory
+                           length = TrajLength(trj),
+                           # straight-line distance from the start to the end of the trajectory
+                           distance = TrajDistance(trj),
+                           # Straightness index
+                           straight = TrajStraightness(trj),
+                           # expected square displacement of a correlated random walk
+                           square_displacement = TrajExpectedSquareDisplacement(trj),
+                           # Measures of speed
+                           mean_speed = mean(derivs$speed),
+                           sd_speed = sd(derivs$speed),
+                           max_speed = max(derivs$speed),
+                           min_speed = min(derivs$speed),
+                           # Measures of straightness
+                           sinuosity = TrajSinuosity2(trj),
+                           emax = TrajEmax(trj),
+                           SDDC  =  sd(TrajDirectionalChange(trj)),
+                           DC = mean(TrajDirectionalChange(trj)),
+                           mean_angle = TrajMeanVectorOfTurningAngles(trj),
+                           probe = 'p28')
+
+    head(traj_params)
+
+  }
+
+  # print(traj_params)
+  write.csv(traj_params, file = 'traj_p28.csv')
+  tracks <<- traj_params
+  return(traj_params)
+
+} # 96 frames
+# p36---------- # modified for 24 frames-data, includes time rediscritization:
 traj_analysis_p36 <- function(input) {
 
   data <- read.csv(input)
@@ -330,8 +417,7 @@ traj_analysis_p36 <- function(input) {
   return(traj_params)
 
 } # 24 frames, TrajRediscretize
-
-# Choose dir ---------
+# Choose dir ---------p09
 file_list_p09 <- list.files(path = , choose.dir(default = "",
                                             caption = "Select folder"),
                         pattern = "csv",
@@ -339,8 +425,7 @@ file_list_p09 <- list.files(path = , choose.dir(default = "",
                         full.names = TRUE, recursive = TRUE,
                         ignore.case = FALSE, include.dirs = FALSE,
                         no.. = FALSE)
-
-# Choose dir
+# Choose dir ---------p15
 file_list_p15 <- list.files(path = , choose.dir(default = "",
                                             caption = "Select folder"),
                         pattern = "csv",
@@ -348,8 +433,15 @@ file_list_p15 <- list.files(path = , choose.dir(default = "",
                         full.names = TRUE, recursive = TRUE,
                         ignore.case = FALSE, include.dirs = FALSE,
                         no.. = FALSE)
-
-# Choose dir
+# Choose dir ---------p28
+file_list_p28 <- list.files(path = , choose.dir(default = "",
+                                                                    caption = "Select folder"),
+                                                pattern = "csv",
+                                                all.files = FALSE,
+                                                full.names = TRUE, recursive = TRUE,
+                                                ignore.case = FALSE, include.dirs = FALSE,
+                                                no.. = FALSE)
+# Choose dir ---------p36
 file_list_p36 <- list.files(path = , choose.dir(default = "",
                                             caption = "Select folder"),
                         pattern = "csv",
@@ -357,61 +449,56 @@ file_list_p36 <- list.files(path = , choose.dir(default = "",
                         full.names = TRUE, recursive = TRUE,
                         ignore.case = FALSE, include.dirs = FALSE,
                         no.. = FALSE)
-#
 # Call to function--------------
-#
 # Start scan for p09
 for (file_name in file_list_p09) {
   traj_analysis_p09(file_name)
   tracks_p09 <- rbind(tracks_p09, tracks)
 }
-
 # Start scan for p15
 for (file_name in file_list_p15) {
   traj_analysis_p15(file_name)
   tracks_p15 <- rbind(tracks_p15, tracks)
 }
-
+# Start scan for p28
+for (file_name in file_list_p28) {
+  traj_analysis_p28(file_name)
+  tracks_p28 <- rbind(tracks_p28, tracks)
+}
 # Start scan for p36
 for (file_name in file_list_p36) {
   traj_analysis_p36(file_name)
   tracks_p36 <- rbind(tracks_p36, tracks)
 }
-
 # Merge all tracks-----------------------
-alltracks <- rbind(tracks_p09, tracks_p15, tracks_p36) # collect all tracks
+alltracks <- rbind(tracks_p09, tracks_p15, tracks_p28, tracks_p36) # collect all tracks
 summary(alltracks)
 write.csv(alltracks, file = 'alltracks.csv') #save results
-
 # Order probe levels--------------------
 alltracks$probe <- as.factor(alltracks$probe)
 alltracks$probe <- ordered(alltracks$probe,
-                      levels = c("p09", "p15", "p36"))
-
-# Set time to hours, remove tracks and mean_angle columns-------
+                      levels = c("p09", "p15", "p28", "p36"))
+# Set time to hours, remove tracks and mean_angle columns----------------
 all.h <- alltracks
 head(all.h)
 all.h <- cbind(all.h[,c(6,7,8,9)]*3600, all.h[,c(2,3,4,5,10,11,12,13,15)])
 data <- all.h
 head(data)
-
+head(data[data$probe=='p28',])
 # Plot all-in-one-------------------------
+# plot(data)
 png()
-ggpairs(data)+ theme_classic(base_size=14)
+ggpairs(data)
 ggcorr(data, palette = "RdBu", label = TRUE)
 dev.off()
 
-#
+# Summary -----------------------
+summary(data[data$probe=='p09',])
+summary(data[data$probe=='p15',])
+summary(data[data$probe=='p28',])
+summary(data[data$probe=='p36',])
 ### Stat analysis ###
-#
-kruskal.test(data$mean_speed ~ data$probe)
-kruskal.test(data$max_speed ~ data$probe)
-kruskal.test(data$sinuosity ~ data$probe)
-kruskal.test(data$length ~ data$probe)
-kruskal.test(data$straight ~ data$probe)
-kruskal.test(data$square_displacement ~ data$probe)
 
-kruskal.test(data$distance ~ data$probe)
 
 # (1) Mean speed------------------------
 # Compute the analysis of variance------
@@ -419,7 +506,6 @@ res.aov <- aov(mean_speed ~ probe, data = data) # One-way ANOVA
 summary(res.aov)
 TukeyHSD(res.aov)
 plot(TukeyHSD(res.aov), las = 1)
-
 # Compute mean and SD-----------------------------
 df.summary.mean_speed <- group_by(data, probe) %>%
   summarise(
@@ -435,9 +521,11 @@ sd(data[data$probe=='p09',]$mean_speed)
 mean(data[data$probe=='p15',]$mean_speed)
 sd(data[data$probe=='p15',]$mean_speed)
 
+mean(data[data$probe=='p28',]$mean_speed)
+sd(data[data$probe=='p28',]$mean_speed)
+
 mean(data[data$probe=='p36',]$mean_speed)
 sd(data[data$probe=='p36',]$mean_speed)
-
 # Density------------------------------------
 ggdensity(data[data$probe=='p09',]$mean_speed,
           main = "Density plot of mean_speed in p09",
@@ -445,16 +533,21 @@ ggdensity(data[data$probe=='p09',]$mean_speed,
 ggdensity(data[data$probe=='p15',]$mean_speed,
           main = "Density plot of mean_speed in p15",
           xlab = "mean_speed")
+ggdensity(data[data$probe=='p28',]$mean_speed,
+          main = "Density plot of mean_speed in p28",
+          xlab = "mean_speed")
 ggdensity(data[data$probe=='p36',]$mean_speed,
           main = "Density plot of mean_speed in p36",
           xlab = "mean_speed")
 # ggqqplot(data$mean_speed, main = 'mean_speed')------------------
 ggqqplot(data[data$probe=='p09',]$mean_speed, main = 'mean_speed')
 ggqqplot(data[data$probe=='p15',]$mean_speed, main = 'mean_speed')
+ggqqplot(data[data$probe=='p28',]$mean_speed, main = 'mean_speed')
 ggqqplot(data[data$probe=='p36',]$mean_speed, main = 'mean_speed')
 # Test for normality
 shapiro.test(data[data$probe=='p09',]$mean_speed)
 shapiro.test(data[data$probe=='p15',]$mean_speed)
+shapiro.test(data[data$probe=='p28',]$mean_speed)
 shapiro.test(data[data$probe=='p36',]$mean_speed) # data is not normally distributed
 
 kruskal.test(data$mean_speed ~ data$probe)
@@ -561,31 +654,13 @@ qplot(probe, mean_speed, data = data,
               xmin = c(2),
               xmax = c(3),
               annotation = "****",
-              tip_length = 0.04) + theme_bw()
+              tip_length = 0.04) + theme_classic(base_size=14) +
 
+  # annotation_custom(grob) +
 
-# ggplot Add jitter and change fill color by probe-----
-ggplot(data, aes(x = data$probe, y = data$mean_speed)) + theme_bw()
-
-qplot(data$probe, mean_speed, data = data,
-      geom = c("jitter","boxplot"),
-      alpha = I(0.3), fill = probe, # ,"point"
-      main = "Mean speed") +
-  labs(y = 'Micrometers per hour',
-       x = "Cell passage") +
-  # xmin / xmax positions should match the x-axis labels' positions
-  geom_signif(y_position = c(100),
-              xmin = c(1),
-              xmax = c(2),
-              annotation = "****",
-              tip_length = 0.03) +
-  # xmin / xmax positions should match the x-axis labels' positions
-  geom_signif(y_position = c(80),
-              xmin = c(2),
-              xmax = c(3),
-              annotation = "****",
-              tip_length = 0.03) + theme_classic(base_size=14)
-
+  labs(title = "Mean speed",
+       # subtitle = "",
+       caption = "Kruskal-Wallis p-value < 2.2e-16")
 
 # (2) Max speed------------------------
 # Compute the analysis of variance-----
@@ -602,15 +677,18 @@ df.summary.max_speed <- group_by(data, probe) %>%
 
 df.summary.max_speed
 
+
 mean(data[data$probe=='p09',]$max_speed)
 sd(data[data$probe=='p09',]$max_speed)
 
 mean(data[data$probe=='p15',]$max_speed)
 sd(data[data$probe=='p15',]$max_speed)
 
+mean(data[data$probe=='p28',]$max_speed)
+sd(data[data$probe=='p28',]$max_speed)
+
 mean(data[data$probe=='p36',]$max_speed)
 sd(data[data$probe=='p36',]$max_speed)
-
 # Density------------------------------------
 ggdensity(data[data$probe=='p09',]$max_speed,
           main = "Density plot of max_speed in p09",
@@ -618,18 +696,22 @@ ggdensity(data[data$probe=='p09',]$max_speed,
 ggdensity(data[data$probe=='p15',]$max_speed,
           main = "Density plot of max_speed in p15",
           xlab = "max_speed")
+ggdensity(data[data$probe=='p28',]$max_speed,
+          main = "Density plot of max_speed in p28",
+          xlab = "max_speed")
 ggdensity(data[data$probe=='p36',]$max_speed,
           main = "Density plot of max_speed in p36",
           xlab = "max_speed")
-
 #---
 ggqqplot(data[data$probe=='p09',]$max_speed, main = 'max_speed')
 ggqqplot(data[data$probe=='p15',]$max_speed, main = 'max_speed')
+ggqqplot(data[data$probe=='p28',]$max_speed, main = 'max_speed')
 ggqqplot(data[data$probe=='p36',]$max_speed, main = 'max_speed')
 
 # Test for normality
 shapiro.test(data[data$probe=='p09',]$max_speed)
 shapiro.test(data[data$probe=='p15',]$max_speed)
+shapiro.test(data[data$probe=='p28',]$max_speed)
 shapiro.test(data[data$probe=='p36',]$max_speed) # data is not normally distributed
 
 kruskal.test(data$max_speed ~ data$probe)
@@ -642,6 +724,7 @@ compare_means(max_speed ~ probe,  data = data, method = "wilcox.test") # pairwis
 
 write.xlsx(compare_means(max_speed ~ probe,  data = data, method = "wilcox.test"),
            file = 'wilcox.test.max_speed.xlsx')
+
 
 # Bar plot with signifiers ------------------
 ggplot(df.summary.max_speed, aes(probe, max_speed)) +
@@ -722,7 +805,7 @@ ggplot(data, aes(probe, max_speed)) +
 qplot(probe, max_speed, data = data,
       geom = c("jitter", "boxplot"), alpha = I(0.3), fill = probe,
       main = "Max speed" ) +
-  labs(y = 'Micrometers per hour',
+  labs(y = 'Micrometers',
        x = "Cell passage") +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(500),
@@ -735,15 +818,21 @@ qplot(probe, max_speed, data = data,
               xmin = c(2),
               xmax = c(3),
               annotation = "****",
-              tip_length = 0.04) + theme_classic(base_size=14)
-#
+              tip_length = 0.04) + theme_classic(base_size=14) +
+
+  # annotation_custom(grob) +
+
+  labs(title = "Max speed",
+       # subtitle = "",
+       caption = "Kruskal-Wallis p-value < 2.2e-16")
+
+
 # (3) Length   ------------------------
 # Compute the analysis of variance-----
 res.aov <- aov(length ~ probe, data = data) # One-way ANOVA
 summary(res.aov)
 TukeyHSD(res.aov)
 plot(TukeyHSD(res.aov), las = 1)
-
 # Compute mean and SD----
 df.summary.length <- group_by(data, probe) %>%
   summarise(
@@ -753,15 +842,18 @@ df.summary.length <- group_by(data, probe) %>%
 
 df.summary.length
 
+
 mean(data[data$probe=='p09',]$length)
 sd(data[data$probe=='p09',]$length)
 
 mean(data[data$probe=='p15',]$length)
 sd(data[data$probe=='p15',]$length)
 
+mean(data[data$probe=='p28',]$length)
+sd(data[data$probe=='p28',]$length)
+
 mean(data[data$probe=='p36',]$length)
 sd(data[data$probe=='p36',]$length)
-
 # Density------------------------------------
 ggdensity(data[data$probe=='p09',]$length,
           main = "Density plot of length in p09",
@@ -769,18 +861,22 @@ ggdensity(data[data$probe=='p09',]$length,
 ggdensity(data[data$probe=='p15',]$length,
           main = "Density plot of length in p15",
           xlab = "length")
+ggdensity(data[data$probe=='p28',]$length,
+          main = "Density plot of length in p28",
+          xlab = "length")
 ggdensity(data[data$probe=='p36',]$length,
           main = "Density plot of length in p36",
           xlab = "length")
-
 #---
 ggqqplot(data[data$probe=='p09',]$length, main = 'length')
 ggqqplot(data[data$probe=='p15',]$length, main = 'length')
+ggqqplot(data[data$probe=='p28',]$length, main = 'length')
 ggqqplot(data[data$probe=='p36',]$length, main = 'length')
 
 # Test for normality
 shapiro.test(data[data$probe=='p09',]$length)
 shapiro.test(data[data$probe=='p15',]$length)
+shapiro.test(data[data$probe=='p28',]$length)
 shapiro.test(data[data$probe=='p36',]$length) # data is not normally distributed
 
 kruskal.test(data$length ~ data$probe)
@@ -793,6 +889,7 @@ compare_means(length ~ probe,  data = data, method = "wilcox.test") # pairwise c
 
 write.xlsx(compare_means(length ~ probe,  data = data, method = "wilcox.test"),
            file = 'wilcox.test.length.xlsx')
+
 
 # Bar plot with signifiers ------------------
 ggplot(df.summary.length, aes(probe, length)) +
@@ -886,7 +983,13 @@ qplot(probe, length, data = data,
               xmin = c(2),
               xmax = c(3),
               annotation = "****",
-              tip_length = 0.04) + theme_classic(base_size=14)
+              tip_length = 0.04) + theme_classic(base_size=14) +
+
+  # annotation_custom(grob) +
+
+  labs(title = "Length",
+       # subtitle = "",
+       caption = "Kruskal-Wallis p-value < 2.2e-16")
 
 # (4) Distance ------------------------
 # Compute the analysis of variance
@@ -911,8 +1014,11 @@ sd(data[data$probe=='p09',]$distance)
 mean(data[data$probe=='p15',]$distance)
 sd(data[data$probe=='p15',]$distance)
 
+mean(data[data$probe=='p28',]$distance)
+sd(data[data$probe=='p28',]$distance)
+
 mean(data[data$probe=='p36',]$distance)
-sd(data[data$probe=='p36',]$iu)
+sd(data[data$probe=='p36',]$distance)
 
 # Density
 ggdensity(data[data$probe=='p09',]$distance,
@@ -921,17 +1027,22 @@ ggdensity(data[data$probe=='p09',]$distance,
 ggdensity(data[data$probe=='p15',]$distance,
           main = "Density plot of distance in p15",
           xlab = "distance")
+ggdensity(data[data$probe=='p28',]$distance,
+                    main = "Density plot of distance in p28",
+                    xlab = "distance")
 ggdensity(data[data$probe=='p36',]$distance,
           main = "Density plot of distance in p36",
           xlab = "distance")
 
 ggqqplot(data[data$probe=='p09',]$distance, main = 'distance')
 ggqqplot(data[data$probe=='p15',]$distance, main = 'distance')
+ggqqplot(data[data$probe=='p28',]$distance, main = 'distance')
 ggqqplot(data[data$probe=='p36',]$distance, main = 'distance')
 
 # Test for normality
 shapiro.test(data[data$probe=='p09',]$distance)
 shapiro.test(data[data$probe=='p15',]$distance)
+shapiro.test(data[data$probe=='p28',]$distance)
 shapiro.test(data[data$probe=='p36',]$distance) # data is not normally distributed
 
 kruskal.test(data$distance ~ data$probe)
@@ -1040,24 +1151,24 @@ qplot(probe, distance, data = data,
   labs(y = 'Micrometers',
        x = "Cell passage") +
   # xmin / xmax positions should match the x-axis labels' positions
-  geom_signif(y_position = c(1000),
+  geom_signif(y_position = c(1100),
               xmin = c(1),
               xmax = c(2),
               annotation = "***",
               tip_length = 0.04) +
   # xmin / xmax positions should match the x-axis labels' positions
-  geom_signif(y_position = c(900),
+  geom_signif(y_position = c(1000),
               xmin = c(1),
               xmax = c(3),
               annotation = "****",
               tip_length = 0.04) +
   # xmin / xmax positions should match the x-axis labels' positions
-  geom_signif(y_position = c(800),
-              xmin = c(2),
-              xmax = c(3),
-              annotation = "ns",
-              tip_length = 0.04) + theme_classic(base_size=14)
 
+  # annotation_custom(grob) +
+
+  labs(title = "Distance",
+       # subtitle = "",
+       caption = "Kruskal-Wallis p-value = 1.982e-07")
 
 
 # (5) Straightness---------------------
@@ -1084,6 +1195,9 @@ sd(data[data$probe=='p09',]$straight)
 mean(data[data$probe=='p15',]$straight)
 sd(data[data$probe=='p15',]$straight)
 
+mean(data[data$probe=='p28',]$straight)
+sd(data[data$probe=='p28',]$straight)
+
 mean(data[data$probe=='p36',]$straight)
 sd(data[data$probe=='p36',]$straight)
 
@@ -1100,6 +1214,7 @@ compare_means(straight ~ probe,  data = data, method = "wilcox.test") # pairwise
 write.xlsx(compare_means(mean_speed ~ probe,  data = data, method = "wilcox.test"),
            file = 'wilcox.test.mean_speed.xlsx')
 
+
 # Density------------------------------------
 ggdensity(data[data$probe=='p09',]$straight,
           main = "Density plot of straight in p09",
@@ -1107,17 +1222,21 @@ ggdensity(data[data$probe=='p09',]$straight,
 ggdensity(data[data$probe=='p15',]$straight,
           main = "Density plot of straight in p15",
           xlab = "straight")
+ggdensity(data[data$probe=='p28',]$straight,
+            main = "Density plot of straight in p28",
+            xlab = "straight")
 ggdensity(data[data$probe=='p36',]$straight,
           main = "Density plot of straight in p36",
           xlab = "straight")
 
 ggqqplot(data[data$probe=='p09',]$straight, main = 'straight')
 ggqqplot(data[data$probe=='p15',]$straight, main = 'straight')
+ggqqplot(data[data$probe=='p28',]$straight, main = 'straight')
 ggqqplot(data[data$probe=='p36',]$straight, main = 'straight')
-
 # Test for normality
 shapiro.test(data[data$probe=='p09',]$straight)
 shapiro.test(data[data$probe=='p15',]$straight)
+shapiro.test(data[data$probe=='p28',]$straight)
 shapiro.test(data[data$probe=='p36',]$straight) # data is not normally distributed
 
 kruskal.test(data$straight ~ data$probe)
@@ -1130,6 +1249,7 @@ compare_means(straight ~ probe,  data = data, method = "wilcox.test") # pairwise
 
 write.xlsx(compare_means(straight ~ probe,  data = data, method = "wilcox.test"),
            file = 'wilcox.test.straight.xlsx')
+
 
 # Bar plot with signifiers ----------------------------
 ggplot(df.summary.straight, aes(probe, straight)) +
@@ -1172,7 +1292,6 @@ ggplot(df.summary.straight, aes(probe, straight)) +
               xmax = c(3),
               annotation = "****",
               tip_length = 0.04)
-
 # jitter plot--------------------------------
 ggplot(data, aes(probe, straight)) +
   geom_bar(stat = "identity", data = df.summary.straight, size=1.2,
@@ -1222,7 +1341,7 @@ ggplot(data, aes(probe, straight)) +
 # Add jitter and change fill color by probe----------------------
 qplot(probe, straight, data = data,
       geom = c("jitter", "boxplot"), alpha = I(0.3), fill = probe,
-      main = "Straightness" ) +
+      main = "Straightness", ) +
   labs(y = 'Straightness index',
        x = "Cell passage")  +
   # xmin / xmax positions should match the x-axis labels' positions
@@ -1242,13 +1361,16 @@ qplot(probe, straight, data = data,
               xmin = c(1),
               xmax = c(3),
               annotation = "****",
-              tip_length = 0.04) + theme_classic(base_size=14)
+              tip_length = 0.04) + theme_classic(base_size=14) +
 
-#
-#
+  # annotation_custom(grob) +
+
+  labs(title = "Straightness",
+       # subtitle = "",
+       caption = "Kruskal-Wallis p-value = 9.368e-09")
+
+
 # (6) Sinuosity------------------------
-#
-#
 # Compute the analysis of variance------
 res.aov <- aov(sinuosity ~ probe, data = data) # One-way ANOVA
 summary(res.aov)
@@ -1269,6 +1391,9 @@ sd(data[data$probe=='p09',]$sinuosity)
 mean(data[data$probe=='p15',]$sinuosity)
 sd(data[data$probe=='p15',]$sinuosity)
 
+mean(data[data$probe=='p28',]$sinuosity)
+sd(data[data$probe=='p28',]$sinuosity)
+
 mean(data[data$probe=='p36',]$sinuosity)
 sd(data[data$probe=='p36',]$sinuosity)
 # Density------------------------------------
@@ -1278,16 +1403,21 @@ ggdensity(data[data$probe=='p09',]$sinuosity,
 ggdensity(data[data$probe=='p15',]$sinuosity,
           main = "Density plot of sinuosity in p15",
           xlab = "sinuosity")
+ggdensity(data[data$probe=='p28',]$sinuosity,
+                    main = "Density plot of sinuosity in p28",
+                    xlab = "sinuosity")
 ggdensity(data[data$probe=='p36',]$sinuosity,
           main = "Density plot of sinuosity in p36",
           xlab = "sinuosity")
 
 ggqqplot(data[data$probe=='p09',]$sinuosity, main = 'sinuosity')
 ggqqplot(data[data$probe=='p15',]$sinuosity, main = 'sinuosity')
+ggqqplot(data[data$probe=='p28',]$sinuosity, main = 'sinuosity')
 ggqqplot(data[data$probe=='p36',]$sinuosity, main = 'sinuosity')
 # Test for normality
 shapiro.test(data[data$probe=='p09',]$sinuosity)
 shapiro.test(data[data$probe=='p15',]$sinuosity)
+shapiro.test(data[data$probe=='p28',]$sinuosity)
 shapiro.test(data[data$probe=='p36',]$sinuosity) # data is not normally distributed
 
 kruskal.test(data$sinuosity ~ data$probe)
@@ -1353,7 +1483,7 @@ ggplot(data, aes(probe, sinuosity)) +
     data = df.summary.sinuosity, width = 0.2) +
   ggtitle('sinuosity')+
   ylim(0, 1) +
-  ggtitle("MSC-WJ1, 24h trajecroty sinuosity") +
+  ggtitle("MSC-WJ1, 24h trajectory sinuosity") +
   labs(y="sinuosity", x = "Passage")  +
   # xmin / xmax positions should match the x-axis labels' positions
   geom_signif(y_position = c(0.9),
@@ -1389,10 +1519,10 @@ ggplot(data, aes(probe, sinuosity)) +
     legend.title = element_text(color = "black", size = 15),
     legend.text = element_text(color = "black", size = 15))
 
-# Add jitter and change fill color by probe-----
+# Add jitter and change fill color by probe
 qplot(probe, sinuosity, data = data,
       geom = c("jitter", "boxplot"), alpha = I(0.3), fill = probe,
-      main = "Path tortuosity") +
+      main = "Random search path tortuosity", ) +
   labs(y = 'Sinuosity index',
        x = "Cell passage") +
   # xmin / xmax positions should match the x-axis labels' positions
@@ -1412,7 +1542,13 @@ qplot(probe, sinuosity, data = data,
               xmin = c(1),
               xmax = c(3),
               annotation = "****",
-              tip_length = 0.04)+ theme_classic(base_size=14)
+              tip_length = 0.04) + theme_classic(base_size=14) +
+
+  # annotation_custom(grob) +
+
+  labs(title = "Sinuosity",
+       # subtitle = "",
+       caption = "Kruskal-Wallis p-value < 2.2e-16")
 
 
 
@@ -1442,7 +1578,7 @@ qplot(probe, min_speed, data = data,
       main = "WJ1, 24h")
 
 qplot(probe, sinuosity, data = data,
-      geom = c("jitter", "boxplot"), alpha = I(0.6),
+      geom = c("jitter", "boxplot"), alpha = I(0.6), log = "y",
       main = "WJ1, 24h")
 
 qplot(probe, DC, data = data,
@@ -1611,14 +1747,3 @@ ggplot(df.SDDC, aes(probe, SDDC)) +
   geom_errorbar(
     aes(ymin = SDDC-sd, ymax = SDDC+sd),
     data = df.summary.SDDC, width = 0.2) + ggtitle('SDDC')
-
-#----------regression
-head(alltracks)
-colnames(alltracks)
-
-fit <- glm(probe ~ length + distance + mean_speed + sinuosity + straight, alltracks,
-           family = 'binomial')
-
-summary(fit)
-anova(fit, test = "Chisq")
-print(xtable(newobject, type = "latex"), file = "filename.tex")
