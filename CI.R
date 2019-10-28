@@ -11,7 +11,8 @@ p15_ci95 <- BinomCI(494, 2404, conf.level = 0.95)
 p20_ci95 <- BinomCI(302, 1149, conf.level = 0.95)
 p28_ci95 <- BinomCI(554, 1260, conf.level = 0.95)
 
-# Ñombining observations into matrix
+p36_ci95 <- BinomCI(556, 1009, conf.level = 0.95)
+# ?ombining observations into matrix
 b_gal <- rbind(p9_ci95, p15_ci95, p20_ci95, p28_ci95)
 
 # Convert matrix to data frame
