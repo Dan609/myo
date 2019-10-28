@@ -8,7 +8,9 @@ Data and scrips used to generate the statistical analyses of protein colocalizat
 
 **coloc.R** Statistical analysis of colocalozation coefficients.
 
-**traj_analysis.R** Cell movement tracks analysis.
+**traj_analysis_win.R** Cell movement tracks analysis.
+
+**traj_analysis_mac.R** Mac version differs in path selection part.
 
 
 ## Ipython notebook:
