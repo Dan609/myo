@@ -10,7 +10,9 @@ Data and scrips used to generate the statistical analyses of protein colocalizat
 
 **traj_analysis_win.R** Cell movement tracks analysis.
 
-**traj_analysis_mac.R** Mac version differs in path selection part.
+**traj_analysis_mac.R** Mac version differs in path selection function.
+
+**lmfrac.R** Actin cytoskeleton fractality analysis.
 
 
 ## Ipython notebook:
@@ -33,3 +35,5 @@ Rval,tM1,tM2,bTau,Rs - colocalization coefficients calculated in ImageJ Coloc2 p
 **coloc_aA4-act.csv** Alpha-actinin-4/F-actin colocalization data from long-term cultivation of WJMSC-1 cells. Probe - passage number. Rval,tM1,tM2,bTau,Rs - colocalization coefficients calculated in ImageJ Coloc2 plugin.
 
 **coloc_aA4-nuc.csv** Alpha-actinin-4/Hoeochst33444 colocalization data from long-term cultivation of WJMSC-1 cells. Probe - passage number. Rval,tM1,tM2,bTau,Rs - colocalization coefficients calculated in ImageJ Coloc2 plugin.
+
+**wj1fracmod.csv** Data for Actin cytoskeleton fractality analysis. LCFD for F-actin was obtained from confocal images of rhodamine-phalloidin stained MSCWJ-1 cells using ImageJ FracLac plugin.
