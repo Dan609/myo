@@ -1,6 +1,6 @@
 # Replicative senescence in MSCWJ-1 human umbilical cord mesenchymal stem cells is marked by characteristic changes in motility, cytoskeletal organization, and RhoА localization, 2020
 
-Data and scrips used to generate the statistical analyses of protein colocalization, cell shape, F-actin fractality, and cell motility data.
+Data and scripts used to generate the statistical analyses of protein colocalization, cell shape, F-actin fractality, and cell motility data.
 
 ## R scripts:
 
