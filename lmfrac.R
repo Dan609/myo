@@ -1,5 +1,8 @@
 # Actin cytoskeleton fractality analysis
-# Bobkov, Poloyanskaya, Goncharova, 2020
+# If you use this script in your publications, please cite:
+# Bobkov D, Polyanskaya A, Musorina A, Lomert E, Shabelnikov S, Poljanskaya G. 
+# Replicative senescence in MSCWJ-1 human umbilical cord mesenchymal stem cells is marked by characteristic changes in motility, 
+# cytoskeletal organization, and RhoA localization. Mol Biol Rep. 2020;:1–17. DOI: 10.1007/s11033-020-05476-6
 # mailto: bobkov@incras.ru
 # Statistical analysis 
 # Import libraries
