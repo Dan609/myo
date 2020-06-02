@@ -1,5 +1,4 @@
-# Danila E. Bobkov et al., 
-# Replicative senescence in MSCWJ-1 human umbilical cord mesenchymal stem cells is marked by characteristic changes in motility, cytoskeletal organization, and RhoA localization. Mol Biol Rep. 2020;:1–17. DOI: 10.1007/s11033-020-05476-6
+# Danila E. Bobkov et al., Replicative senescence in MSCWJ-1 human umbilical cord mesenchymal stem cells is marked by characteristic changes in motility, cytoskeletal organization, and RhoA localization. Molecular Biology Reports, volume 47, pages 3867–3883 (2020). https://doi.org/10.1007/s11033-020-05476-6
 
 Data and scripts used to generate the statistical analyses of protein colocalization, cell shape, F-actin fractality, and cell motility data.
 
