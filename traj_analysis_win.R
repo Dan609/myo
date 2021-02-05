@@ -1,6 +1,6 @@
 # Cell movement trajectory analysis by Dan Bobkov, 2019 # dan.bobkov@gmail.com
 # Script desined to analyze tracks collected in ImageJ Manual tracking
-# plugin from SQ1 cytometer derived images, recorded during 24 h experiment
+# plugin from CQ1 cytometer derived images, recorded during 24 h experiment
 # with MSCWJ-1 cells conditioned by long-term cultivation.
 # Images were collected from passages 9, 15, 28, 36 to model the classical
 # replicative senescense effects.
